@@ -1,30 +1,25 @@
-% The Title of a Long-Form Text Document
-% Your Name
+% Papermill
+% Max F. Albrecht
 
-# The Title of the First Chapter
+# main idea of papermill 
 
-In the beginning, there was text.[^footnote-about-text]
-It does not have to be much of it, because we can use [Links](http://en.wikipedia.org/wiki/Hyperlink).
+**Use the "mode of production" of software developement for writing longform text.**
 
-[^footnote-about-text]: Also, text is only a string of characters.
+In software, the programming language has to be "read" by at least one program: the compiler. 
+So in extension, other tools can try to understand so meaning attributed to the text in order to aid the author with the process of writing.
+In software developement, the implementation of this is called an `IDE`, an integrated developement enviroment.
 
-# The *Second* Chapter
+Most `IDE`s at least have features like 
 
-It is only a matter of time.
+- syntax higlighting (parsing the syntax and assigning color to differnent parts of the text)
+- build process helpers (interface elements to start the compiler, show its output)
+- horizontal integration between those: if the compiler complains about a line number, bring it up for the user
 
-For a good explanation of the concept of time, [see @AdamsHitchhiker, ch. 1; also @HawkingTime, pp. 33-35]
+Conceptually, there is no difference between a natural written language and a programming language. 
+It has conventions like syntax and grammar, it needs to be parsed, compiled, etc. 
+For historical reasons, we use different names for these same jobs/functions when dealing with language as opposed to software, 
+but technically they are equal. 
 
-# Le Chapteux trois
+That does not mean that every step of the production of, let's say a book, can (or should) be automated with software. 
 
-After all this content we need a quote.
-
-> "Most quotes you find on the internet are wrongly attributed." \
-> *Oscar Wilde*
-
-# Final Chapter
-
-With some thanking words.
-
-After that, we only need the bibliography, and we name insert a heading for it just about now.
-
-# Bibliography
+img: show workflow - toolchain. starts and ends with "human creativity" (writing ; design/layout)
