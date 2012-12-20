@@ -1,0 +1,8 @@
+# Default .gitignore files for the papermill project <https://github.com/papermill/documentation>
+# This file lists what we dont want under (git) version control.
+
+# Ignore the output folder
+output/
+
+# Ignore everything else which looks 'generated'
+*.generated.*
