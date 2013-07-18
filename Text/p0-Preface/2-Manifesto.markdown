@@ -1,4 +1,4 @@
-# papermill. Books in a Browser.
+## Manifesto
 
 
 For my Bachelor thesis I will focus on the process of 
@@ -49,3 +49,5 @@ will be used to produce and publish the theoretical part itself.
 **TL;DR:** Microsoft Word is evil. "What you see is" NOT "what you get".
 Write with a nice plain text syntax instead and export to PDF and Web.
 Also, version control will save your life some day.
+
+

@@ -1,7 +1,9 @@
 % Papermill
 % Max F. Albrecht
 
-# main idea of papermill 
+# `papermill`. Books in a Browser.
+
+The main goal of this project can be stated as followed:
 
 **Use the "mode of production" of software developement for writing longform text.**
 
@@ -23,3 +25,4 @@ but technically they are equal.
 That does not mean that every step of the production of, let's say a book, can (or should) be automated with software. 
 
 img: show workflow - toolchain. starts and ends with "human creativity" (writing ; design/layout)
+

@@ -1,0 +1,83 @@
+# Formatting
+
+## Markup and Markdown
+
+Historically, formatting was always "embedded" into the final document by the author or writer. Any emphasis, the position
+of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
+With the introduction of the moveable type printing press, any text would be split up into it's composing single letters.
+The complete text would
+
+So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization",
+the printing press marks the transition from thinking about and working with text as a discrete (countable, "digital") signal, 
+as opposed to the monolithic, continuous signal it was seen as before.
+
+Not surprinsingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
+
+Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproced properly and with loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the early 20th century, is complaining about the ambivilance of paragraph positions still in the 1960, when authors already used (discrete) typewriters to turn in manuscripts:
+
+> "Thousands of working hours are sacrificed by typographers,
+> getting the right order of letters written without indentation,
+> with countless pencil marks and deep thought.
+> This idling could be avoided if the manuscripted would be
+> handed in formatted as described here." [[@Tschichold:Drucksachen]] [^fn-tschicholdparagraphs]
+
+
+## Common Pitfalls
+
+- historic connotations - traditional way to stylize intend (partly cause of the confusion)
+- ex: the intent is *emphasize*
+   - the "default" style is an *italic* font variant
+   - historically also underlining has been used
+   - in a webbrowser, this can be taken quite literally:
+
+The relationsship between formatting, typography and design 
+is a common source of confusion. 
+On the one hand, it can be summed up quite simply:
+
+Formatting *conveys intent*, thus is part of the document's *source*. \
+Design *translates* this source into an *output*, using tyography.
+
+On the other hand, there are specific connotations embeded in our visual and cultural knowlege.
+These are forged by how this translation was handled historically as well as the user interface of text editors since the 1980s:
+
+![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](_images/bold-italic-buttons.png)
+
+Since the earliest text editors, 
+
+bold, italic, underline, letter-spacing ^[in German: "Sperrung" oder "Sperrsatz"]
+   
+In `HTML`, there is the "`<em>`"-Tag,
+which marks the enclosed text as emphasized. 
+
+If there is no associated (`CSS`-) instruction the browser how to  *style* this tag, it uses the built-in default. 
+In case of the Safari web browser, as in all relevant browsers, this defines "emphasis" as "italic":
+
+> ```
+> em {
+>   font-style: italic;
+> }
+> ``` 
+> 
+> [Webkit Default CSS, Zeilen 993-995 *(shortened)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
+
+
+## Types of formatting
+
+Before we look at how these problems are solved in the realm of
+software developement, let's enumerate what I mean by "formatting":
+
+* Emphasis
+    - light
+    - strong
+  
+  
+
+---
+
+[^fn-tschicholdparagraphs]: Original: "Tausende von Arbeitsstunden werden von Typographen geopfert, 
+um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
+und Nachdenken richtig zu ordnen.
+Dieser Leerlauf ließe sich vermeiden, wenn die Manuskripte gleich
+in der soeben beschriebenen Art abgeliefert würden."
+
+
