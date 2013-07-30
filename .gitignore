@@ -6,3 +6,5 @@ output/
 
 # Ignore everything else which looks 'generated'
 *.generated.*
+
+_output
