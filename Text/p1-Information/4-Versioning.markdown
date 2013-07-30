@@ -3,8 +3,8 @@
 In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
 By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the developement of the document and possibly even the thought process of the author.
 
-These drafts and revisions and their comparison have spawned
-diverse studies of these topics in the literary sciences, yet there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
+These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
+Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
 
 This danger was also my personal starting point for this whole project, 
 sparked by Cory Doctorow's essay "Extreme Geek" [[@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
@@ -17,7 +17,7 @@ Being a blogger, digital activist and all-round-nerd, he falls into the target g
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
 de-facto standard for versioning and collabrating open-source software project. 
 It's usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a whole ecosystem of features, 
-including a web view for all files and content of the repository. This makes *GitHub* a very good example to explain the concepts and terms behind **`git`**
+including a web view for all files and content of the repository. 
 
 
 ## Git
@@ -103,7 +103,7 @@ When working with a human-language document's source however, most of the time t
 
 ## Branch
 
-A brnach is 
+A branch is 
 
 
 ## Collaboration
@@ -115,9 +115,8 @@ A brnach is
 
 ![A small repository on github](../../_images/screenshot-github-user-repo.png)
 
+
 ### Merging
-
-
 
 If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with other. Even when using paper, they are the same:
 
@@ -125,6 +124,8 @@ If we break this process down into the individual steps, it should sound familia
 - make some changes, review and save them *(comit)*
 - instead of just sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
 - informing the source of the document of your changes, asking it to integrate them
+
+[^fn-manual-diff]: Keep in mind that even if you don't do it yourself, then whomever you sent the document to has to do it.
 
 Example letter:
 
@@ -134,20 +135,18 @@ Example letter:
 >     I kindly ask that you apply them to your source.
 >     
 >     Regards,
->     Jon Doe
+>      Jon Doe
 >     
 >     ---
 >     Changes:
->     - In the file "doc.md", in the third line, first character, I have changed the word "hello" to "world".
+>     - In the file "doc.md", third line, first character, 
+>       I have changed the word "hello" to "world".
 
 But instead of doing all this steps manually, we have already learned to that **`git`** takes care of the cloning, branching and commiting; and that every commit is nothing more than the differnece between the new version and the old version.
 
-So, how do we send our changes?
+**So, how do we send our changes?**
 
-Technically, there are many ways to do this. **`git`** can create an email not unlike the example letter for you, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) is mostly dealt with.
+Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) is mostly dealt with.
 
 Note: Gitlab calls this "Merge Request", which could be argued to be a better fitting term.
 
-[^fn-manual-diff]: Keep in mind that even if you don't do it yourself, then whomever you sent the document to has to do it.
-
-###
