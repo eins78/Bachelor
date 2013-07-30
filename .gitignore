@@ -1,10 +1,10 @@
 # Default .gitignore files for the papermill project <https://github.com/papermill/documentation>
 # This file lists what we dont want under (git) version control.
 
+.DS_Store
+
 # Ignore the output folder
-output/
+_output/
 
-# Ignore everything else which looks 'generated'
 *.generated.*
-
-_output
+_stash/

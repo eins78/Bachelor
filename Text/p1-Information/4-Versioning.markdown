@@ -89,6 +89,7 @@ It includes:
 - your name and email 
 - a **commit message** (if you supplied one)
 - a **`diff`** of your changes
+- **hash**
 
 The **commit message** is meant to *explain* the changes you've made. 
 Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a reository's history.
@@ -96,9 +97,9 @@ Depending on your context, it might be addressed to yourself, collaborators like
 In the software world, this message is very important, because the text being worked on
 is *source code*, meant to be interpreted by a computer. Any changes can have side effects 
 which might be non-obvious by just looking at the changes. 
-When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes.
 
-A **"diff"**, in general, is a text files which defines in a standard format the differences between two versions of another (text) file. This format can be read by hmuans, but more imprtantly it can be evaluated by a computer. This means that if you have the original file and the **`diff`** of that file and a newer version, a piece of software can produce the newer version only be *applying* the `diff` to the original file. This process is also called *"patching"*, which is why a **`diff`** might sometimes be refered to as a **`patch`**.
+When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit ()
+
 
 ## Branch
 

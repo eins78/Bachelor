@@ -11,7 +11,7 @@ As with any open source project, there is a wide range of possible involvement, 
 
 - The Idiomatic JS 'Styleguide [@url:idiomaticjs]
 
-## `TODO`
+## Challenges Ahead
 
 ### all-in-one web interface
 
@@ -25,4 +25,12 @@ As with any open source project, there is a wide range of possible involvement, 
     - integrate the style guide into the editor (choose to mark up "strong emphasis" or even *'Fremdwort'*)
 
 
+### Translations
 
+Translating a book is no easy task. Even **`git`** can't really help us here, at least not in a straightforward, standard workflow.
+
+A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.com/progit/progit), which was translated into more than 10 languages, reveals that just adding a new translation itself is easy enough. The ["README" states](https://github.com/progit/progit#translation): 
+
+> "If you wish to translate the book, […] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
+
+But if

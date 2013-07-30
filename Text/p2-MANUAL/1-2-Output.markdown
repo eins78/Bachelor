@@ -38,5 +38,18 @@ Output from this class is also suitable for reading on a screen, in case the 'we
 
 The **book** class is like the report, but optimized for two-folded binding. It also repeats the name of the current chapter on the top of each page to help the reader navigate large documents.
 
+
+### Print-Only "Tricks"
+
+As we have learned in the chapter "[Input][]", we strive to produce a document source which is as output-agnostic as possible, in the hopes
+that if it works for print and web today, it should be easy to adapt
+to the to-be-invented media of the future.
+
+However, we also need to publish
+
+### layout
+
+- `\pagebreak`
+
 ## Web (to HTML)
 
