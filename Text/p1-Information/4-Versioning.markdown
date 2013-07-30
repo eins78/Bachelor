@@ -67,6 +67,15 @@ It may sound like "magic" at times, so keep in mind: It is just a very simple (b
 If the folder is copied as a whole, the `.git` folder is still inside, meaning the complete versioned history is included, for good or bad.
 If just single files from the folder are copied somewhere else, the `.git` is not copied with them, thus not including the history/database.
 
+## Clone and Fork
+
+- if repo not started locally, must clone
+
+- clone is a copy of a repo
+
+- fork is any clone with changes!
+
+
 ## Commit
 
 **"commiting"** is the activity of saving your changes into the **`git`** database, 
