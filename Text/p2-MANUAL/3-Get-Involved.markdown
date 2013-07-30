@@ -7,6 +7,9 @@ The rest of this chapter is a collection of ideas, which is supposed to show the
 But people are much more important than ideas. If you like (parts of) this document and want `papermill` to suceed, *you, the reader* have to get involved.
 As with any open source project, there is a wide range of possible involvement, starting from just [simple feedback](mailto://papermill@178.is), to structured feedback in the form of bug reports and feature requests, writing and fixing documentation, design and software.
 
+## Learning Resources
+
+- The Idiomatic JS 'Styleguide [@url:idiomaticjs]
 
 ## `TODO`
 

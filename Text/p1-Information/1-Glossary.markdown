@@ -1,5 +1,6 @@
-\part{Information}
-<h1 id="information">Information</h1>
+<!-- no "parts" for now -->
+<!-- \part{Information} -->
+<!-- <h1 id="information">Information</h1> -->
 
 # Glossary
 
@@ -37,11 +38,46 @@ Today, these two standards serves as the foundation of the web, along with `CSS`
 
 ## `git`
 
-`Git` is a distributed version/revision control system system dubbed as "the stupid content tracker"[[@link:git:readme]] developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
+`Git` is a distributed version/revision control system system dubbed as "the stupid content tracker" [@link:git:readme, line. 3] developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
 Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, so he 
 
 
 ## `pandoc`
 
 
+
+## `diff`, `patch`
+
+> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want." — [@graham:hackers, p. 224]
+
+A **"diff"**, in general, is a text file which defines in a standard format the differences between two versions of another (text) file. This format can be read by humans, but more importantly it can be evaluated by a computer. This means that if you have the original file and the **`diff`** of that file and a newer version, a piece of software can produce the newer version only be *applying* the **`diff`** to the original file. This process is also called *"patching"*, which is why a **`diff`** might sometimes be refered to as a **`patch`**.
+
+***Example:*** a small text file, another version of it, and the `diff`
+
+1. **text1.txt**:
+
+        THIS IS A TEXT.  
+        I MADE IT.
+
+2. **text2.txt**:
+
+        THIS IS A TEXT.  
+        I WROTE IT.
+
+3. **output** of "`git diff text1.txt text2.txt`":
+
+        --- a/text1.txt
+        +++ b/text2.txt
+        @@ -1,2 +1,2 @@
+         THIS IS A TEXT.  
+        -I MADE IT.
+        +I WROTE IT.
+
+## Hidden file, -folder
+
+Certain files or folder on a computer, 
+for example configuration files belonging to software, 
+can be hidden from the user by the operating system and/or file browser.
+This is usually to keep the user from inadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
+On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
 

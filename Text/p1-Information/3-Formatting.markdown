@@ -40,7 +40,7 @@ Design *translates* this source into an *output*, using tyography.
 On the other hand, there are specific connotations embeded in our visual and cultural knowlege.
 These are forged by how this translation was handled historically as well as the user interface of text editors since the 1980s:
 
-![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](_images/bold-italic-buttons.png)
+![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../../_images/bold-italic-buttons.png)
 
 Since the earliest text editors, 
 

@@ -1,5 +1,6 @@
-\part{Manual}
-<h1 id="manual">Manual</h1>
+<!-- no "parts" for now -->
+<!-- \part{Manual} -->
+<!-- <h1 id="manual">Manual</h1> -->
 
 
 # The (anti-)framework    {#manual}

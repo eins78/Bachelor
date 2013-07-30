@@ -17,7 +17,7 @@
     
     
     
-## Print (to LaTeX to PDF)
+## Print (via LaTeX to PDF)
 
 In order to print your document, a suitable output needs to be created. 
 
