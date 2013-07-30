@@ -44,9 +44,12 @@ Just like Donald Knuth and his `TeX` project, Linus became so frustrated with th
 
 ## `pandoc`
 
+Test: see [`diff`](#diff)
 
+## `diff`, (`patch`) {#diff}
 
-## `diff`, `patch`
+- diff, the *(noun)*
+- diff, to *(verb)*
 
 > "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. […]"
 > 
