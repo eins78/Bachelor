@@ -48,23 +48,32 @@ Just like Donald Knuth and his `TeX` project, Linus became so frustrated with th
 
 ## `diff`, `patch`
 
-> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want." — [@graham:hackers, p. 224]
+> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. […]"
+> 
+> "**diff:** An unselective and microscopically thorough comparision between two versions of something.
+>  From the *Unix* diff utility, which compares *files*." — @graham:hackers [pp. 224, 244]
 
-A **"diff"**, in general, is a text file which defines in a standard format the differences between two versions of another (text) file. This format can be read by humans, but more importantly it can be evaluated by a computer. This means that if you have the original file and the **`diff`** of that file and a newer version, a piece of software can produce the newer version only be *applying* the **`diff`** to the original file. This process is also called *"patching"*, which is why a **`diff`** might sometimes be refered to as a **`patch`**.
+A **diff**, in general, is a text file which stores the differences between two files, in a standard format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
 
-***Example:*** a small text file, another version of it, and the `diff`
+This means that with just the original file and the **diff** of that file and a different version, a piece of software can produce the other version only be *applying* the **diff** to the original file.[^fn-diff] 
+This process is also called *"patching"*, which is why a **diff** might sometimes be refered to as a **patch**.
 
-1. **text1.txt**:
+As seen in the example, a **"diff"** only compares a file *line by line*.
+
+  ***Example:***
+  a small text file, another version of it, and the `diff`
+
+1.   **text1.txt**:
 
         THIS IS A TEXT.  
         I MADE IT.
 
-2. **text2.txt**:
+2.   **text2.txt**:
 
         THIS IS A TEXT.  
         I WROTE IT.
 
-3. **output** of "`git diff text1.txt text2.txt`":
+3.   **output** of "`git diff text1.txt text2.txt`":
 
         --- a/text1.txt
         +++ b/text2.txt
@@ -72,6 +81,9 @@ A **"diff"**, in general, is a text file which defines in a standard format the 
          THIS IS A TEXT.  
         -I MADE IT.
         +I WROTE IT.
+
+
+[^fn-diff]: On a [*nix][] operating system, this programm is itself called `diff` (from "difference") and gave name to the concept. 
 
 ## Hidden file, -folder
 
