@@ -34,7 +34,7 @@ On the other hand, this same knowledge should enable you to learn how to use any
 
 [^fn-git-data-promise]:
    > "I guarantee you, if you put your data in git: 
-   > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, […] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds a certain gravitas to his testimony.)
+   > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, […] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds some gravitas to his testimony.)
 
 ## Repository
 
@@ -98,7 +98,7 @@ It includes:
 - your name and email 
 - a **commit message** (if you supplied one)
 - a **`diff`** of your changes
-- **hash**
+- a **hash** of all those items
 
 The **commit message** is meant to *explain* the changes you've made. 
 Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a reository's history.
@@ -108,6 +108,8 @@ is *source code*, meant to be interpreted by a computer. Any changes can have si
 which might be non-obvious by just looking at the changes. 
 
 When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
+
+The **hash** is a
 
 ### Alternatives
 
@@ -125,6 +127,7 @@ If you don't wan't to commit manually, there are two software tools that handle 
     *  extendable with your own scripts (for message generation)
     *  runs well on `Linux` and `Mac OS X`
     *  may be integrated into the `papermill` project
+
 
 
 ## Branch
