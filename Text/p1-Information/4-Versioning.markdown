@@ -133,6 +133,10 @@ We already established that **clones** are copies of a **repository**, and **for
 
 But git is even more flexible: There is also the possibilty of having a complete copy of the repository inside your local copy. These "built-in" copies are called **branches**.
 
+They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be commited in small steps.
+
+There is always at least one branch in every git repository, by default this branch is called *'master'*.
+
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
 
