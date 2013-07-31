@@ -66,3 +66,22 @@ YET EASY TO DAMAGE, ESPECIALLY ON JOURNEY.
 PATIENCE AND TACT ONE NEEDS PLENTY
 AND SMALL FINGERS, TO MAKE USE OF US."
 [@Nietzsche:Kugel, own translation] [quoted after @Stingelin:Kugelausserungen, p. 332]
+
+---
+
+CONTRA: 
+
+"Der neue Visual Editor unterstützt die Arbeit an Wikipedia-Artikeln grafisch, wie es bei der Drucksachen- und Webgestaltung schon lange üblich ist."
+
+"The new visual editor enables visual editing of Wikipedia articles, 
+which has been common in print and media design for a long time."
+
+PRO:
+
+"Die Entwicklung war äußerst komplex […] Es erschien zunächst unmöglich, die inzwischen mehr als 27 Millionen Artikel verlustfrei in ein neues Format umzuwandeln. Deshalb haben die Entwickler die Software "Parsoid" geschaffen. Sie wandelt Wikitext-Artikel in ein Format um, das der Visual Editor bearbeiten kann. Die geänderte Artikelfassung wird dann in den althergebrachten Wikitext rückkonvertiert. Diese Umwandlung dauert je nach Größe des Artikels einige Sekunden."
+
+"The developement was very complex […] At first, it seemed impossible to convert the more than 27 million articles losslessly into a new format. For this reason, the developers have created the software "Parsoid".
+It convert articles from Wikitext into a format suitable for the visual editor.
+The changed article is then converted back into the classic Wikitext. This conversion takes up to a few seconds, depending on the size of the article."
+
+<http://www.heise.de/newsticker/meldung/Neuer-Wikipedia-Editor-fuer-alle-1925045.html>
