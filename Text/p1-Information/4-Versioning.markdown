@@ -110,7 +110,16 @@ which might be non-obvious by just looking at the changes.
 
 When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
 
-The **hash** is a
+A **hash** is a concept that comes from the area of cryptography. 
+A simplistic explanation would be think of it as a'cross sum' of all your content, 
+which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
+
+The specific 'hash function' `git` is using is called `SHA1`, which is why the hash is sometimes called an `SHA`. It is a series of letters and numbers and llok like this `71946aed1a61de0e1e5d8ac7d30053f675c4fd1b`.
+
+Practically, the hash can be used a ***unique* version number**, refering to a special commit in a repository.
+
+
+[^fn-hash]: A hash can thus be used to prove that one was in posession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
 
 ### Alternatives
 
