@@ -107,7 +107,16 @@ In the software world, this message is very important, because the text being wo
 is *source code*, meant to be interpreted by a computer. Any changes can have side effects 
 which might be non-obvious by just looking at the changes. 
 
-When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit ()
+When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
+
+### Alternatives
+
+If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on.
+
+-  [`flashbake`](http://bitbucketlabs.net/flashbake/), commissioned by Cory Doctorow and written by Thomas Gideon.
+
+    *  Written in the `python` programming lanuage
+    *  
 
 
 ## Branch
