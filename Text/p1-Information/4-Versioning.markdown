@@ -124,6 +124,7 @@ If you don't wan't to commit manually, there are two software tools that handle 
     *  very simpe, written as a `shell` script
     *  extendable with your own scripts (for message generation)
     *  runs well on `Linux` and `Mac OS X`
+    *  may be integrated into the `papermill` project
 
 
 ## Branch
