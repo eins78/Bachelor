@@ -84,7 +84,7 @@ PRO:
 It convert articles from Wikitext into a format suitable for the visual editor.
 The changed article is then converted back into the classic Wikitext. This conversion takes up to a few seconds, depending on the size of the article."
 
-[@url:heisewikieditor]
+[heise online, @url:heisewikieditor]
 
 ---
 
