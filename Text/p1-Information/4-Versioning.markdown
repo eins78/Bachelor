@@ -129,7 +129,12 @@ If you don't wan't to commit manually, there are two software tools that handle 
 
 ## Branch
 
-A branch is 
+- clones: copies of project
+- fork: clone with changes 
+- branches are also complete copies of the project, just inside the repository
+- new branches are always based on the commit of an old branch. this commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
+
+![Illustration of a branch](http://rogerdudler.github.io/git-guide/img/branches.png)
 
 
 ## Collaboration
