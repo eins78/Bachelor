@@ -114,7 +114,7 @@ The **hash** is a
 
 ### Alternatives
 
-If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on.
+If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
 
 -  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
