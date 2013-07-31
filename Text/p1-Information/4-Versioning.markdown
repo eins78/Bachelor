@@ -113,11 +113,17 @@ When working with a human-language document's source however, most of the time t
 
 If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on.
 
--  [`flashbake`](http://bitbucketlabs.net/flashbake/), commissioned by Cory Doctorow and written by Thomas Gideon.
+-  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
     *  Written in the `python` programming lanuage
-    *  
+    *  extendable with plugins
+    *  runs on `Linux` (well) and `OS X` (manual work needed) 
 
+- [`git-o-mat`](https://github.com/eins78/git-o-mat) – inspired by `flashbake`, written by Max F. Albrecht
+
+    *  very simpe, written as a `shell` script
+    *  extendable with your own scripts (for message generation)
+    * 
 
 ## Branch
 
