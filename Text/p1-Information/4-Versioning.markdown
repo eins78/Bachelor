@@ -115,7 +115,8 @@ A simplistic explanation would be think of it as a'cross sum' of all your conten
 which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
 
 The specific 'hash function' `git` is using is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is git users sometimes call the hash a `SHA`. 
-It is a series of letters and numbers and looks like this: `71946aed1a61de0e1e5d8ac7d30053f675c4fd1b`.
+It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
+This can be automatically abreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
 
 Practically, the hash can be used a ***unique* version number**, refering to a special commit in a repository.
 
