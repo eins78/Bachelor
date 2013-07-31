@@ -120,6 +120,7 @@ This can be automatically abreviated by `git` to the shortest string that still 
 
 Practically, the hash can be used a ***unique* version number**, refering to a special commit in a repository.
 
+Furthermore, the hash of every commit is used by `git` in the background to make shure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographicly speaking) secured as much as the content of your online banking website.
 
 [^fn-hash]: A hash can thus be used to prove that one was in posession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
 
