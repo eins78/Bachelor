@@ -156,8 +156,7 @@ There is always at least one branch in every git repository, by default this bra
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
 
-![Illustration of a branch](http://rogerdudler.github.io/git-guide/img/branches.png)
-
+![Illustration of a branch](../../_stash/branches.png)
 
 [^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
