@@ -36,12 +36,13 @@ On the other hand, this same knowledge should enable you to learn how to use any
    > "I guarantee you, if you put your data in git: 
    > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, […] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds some gravitas to his testimony.)
 
+
 ## Repository
 
 The most basic term a one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
 
-![Icon Folder Repository](../../_images/icon-folder-repository.png)
+!['Repository' Folder ](../../_images/icon-folder-repository.png)
 
 This is not even wrong: If you directly edit files in a `git` repository on 
 your computer, it will be there just like any other folder.
@@ -56,7 +57,7 @@ So, what makes this folder special?
 Inside of it, there is one more thing: 
 a **`hidden folder`** called `.git`!
 
-![Icon Folder Git](../../_images/icon-folder-git.png)
+!['.git' Folder](../../_images/icon-folder-git.png)
 
 As a user, you never directly use this folder, but it is good to know where it is and what's it's purpose.[^fn-git-folder] 
 It contains lots of meta-data and also a small database-like storage. 
