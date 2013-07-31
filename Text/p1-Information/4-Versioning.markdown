@@ -115,7 +115,7 @@ If you don't wan't to commit manually, there are two software tools that handle 
 
 -  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
-    *  Written in the `python` programming lanuage
+    *  user friendly, written in the `python` programming lanuage
     *  extendable with plugins
     *  runs on `Linux` (well) and `Mac OS X` (manual work needed) 
 
@@ -123,7 +123,8 @@ If you don't wan't to commit manually, there are two software tools that handle 
 
     *  very simpe, written as a `shell` script
     *  extendable with your own scripts (for message generation)
-    *  runs well on `Linux` and `Mac OS X` 
+    *  runs well on `Linux` and `Mac OS X`
+
 
 ## Branch
 
