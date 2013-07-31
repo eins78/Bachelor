@@ -135,12 +135,15 @@ But git is even more flexible: There is also the possibilty of having a complete
 
 They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be commited in small steps.
 
-There is always at least one branch in every git repository, by default this branch is called *'master'*.
+There is always at least one branch in every git repository, by default this branch is called *'master'*.[^fn-master-branch] 
 
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
 
 ![Illustration of a branch](http://rogerdudler.github.io/git-guide/img/branches.png)
+
+
+[^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
 
 ## Collaboration
