@@ -16,11 +16,13 @@ It covers the following steps:
     * text: markdown / pandoc
     * assets: images, figures, bibliography, data???
 
+
 -  **GIT**: version your content
 
     * saving: commit & push
     * helping: fork & clone
     * collabo: pull & merge
+
 
 -  **OUTPUT**: output your content
 

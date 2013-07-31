@@ -2,7 +2,7 @@
 
 ## text editor
 
-You'll want a good one.
+- You'll want a good one.
 
 What "good" means in the *context* of a text editor is the source of 
 almost religious between software developers, but this is not our concern here.
