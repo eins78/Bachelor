@@ -49,9 +49,9 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 
 As we have seen in the examples above, it 
 
-While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.
+While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.[^fn-linearhypertext]
 
-This is not a contradiction to the concept of 'Hypertext', where one part of a document can 'link' to a different part of or even a completely different document. 
+[^fn-linearhypertext]: This is not a contradiction to the concept of 'Hypertext', where one part of a document can 'link' to a different part of or even a completely different document. 
 This is possible regardless of the linearity of the document.
 
 There are certainly projects which don't adhere to this structure, like a **`wiki`**, possibly consisting of thousands of documents. 
