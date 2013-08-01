@@ -143,7 +143,7 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-**General Options:**
+**General Output Options:**
 
 `toc`
 :   enable a 'Table of Contents'
@@ -153,6 +153,13 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 `csl`
 :   path to citation style
+
+
+`selfContained`
+:   include all assets in file *(web only)*
+
+
+**Content Format Options:**
 
 `strict`
 :   enable old-school markdown
@@ -177,11 +184,10 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `numberSections`
 :   "Number section headings" *(print only)*
 
+**Custom Options:**
+
 `css`
 :   use a costum style sheet *(web only)*
-
-`selfContained`
-:   include all assets in file *(web only)*
 
 `includeInHeader`, `includeBeforeBody`, `includeAfterBody`
 :   include other files (untouched) before conversion
