@@ -2,8 +2,8 @@
 
 ## Markup and Markdown
 
-Historically, formatting was always "embedded" into the final document by the author or writer. Any emphasis, the position
-of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
+Historically, formatting has always been "embedded" into the final document by the author or writer. 
+Any emphasis, the position of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
 With the introduction of the moveable type printing press, any text would be split up into it's composing single letters.
 The complete text would
 
