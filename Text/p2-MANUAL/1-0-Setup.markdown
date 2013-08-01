@@ -71,7 +71,7 @@ As we have already seen in the examples above, the configuration defines at leas
 It can be just a string, defining the **`path`** to a document.
 
 ```
-    { "input": "document.md" }
+    "input": "document.md"
 ```
 
 
