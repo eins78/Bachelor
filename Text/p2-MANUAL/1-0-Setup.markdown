@@ -197,7 +197,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
         \
     - *or* build your own flavour: choose one as a base and enable or disable pandoc extension by adding them with a `+` or `-` sign
         * `{markdown_flavor}+{extension}-{extension}`
-        * e.g.: `markdown_github+footnotes`, or ``
+        * e.g.: `markdown_github+footnotes` for GFM with footnotes
         \
     - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
 
