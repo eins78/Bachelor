@@ -109,12 +109,20 @@ Again, a **`path`** needs to be given, but in this case it denotes a folder insi
 
 
 ```
-    "output": "_output" // => this is the default
+    "output": "_output"
 ```
 
 There are two default targets, 'print' and 'web'.
 They come with their own built-in settings, and can also be further configured. 
 For example, the 'print' option is configured to convert any links into footnotes, while they are untouched in the 'web' target.
 
+These are the default values used when nothing is configured:
 
-This is the default value used when nothing is configured
+```
+    "output": {
+      "path": "_output",
+      "web": true,
+      "print": true
+    }
+```
+
