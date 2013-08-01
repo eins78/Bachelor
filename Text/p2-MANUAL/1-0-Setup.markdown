@@ -126,3 +126,13 @@ These are the default values used when nothing is configured:
     }
 ```
 
+That means that if one the default targets is not wanted, it can be turned of by setting it to 'false':
+
+```
+    "output": {
+      "path": "_output",
+      "web": true,
+      "print": true
+    }
+```
+
