@@ -23,9 +23,11 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > handed in formatted as described here." [[@Tschichold:Drucksachen]] [^fn-tschicholdparagraphs]
 
 Since then, the situation became equally better and worse: 
-Nowadays, most authors produce their manuscripts digitally, which leaves less room for interpretations and errors.
-Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`.
-This 
+Nowadays, most authors produce their manuscripts digitally, which should leave less room for interpretations and errors.
+Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`, meaning the intent of the author is once again visual output 
+
+Note that there are alternatives in the market, but these are mostly aimed at very complex projects.
+An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allowing input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
 
 
 ## Common Pitfalls
