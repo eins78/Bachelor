@@ -35,7 +35,9 @@ Project/
 
 **'Documents'** contain the content of your project.
 
-They are plain text files, formatted in `Markdown`. A project also can have more than one document.
+They are plain text files, formatted in `Markdown`. 
+
+A project also can have more than one document.
 
 For more flexibility while writing, a document can also be it's own **folder**. 
 All `Markdown`-files in it will be combined
@@ -52,11 +54,12 @@ Project/
     └─> { "input": "Text" }
 ```
 
-The **configuration** file is the second most important part of your project. \
+The **configuration** file is the second most important part of a project. It contains all the information *about* the project needed to produce 'output'. \
+
 It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
 
-The configuration contains all the information *about* your projects and its documents.
+
 
 As we have seen in the examples above, it 
 
