@@ -143,13 +143,13 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-- `read`: input format
-- `write` output format
+- `toc`: enable a 'Table of Contents'
 - `strict`: enable old-school markdown
 - `smart`: smart typography (`"foo"` => “foo”)
-- `normalize`
-- `template`
-- `toc`
+- `normalize`: normalize the whitespace
+- `template`: use a costum template(!)
+- `read`: input format
+- `write` output format
 - `noHighlight`
 - `highlightStyle`
 - `includeInHeader`
