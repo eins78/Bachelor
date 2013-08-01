@@ -146,26 +146,11 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `toc`
 :   enable a 'Table of Contents'
 
-`chapters`
-:   make chapters from top-level headings (print only)
-
-`numberSections`
-:   "Number section headings" (print only)
-
-`css`
-:   use a costum style sheet (web only)
-
 `bibliography`
 :   path to bibliography file
 
 `csl`
 :   path to citation style
-
-`noHighlight`
-:   disable code syntax highlighting
-
-`highlightStyle`
-:   set syntax highlighting style
 
 `strict`
 :   enable old-school markdown
@@ -176,11 +161,26 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `normalize`
 :   normalize the whitespace
 
-`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
-:   include other files (untouched) before conversion
+`noHighlight`
+:   disable code syntax highlighting
+
+`highlightStyle`
+:   set syntax highlighting style
+
+`chapters`
+:   make chapters from top-level headings (print only)
+
+`numberSections`
+:   "Number section headings" (print only)
+
+`css`
+:   use a costum style sheet (web only)
 
 `selfContained`
 :   include all assets in file (web only)
+
+`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
+:   include other files (untouched) before conversion
 
 `read`
 :   input format
