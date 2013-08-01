@@ -47,5 +47,4 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
 
 
-As we have seen in the examples above, it 
-
+As we have seen in the examples above, the configuration at least includes one or more documents, called 'input's.
