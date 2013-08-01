@@ -22,7 +22,7 @@ And there are IDEs, integrated developement environments; and of course every st
 
 It can be internally seperated into distinct parts, but these should always have a sequential order, so that the comlete text can be seen as a single stream.
 
-This is not a contradiction to the concept of 'Hypertext', where one part of a document 
+This is not a contradiction to the concept of 'Hypertext', where one part of a document can 'link' to a different part of or even a completely different document.
 
 ## (**`pandoc`**'s) Markdown
 
