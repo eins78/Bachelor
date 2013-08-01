@@ -18,7 +18,14 @@ And there are IDEs, integrated developement environments; and of course every st
 
 ## project structure
 
-- (long-form) linear text
+`papermill` is, at it's core, a formalized configuration, which should be able to suit all kinds of long-form text.
+
+The basic rules are very simple:
+
+* every project has it's own folder
+* there is at least one document source
+* there is one [configuration file](#Configuration)
+
 
 While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.
 
