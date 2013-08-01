@@ -143,7 +143,7 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-**General Output Options:**
+**General Options:**
 
 `toc`
 :   enable a 'Table of Contents'
@@ -154,15 +154,11 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `csl`
 :   path to citation style
 
-
 `selfContained`
 :   include all assets in file *(web only)*
 
 
-**Content Format Options:**
-
-`strict`
-:   enable old-school markdown
+**Visual/Layout Options:**
 
 `smart`
 :   [smart] typography (`"foo"` => “foo”)
@@ -178,13 +174,23 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `highlightStyle`
 :   set syntax highlighting style
 
+
+**Print Options:**
+
 `chapters`
 :   make chapters from top-level headings *(print only)*
 
 `numberSections`
 :   "Number section headings" *(print only)*
 
-**Custom Options:**
+
+**Content Format Options:**
+
+`strict`
+:   enable old-school markdown
+
+
+**Custom Layouts:**
 
 `css`
 :   use a costum style sheet *(web only)*
