@@ -22,6 +22,11 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > This idling could be avoided if the manuscripted would be
 > handed in formatted as described here." [[@Tschichold:Drucksachen]] [^fn-tschicholdparagraphs]
 
+Since then, the situation became equally better and worse: 
+On the one hand, most authors nowadays produce their manuscripts digitally, which leaves less room for interpretations and errors.
+On the other hand, the vast majority of non-technical writers produce their text with a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`.
+This 
+
 
 ## Common Pitfalls
 
@@ -35,15 +40,15 @@ The relationsship between formatting, typography and design
 is a common source of confusion. 
 On the one hand, it can be summed up quite simply:
 
-Formatting *conveys intent*, thus is part of the document's *source*. \
-Design *translates* this source into an *output*, using tyography.
+* Formatting *conveys intent*, thus is part of the document's *source*. \
+* Design *translates* this source into an *output*, using tyography.
 
 On the other hand, there are specific connotations embeded in our visual and cultural knowlege.
 These are shaped by a) how this translation was handled historically; and b) the user interface of text editors since the 1980s:
 
 ![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../../_images/bold-italic-buttons.png)
 
-Since the earliest text editors, 
+As these exampes show, interfaces of text editors rarely make a difference between 'bold' and 'strong emphasis', 
 
 bold, italic, underline, letter-spacing ^[in German: "Sperrung" oder "Sperrsatz"]
    
