@@ -23,7 +23,11 @@ And there are IDEs, integrated developement environments; and of course every st
 While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.
 
 This is not a contradiction to the concept of 'Hypertext', where one part of a document can 'link' to a different part of or even a completely different document. 
-This is possible regardless of the linearity of the document, but even a **`wiki`**
+This is possible regardless of the linearity of the document.
+
+There are certainly projects which don't adhere to this structure, like a **`wiki`**, possibly consisting of thousands of documents. 
+While they could theoretically be 'linearized' (for example by sorting them alphabetically); 
+and thus technically could be used as in 'input', these are outside of the scope of `papermill`.
 
 ## (**`pandoc`**'s) Markdown
 
