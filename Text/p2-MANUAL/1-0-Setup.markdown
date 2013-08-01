@@ -193,10 +193,10 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   "Number section headings" *(print only)*
 
 
-**Custom Output:**
+**Customizing Output:**
 
 `write`
-:   an output format supported by **`pandoc`**
+:   any output format supported by **`pandoc`**
 
 `template`
 :   use a costum **`pandoc`** template(!)
