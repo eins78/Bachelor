@@ -164,7 +164,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `read`
 :   - define Markdown flavour
         * `markdown`: pandoc's Markdown
-        * `markdown`: pandoc's Markdown
+        * `markdown_strict`: original Markdown
+        
     - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, textile, MediaWiki, …)
 
 ---
