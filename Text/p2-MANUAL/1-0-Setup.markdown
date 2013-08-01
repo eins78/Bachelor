@@ -68,17 +68,30 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 
 As we have already seen in the examples above, the configuration defines an 'input', which is at least a **`path`** to a document.
 
-It can be just a string, defining the **`path`** to a document.
+It can be just the **`path`** as a string:
 
 ```
     "input": "document.md"
 ```
 
-It can also be contain more properties, where one of them must be a **`path`**:
+It can also be an object with more configuration:
 
 ```
     "input": {
+      "title": "My Document",
       "path": "document.md"
+    }
+```
+
+This object can also contain a 'list' of documents, which will be treated as subfolder of the parent **`path`**:
+
+```
+    "input": {
+      "path": "Texts",
+      "list": {
+        "First-Text.md",
+        "Other-Text.md"
+      }
     }
 ```
 
