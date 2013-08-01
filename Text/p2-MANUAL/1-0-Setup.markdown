@@ -107,10 +107,14 @@ The 'output' defines how the 'input' documents will be converted (*'compiled'*) 
 
 Again, a **`path`** needs to be given, but in this case it denotes a folder inside the project were the output files will be placed.
 
-```
-    "output": "_output"
-```
 
-
+```
+    "output": "_output" // => this is the default
+```
 
 There are two default targets, 'print' and 'web'.
+They come with their own built-in settings, and can also be further configured. 
+For example, the 'print' option is configured to convert any links into footnotes, while they are untouched in the 'web' target.
+
+
+This is the default value used when nothing is configured
