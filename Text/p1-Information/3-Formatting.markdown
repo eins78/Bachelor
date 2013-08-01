@@ -66,7 +66,7 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 > }
 > ``` 
 > 
-> [Webkit Default CSS, Zeilen 993-995 *(shortened)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
+> [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
 ## Types of formatting
