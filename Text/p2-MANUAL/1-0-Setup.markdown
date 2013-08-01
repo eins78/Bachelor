@@ -64,5 +64,10 @@ It contains all the information *about* the project needed to produce 'output'.
 It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
 
-As we have already seen in the examples above, the configuration defines at least one or more documents as 'input'.
+### Input
 
+As we have already seen in the examples above, the configuration defines at least one document as 'input'.
+
+### Output
+
+The 'output' property defines how the 'input' documents will be converted to an format suitable for reading (*'compiled'*).
