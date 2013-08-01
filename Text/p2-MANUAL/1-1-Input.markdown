@@ -34,9 +34,20 @@ Project/
 ```
 
 **'Documents'** are plain text files, formatted in `Markdown`. \
-For more flexibility while writing, a document can also be it's own 
-sub-folder. All `Markdown`-files in this folder will be combined
-into one single file.
+For more flexibility while writing, a document can also be it's own **folder**. 
+All `Markdown`-files in it will be combined
+into one single document, in alphabetical order.
+Practically, this means that you can just start writing a new chapter whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use 1 `number-*` prefix.
+
+```
+Project/
+├── Text
+│   ├── 1-intro.md
+│   ├── 2-a-chapter.md
+│   └── 3-another-chapter.md
+└── papermill.json
+    └─> { "input": "Text" }
+```
 
 The configuration file is the 
 
