@@ -48,7 +48,7 @@ On the one hand, it can be summed up quite simply:
 On the other hand, there are specific connotations embeded in our visual and cultural knowlege.
 These are shaped by a) how this translation was handled historically; and b) the user interface of text editors since the 1980s:
 
-![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../../_images/bold-italic-buttons.png)
+![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../_images/bold-italic-buttons.png)
 
 As these exampes show, interfaces of text editors rarely make a difference between 'bold' and 'strong emphasis', 
 

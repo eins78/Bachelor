@@ -42,7 +42,7 @@ On the other hand, this same knowledge should enable you to learn how to use any
 The most basic term a one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
 
-!['Repository' Folder ](../../_images/icon-folder-repository.png)
+!['Repository' Folder ](../_images/icon-folder-repository.png)
 
 This is not even wrong: If you directly edit files in a `git` repository on 
 your computer, it will be there just like any other folder.
@@ -57,7 +57,7 @@ So, what makes this folder special?
 Inside of it, there is one more thing: 
 a **`hidden folder`** called `.git`!
 
-!['.git' Folder](../../_images/icon-folder-git.png)
+!['.git' Folder](../_images/icon-folder-git.png)
 
 As a user, you never directly use this folder, but it is good to know where it is and what's it's purpose.[^fn-git-folder] 
 It contains lots of meta-data and also a small database-like storage. 
@@ -158,7 +158,7 @@ There is always at least one branch in every git repository, by default this bra
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
 
-![Illustration of a branch](../../_stash/branches.png)
+![Illustration of a branch](../_stash/branches.png)
 
 [^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
@@ -184,7 +184,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 *GitHub* has also played a vital role in shaping the ways people are collaborating using *git*.
 
-![A small repository on github](../../_images/screenshot-github-user-repo.png)
+![A small repository on github](../_images/screenshot-github-user-repo.png)
 
 
 ### Merging
