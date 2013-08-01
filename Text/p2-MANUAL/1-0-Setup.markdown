@@ -75,13 +75,13 @@ As we have already seen in the examples above, the configuration defines an 'inp
 
 It can be just the **`path`** as a string:
 
-```
+```js
     "input": "document.md"
 ```
 
 It can also be an object with more configuration:
 
-```
+```js
     "input": {
       "title": "My Document",
       "path": "document.md"
@@ -90,7 +90,7 @@ It can also be an object with more configuration:
 
 This object can also contain a 'list' of documents, which will be treated as subfolders of the parent **`path`**:
 
-```
+```js
     "input": {
       "path": "Texts",
       "list": {
@@ -108,7 +108,7 @@ The 'output' defines how the 'input' documents will be converted (*'compiled'*) 
 Again, a **`path`** needs to be given, but in this case it denotes a folder inside the project were the output files will be placed.
 
 
-```
+```js
     "output": "_output"
 ```
 
@@ -118,7 +118,7 @@ For example, the 'print' option is configured to convert any links into footnote
 
 These are the default values used when nothing is configured:
 
-```
+```js
     "output": {
       "path": "_output",
       "web": true,
@@ -126,13 +126,36 @@ These are the default values used when nothing is configured:
     }
 ```
 
-That means that if one the default targets is not wanted, it can be turned of by setting it to 'false':
+That means that if one the default targets is not wanted, it can be turned of by setting it to 'false'. 
+Moreover, any additional settings for one of those targets can be given in an object:
 
-```
+```js
     "output": {
       "path": "_output",
-      "web": true,
-      "print": true
+      "web": false,
+      "print": {
+        "mysetting": true,
+      }
     }
 ```
 
+For reference, these are the complete default settings:
+
+```js
+"web": {
+  "write": "html5",
+  "sectionDivs": true,
+  "variable": {
+    "webfont": true,
+    "scripts": true
+  }
+},
+"print": {
+  "class": "report",
+  "latexEngine": "xelatex",
+  "variable": {
+    "links-as-notes": true,
+    "verbatim-in-note": true
+  }
+}
+```
