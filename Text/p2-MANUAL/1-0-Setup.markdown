@@ -194,8 +194,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
         * `markdown_strict`: original Markdown
         * `markdown_github`: [GitHub flavored Markdown][GFM]
         * `markdown_phpextra`: original Markdown
-    - *or* build your own flavour
-      * `{markdown_flavor}+{pandoc extension(s)}`
+    - *or* build your own flavour: choose one as a base and add or substract pandoc extension by adding them with a `+` or `-` sign
+      * `{markdown_flavor}+{extension}-{extension}`
         
     - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
 
