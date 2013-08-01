@@ -2,7 +2,7 @@
 
 ## project structure
 
-`papermill` is, at it's core, a formalized configuration, which should be able to suit all kinds of long-form text.
+`papermill` is, at it's core, a formalized configuration, aiming to suit all kinds of long-form text.
 
 The basic rules are very simple:
 
