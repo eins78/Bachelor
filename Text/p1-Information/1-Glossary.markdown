@@ -96,3 +96,9 @@ can be hidden from the user by the operating system and/or file browser.
 This is usually to keep the user from inadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
 On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
 
+
+## wiki
+
+- many single documents
+- hypertext: links
+- suitable for collaborative information gathering (wikipedia)
