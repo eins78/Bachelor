@@ -105,4 +105,12 @@ This object can also contain a 'list' of documents, which will be treated as sub
 
 The 'output' defines how the 'input' documents will be converted (*'compiled'*) to a **'target'** (a format suitable for reading).
 
-I
+Again, a **`path`** needs to be given, but in this case it denotes a folder inside the project were the output files will be placed.
+
+```
+    "output": "_output"
+```
+
+
+
+There are two default targets, 'print' and 'web'.
