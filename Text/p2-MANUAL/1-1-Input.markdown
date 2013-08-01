@@ -22,21 +22,21 @@ And there are IDEs, integrated developement environments; and of course every st
 
 The basic rules are very simple:
 
-* every **project** has it's own folder
-* there is one **configuration** file
-* there is at least one **document** in the folder and the configuration
+* every **'project'** has it's own folder
+* there is one **'configuration'** file
+* there is at least one **'document'** in the folder and the configuration
 
 ```
 Project/
 ├── document.md
 └── papermill.json
-    └──> { "input": "document.md" }
+    └─> { "input": "document.md" }
 ```
 
-'Document sources' are plain text files, formatted in `Markdown`.
-For more flexibilty while writing, a document can have it's own 
+**'Documents'** are plain text files, formatted in `Markdown`. \
+For more flexibility while writing, a document can also be it's own 
 sub-folder. All `Markdown`-files in this folder will be combined
-into one single file
+into one single file.
 
 The configuration file is the 
 
