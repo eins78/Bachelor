@@ -8,14 +8,14 @@ The basic rules are very simple:
 
 * every **'project'** has it's own folder
 * there is one **'configuration'** file
-* there is at least one **'document'** in the folder and the configuration
+* there is at least one **'document'**, in the folder and the configuration
 
-> ```
-> Project/
-> ├── document.md
-> └── papermill.json
->     └─> { "input": "document.md" }
-> ```
+```
+    Project/
+    ├── document.md
+    └── papermill.json
+        └─> { "input": "document.md" }
+```
 
 **'Documents'** contain the content of your project.
 
@@ -24,16 +24,17 @@ They are plain text files, formatted in `Markdown`.
 For more flexibility while writing, a document can also be it's own **folder**. 
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
+
 Practically, this means that you can just start writing a new chapter whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
 
 ```
-Project/
-├── Text
-│   ├── 1-intro.md
-│   ├── 2-a-chapter.md
-│   └── 3-another-chapter.md
-└── papermill.json
-    └─> { "input": "Text" }
+    Project/
+    ├── Text
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    └── papermill.json
+        └─> { "input": "Text" }
 ```
 
 A project also can have more than one document, although the convention is that their *content should be related*.  This can for example be used to produce different parts of a dissertation that should be printed seperately.
