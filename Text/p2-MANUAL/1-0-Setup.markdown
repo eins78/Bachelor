@@ -143,6 +143,26 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
+- `read`
+- `write`
+- `strict`
+- `smart`
+- `normalize`
+- `template`
+- `toc`
+- `noHighlight`
+- `highlightStyle`
+- `includeInHeader`
+- `includeBeforeBody`
+- `includeAfterBody`
+- `selfContained`
+- `chapters`
+- `numberSections`
+- `css`
+- `bibliography`
+- `csl`
+- `variable`
+- `indentedCodeClasses`
 
 
 For reference, these are the complete default settings, generall and for both targets: 
