@@ -124,7 +124,7 @@ Furthermore, the hash of every commit is used by `git` in the background to make
 
 [^fn-hash]: A hash can thus be used to prove that one was in posession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
 
-### Alternatives
+### Automatic commiting
 
 If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
 
@@ -151,7 +151,7 @@ But git is even more flexible: There is also the possibilty of having a complete
 
 They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be commited in small steps.
 
-There is always at least one branch in every git repository, by default this branch is called *'master'*.[^fn-master-branch] 
+There is always at least one branch in every git repository, by default this branch is called *'master'*, which is nothing more a default name.[^fn-master-branch] 
 
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
