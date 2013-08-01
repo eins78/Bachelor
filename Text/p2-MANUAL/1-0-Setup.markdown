@@ -94,7 +94,7 @@ This object can also contain a 'list' of documents, which will be treated as sub
     "input": {
       "path": "Texts",
       "list": {
-        "First-Text.md",
+        "First-Text.md", // => 'Texts/First-Text.md'
         "Other-Text.md"
       }
     }
