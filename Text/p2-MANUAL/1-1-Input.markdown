@@ -40,7 +40,7 @@ They are plain text files, formatted in `Markdown`.
 For more flexibility while writing, a document can also be it's own **folder**. 
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
-Practically, this means that you can just start writing a new chapter whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use 1 `number-*` prefix.
+Practically, this means that you can just start writing a new chapter whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
 
 ```
 Project/
