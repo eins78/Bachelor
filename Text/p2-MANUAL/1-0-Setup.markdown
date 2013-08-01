@@ -207,6 +207,11 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `variable`
 :   set template variables
 
+    * author
+    * title
+    * date
+    * lang
+
 
 For reference, these are the complete **default settings**, general and for both targets: 
 
