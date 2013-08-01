@@ -195,7 +195,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   use a costum template(!)
 
 `variable`
-
+:   set template variables
 
 For reference, these are the complete default settings, generall and for both targets: 
 
