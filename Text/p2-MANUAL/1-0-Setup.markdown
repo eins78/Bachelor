@@ -134,31 +134,31 @@ Moreover, any additional settings for one of those targets can be given in an ob
       "path": "_output",
       "web": false,
       "print": {
-        "mysetting": true,
+        "mysetting": true
       }
     }
 ```
 
-For reference, these are the complete default settings:
+For reference, these are the complete default settings for both targets: 
 
 ```js
-// web:
-{
-  "write": "html5",
-  "sectionDivs": true,
-  "variable": {
-    "webfont": true,
-    "scripts": true
-  }
-}
-
-// print: 
-{
-  "class": "report",
-  "latexEngine": "xelatex",
-  "variable": {
-    "links-as-notes": true,
-    "verbatim-in-note": true
-  }
-}
+    {
+      "path": "_output",
+      "web": {
+        "write": "html5",
+        "sectionDivs": true,
+        "variable": {
+          "webfont": true,
+          "scripts": true
+        }
+      },
+      "print": {
+        "class": "report",
+        "latexEngine": "xelatex",
+        "variable": {
+          "links-as-notes": true,
+          "verbatim-in-note": true
+        }
+      }
+    }
 ```
