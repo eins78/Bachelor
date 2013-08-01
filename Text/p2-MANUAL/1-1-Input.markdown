@@ -51,7 +51,7 @@ Project/
 
 The **configuration** file is the second most important part of your project. \
 It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
-"a lightweight data interchange format. […] It is readable by humans and machines. It is easy to implement and easy to use. There is a lot of material about JSON at http://www.JSON.org/.
+"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use."[@js:goodparts, p. 136]
 
 As we have seen in the examples above, it 
 
