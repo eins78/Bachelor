@@ -162,7 +162,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   enable old-school markdown
 
 `read`
-:   -
+:   - either
     - or read any otherinput format supported by **`pandoc`** (HTML, LaTeX, textile, MediaWiki, …)
 
 ---
