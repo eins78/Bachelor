@@ -205,7 +205,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   set template variables
 
 
-For reference, these are the complete default settings, general and for both targets: 
+For reference, these are the complete **default settings**, general and for both targets: 
 
 ```js
     {
