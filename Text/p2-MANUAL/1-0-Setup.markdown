@@ -208,7 +208,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 **Customizing Output:**
 
 `template`
-:   use a costum **`pandoc`** template(!)
+:   use a costum **`pandoc`** [template]()(!)
 
 `css`
 :   use a costum style sheet *(web only)*
