@@ -183,18 +183,19 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   include other files (untouched) before conversion
 
 `read`
-:   input format
+:   an input format supported by **`pandoc`**
 
 `write`
-:   output format
+:   an output format supported by **`pandoc`**
 
 `template`
-:   use a costum template(!)
+:   use a costum **`pandoc`** template(!)
 
 `variable`
 :   set template variables
 
-For reference, these are the complete default settings, generall and for both targets: 
+
+For reference, these are the complete default settings, general and for both targets: 
 
 ```js
     {
