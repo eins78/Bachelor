@@ -146,7 +146,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 - `read`: input format
 - `write` output format
 - `strict`: enable old-school markdown
-- `smart`: smart typography (`"foo"` -> `“foo”`)
+- `smart`: smart typography (`"foo"` => “foo”)
 - `normalize`
 - `template`
 - `toc`
