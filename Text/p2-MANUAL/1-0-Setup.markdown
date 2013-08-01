@@ -30,13 +30,13 @@ Practically, this means that you can just start writing a new chapter whenever y
 
 ```
     Project/
-    ├── A-Document
+    ├── Text
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
     │   └── 3-another-chapter.md
-    ├── Another-Document.md
+    ├── More-Text.md
     └── papermill.json
-        └── > { "input": ["A-Document", "Another-Document"] }
+        └── > { "input": [ "Text", "More-Text.md" ] }
 ```
 
 A project also can have more than one document, although the convention is that their *content should be related*. 
