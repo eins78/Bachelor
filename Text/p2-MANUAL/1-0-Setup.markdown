@@ -156,7 +156,9 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   enable old-school markdown
 
 `smart`
-:   smart typography (`"foo"` => “foo”)
+:   [smart] typography (`"foo"` => “foo”)
+
+[smart]: http://daringfireball.net/projects/smartypants/
 
 `normalize`
 :   normalize the whitespace
@@ -168,16 +170,16 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   set syntax highlighting style
 
 `chapters`
-:   make chapters from top-level headings (print only)
+:   make chapters from top-level headings *(print only)*
 
 `numberSections`
-:   "Number section headings" (print only)
+:   "Number section headings" *(print only)*
 
 `css`
-:   use a costum style sheet (web only)
+:   use a costum style sheet *(web only)*
 
 `selfContained`
-:   include all assets in file (web only)
+:   include all assets in file *(web only)*
 
 `includeInHeader`, `includeBeforeBody`, `includeAfterBody`
 :   include other files (untouched) before conversion
