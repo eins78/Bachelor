@@ -176,12 +176,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `normalize`
 :   normalize the whitespace
 
-`includeInHeader`
-: 
-
-`includeBeforeBody`
-
-`includeAfterBody`
+`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
+:   include other files (untouched) before conversion
 
 `selfContained`
 :   include all assets in file (web only)
