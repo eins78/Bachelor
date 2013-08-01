@@ -154,9 +154,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `selfContained`
 :   include all assets in file *(web only)*
 
-`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
-:   include other files (untouched) before conversion
-
+---
 
 **Content Options:**
 
@@ -166,6 +164,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `read`
 :   any input format supported by **`pandoc`**
 
+---
 
 **Visual/Layout Options:**
 
@@ -192,17 +191,21 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `numberSections`
 :   "Number section headings" *(print only)*
 
+---
 
 **Customizing Output:**
-
-`write`
-:   any output format supported by **`pandoc`**
 
 `template`
 :   use a costum **`pandoc`** template(!)
 
 `css`
 :   use a costum style sheet *(web only)*
+
+`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
+:   include other files (untouched) before conversion
+
+`write`
+:   any output format supported by **`pandoc`**
 
 `variable`
 :   set template variables
