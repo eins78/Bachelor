@@ -142,15 +142,18 @@ Moreover, any additional settings for one of those targets can be given in an ob
 For reference, these are the complete default settings:
 
 ```js
-"web": {
+// web:
+{
   "write": "html5",
   "sectionDivs": true,
   "variable": {
     "webfont": true,
     "scripts": true
   }
-},
-"print": {
+}
+
+// print: 
+{
   "class": "report",
   "latexEngine": "xelatex",
   "variable": {
