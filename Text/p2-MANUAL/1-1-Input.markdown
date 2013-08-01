@@ -24,8 +24,18 @@ The basic rules are very simple:
 
 * every project has it's own folder
 * there is at least one document source
-* there is one [configuration file](#Configuration)
+* there is one configuration file
 
+
+      Project/
+      ├── document.md
+      └── papermill.json
+
+
+'Document sources' are plain text files, formatted `Markdown`. 
+For more flexibilty while writing
+
+The configuration file is the 
 
 While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.
 
