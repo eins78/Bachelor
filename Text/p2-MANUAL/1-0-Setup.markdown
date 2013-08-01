@@ -144,23 +144,23 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
 - `toc`: enable a 'Table of Contents'
-- `strict`: enable old-school markdown
-- `smart`: smart typography (`"foo"` => “foo”)
-- `normalize`: normalize the whitespace
-- `template`: use a costum template(!)
-- `read`: input format
-- `write` output format
-- `noHighlight`
-- `highlightStyle`
-- `includeInHeader`
-- `includeBeforeBody`
-- `includeAfterBody`
-- `selfContained`
-- `chapters`
+- `chapters`: make chapters from top-level headings (print only)
 - `numberSections`
 - `css`
 - `bibliography`
 - `csl`
+- `noHighlight`: disable code syntax highlighting
+- `highlightStyle`: set syntax highlighting style
+- `strict`: enable old-school markdown
+- `smart`: smart typography (`"foo"` => “foo”)
+- `normalize`: normalize the whitespace
+- `selfContained`
+- `template`: use a costum template(!)
+- `read`: input format
+- `write` output format
+- `includeInHeader`
+- `includeBeforeBody`
+- `includeAfterBody`
 - `indentedCodeClasses`
 - `variable`
 
