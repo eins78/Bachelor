@@ -145,9 +145,6 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 **General Options:**
 
-`toc`
-:   enable a 'Table of Contents'
-
 `bibliography`
 :   path to bibliography file
 
@@ -157,8 +154,20 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `selfContained`
 :   include all assets in file *(web only)*
 
+`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
+:   include other files (untouched) before conversion
+
+
+**Content Options:**
+
+`strict`
+:   enable old-school markdown
+
 
 **Visual/Layout Options:**
+
+`toc`
+:   enable a 'Table of Contents'
 
 `smart`
 :   [smart] typography (`"foo"` => “foo”)
@@ -174,9 +183,6 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `highlightStyle`
 :   set syntax highlighting style
 
-
-**Print Options:**
-
 `chapters`
 :   make chapters from top-level headings *(print only)*
 
@@ -184,19 +190,10 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   "Number section headings" *(print only)*
 
 
-**Content Format Options:**
-
-`strict`
-:   enable old-school markdown
-
-
 **Custom Layouts:**
 
 `css`
 :   use a costum style sheet *(web only)*
-
-`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
-:   include other files (untouched) before conversion
 
 `read`
 :   an input format supported by **`pandoc`**
