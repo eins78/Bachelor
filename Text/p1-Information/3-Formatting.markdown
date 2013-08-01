@@ -23,8 +23,8 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > handed in formatted as described here." [[@Tschichold:Drucksachen]] [^fn-tschicholdparagraphs]
 
 Since then, the situation became equally better and worse: 
-On the one hand, most authors nowadays produce their manuscripts digitally, which leaves less room for interpretations and errors.
-On the other hand, the vast majority of non-technical writers produce their text with a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`.
+Nowadays, most authors produce their manuscripts digitally, which leaves less room for interpretations and errors.
+Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`.
 This 
 
 
