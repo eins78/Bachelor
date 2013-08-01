@@ -143,6 +143,8 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
+**General Options:**
+
 `toc`
 :   enable a 'Table of Contents'
 
