@@ -192,9 +192,6 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 **Custom Layouts:**
 
-`css`
-:   use a costum style sheet *(web only)*
-
 `read`
 :   an input format supported by **`pandoc`**
 
@@ -203,6 +200,9 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 `template`
 :   use a costum **`pandoc`** template(!)
+
+`css`
+:   use a costum style sheet *(web only)*
 
 `variable`
 :   set template variables
