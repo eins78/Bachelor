@@ -66,7 +66,7 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 
 ### Input
 
-As we have already seen in the examples above, the configuration defines at least one document as 'input'.
+As we have already seen in the examples above, the configuration defines an 'input', which is at least a **`path`** to a document.
 
 It can be just a string, defining the **`path`** to a document.
 
@@ -74,6 +74,13 @@ It can be just a string, defining the **`path`** to a document.
     "input": "document.md"
 ```
 
+It can also be contain more properties, where one of them must be a **`path`**:
+
+```
+    "input": {
+      "path": "document.md"
+    }
+```
 
 
 ### Output
