@@ -5,7 +5,7 @@
 These are the elements you need to know about. It might seem complicated, but most of that is only needed for more complicated projects.
 
 Also, keep in mind that you can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
-– preconfigured templates that include everything mentioned here. The are several types to choose from, like 'Simple' and 'Paper' (for scientific work).
+– preconfigured templates that include everything mentioned here. The are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 
 ## Project
