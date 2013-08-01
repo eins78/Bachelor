@@ -185,7 +185,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `read`
 :   input format
 
-`write` output format
+`write`
+:   output format
 
 `template`
 :   use a costum template(!)
