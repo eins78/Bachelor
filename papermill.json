@@ -1,29 +1,12 @@
 {
   "author": "Max F. Albrecht",
   "name": "Papermill",
-  "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar, 2013",
+  "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar",
   "version": "0.0.0",
   "private": true,
   "bibliography": "bibliography.bib",
-  "assets": "_images",
   "input": {
-    "author": "Max F. Albrecht",
-    "path": "Text",
-    "list": 
-      [
-        {
-          "path": "p0-Preface",
-          "title": "Papermill: Preface"
-        },
-        {
-          "path": "p1-Information",
-          "title": "Papermill: Information"
-        },
-        {
-          "path": "p2-MANUAL",
-          "title": "Papermill: MANUAL"
-        }
-      ]
+    "path": "Text"
     },
   "output": {
     "path": "_output",
