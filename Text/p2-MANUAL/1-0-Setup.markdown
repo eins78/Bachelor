@@ -143,45 +143,58 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-- `toc`: enable a 'Table of Contents'
+`toc`
+:   enable a 'Table of Contents'
 
-- `chapters`: make chapters from top-level headings (print only)
+`chapters`
+:   make chapters from top-level headings (print only)
 
-- `numberSections`: "Number section headings" (print only)
+`numberSections`
+:   "Number section headings" (print only)
 
-- `css`: use a costum style sheet (web only)
+`css`
+:   use a costum style sheet (web only)
 
-- `bibliography`: path to bibliography file
+`bibliography`
+:   path to bibliography file
 
-- `csl`: path to citation style
+`csl`
+:   path to citation style
 
-- `noHighlight`: disable code syntax highlighting
+`noHighlight`
+:   disable code syntax highlighting
 
-- `highlightStyle`: set syntax highlighting style
+`highlightStyle`
+:   set syntax highlighting style
 
-- `strict`: enable old-school markdown
+`strict`
+:   enable old-school markdown
 
-- `smart`: smart typography (`"foo"` => “foo”)
+`smart`
+:   smart typography (`"foo"` => “foo”)
 
-- `normalize`: normalize the whitespace
+`normalize`
+:   normalize the whitespace
 
-- `selfContained`: include all assets in file (web only)
+`includeInHeader`
+: 
 
-- `includeInHeader`
+`includeBeforeBody`
 
-- `includeBeforeBody`
+`includeAfterBody`
 
-- `includeAfterBody`
+`selfContained`
+:   include all assets in file (web only)
 
-- `indentedCodeClasses`
+`read`
+:   input format
 
-- `read`: input format
+`write` output format
 
-- `write` output format
+`template`
+:   use a costum template(!)
 
-- `template`: use a costum template(!)
-
-- `variable`
+`variable`
 
 
 For reference, these are the complete default settings, generall and for both targets: 
