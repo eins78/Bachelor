@@ -1,7 +1,11 @@
-"Ein Frackhemd soll gewiß blendend weiß sein. 
-Aber was für Wäsche gilt, gilt darum noch nicht für Drucksachen.
-Sollen sie den höchsten Grad von Komfort zeigen, so muß das Papier unmerklich, unbewußt wohltuend, getönt sein."
-[@Tschichold:Drucksachen]
+"Die Schreibmaschine wird dem Federhalter die Hand des Literaten erst dann entfremden, 
+wenn die Genauigkeit typographischer Formulierungen unmittelbar in die Konzeption seiner Bücher eingeht. 
+Vermutlich wird man dann neue Systeme mit variablerer Schriftgestaltung benötigen. 
+Sie werden die Innervation der befehlenden Finger an die Stelle der geläufigen Hand setzen." – [@benjamin:schriften, p. 105], zitiert nach [@giuriato:maschinen, p. 1]
+
+"The typewriter will alienate the hand of the man of letters from the pen only when the precision of typographic forms has directly entered the conception of his books. 
+One might suppose that new systems with more variable typefaces would then be needed. 
+They will replace the pliancy of the hand with the innervation of commanding fingers." – [@benjamin:teaching, Lines 12-13]
 
 ---
 
