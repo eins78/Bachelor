@@ -192,12 +192,12 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   - choose a Markdown flavour
         * `markdown`: pandoc's Markdown
         * `markdown_strict`: original Markdown
-        * `markdown_github`: [GitHub flavored Markdown][GFM]
+        * `markdown_github`: [GFM (GitHub flavored Markdown)][GFM]
         * `markdown_phpextra`: original Markdown
-    
-    - *or* build your own flavour: \choose one as a base and add or substract pandoc extension by adding them with a `+` or `-` sign
+        \
+    - *or* build your own flavour: choose one as a base and add or substract pandoc extension by adding them with a `+` or `-` sign
         * `{markdown_flavor}+{extension}-{extension}`
-        * ex: `markdown_github+footnotes`
+        * e.g.: `markdown_github+footnotes`, or ``
         
     - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
 
