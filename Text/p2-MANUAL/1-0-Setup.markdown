@@ -139,6 +139,8 @@ Moreover, any additional settings for one of those targets can be given in an ob
     }
 ```
 
+Because the document conversion is handled by **`pandoc`**, all it's settings are supported (written a little bit different, `--some-setting` becomes `someSetting`).
+
 For reference, these are the complete default settings for both targets: 
 
 ```js
