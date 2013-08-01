@@ -143,10 +143,10 @@ Because the document conversion is handled by **`pandoc`**, all it's settings ar
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-- `read`
-- `write`
-- `strict`
-- `smart`
+- `read`: input format
+- `write` output format
+- `strict`: enable old-school markdown
+- `smart`: smart typography (`"foo"` -> `“foo”`)
 - `normalize`
 - `template`
 - `toc`
@@ -161,8 +161,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 - `css`
 - `bibliography`
 - `csl`
-- `variable`
 - `indentedCodeClasses`
+- `variable`
 
 
 For reference, these are the complete default settings, generall and for both targets: 
