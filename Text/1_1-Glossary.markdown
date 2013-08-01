@@ -1,5 +1,5 @@
 <!-- no "parts" for now -->
-<!-- \part{Information} -->
+\part{Introduction}
 <!-- <h1 id="information">Information</h1> -->
 
 # Glossary

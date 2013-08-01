@@ -1,5 +1,5 @@
 <!-- no "parts" for now -->
-<!-- \part{Manual} -->
+\part{Manual}
 <!-- <h1 id="manual">Manual</h1> -->
 
 
