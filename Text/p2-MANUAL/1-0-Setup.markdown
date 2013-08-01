@@ -17,8 +17,7 @@ The basic rules are very simple:
         └─> { "input": "document.md" }
 ```
 
-**'Documents'** contain the content of your project.
-
+**'Documents'** contain the content of your project. \
 They are plain text files, formatted in `Markdown`. 
 
 For more flexibility while writing, a document can also be it's own **folder**. 
@@ -37,7 +36,8 @@ Practically, this means that you can just start writing a new chapter whenever y
         └─> { "input": "Text" }
 ```
 
-A project also can have more than one document, although the convention is that their *content should be related*.  This can for example be used to produce different parts of a dissertation that should be printed seperately.
+A project also can have more than one document, although the convention is that their *content should be related*. 
+This can for example be used to produce different parts of a dissertation that should be printed seperately.
 
 
 The **configuration** file is the second most important part of a project. \
