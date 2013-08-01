@@ -40,7 +40,8 @@ Practically, this means that you can just start writing a new chapter whenever y
 A project also can have more than one document, although the convention is that their *content should be related*.  This can for example be used to produce different parts of a dissertation that should be printed seperately.
 
 
-The **configuration** file is the second most important part of a project. It contains all the information *about* the project needed to produce 'output'. \
+The **configuration** file is the second most important part of a project. \
+It contains all the information *about* the project needed to produce 'output'.
 
 It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
