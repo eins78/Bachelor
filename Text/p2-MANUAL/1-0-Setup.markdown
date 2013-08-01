@@ -139,9 +139,88 @@ Moreover, any additional settings for one of those targets can be given in an ob
     }
 ```
 
-Because the document conversion is handled by **`pandoc`**, all it's settings are supported (written a little bit different, `--some-setting` becomes `someSetting`).
+Because the document conversion is handled by **`pandoc`**, all it's settings are supported (written a little bit different, `--some-setting` becomes `someSetting`). 
 
-For reference, these are the complete default settings for both targets: 
+These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
+
+{
+  "//": "these are all the options supported by jandoc",
+  
+  "options": [
+    "input", 
+    "output", 
+    "read", 
+    "write", 
+    "dataDir", 
+    "strict", 
+    "parseRaw", 
+    "smart", 
+    "oldDashes", 
+    "baseHeaderLevel", 
+    "indentedCodeClasses", 
+    "nomalize", 
+    "preserveTabs", 
+    "tabStop", 
+    "standalone", 
+    "template", 
+    "variable", 
+    "printDefaultTemplate", 
+    "noWrap", 
+    "columns", 
+    "toc", 
+    "noHighlight", 
+    "highlightStyle", 
+    "includeInHeader", 
+    "includeBeforeBody", 
+    "includeAfterBody", 
+    "selfContained", 
+    "offline", 
+    "html5", 
+    "ascii", 
+    "referenceLinks", 
+    "atxHeaders", 
+    "chapters", 
+    "numberSections", 
+    "noTexLigatures", 
+    "listings", 
+    "incremental", 
+    "slideLevel", 
+    "sectionDivs", 
+    "emailObfuscation", 
+    "idPrefix", 
+    "titlePrefix", 
+    "css", 
+    "referenceOdt", 
+    "referenceDocx", 
+    "epubStylesheet", 
+    "epubCoverImage", 
+    "epubMetadata", 
+    "epubEmbedFont", 
+    "latexEngine", 
+    "bibliography", 
+    "csl", 
+    "citationAbbreviations", 
+    "natbib", 
+    "biblatex", 
+    "latexmathml", 
+    "asciimathml", 
+    "mathml", 
+    "mimetex", 
+    "webtex", 
+    "jsmath", 
+    "mathjax", 
+    "gladtex", 
+    "dumpArgs", 
+    "ignoreArgs", 
+    "version", 
+    "help"
+  ]
+}
+
+
+
+
+For reference, these are the complete default settings, generall and for both targets: 
 
 ```js
     {
