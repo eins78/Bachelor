@@ -159,11 +159,13 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 **Content Options:**
 
 `strict`
-:   enable old-school markdown
+:   just use the original Markdown
 
 `read`
-:   - either
-    - or read any otherinput format supported by **`pandoc`** (HTML, LaTeX, textile, MediaWiki, …)
+:   - define Markdown flavour
+        * `markdown`: pandoc's Markdown
+        * `markdown`: pandoc's Markdown
+    - or define any other input format supported by **`pandoc`** (HTML, LaTeX, textile, MediaWiki, …)
 
 ---
 
