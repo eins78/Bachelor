@@ -10,12 +10,12 @@ The basic rules are very simple:
 * there is one **'configuration'** file
 * there is at least one **'document'** in the folder and the configuration
 
-```
-Project/
-├── document.md
-└── papermill.json
-    └─> { "input": "document.md" }
-```
+> ```
+> Project/
+> ├── document.md
+> └── papermill.json
+>     └─> { "input": "document.md" }
+> ```
 
 **'Documents'** contain the content of your project.
 
