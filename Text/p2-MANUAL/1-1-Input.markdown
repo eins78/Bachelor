@@ -37,8 +37,6 @@ Project/
 
 They are plain text files, formatted in `Markdown`. 
 
-A project also can have more than one document.
-
 For more flexibility while writing, a document can also be it's own **folder**. 
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
@@ -53,6 +51,9 @@ Project/
 └── papermill.json
     └─> { "input": "Text" }
 ```
+
+A project also can have more than one document, although the convention is that their *content should be related*.  This can for example be used to produce different parts of a dissertation that should be printed seperately.
+
 
 The **configuration** file is the second most important part of a project. It contains all the information *about* the project needed to produce 'output'. \
 
