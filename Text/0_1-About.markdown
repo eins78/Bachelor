@@ -1,9 +1,9 @@
-<!-- % Papermill \
+% Papermill \
   *Books in a Browser*
 % Max F. Albrecht
 % Bachelor Thesis, \
   Bauhaus-Universität Weimar, \
-  2013 -->
+  2013
 
 <!--                                               -->
 <!-- we only the declare the first part as "part"… -->
