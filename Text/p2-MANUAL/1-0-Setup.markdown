@@ -200,6 +200,7 @@ For reference, these are the complete default settings, general and for both tar
 ```js
     {
       "path": "_output",
+      
       "read": "markdown",
       "standalone": true,
       "selfContained": true,
@@ -207,6 +208,7 @@ For reference, these are the complete default settings, general and for both tar
       "toc": true,
       "normalize": true,
       "numberSections": true,
+      
       "web": {
         "write": "html5",
         "sectionDivs": true,
@@ -215,6 +217,7 @@ For reference, these are the complete default settings, general and for both tar
           "scripts": true
         }
       },
+      
       "print": {
         "class": "report",
         "latexEngine": "xelatex",
