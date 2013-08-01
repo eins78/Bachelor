@@ -22,9 +22,9 @@ And there are IDEs, integrated developement environments; and of course every st
 
 The basic rules are very simple:
 
-* every project has it's own **folder**
-* there is at least one **document**
+* every **project** has it's own folder
 * there is one **configuration** file
+* there is at least one **document** in the folder and the configuration
 
 ```
 Project/
