@@ -103,6 +103,6 @@ This object can also contain a 'list' of documents, which will be treated as sub
 
 ### Output
 
-The 'output' property defines how the 'input' documents will be converted to an format suitable for reading (*'compiled'*).
+The 'output' defines how the 'input' documents will be converted (*'compiled'*) to a **'target'** (a format suitable for reading).
 
 I
