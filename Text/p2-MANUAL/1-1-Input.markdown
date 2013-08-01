@@ -49,7 +49,12 @@ Project/
     └─> { "input": "Text" }
 ```
 
-The configuration file is the 
+The **configuration** file is the second most important part of your project. \
+It is a text file, enconded in the `JSON` format
+
+
+
+As we have seen in the examples above, it 
 
 While the document can be internally seperated into distinct parts, these always have a sequential order, so that the comlete text can be seen as a single stream.
 
