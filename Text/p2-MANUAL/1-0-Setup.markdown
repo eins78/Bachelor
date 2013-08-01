@@ -68,6 +68,16 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 
 As we have already seen in the examples above, the configuration defines at least one document as 'input'.
 
+It can be just a string, defining the **`path`** to a document.
+
+```
+    { "input": "document.md" }
+```
+
+
+
 ### Output
 
 The 'output' property defines how the 'input' documents will be converted to an format suitable for reading (*'compiled'*).
+
+I
