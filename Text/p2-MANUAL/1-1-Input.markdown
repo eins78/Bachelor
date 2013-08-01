@@ -33,7 +33,10 @@ Project/
     └─> { "input": "document.md" }
 ```
 
-**'Documents'** are plain text files, formatted in `Markdown`. \
+**'Documents'** contain the content of your project.
+
+They are plain text files, formatted in `Markdown`. A project also can have more than one document.
+
 For more flexibility while writing, a document can also be it's own **folder**. 
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
@@ -51,7 +54,9 @@ Project/
 
 The **configuration** file is the second most important part of your project. \
 It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
-"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use."[@js:goodparts, p. 136]
+"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
+
+The configuration contains all the information *about* your projects and its documents.
 
 As we have seen in the examples above, it 
 
