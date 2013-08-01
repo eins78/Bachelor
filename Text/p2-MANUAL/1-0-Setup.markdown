@@ -212,6 +212,12 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
     * `date`
     * `lang`
     * `class` (=`documentclass`)
+    * `mainfont`, `sansfont`, `monofont`, `mathfont`
+    * `linkcolor`
+    * `urlcolor`
+    * `links-as-notes`
+
+---
 
 For reference, these are the complete **default settings**, general and for both targets: 
 
