@@ -165,8 +165,12 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   - define Markdown flavour
         * `markdown`: pandoc's Markdown
         * `markdown_strict`: original Markdown
+        * `markdown_github`: [GitHub flavored Markdown][GFM]
+        * `markdown_phpextra`: original Markdown
         
     - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, textile, MediaWiki, …)
+
+[GFM]: https://help.github.com/articles/github-flavored-markdown
 
 ---
 
