@@ -30,6 +30,20 @@ Practically, this means that you can just start writing a new chapter whenever y
 
 ```
     Project/
+    ├── A-Document
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    ├── Another-Document.md
+    └── papermill.json
+        └── > { "input": ["A-Document", "Another-Document"] }
+```
+
+A project also can have more than one document, although the convention is that their *content should be related*. 
+This can for example be used to produce different parts of a dissertation that should be printed seperately.
+
+```
+    Project/
     ├── Text
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
@@ -37,9 +51,6 @@ Practically, this means that you can just start writing a new chapter whenever y
     └── papermill.json
         └─> { "input": "Text" }
 ```
-
-A project also can have more than one document, although the convention is that their *content should be related*. 
-This can for example be used to produce different parts of a dissertation that should be printed seperately.
 
 ## Configuration
 
