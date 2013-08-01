@@ -1,6 +1,9 @@
 # Setup
 
-`papermill` is, at it's core, a formalized configuration, aiming to suit all kinds of long-form text.
+`papermill` is, at it's core, a formalized project structure with configuration.
+
+These are the elements you need to know about. It might seem complicated, but keep in mind that you can start of you own project
+
 
 ## Project
 
@@ -27,7 +30,7 @@ For more flexibility while writing, a document can also be it's own **folder**.
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
 
-Practically, this means that you can just start writing a new chapter whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
+Practically, this means that you can just start writing new chapters whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
 
 ```
     Project/
@@ -35,9 +38,8 @@ Practically, this means that you can just start writing a new chapter whenever y
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
     │   └── 3-another-chapter.md
-    ├── More-Text.md
     └── papermill.json
-        └── > { "input": [ "Text", "More-Text.md" ] }
+        └─> { "input": "Text" }
 ```
 
 A project can have more than one document, although the convention is that their *content should be related*. 
@@ -49,8 +51,9 @@ This can for example be used to produce different parts of a dissertation that s
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
     │   └── 3-another-chapter.md
+    ├── More-Text.md
     └── papermill.json
-        └─> { "input": "Text" }
+        └── > { "input": [ "Text", "More-Text.md" ] }
 ```
 
 ## Configuration
