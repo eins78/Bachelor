@@ -163,6 +163,9 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `strict`
 :   enable old-school markdown
 
+`read`
+:   any input format supported by **`pandoc`**
+
 
 **Visual/Layout Options:**
 
@@ -190,10 +193,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   "Number section headings" *(print only)*
 
 
-**Custom Layouts:**
-
-`read`
-:   an input format supported by **`pandoc`**
+**Custom Output:**
 
 `write`
 :   an output format supported by **`pandoc`**
@@ -207,11 +207,11 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `variable`
 :   set template variables
 
-    * author
-    * title
-    * date
-    * lang
-
+    * `author`
+    * `title`
+    * `date`
+    * `lang`
+    * `class` (=`documentclass`)
 
 For reference, these are the complete **default settings**, general and for both targets: 
 
