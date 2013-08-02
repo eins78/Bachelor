@@ -135,8 +135,16 @@ This also increases the clarity of the document source, especially because block
 
 paragraph
 :   a paragraph is any lines of text, **followed by a blank line** (because it is a 'block element').
+
+    ```
+    This is a paragraph.
     
-    *Note:* How Markdown handles paragraphs and linebreaks might be the most alienating thing about it  when they get started. It takes some getting used to, but as you will see it increases flexibility while writing.
+    This is the next paragraph.
+    ```
+    
+    How Markdown handles paragraphs and linebreaks might be the most alienating thing 
+    about it. It takes some getting used to, but increases flexibility while writing because 
+    linebreaks can be inserted to break long lines in the source, without effecting the output.
     
 
 heading
