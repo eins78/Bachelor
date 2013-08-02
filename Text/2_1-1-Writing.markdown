@@ -56,10 +56,17 @@ fixed-width
 (macrotypography)
 
 headings
-:   A heading is created by a line starting with one or more `#` *(hash)* characters.
+:   A heading is created by a line starting with one or more `#` *(hash)* characters. It has to be followed by a blank line. The number of hashes denotes the heading's **level**.
 
-    `# Primary Heading` \
-    `=>` # Primary Heading
+    ```
+    # Top-Level Heading
+    
+    Some text.
+    
+    ## Second-Level Heading
+    
+    More text.
+    ``` 
 
 
 
