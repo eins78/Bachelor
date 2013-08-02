@@ -55,7 +55,7 @@ fixed-width
 
 (macrotypography)
 
-All structural elements have to be preceded and followed by a blank line, so they are set apart from the rest apart. This also increases the clarity of the document source.
+All structural elements have to be *preceded and followed by a blank line*, so they are set apart from the rest apart. This also increases the clarity of the document source.
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
@@ -72,7 +72,7 @@ heading
 
 
 unordered list
-:   bullet-point lists are written 
+:   bullet-point lists are one 
 
 
 ## Citations and Bibliography
