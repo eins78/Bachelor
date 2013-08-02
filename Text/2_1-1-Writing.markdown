@@ -108,7 +108,9 @@ images
 
 
 figures:
-:   a line of text with just an image in it is interpreted as a 'figure'
+:   a line of text with just an *image* is interpreted as a 'figure'. 
+    This means it will be a separate document element, set centered and scaled down to the page width if it is to big. ![Screen Shot 2013 08 02 At 13.42.42](../../../../Desktop/Screen%20Shot%202013-08-02%20at%2013.42.42.png)
+    More importantly, the image description is 
 
 \ ![Icon Folder Git](../_images/icon-folder-git.png)
 
