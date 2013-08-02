@@ -62,23 +62,18 @@ verbatim
 
     **Bad:** 
     
-    ``In HTML, there is a <blink> tag`` \
-    `=>` In HTML, there is a <blink> tag
+    ``This is how to *emphasize* in Markdown.`` \
+    ``In HTML, there is a <blink> tag``
+    
+    `=>` This is how to *emphasize* in Markdown. \
+    In HTML, there is a <blink> tag
     
     **Good:** 
 
     ``In `HTML`, there is a `<blink>` tag`` \
     `=>` In `HTML`, there is a `<blink>` tag
 
-    **Bad:** 
 
-    ``"In comics, people curse like this: "*!#&*%?"`"` \
-    `=>` In comics, people curse like this: "☠*!#**&%**?*"
-
-    **Good:** 
-
-    ``In a `*Nix` shell, the `*` means 'everything'`` \
-    `=>` In a `*Nix` shell, the `*` means 'everything'
 
 
 ### Text Elements
