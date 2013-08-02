@@ -44,9 +44,10 @@ strong emphasis
     `=>` this **word** is more important
 
 fixed-width
-:   to set something in fixed-with, for example names of programms, put a `` ` `` character directly around it, two of them if the enc
+:   to set something in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
 
-    ```less` is more``
+    ```less` is more`` \
+    `=>` `less` is more
 
 
 
