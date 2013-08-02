@@ -228,17 +228,21 @@ code block
         More text.
         ```
 
-    2. *or* put a "fence" of at least 3 backticks around it
+    2. *or* put a "fence" of (at least) 3 backticks around it. 
+       With this syntax, a language can optionally be specified (for syntax highlighting), 
+       by writing it after the opening line of backticks: 
     
-        ```
+        ``````
         Some `JavaScript` code:
 
-            var form = function (content) {
-              follow(content);
-            };
+        ```
+        var form = function (content) {
+          follow(content);
+        };
+        ```
 
         More text.
-        ```
+        ``````
 
 
 nesting elements
