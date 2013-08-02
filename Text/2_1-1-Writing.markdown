@@ -77,8 +77,6 @@ verbatim
     In `HTML`, there is a `<blink>` tag.
 
 
-
-
 ### Text Elements
 
 These all work with words and phrases.
