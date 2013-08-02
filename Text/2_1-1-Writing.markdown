@@ -60,9 +60,16 @@ verbatim
 
     ``In `HTML`, there is a `<blink>` tag`` \
     `=>` In `HTML`, there is a `<blink>` tag
+    
+    Good: 
 
     ``In a `*Nix` shell, the `*` means 'everything'`` \
-    `=>` In a `*Nix` shell, there * means 'everything'
+    `=>` In a `*Nix` shell, the `*` means 'everything'
+
+    Bad: 
+
+    ``In a *Nix shell, the * means 'everything'`` \
+    `=>` In a *Nix shell, the* means 'everything'
 
 ### Text Elements
 
