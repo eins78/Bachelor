@@ -72,8 +72,8 @@ verbatim
 
     **Bad:** 
 
-    ``In comics, people curse like this: "!#&%?"`` \
-    `=>` In comics, people curse like this: "!#&%?"
+    ``"In comics, people curse like this: "*!#&*%?"`"` \
+    `=>` In comics, people curse like this: "☠*!#**&%**?*"
 
     **Good:** 
 
