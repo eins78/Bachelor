@@ -58,6 +58,8 @@ verbatim
     ```less` is more`` \
     `=>` `less` is more
 
+    ``In `HTML`, there is a `<blink>` tag`` \
+    `=>` In `HTML`, there is a `<blink>` tag
 
 ### Text Elements
 
