@@ -210,14 +210,15 @@ list nesting
     ```
 
 blockquote
-:   For larger citations, start the line with a `>` *(greater-then)* character, just like in an email:
+:   For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
 
     ```
     One of my favorite quotes:
     
     > "Most quotes you find on the internet 
-    > are wrongly attributed." — *Oscar Wilde*
+    > are wrongly attributed." — Oscar Wilde
     ```
+
 
 ## Citations and Bibliography
 
