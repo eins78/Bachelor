@@ -72,7 +72,15 @@ heading
 
 
 unordered list
-:   bullet-point lists are one 
+:   bullet-point lists are one or more lines starting with a `-` (minus) character
+
+    ```
+    A list:
+    
+    - lists
+    - some
+    - things
+    ```
 
 
 ## Citations and Bibliography
