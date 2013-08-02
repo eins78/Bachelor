@@ -32,21 +32,21 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 These all work with words and phrases.
 
 emphasis
-:   to emphasize something, put `*` symbols directly around it
+:   to emphasize something, put `*` *(star)* symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 strong emphasis
-:   to strongly something, put 2 `*` symbols directly around it
+:   to strongly something, put 2 `*` *(star)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
 
 fixed-width
-:   to set something in fixed-with, for example names of programms, put a `````
+:   to set something in fixed-with, for example names of programms, put a `` ` `` character directly around it, two of them if the enc
 
-```less` is more``
+    ```less` is more``
 
 
 
