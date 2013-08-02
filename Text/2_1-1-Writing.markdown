@@ -85,14 +85,14 @@ links (reference-style)
     ```
 
 images
-:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. 
+:   Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. 
 
     - text inside the anchor is used as the image description
     - the target denotes the path to the image
     - images can have the following formats: 'JPG', 'GIF, 'PNG'
     - the description will only be visible if the image is a **figure** (see next element)
     
-    *Note:* It has to point to a valid image file on your computer, see the section on [assets] for more information.
+    *Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
 
     ```
     ![Image Description](/path/to/image.jpg)
@@ -108,7 +108,7 @@ images
 
 
 figures:
-:   a line of text with just an image in it is interpreted
+:   a line of text with just an image in it is interpreted as a 'figure'
 
 \ ![Icon Folder Git](../_images/icon-folder-git.png)
 
