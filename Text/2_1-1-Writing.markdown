@@ -1,6 +1,6 @@
 # Input
 
-## text editor
+## Text editor
 
 Choose a text editor *you* are comfortable with.
 It should support plain text, but even Microsoft Word does this (reluctantly).
@@ -9,9 +9,13 @@ Generally, we can distinguish between two different kinds of text editors:
 
 a) the very minimalistic editors, with limited functionality, like the ones that ship 
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
+b) IDEs, integrated developement environments
+c) every step in between, of course
 
-b) IDEs, integrated developement environments; and of course every step in between.
+Recommendations: [`TextMate`][tm] (Mac, openSource), [`SublimeText`][st] (Mac, Windows, Linux; not openSource but friendly)
 
+[tm]: http://macromates.com
+[st]: 
 
 ## (**`pandoc`**'s) Markdown
 
