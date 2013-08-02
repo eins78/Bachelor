@@ -13,7 +13,6 @@
     "web": true,
     "print": {
       "class": "book",
-      "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro"
     }
   }
