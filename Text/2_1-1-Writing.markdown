@@ -215,7 +215,8 @@ blockquote
     ```
 
 code block
-:   like the *'verbatim'* text formatting, but in a block. There are two ways to achive this:
+:   like the *'verbatim'* text formatting, but in a block. \
+    There are two ways to achive this:
 
     1. Indent every line by 4 spaces: 
 
@@ -235,7 +236,7 @@ code block
         ``````
         Some `JavaScript` code:
 
-        ```
+        ```js
         var form = function (content) {
           follow(content);
         };
