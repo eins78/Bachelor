@@ -308,7 +308,7 @@ nesting elements
 ### Attributes
 
 Attributes (metadata) can be added to heading and code block elements.
-These are usefull when costumizing the project. 
+These are usefull when costumizing the project, especially when working with the `HTML` output. 
 In the simplest form, they can be used to style these elements visually, 
 but the possibilities are endless.
 
@@ -316,6 +316,32 @@ Attributes are written inside `{}` *(curly braces)* at the end of the elements' 
 
 ID
 :   give the element an identifier
+
+    ```
+    # Heading {#myid}
+    ```
+    
+    results in the following `HTML`:
+    
+    ```
+    # Heading {#myid}
+    ```
+    
+# Heading {#myid}
+
+class
+:   give the element a class
+
+    ```
+    # Heading {#id}
+    ```
+
+general attribute
+:   give the element a general attribute
+
+    ```
+    # Heading {#id}
+    ```
 
 
 ## Citations and Bibliography
