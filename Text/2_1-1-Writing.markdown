@@ -15,7 +15,7 @@ c) every step in between, of course
 Recommendations: [`TextMate`][tm] (Mac, openSource), [`SublimeText`][st] (Mac, Windows, Linux; not openSource but friendly)
 
 [tm]: http://macromates.com
-[st]: 
+[st]: http://www.sublimetext.com
 
 ## (**`pandoc`**'s) Markdown
 
