@@ -33,4 +33,13 @@ A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.
 
 > "If you wish to translate the book, […] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
 
-But if
+[TODO]
+
+### Editions
+
+[TODO]
+
+- mark parts of the document as
+    - only included in specified editions
+    - be excluded from specified editions
+
