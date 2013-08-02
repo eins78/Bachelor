@@ -131,7 +131,11 @@ image
 
 Also called 'block elements', because they form their own 'block' of content.
 The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
-This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*)
+This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*).
+
+paragraph
+:   a paragraph is any lines of text, followed by a blank line (because it is a 'block element').
+    How Markdown handles paragraphs and linebreaks might be the most alienating thing abouth writers when they get started. It takes some getting used to, but as you will see it increases flexibility while writing.
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
