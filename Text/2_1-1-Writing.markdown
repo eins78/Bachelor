@@ -50,8 +50,8 @@ strong emphasis
     `this **word** is more important` \
     `=>` this **word** is more important
 
-fixed-width
-:   To set a phrase in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
+verbatim
+:   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
 
     ```less` is more`` \
     `=>` `less` is more
