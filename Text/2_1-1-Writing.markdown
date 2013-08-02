@@ -89,7 +89,8 @@ images
 
     - text inside the anchor is used as the image description
     - the target denotes the path to the image
-    - Images can have the following formats: 'JPG', 'GIF, 'PNG'.
+    - images can have the following formats: 'JPG', 'GIF, 'PNG'
+    - the description will only be visible if the image is a **figure** (see next element)
     
     *Note:* It has to point to a valid image file on your computer, see the section on [assets] for more information.
 
@@ -109,7 +110,7 @@ images
 figures:
 :   a line of text with just an image in it is interpreted
 
- ![Icon Folder Git](../_images/icon-folder-git.png) ffobar.
+\ ![Icon Folder Git](../_images/icon-folder-git.png)
 
 ### Document Structure Elements
 
