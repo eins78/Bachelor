@@ -156,6 +156,15 @@ paragraph
     
     Conversely, this doesn't work for specific text, like poems. 
     To **force a line break**, end the line with a `\` *(backslash)* character.
+    
+    ```
+    Roses are red, \
+    Violets are blue, \
+    Sugar is sweet, \
+    And so are you.
+    ```
+    
+    ([poem source](https://en.wikipedia.org/wiki/Roses_are_red))
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
