@@ -21,9 +21,9 @@ And there are IDEs, integrated developement environments; and of course every st
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
-Note: Less is more
+<!-- *Less is more:* Some things can be written in more than one way in Markdown. To be more concise, the following section only describes a carefully chosen subset of the allowed syntax.
 
-Some things can be written in more than one way in Markdown. To be more concise, the following section only describes a carefully chosen subset of the allowed Mark
+*More is more:* there are several extension to the syntax supported by pandoc. -->
 
 ### Basic Formatting
 
