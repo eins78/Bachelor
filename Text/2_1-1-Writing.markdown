@@ -17,6 +17,28 @@ Recommendations: [`TextMate`][tm] (Mac, openSource), [`SublimeText`][st] (Mac, W
 [tm]: http://macromates.com
 [st]: http://www.sublimetext.com
 
+## Document Structure
+
+- Titleblock
+    * Title
+    * Author
+    * Date
+
+- Front Matter
+    * Table of Contents
+    * Abstract
+    * etc.
+
+- **Document Content**
+
+- Appendix
+    * Bibliography
+    * List of images/figures
+    * Colophon
+    * Affidavit
+    * etc.
+
+
 ## (**`pandoc`**'s) Markdown
 
 The Markdown syntax aims to be easy to learn, type and read for humans.
