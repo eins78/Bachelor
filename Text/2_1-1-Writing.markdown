@@ -34,7 +34,8 @@ emphasis
     `=>` this *word* is important
 
 strong emphasis
-:   `this **word** is more important` => this **word** is more important
+:   `this **word** is more important` \
+    `=>` this **word** is more important
 
 
 
