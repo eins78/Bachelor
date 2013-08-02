@@ -315,26 +315,32 @@ but the possibilities are endless.
 Attributes are written inside `{}` *(curly braces)* at the end of the elements' first line.
 
 ID
-:   give the element an identifier
+:   give the element an identifier. 
 
     ```
-    # Heading {#myid}
+    # Heading {#my-id}
     ```
     
     results in the following `HTML`:
     
     ```
-    # Heading {#myid}
+    <h1 id="my-id">Heading</h1>
     ```
     
-# Heading {#myid}
 
 class
 :   give the element a class
 
     ```
-    # Heading {#id}
+    # Heading {.my-class}
     ```
+    
+    results in the following `HTML`:
+    
+    ```
+    <h1 id="heading" class="my-class">Heading</h1>
+    ```
+    
 
 general attribute
 :   give the element a general attribute
