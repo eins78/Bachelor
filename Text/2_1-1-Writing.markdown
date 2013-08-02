@@ -45,14 +45,20 @@ emphasis
     `this *word* is important` \
     `=>` this *word* is important
 
+
 strong emphasis
 :   To strongly emphasize a phrase, put 2 `*` *(star)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
+
     
-strikethrough
-:   
+strikeout
+:   To strike a phrase out, put 2 `~` *(tilde)* characters before and after it
+
+    `this ~~word~~ is striked out` \
+    `=>` this ~~word~~ is striked out
+
 
 verbatim
 :   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
@@ -91,8 +97,9 @@ link (inline)
     ```
     Some text [linking somewhere else](http://example.com).
     [Internal links](#Chapter) are also possible.
-    
     ```
+
+
 link (reference-style)
 :   For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 
@@ -107,6 +114,7 @@ link (reference-style)
     [links]: http://example.com/link
     [ugly]: http://example.com/ugly
     ```
+
 
 image
 :   Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. Also see: **figure**.
