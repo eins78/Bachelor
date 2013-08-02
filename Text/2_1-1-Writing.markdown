@@ -62,16 +62,19 @@ verbatim
 
     **Bad:** 
     
-    ``This is how to *emphasize* in Markdown.`` \
-    ``In HTML, there is a <blink> tag``
+    ``My *product* name has stars around it.`` \
+    ``In HTML, there is a <blink> tag.``
     
-    `=>` This is how to *emphasize* in Markdown. \
-    In HTML, there is a <blink> tag
+    `=>` My *product* name has stars around it. \
+    In HTML, there is a <blink> tag.
     
     **Good:** 
 
-    ``In `HTML`, there is a `<blink>` tag`` \
-    `=>` In `HTML`, there is a `<blink>` tag
+    ``My `*`product`*` name has stars around it.`` \
+    ``In `HTML`, there is a `<blink>` tag.`` \
+    
+    `=>` My `*`product`*` name has stars around it. \
+    In `HTML`, there is a `<blink>` tag.
 
 
 
