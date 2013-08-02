@@ -161,15 +161,30 @@ unordered list
     ```
     
     With sub-elements (see *'nesting elements'*)
-    ```
-    A list:
-
-    - first item, followed by blank line (=> paragraph)
     
-    - this item 
+    ```
+    A nested list:
+
+    - first item, followed by blank line (it's a paragraph!)
+    
+    - this item
+        - has
+        - some
+        - subitems
     
     - this
     ```
+    
+    A nested list:
+
+    - first item, followed by blank line (it's a paragraph!)
+    
+    - this item
+        - has
+        - some
+        - subitems
+    - this
+    
     
 
 ordered list
