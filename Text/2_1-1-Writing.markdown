@@ -134,7 +134,7 @@ The have to be *preceded and followed by a blank line*, so they are set apart fr
 This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*).
 
 paragraph
-:   a paragraph is any lines of text, **followed by a blank line** (because it is a 'block element').
+:   a paragraph is any lines of text, **followed by a blank line** (because it is a 'block element'). All line breaks inside a paragraph are **ignored**!
 
     ```
     This is a paragraph.
@@ -154,6 +154,8 @@ paragraph
     This is the next paragraph.
     ```
     
+    Conversely, this doesn't work for specific text, like poems. 
+    To **force a line break**, end the line with a `\` *(backslash)* character.
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
