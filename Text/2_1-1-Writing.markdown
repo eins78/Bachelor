@@ -188,7 +188,7 @@ ordered list
     ```
 
 list nesting
-:    ordered and unordered lists can both nested elements. `TODO: explain only nesting`
+:    ordered and unordered lists can both nested elements. `TODO: explain only nesting once???`
 
     - Any list item followed by a blank line is considered a paragraph
     - Addional elements in the list are indented by 4 spaces
