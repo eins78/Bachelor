@@ -30,7 +30,9 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 (microtypography)
 
 emphasis
-:   `this *word* is important` \
+:   to emphasize a word or phrase, put `*` symbols directly around it
+
+    `this *word* is important` \
     `=>` this *word* is important
 
 strong emphasis
