@@ -1,0 +1,18 @@
+{
+  "author": "Max F. Albrecht",
+  "name": "Papermill",
+  "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar",
+  "version": "0.0.0",
+  "private": true,
+  "bibliography": "bibliography.bib",
+  "input": {
+    "path": "Text"
+    },
+  "output": {
+    "path": "_output",
+    "web": true,
+    "print": {
+      "class": "book"
+    }
+  }
+}

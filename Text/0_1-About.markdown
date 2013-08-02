@@ -1,15 +1,15 @@
-<!-- % Papermill \
+% Papermill \
   *Books in a Browser*
 % Max F. Albrecht
 % Bachelor Thesis, \
   Bauhaus-Universität Weimar, \
-  2013 -->
+  2013
 
 <!--                                               -->
 <!-- we only the declare the first part as "part"… -->
 <!--                                               -->
-<!-- \setcounter{part}{-1} -->
-<!-- \part{Preface} -->
+\setcounter{part}{-1}
+\part{Preface}
 <!--                                               -->
 
 ## About this document
