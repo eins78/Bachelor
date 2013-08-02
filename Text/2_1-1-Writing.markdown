@@ -76,15 +76,28 @@ unordered list
 
     ```
     A list:
-    
+
     - lists
     - some
     - things
-    
+
     More text.
     ```
 
+ordered list
+:   numbered lists are one or more lines starting with a `number` and a `.` (period) character
 
+    ```
+    A list:
+
+    - lists
+    - some
+    - things
+
+    More text.
+    ```
+
+ 
 ## Citations and Bibliography
 
 - everybody needs to quote stuff
