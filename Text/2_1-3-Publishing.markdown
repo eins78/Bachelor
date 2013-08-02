@@ -18,3 +18,12 @@
 
 - Font used in LaTeX templated is [Computer Modern], also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. Example: Title page for a letterpressed cover
 
+
+# Troubleshooting
+
+
+## Markdown
+
+Something I wrote is interpreted as Markdown, but I don't want that.
+
+Example: How to write words with \*stars\* but are not emphasis?
