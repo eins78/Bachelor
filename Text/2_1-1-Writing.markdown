@@ -39,25 +39,30 @@ Some things can be written in more than one way in Markdown. To be more concise,
 These all work with words and phrases.
 
 emphasis
-:   to emphasize something, put `*` *(star)* symbols directly around it
+:   to emphasize a phrase, put `*` *(star)* symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 strong emphasis
-:   to strongly something, put 2 `*` *(star)* symbols directly around it
+:   to strongly a phrase, put 2 `*` *(star)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
 
 fixed-width
-:   to set something in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
+:   to set a phrase in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
 
     ```less` is more`` \
     `=>` `less` is more
 
 
 ### Text Elements
+
+These all work with words and phrases.
+
+links
+:   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target
 
 ### Document Structure Elements
 
