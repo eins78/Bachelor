@@ -305,6 +305,16 @@ nesting elements
     - Last paragraph.
     ```
 
+### Attributes
+
+Attributes (metadata) can be added to heading and code block elements.
+These are usefull when costumizing the project. 
+In the simplest form, they can be used to style these elements visually, 
+but the possibilities are endless.
+
+ID
+:   give the element an identifier
+
 
 ## Citations and Bibliography
 
