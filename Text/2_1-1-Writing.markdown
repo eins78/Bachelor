@@ -29,7 +29,7 @@ This following is based on
 John Grubers original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
 John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
-Some things can be written in more than one way in Markdown. To be more concise, it  only describes a carefully chosen subset of the allowed syntax.
+Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
 
 ### Basic Formatting
