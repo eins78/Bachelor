@@ -70,6 +70,13 @@ links
     
     ```
 
+    Alternative: For a more readable source, the anchor can also be put seperately.
+    
+    ```
+    For a more readable [source], the anchor can also be put seperate.
+    
+    [source]: http://example.com
+    ```
 ### Document Structure Elements
 
 (macrotypography)
