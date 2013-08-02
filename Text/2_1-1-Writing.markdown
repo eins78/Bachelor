@@ -35,7 +35,8 @@ Recommendations:
 
 - **Document Content**
     * Chapters
-        * 
+        * Sections, Subsections
+            * Text
 
 - Appendix
     * Bibliography
