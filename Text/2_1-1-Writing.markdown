@@ -36,7 +36,7 @@ emphasis
     `=>` this *word* is important
 
 strong emphasis
-:   to emphasize a word or phrase, put `*` symbols directly around it
+:   to strongly emphasize a word or phrase, put 2 `*` symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
