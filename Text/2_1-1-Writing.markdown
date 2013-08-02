@@ -146,6 +146,14 @@ paragraph
     about it. It takes some getting used to, but increases flexibility while writing because 
     linebreaks can be inserted to break long lines in the source, without effecting the output.
     
+    ```
+    This is all 
+    just one 
+    paragraph.
+    
+    This is the next paragraph.
+    ```
+    
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
