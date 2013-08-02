@@ -53,14 +53,18 @@ strong emphasis
 verbatim
 :   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
 
-    Inside a verbatim phrase, **no other syntax is interpreted**! 
-    This is important when something needs to be written that also could be interpreted as Markdown:
-
     ```less` is more`` \
     `=>` `less` is more
 
+    Inside a verbatim phrase, **no other syntax is interpreted**! \
+    This is especially important when something needs to be written 
+    that also could be interpreted as Markdown, HTML or LaTeX:
+
     ``In `HTML`, there is a `<blink>` tag`` \
     `=>` In `HTML`, there is a `<blink>` tag
+    
+    ``In HTML, there is a <blink> tag`` \
+    `=>` In HTML, there is a <blink> tag
     
     Good: 
 
