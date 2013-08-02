@@ -77,9 +77,11 @@ links
     also in square brackets:
     
     ```
-    A sentence with [lots] of [links] would look [messy][] quickly.
+    A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
     
     [lots]: http://example.com
+    [links]: http://example.com/link
+    [ugly]: http://example.com/ugly
     ```
 ### Document Structure Elements
 
