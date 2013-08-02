@@ -60,12 +60,11 @@ strikeout
     `=>` this ~~word~~ is striked out
 
 subscript, superscript
-:   - To put a phrase into subscript, put a `~` *(tilde)* character before and after it
-    - To put a phrase into subscript, put a `~` *(tilde)* character before and after it
-
-
-
-:   
+:   - to put a phrase into superscript, put a `^` *(caret)* character before and after it
+    - for subscript, use the `~` *(tilde)* character
+    
+    `H~2~O is a liquid.  2^10^ is 1024.` \
+    `=>` H~2~O is a liquid.  2^10^ is 1024.
 
 
 verbatim
