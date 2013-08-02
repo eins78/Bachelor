@@ -117,7 +117,7 @@ figure:
     ![Figure caption](/path/to/image.jpg)
     ```
     
-    *Trick:* To insert a seperate picture without turing it into a figure, 
+    *Trick:* To insert a seperate picture without turning it into a figure, 
     for example when including a logo, insert a 'invisible whitespace' before it, like this:
 
     ```
