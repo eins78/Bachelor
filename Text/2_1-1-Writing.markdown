@@ -62,7 +62,11 @@ fixed-width
 These all work with words and phrases.
 
 links
-:   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target
+:   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parentheses)*.
+
+    ```
+    [anchor](target)
+    ```
 
 ### Document Structure Elements
 
