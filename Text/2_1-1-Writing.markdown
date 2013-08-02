@@ -51,7 +51,9 @@ strong emphasis
     `=>` this **word** is more important
 
 verbatim
-:   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
+:   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
+
+    Inside a verbatim phrase, **no other syntax is interpreted**!
 
     ```less` is more`` \
     `=>` `less` is more
