@@ -165,27 +165,14 @@ unordered list
     ```
     A nested list:
 
-    - first item, followed by blank line (it's a paragraph!)
-    
+    - first item
     - this item
-        - has
-        - some
-        - subitems
-    
-    - this
+        - has subitems
+        - which are intended
+        - with 4 spaces
+    - last item
     ```
-    
-    A nested list:
 
-    - first item, followed by blank line (it's a paragraph!)
-    
-    - this item
-        - has
-        - some
-        - subitems
-    - this
-    
-    
 
 ordered list
 :   numbered lists are one or more lines starting with a `number` and a `.` (period) character
@@ -234,15 +221,25 @@ code block
 
         ```
         Some code:
-    
+
             var form = function (content) {
               follow(content);
             };
-        
+
         More text.
         ```
-    
+
     2. *or* put a "fence" of at least 3 backticks around it
+    
+        ```
+        Some code:
+
+            var form = function (content) {
+              follow(content);
+            };
+
+        More text.
+        ```
 
 
 nesting elements
