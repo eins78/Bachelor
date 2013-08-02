@@ -29,20 +29,26 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 
 (microtypography)
 
+These all work with words and phrases.
+
 emphasis
-:   to emphasize a word or phrase, put `*` symbols directly around it
+:   to emphasize something, put `*` symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 strong emphasis
-:   to strongly emphasize a word or phrase, put 2 `*` symbols directly around it
+:   to strongly something, put 2 `*` symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
 
 fixed-width
-:   ```less` is more``
+:   to set something in fixed-with, for example names of programms, put a `````
+
+```less` is more``
+
+
 
 ### Structural Elements
 
