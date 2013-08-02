@@ -73,7 +73,7 @@ links
     Alternatives: For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 
     followed by an `:` (colon) and the link.
-    To give a different name to an anchor, write it directly after the anchor, 
+    A different name can be given to an anchor, by writing directly after it, 
     also in square brackets:
     
     ```
