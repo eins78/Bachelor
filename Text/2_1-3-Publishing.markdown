@@ -26,4 +26,10 @@
 
 Something I wrote is interpreted as Markdown, but I don't want that.
 
-Example: How to write words with \*stars\* but are not emphasis?
+Example: How to write words with \*stars\* but no emphasis?
+
+Solution: Backslash escapes
+
+```
+How to write words with \*stars\* but no emphasis?
+```
