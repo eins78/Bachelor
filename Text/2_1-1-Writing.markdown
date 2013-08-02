@@ -201,15 +201,17 @@ blockquote
 code block
 :   like the *'verbatim'* text formatting, but in a block. There are two ways to achive this:
 
-    1. Indent every line by 4 spaces 
+    1. Indent every line by 4 spaces: 
 
-    ```
-    Some code:
+        ```
+        Some code:
     
-        var form = function (content) {
-          follow(content);
-        };
-    ```
+            var form = function (content) {
+              follow(content);
+            };
+        
+        More text.
+        ```
     
     2. *or* put a "fence" of at least 3 backticks around it
 
