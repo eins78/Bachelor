@@ -59,6 +59,14 @@ strikeout
     `this ~~word~~ is striked out` \
     `=>` this ~~word~~ is striked out
 
+subscript, superscript
+:   - To put a phrase into subscript, put a `~` *(tilde)* character before and after it
+    - To put a phrase into subscript, put a `~` *(tilde)* character before and after it
+
+
+
+:   
+
 
 verbatim
 :   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
