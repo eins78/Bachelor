@@ -98,8 +98,15 @@ verbatim
 
 These all work with words and phrases.
 
+link (simple)
+:   The most simple link is just the target in `<>` *(pointy bracket)* characters. 
+
+    ```
+    A full link to <http://example.com>.
+    ```
+
 link (inline)
-:   A link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
+:   A normal link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
     Some text [linking somewhere else](http://example.com).
