@@ -108,11 +108,22 @@ image
 
 
 figure:
-:   A line of text with only an *image* is interpreted as a 'figure'. 
+:   A line of text with only an *image* (see above) is interpreted as a 'figure'. 
     This means it will be a separate, centered, document element.
     More importantly, the image description is used as the 'caption'.
+    In print, they will also be numbered chronologically throughout the document.
 
-\ ![Icon Folder Git](../_images/icon-folder-git.png)
+    ```
+    ![Figure caption](/path/to/image.jpg)
+    ```
+    
+    *Trick:* To insert a seperate picture without turing it into a figure, 
+    for example when including a logo, insert a 'invisible whitespace' before it, like this:
+
+    ```
+    \ ![This is not a figure](/path/to/image.jpg)
+    ```
+    
 
 ### Document Structure Elements
 
