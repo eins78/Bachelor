@@ -104,9 +104,12 @@ list nesting
 
     - A paragraph in a list.
     
+        Another paragraph belonging to the first item.
+    
     - Another paragraph.
     
     - Last paragraph.
+    
     ```
 
  
