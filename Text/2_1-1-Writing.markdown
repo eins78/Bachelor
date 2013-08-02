@@ -334,7 +334,7 @@ nesting elements
     ```
 
 ````{.edit}
-TODO: definition list, special list numbers, hrules, tables, titleblock
+TODO: definition list, special list numbers, hrules, tables, (mmd_)titleblock, footnotes, citations, 
 ````
 
 ### Attributes
