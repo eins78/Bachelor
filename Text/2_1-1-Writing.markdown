@@ -87,6 +87,9 @@ links (reference-style)
 images
 :   the syntax for images is the same as an inline links, starting with `!` *(exclamation mark)* character. It has to point to a valid image file on your computer, see the section on [assets] for more information.
 
+    ```
+    ![Image Description](/path/to/image.jpg)
+    ```
 
 ### Document Structure Elements
 
