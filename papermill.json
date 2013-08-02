@@ -12,7 +12,9 @@
     "path": "_output",
     "web": true,
     "print": {
-      "class": "book"
+      "class": "book",
+      "mainfont": "Source Sans Pro",
+      "monofont": "Source Code Pro"
     }
   }
 }
