@@ -116,21 +116,6 @@ list nesting
     ```
 
 
-A nested list:
-
-- A paragraph in a list.
-
-    Another paragraph belonging to the first item.
-
-- Another paragraph.
-
-    - The second list item
-    - contains itself
-    - another list
-
-- Last paragraph.
-
- 
 ## Citations and Bibliography
 
 - everybody needs to quote stuff
