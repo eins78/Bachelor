@@ -95,20 +95,20 @@ image
     *Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
 
     ```
-    ![Image Description](/path/to/image.jpg)
+    Text with image ![Image Description](/path/to/image.jpg) inside.
     ```
 
     *or*
 
     ```
-    ![Another Image][picture-id]
+    Text with image ![Another Image][picture-id] inside.
     
     [picture-id]: /path/to/image.jpg
     ```
 
 
 figure:
-:   A line of text with just an *image* is interpreted as a 'figure'. 
+:   A line of text with only an *image* is interpreted as a 'figure'. 
     This means it will be a separate, centered, document element.
     More importantly, the image description is used as the 'caption'.
 
