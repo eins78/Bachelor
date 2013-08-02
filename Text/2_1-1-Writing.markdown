@@ -65,7 +65,7 @@ links
 :   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
-    General: [anchor](target)
+    Some text [linking somewhere else](http://example.com).
     
     ```
 
