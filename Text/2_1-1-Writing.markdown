@@ -32,7 +32,7 @@ John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
 
-### Basic Formatting
+### Text Formatting
 
 (microtypography)
 
@@ -57,8 +57,9 @@ fixed-width
     `=>` `less` is more
 
 
+### Text Elements
 
-### Structural Elements
+### Document Structure Elements
 
 (macrotypography)
 
