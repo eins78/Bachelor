@@ -92,7 +92,7 @@ images
     ![Image Description](/path/to/image.jpg)
     ```
 
-    or
+    *or*
 
     ```
     ![Another Image][picture-id]
@@ -100,6 +100,12 @@ images
     [picture-id]: /path/to/image.jpg
     ```
 
+
+Inline image: ![Icon Folder Git](../_images/icon-folder-git.png)
+
+figure:
+
+![Icon Folder Repository](../_images/icon-folder-repository.png)
 
 ### Document Structure Elements
 
