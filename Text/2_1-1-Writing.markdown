@@ -39,19 +39,19 @@ Some things can be written in more than one way in Markdown. To be more concise,
 These all work with words and phrases.
 
 emphasis
-:   to emphasize a phrase, put `*` *(star)* symbols directly around it
+:   To emphasize a phrase, put `*` *(star)* symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 strong emphasis
-:   to strongly a phrase, put 2 `*` *(star)* symbols directly around it
+:   To strongly a phrase, put 2 `*` *(star)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
 
 fixed-width
-:   to set a phrase in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
+:   To set a phrase in fixed-with, for example names of programms, put a `` ` `` *(backtick)* character directly around it, two of them if the enclosed text itself contains a backtick.
 
     ```less` is more`` \
     `=>` `less` is more
@@ -62,7 +62,7 @@ fixed-width
 These all work with words and phrases.
 
 link (inline)
-:   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
+:   A link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
     Some text [linking somewhere else](http://example.com).
@@ -108,9 +108,9 @@ image
 
 
 figure:
-:   a line of text with just an *image* is interpreted as a 'figure'. 
-    This means it will be a separate document element, set centered and scaled down to the page width if it is to big. 
-    More importantly, the image description is 
+:   A line of text with just an *image* is interpreted as a 'figure'. 
+    This means it will be a separate, centered, document element.
+    More importantly, the image description is used as the 'caption'.
 
 \ ![Icon Folder Git](../_images/icon-folder-git.png)
 
