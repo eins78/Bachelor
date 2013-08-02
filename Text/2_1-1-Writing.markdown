@@ -23,7 +23,7 @@ Recommendations:
 
 ## Document Structure
 
-- Titleblock
+- Titleblock/-page
     * Title
     * Author
     * Date
