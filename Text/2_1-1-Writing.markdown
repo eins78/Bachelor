@@ -30,7 +30,12 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 (microtypography)
 
 emphasis
-:   `this *word* is emphasized`
+:   `this *word* is emphasized` => this *word* is emphasized
+
+strong emphasis
+:   `this **word** is strongly emphasized` => this **word** is strongly emphasized
+
+
 
 ### Structural Elements
 
