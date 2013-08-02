@@ -93,6 +93,18 @@ ordered list
     3. things
     ```
 
+list nesting
+:    ordered and unordered lists can both nested elements. 
+    Any line of the list which is followed by a blank line is considered a paragraph. 
+
+    ```
+    A nested list:
+
+    - lists
+    - some
+    - things
+    ```
+
  
 ## Citations and Bibliography
 
