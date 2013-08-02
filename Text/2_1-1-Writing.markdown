@@ -77,7 +77,7 @@ verbatim
     In `HTML`, there is a `<blink>` tag.
 
 
-### Text Elements
+### Basic Text Formatting
 
 These all work with words and phrases.
 
@@ -127,24 +127,6 @@ image
     ```
 
 
-figure:
-:   A line of text with only an *image* (see above) is interpreted as a 'figure'. 
-    This means it will be a separate, centered, document element.
-    More importantly, the image description is used as the 'caption'.
-    In print, they will also be numbered chronologically throughout the document.
-
-    ```
-    ![Figure caption](/path/to/image.jpg)
-    ```
-    
-    *Trick:* To insert a seperate picture without turning it into a figure, 
-    for example when including a logo, insert a 'invisible whitespace' before it, like this:
-
-    ```
-    \ ![This is not a figure](/path/to/image.jpg)
-    ```
-    
-
 ### Document Structure Elements
 
 All structural elements have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*)
@@ -186,6 +168,24 @@ ordered list
     ```
 
 
+figure:
+:   A line of text with only an *image* (see above) is interpreted as a 'figure'. 
+    This means it will be a separate, centered, document element.
+    More importantly, the image description is used as the 'caption'.
+    In print, they will also be numbered chronologically throughout the document.
+
+    ```
+    ![Figure caption](/path/to/image.jpg)
+    ```
+
+    *Trick:* To insert a seperate picture without turning it into a figure, 
+    for example when including a logo, insert a 'invisible whitespace' before it, like this:
+
+    ```
+    \ ![This is not a figure](/path/to/image.jpg)
+    ```
+
+
 blockquote
 :   For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
 
@@ -195,6 +195,7 @@ blockquote
     > "Most quotes you find on the internet 
     > are wrongly attributed." — Oscar Wilde
     ```
+
 
 nesting elements
 :    block elements can contain other block elements.
