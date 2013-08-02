@@ -315,7 +315,8 @@ but the possibilities are endless.
 Attributes are written inside `{}` *(curly braces)* at the end of the elements' first line.
 
 ID
-:   give the element an identifier. 
+:   set the `id` of an element. \
+    Headers always have an `id`, if it is not defined it will be auto-generated.
 
     ```
     # Heading {#my-id}
