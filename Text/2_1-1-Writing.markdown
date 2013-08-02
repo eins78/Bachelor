@@ -61,7 +61,7 @@ fixed-width
 
 These all work with words and phrases.
 
-links
+links (inline)
 :   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
@@ -69,8 +69,8 @@ links
     [Internal links](#Chapter) are also possible.
     
     ```
-
-    Alternatives: For a more readable source, the target can also be put seperately. 
+links (reference-style)
+:   For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 
     followed by an `:` (colon) and the link.
     A different name can be given to an anchor
@@ -83,6 +83,9 @@ links
     [links]: http://example.com/link
     [ugly]: http://example.com/ugly
     ```
+
+images
+:   the syntax for images lok almost like an inline linke
 ### Document Structure Elements
 
 (macrotypography)
