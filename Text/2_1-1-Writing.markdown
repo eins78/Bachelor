@@ -56,7 +56,11 @@ fixed-width
 (macrotypography)
 
 headings
-: 
+:   A heading is created by a line starting with one or more `#` *(hash)* characters.
+
+    `this *word* is important` \
+    `=>` this *word* is important
+
 
 
 ## Citations and Bibliography
