@@ -312,6 +312,8 @@ These are usefull when costumizing the project.
 In the simplest form, they can be used to style these elements visually, 
 but the possibilities are endless.
 
+Attributes are written inside `{}` *(curly braces)* at the end of the elements' first line.
+
 ID
 :   give the element an identifier
 
