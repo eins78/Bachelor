@@ -66,12 +66,12 @@ verbatim
     ``In HTML, there is a <blink> tag.``
     
     `=>` My *product* name has stars around it. \
-    In HTML, there is a <blink> tag.
+    In HTML, there is a tag.
     
     **Good:** 
 
     ``My `*`product`*` name has stars around it.`` \
-    ``In `HTML`, there is a `<blink>` tag.`` \
+    ``In `HTML`, there is a `<blink>` tag.``
     
     `=>` My `*`product`*` name has stars around it. \
     In `HTML`, there is a `<blink>` tag.
