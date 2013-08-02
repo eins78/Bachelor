@@ -85,7 +85,12 @@ links (reference-style)
     ```
 
 images
-:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. The text inside the anchor is used as the image description, the target denoted the image to be inserted. Images can have the following formats: 'JPG', 'GIF, 'PNG'. \
+:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. 
+
+    - text inside the anchor is used as the image description
+    - the target denotes the path to the image
+    - Images can have the following formats: 'JPG', 'GIF, 'PNG'.
+    
     *Note:* It has to point to a valid image file on your computer, see the section on [assets] for more information.
 
     ```
@@ -101,11 +106,10 @@ images
     ```
 
 
-Inline image: ![Icon Folder Git](../_images/icon-folder-git.png)
+figures:
+:   a line of text with just an image in it is interpreted
 
-figure:
-
-![Icon Folder Repository](../_images/icon-folder-repository.png)
+ ![Icon Folder Git](../_images/icon-folder-git.png) ffobar.
 
 ### Document Structure Elements
 
