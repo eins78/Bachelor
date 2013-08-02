@@ -24,12 +24,15 @@
 
 ## Markdown
 
-Something I wrote is interpreted as Markdown, but I don't want that.
+**Problem: **Something I wrote is interpreted as Markdown, but I don't want that.
 
-Example: How to write words with \*stars\* but no emphasis?
+*Example:* How to write words with \*stars\* but no emphasis?
 
-Solution: Backslash escapes
+*Solution: *Backslash escapes
 
 ```
 How to write words with \*stars\* but no emphasis?
 ```
+
+---
+

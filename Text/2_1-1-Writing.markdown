@@ -12,10 +12,14 @@ with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`)
 b) IDEs, integrated developement environments
 c) every step in between, of course
 
-Recommendations: [`TextMate`][tm] (Mac, openSource), [`SublimeText`][st] (Mac, Windows, Linux; not openSource but friendly)
+Recommendations: 
+
+- [`TextMate`][tm] (Mac, openSource)
+- [`SublimeText`][st] (Mac, Windows, Linux; not openSource but friendly)
 
 [tm]: http://macromates.com
 [st]: http://www.sublimetext.com
+
 
 ## Document Structure
 
