@@ -285,9 +285,9 @@ code block
 
 
 nesting elements
-:    block elements can contain other block elements
+:    Block elements can contain other block elements.
 
-    - Addional elements in the list are indented by 4 spaces
+    Each nested element has to be **indented by 4 spaces more** than the parent block.
 
     ```
     A nested list:
@@ -304,6 +304,25 @@ nesting elements
     
     - Last paragraph.
     ```
+
+A nested list:
+
+- A paragraph in a list.
+
+    Another paragraph belonging to the first item.
+
+- Another paragraph.
+
+    - The second list item
+    - contains itself
+    
+        > "A blockquote inside the second list."
+        
+    - another list
+
+- Last paragraph.
+
+
 
 ### Attributes
 
