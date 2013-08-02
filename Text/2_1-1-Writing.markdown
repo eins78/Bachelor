@@ -61,7 +61,7 @@ fixed-width
 
 These all work with words and phrases.
 
-links (inline)
+link (inline)
 :   a link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
@@ -69,7 +69,7 @@ links (inline)
     [Internal links](#Chapter) are also possible.
     
     ```
-links (reference-style)
+link (reference-style)
 :   For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 
     followed by an `:` (colon) and the link.
@@ -84,13 +84,13 @@ links (reference-style)
     [ugly]: http://example.com/ugly
     ```
 
-images
-:   Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. 
+image
+:   Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. Also see: **figure**.
 
     - text inside the anchor is used as the image description
     - the target denotes the path to the image
     - images can have the following formats: 'JPG', 'GIF, 'PNG'
-    - the description will only be visible if the image is a **figure** (see next element)
+    - the description will only be visible if the image is a *figure*
     
     *Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
 
@@ -107,9 +107,9 @@ images
     ```
 
 
-figures:
+figure:
 :   a line of text with just an *image* is interpreted as a 'figure'. 
-    This means it will be a separate document element, set centered and scaled down to the page width if it is to big. ![Screen Shot 2013 08 02 At 13.42.42](../../../../Desktop/Screen%20Shot%202013-08-02%20at%2013.42.42.png)
+    This means it will be a separate document element, set centered and scaled down to the page width if it is to big. 
     More importantly, the image description is 
 
 \ ![Icon Folder Git](../_images/icon-folder-git.png)
