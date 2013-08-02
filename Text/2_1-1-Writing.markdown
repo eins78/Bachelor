@@ -129,7 +129,9 @@ image
 
 ### Document Structure Elements
 
-All structural elements have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*)
+Also called 'block elements', because they form their own 'block' of content.
+The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
+This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*)
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
@@ -194,6 +196,15 @@ blockquote
     
     > "Most quotes you find on the internet 
     > are wrongly attributed." — Oscar Wilde
+    ```
+
+code block
+:   like the *'verbatim'* text formatting, but in a block. There are two ways to achive this:
+
+    - 
+
+    ```
+    Some code:
     ```
 
 
