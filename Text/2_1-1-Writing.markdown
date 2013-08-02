@@ -150,6 +150,8 @@ heading
 unordered list
 :   bullet-point lists are one or more lines starting with a `-` (minus) character
 
+    Simple:
+    
     ```
     A list:
 
@@ -157,6 +159,18 @@ unordered list
     - some
     - things
     ```
+    
+    With sub-elements (see *'nesting elements'*)
+    ```
+    A list:
+
+    - first item, followed by blank line (=> paragraph)
+    
+    - this item 
+    
+    - this
+    ```
+    
 
 ordered list
 :   numbered lists are one or more lines starting with a `number` and a `.` (period) character
@@ -217,9 +231,8 @@ code block
 
 
 nesting elements
-:    block elements can contain other block elements.
+:    block elements can contain other block elements
 
-    - Any list item followed by a blank line is considered a paragraph
     - Addional elements in the list are indented by 4 spaces
 
     ```
