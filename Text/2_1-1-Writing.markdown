@@ -46,7 +46,7 @@ Recommendations:
 
 
 Sources: [ziemann](http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf), 
-[]
+[wikibooks: latex](http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Top_matter)
 
 
 ## (**`pandoc`**'s) Markdown
