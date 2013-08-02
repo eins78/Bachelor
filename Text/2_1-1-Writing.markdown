@@ -155,8 +155,9 @@ paragraph
     This is the next paragraph.
     ```
     
-    Conversely, this doesn't work for specific text, like poems. 
-    To **force a line break**, end the line with a `\` *(backslash)* character.
+    Conversely, this doesn't work for specific text, where line breaks are important. \
+    To **force a line break**, end the line with a `\` *(backslash)* character. 
+    *Example [poem]:*
     
     ```
     Roses are red, \
@@ -165,7 +166,7 @@ paragraph
     And so are you.
     ```
     
-    ([poem source](https://en.wikipedia.org/wiki/Roses_are_red))
+    
 
 
 heading
