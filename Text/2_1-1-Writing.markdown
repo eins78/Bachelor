@@ -55,7 +55,8 @@ fixed-width
 
 (macrotypography)
 
-#### Headings
+headings
+: 
 
 
 ## Citations and Bibliography
