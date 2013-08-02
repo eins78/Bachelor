@@ -66,6 +66,7 @@ links
 
     ```
     Some text [linking somewhere else](http://example.com).
+    [Internal links](#Chapter) are also possible.
     
     ```
 
