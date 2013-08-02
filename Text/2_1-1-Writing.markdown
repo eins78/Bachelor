@@ -85,7 +85,7 @@ links (reference-style)
     ```
 
 images
-:   the syntax for images is the same as an inline links, starting with `!` *(exclamation mark)* character. It has to point to a valid image file on your computer, see the section on [assets] for more information.
+:   the syntax for images is the same as an inline links, starting with a `!` *(exclamation mark)* character. It has to point to a valid image file on your computer, see the section on [assets] for more information. The anchor of 
 
     ```
     ![Image Description](/path/to/image.jpg)
