@@ -8,8 +8,8 @@
 <!--                                               -->
 <!-- we only the declare the first part as "part"… -->
 <!--                                               -->
-\setcounter{part}{-1}
-\part{Preface}
+<!-- \setcounter{part}{-1} -->
+<!-- \part{Preface} -->
 <!--                                               -->
 
 ## About this document
