@@ -147,7 +147,7 @@ figure:
 
 ### Document Structure Elements
 
-All structural elements have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. This also increases the clarity of the document source.
+All structural elements have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*)
 
 heading
 :   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
@@ -185,8 +185,19 @@ ordered list
     3. things
     ```
 
-list nesting
-:    ordered and unordered lists can both nested elements. `TODO: explain only nesting once???`
+
+blockquote
+:   For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
+
+    ```
+    One of my favorite quotes:
+    
+    > "Most quotes you find on the internet 
+    > are wrongly attributed." — Oscar Wilde
+    ```
+
+nesting elements
+:    block elements can contain other block elements.
 
     - Any list item followed by a blank line is considered a paragraph
     - Addional elements in the list are indented by 4 spaces
@@ -205,21 +216,6 @@ list nesting
         - another list
     
     - Last paragraph.
-    ```
-
-### Block Elements
-
-Block elements also have to be *preceded and followed by a blank line*.
-
-
-blockquote
-:   For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
-
-    ```
-    One of my favorite quotes:
-    
-    > "Most quotes you find on the internet 
-    > are wrongly attributed." — Oscar Wilde
     ```
 
 
