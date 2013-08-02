@@ -80,21 +80,17 @@ unordered list
     - lists
     - some
     - things
-
-    More text.
     ```
 
 ordered list
 :   numbered lists are one or more lines starting with a `number` and a `.` (period) character
 
     ```
-    A list:
+    A numbered list:
 
-    - lists
-    - some
-    - things
-
-    More text.
+    1. lists
+    2. some
+    3. things
     ```
 
  
