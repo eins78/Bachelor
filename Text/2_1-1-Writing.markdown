@@ -350,8 +350,12 @@ general attribute
     # Heading {my-attribute=value}
     ```
 
+    results in the following `HTML`:
+    
+    ```
+    <h1 id="heading" my-attribute="value">Heading</h1>
+    ```
 
-# Heading {my-attribute=value}
 
 ## Citations and Bibliography
 
