@@ -30,10 +30,11 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 (microtypography)
 
 emphasis
-:   `this *word* is emphasized` => this *word* is emphasized
+:   `this *word* is important` \
+    `=>` this *word* is important
 
 strong emphasis
-:   `this **word** is strongly emphasized` => this **word** is strongly emphasized
+:   `this **word** is more important` => this **word** is more important
 
 
 
