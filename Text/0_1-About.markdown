@@ -5,12 +5,9 @@
   Bauhaus-Universität Weimar, \
   2013
 
-<!--                                               -->
-<!-- we only the declare the first part as "part"… -->
-<!--                                               -->
-<!-- \setcounter{part}{-1} -->
-<!-- \part{Preface} -->
-<!--                                               -->
+<!--                                                     -->
+<!-- Note: we only the declare the first part as "part"… -->
+<!--                                                     -->
 
 ## About this document
 
