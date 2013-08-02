@@ -46,10 +46,13 @@ emphasis
     `=>` this *word* is important
 
 strong emphasis
-:   To strongly a phrase, put 2 `*` *(star)* symbols directly around it
+:   To strongly emphasize a phrase, put 2 `*` *(star)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
+    
+strikethrough
+:   
 
 verbatim
 :   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
@@ -308,6 +311,9 @@ nesting elements
     - Last paragraph.
     ```
 
+````{.edit}
+TODO: definition list, special list numbers, hrules, tables, titleblock
+````
 
 ### Attributes
 
