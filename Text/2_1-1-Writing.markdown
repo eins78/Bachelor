@@ -28,7 +28,7 @@ Most of the text is simply plain text, but any kind of formatting is also entere
 ### Basic Formatting
 
 emphasis
-:   
+:   `this *word* is emphasized``
 
 ### Structural Elements
 
