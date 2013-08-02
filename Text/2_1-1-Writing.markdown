@@ -85,11 +85,19 @@ links (reference-style)
     ```
 
 images
-:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. The text inside the anchor is used as the image description, the target denoted the image to be inserted. \
+:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. The text inside the anchor is used as the image description, the target denoted the image to be inserted. Images can have the following formats: 'JPG', 'GIF, 'PNG'. \
     *Note:* It has to point to a valid image file on your computer, see the section on [assets] for more information.
 
     ```
     ![Image Description](/path/to/image.jpg)
+    ```
+
+    or
+
+    ```
+    ![Another Image][picture-id]
+    
+    [picture-id]: /path/to/image.jpg
     ```
 
 
