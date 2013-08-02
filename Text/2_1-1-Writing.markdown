@@ -34,6 +34,8 @@ Recommendations:
     * etc.
 
 - **Document Content**
+    * Chapters
+        * 
 
 - Appendix
     * Bibliography
@@ -41,6 +43,10 @@ Recommendations:
     * Colophon
     * Affidavit
     * etc.
+
+
+Sources: [ziemann](http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf), 
+[]
 
 
 ## (**`pandoc`**'s) Markdown
