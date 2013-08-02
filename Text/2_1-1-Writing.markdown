@@ -2,18 +2,15 @@
 
 ## text editor
 
-- You'll want a good one.
-
-What "good" means in the *context* of a text editor is the source of 
-almost religious between software developers, but this is not our concern here.
-
 Choose a text editor *you* are comfortable with.
 It should support plain text, but even Microsoft Word does this (reluctantly).
 
 Generally, we can distinguish between two different kinds of text editors: 
-There are the very minimalistic editors, with limited functionality, like the ones that ship 
+
+a) the very minimalistic editors, with limited functionality, like the ones that ship 
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
-And there are IDEs, integrated developement environments; and of course every step in between.
+
+b) IDEs, integrated developement environments; and of course every step in between.
 
 
 ## (**`pandoc`**'s) Markdown
@@ -166,7 +163,7 @@ paragraph
     And so are you.
     ```
     
-    
+    [poem]: https://en.wikipedia.org/wiki/Roses_are_red
 
 
 heading
