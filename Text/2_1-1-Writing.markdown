@@ -58,8 +58,8 @@ fixed-width
 headings
 :   A heading is created by a line starting with one or more `#` *(hash)* characters.
 
-    `this *word* is important` \
-    `=>` this *word* is important
+    `# Primary Heading` \
+    `=>` # Primary Heading
 
 
 
