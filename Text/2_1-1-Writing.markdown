@@ -102,9 +102,11 @@ list nesting
     ```
     A nested list:
 
-    - lists
-    - some
-    - things
+    - A paragraph in a list.
+    
+    - Another paragraph.
+    
+    - Last paragraph.
     ```
 
  
