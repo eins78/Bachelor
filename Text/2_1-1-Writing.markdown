@@ -61,6 +61,9 @@ verbatim
     ``In `HTML`, there is a `<blink>` tag`` \
     `=>` In `HTML`, there is a `<blink>` tag
 
+    ``In a `*Nix` shell, the `*` means 'everything'`` \
+    `=>` In a `*Nix` shell, there * means 'everything'
+
 ### Text Elements
 
 These all work with words and phrases.
