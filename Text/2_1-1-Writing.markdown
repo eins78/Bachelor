@@ -85,14 +85,13 @@ links (reference-style)
     ```
 
 images
-:   the syntax for images is the same as an inline links, starting with a `!` *(exclamation mark)* character.  The anchor of interpreted as the\
+:   the syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. The text inside the anchor is used as the image description. \
     *Note:* It has to point to a valid image file on your computer, see the section on [assets] for more information.
 
     ```
     ![Image Description](/path/to/image.jpg)
     ```
 
-![description](../_images/bold-italic-buttons.png "Bold Italic Buttons")
 
 ### Document Structure Elements
 
