@@ -220,11 +220,10 @@ code block
     1. Indent every line by 4 spaces: 
 
         ```
-        Some code:
+        Some `BASIC` code:
 
-            var form = function (content) {
-              follow(content);
-            };
+            10 PRINT "Hello World"
+            20 GOTO 10
 
         More text.
         ```
@@ -232,7 +231,7 @@ code block
     2. *or* put a "fence" of at least 3 backticks around it
     
         ```
-        Some code:
+        Some `JavaScript` code:
 
             var form = function (content) {
               follow(content);
