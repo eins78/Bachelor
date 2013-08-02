@@ -344,12 +344,14 @@ class
     
 
 general attribute
-:   give the element a general attribute
+:   give the element a general attribute, with an optional value
 
     ```
-    # Heading {#id}
+    # Heading {my-attribute=value}
     ```
 
+
+# Heading {my-attribute=value}
 
 ## Citations and Bibliography
 
