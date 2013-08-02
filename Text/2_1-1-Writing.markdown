@@ -95,7 +95,8 @@ ordered list
 
 list nesting
 :    ordered and unordered lists can both nested elements. 
-    Any line of the list which is followed by a blank line is considered a paragraph. 
+
+    - Any list item followed by a blank line is considered a paragraph. 
 
     ```
     A nested list:
