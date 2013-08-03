@@ -1,6 +1,6 @@
-# Publishing
+## Publishing
 
-## Web
+### Web
 
 - it's just HTML, go upload it onto some host
 
@@ -12,17 +12,17 @@
 - PDF is also an option, but the default PDF settings in pm are for print, for example links are moved to footnotes.
 
 
-## Print
+### Print
 
 - If you want to print and bind two-sided: there is a documentclass "book", which among other things adds extra margins in the center of each double page.
 
 - Font used in LaTeX templated is [Computer Modern], also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. Example: Title page for a letterpressed cover
 
 
-# Troubleshooting
+## Troubleshooting
 
 
-## Markdown
+### Markdown
 
 **Problem: **Something I wrote is interpreted as Markdown, but I don't want that.
 

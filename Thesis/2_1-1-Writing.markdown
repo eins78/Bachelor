@@ -1,6 +1,6 @@
-# Input
+## Input
 
-## Text editor
+### Text editor
 
 Choose a text editor *you* are comfortable with.
 It should support plain text, but even Microsoft Word does this (reluctantly).
@@ -21,7 +21,7 @@ Recommendations:
 [st]: http://www.sublimetext.com
 
 
-## Document Structure
+### Document Structure
 
 - Titleblock/-page
     * Title
@@ -50,7 +50,7 @@ Sources: [ziemann](http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaft
 [wikibooks: latex](http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Top_matter)
 
 
-## (**`pandoc`**'s) Markdown
+### (**`pandoc`**'s) Markdown
 
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
@@ -66,7 +66,7 @@ John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
 
-### Text Formatting
+#### Text Formatting
 
 (microtypography)
 
@@ -127,7 +127,7 @@ verbatim
     In `HTML`, there is a `<blink>` tag.
 
 
-### Basic Text Formatting
+#### Basic Text Formatting
 
 These all work with words and phrases.
 
@@ -186,7 +186,7 @@ image
     ```
 
 
-### Document Structure Elements
+#### Document Structure Elements
 
 Also called 'block elements', because they form their own 'block' of content.
 The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
@@ -370,7 +370,7 @@ nesting elements
 TODO: definition list, special list numbers, hrules, tables, (mmd_)titleblock, footnotes, citations, 
 ````
 
-### Attributes
+#### Attributes
 
 Attributes (metadata) can be added to heading and code block elements.
 These are usefull when costumizing the project, especially when working with the `HTML` output. 
@@ -422,7 +422,7 @@ general attribute
     ```
 
 
-## Citations and Bibliography
+### Citations and Bibliography
 
 - everybody needs to quote stuff
 - with papermill, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
@@ -430,7 +430,7 @@ general attribute
 - you then use a link-like syntax, with the id, like so: `See [@id, pp. 23-42]`
 
 
-### Database
+#### Database
 
 - bibtex
 - json
@@ -439,7 +439,7 @@ general attribute
     - { "bibliography": "foo.bib" }
 
 
-### Citation Style
+#### Citation Style
 
 - is a matter of taste and style
 - but also differs by institution

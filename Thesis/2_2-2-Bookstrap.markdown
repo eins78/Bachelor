@@ -1,6 +1,6 @@
-# Bookstrap
+## Bookstrap
 
-## design principles
+### design principles
 
 - build for modern web
 - web standards
@@ -8,7 +8,7 @@
   - mobile first, inherited from the parent framework bootstrap
   - 
   
-## CSS
+### CSS
 
 - less
 - small components, 
