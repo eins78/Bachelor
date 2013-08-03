@@ -1,6 +1,3 @@
-<!-- no "parts" for now -->
-\part{Introduction}
-<!-- <h1 id="information">Information</h1> -->
 
 # Glossary
 
