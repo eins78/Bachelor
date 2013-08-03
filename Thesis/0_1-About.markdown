@@ -22,6 +22,8 @@ In **Part 3**, [`C0DE`](#c0de),
 the complete and in large parts annotated source code of the `papermill` project can be inspected. 
 It is a hommage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
 
+\vfill
+\pagebreak
 
 ### Typographic conventions
 
@@ -46,3 +48,6 @@ foreign terms
 "double quotes" \
 quotation
 
+
+\vfill
+\pagebreak
