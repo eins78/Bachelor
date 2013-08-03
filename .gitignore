@@ -8,3 +8,4 @@ _output/
 
 *.generated.*
 _stash/
+/node_modules/
