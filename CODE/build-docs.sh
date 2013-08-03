@@ -16,7 +16,7 @@ git submodule update --init
 # prepare
 cd $SOURCES
 OUTPUT="../../../$DOCS"
-echo "" > $OUTPUT
+cat /dev/null > $OUTPUT
 
 # LOOP LIST
 for FILE in $LIST; do
