@@ -1,3 +1,6 @@
 [submodule "CODE/sources/mill"]
 	path = CODE/sources/mill
 	url = https://github.com/papermill/mill.git
+[submodule "CODE/sources/pandocco"]
+	path = CODE/sources/pandocco
+	url = https://github.com/papermill/pandocco.git
