@@ -6,6 +6,11 @@
   2013
 
 
+<!-- only for print: -->
+\vfill
+\pagebreak
+
+
 ## About this document
 
 This is the theoretical part of my bachelor thesis, 'Papermill'.
