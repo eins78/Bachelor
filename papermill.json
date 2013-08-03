@@ -4,18 +4,21 @@
   "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar",
   "version": "0.0.0",
   "private": true,
-  "bibliography": "bibliography.bib",
-  "csl": "/.papermill/ieee-with-url.csl",
   "input": {
+    "bibliography": "bibliography.bib",
+    "csl": "/.papermill/ieee-with-url.csl",
     "list": [
       "Thesis",
       {
         "path": "CODE/C0DE.md",
-        "author": "Max F. Albrecht \n<1@178.is>",
+        "author": "Max F. Albrecht <1@178.is>",
         "title": "Papermill: C0DE",
         "date": "2013-08-09",
-        "listings": true,
-        "smart": false
+        "print": {
+          "listings": true,
+          "smart": false,
+          "template": "CODE/sources/pandocco/pandocco.latex"
+        }          
       }
     ]
   },
@@ -26,9 +29,7 @@
       "class": "book",
       "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro",
-      "fontsize": "11pt",
-      "template":
-        "CODE/sources/pandocco/pandocco.latex"
+      "fontsize": "11pt"
     }
   },
   "dependencies": {
