@@ -1,19 +1,48 @@
 {
+  "name": "papermill",
   "author": "Max F. Albrecht",
-  "name": "Papermill",
   "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar",
   "version": "0.0.0",
   "private": true,
   "bibliography": "bibliography.bib",
+  "csl": "/.papermill/ieee-with-url.csl",
   "input": {
-    "path": "Text"
-    },
+    "list": [
+      "Thesis",
+      {
+        "path": "CODE/C0DE.md",
+        "author": "Max F. Albrecht \n<1@178.is>",
+        "title": "Papermill: C0DE",
+        "date": "2013-08-09",
+        "listings": true,
+        "smart": false
+      }
+    ]
+  },
   "output": {
     "path": "_output",
     "web": true,
     "print": {
       "class": "book",
-      "monofont": "Source Code Pro"
+      "mainfont": "Source Sans Pro",
+      "monofont": "Source Code Pro",
+      "fontsize": "11pt",
+      "template":
+        "CODE/sources/pandocco/pandocco.latex"
     }
+  },
+  "dependencies": {
+    "docco": "https://github.com/papermill/docco/tarball/papermill"
+  },
+  "scripts": {
+    "precompile": "./CODE/build-docs.sh"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://eins78@github.com/eins78/Bachelor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eins78/Bachelor/issues"
   }
 }

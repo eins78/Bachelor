@@ -8,3 +8,6 @@ _output/
 
 *.generated.*
 _stash/
+/node_modules/
+
+/CODE/C0DE.md
