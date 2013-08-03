@@ -5,6 +5,7 @@
   "version": "0.0.0",
   "private": true,
   "bibliography": "bibliography.bib",
+  "csl": "/.papermill/ieee-with-url.csl",
   "input": {
     "list": [
       "Thesis",
