@@ -1,4 +1,4 @@
-# Versioning
+## Versioning
 
 In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
 By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the developement of the document and possibly even the thought process of the author.
@@ -20,7 +20,7 @@ It's usage grew hand in hand with the popularity of [*GitHub*](https://github.co
 including a web view for all files and content of the repository. 
 
 
-## Git
+### Git
 
 This chapter might seem overly technical, but I have broken down what one needs to know about **`git`** to an absolute minimum. For example, won't explain in detail how to use the **`git`** command line, or any other **`git`** interface.
 
@@ -37,7 +37,7 @@ On the other hand, this same knowledge should enable you to learn how to use any
    > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, […] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds some gravitas to his testimony.)
 
 
-## Repository
+### Repository
 
 The most basic term a one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
@@ -68,7 +68,7 @@ It may sound like "magic" at times, so keep in mind: It is just a very simple (b
 If the folder is copied as a whole, the `.git` folder is still inside, meaning the complete versioned history is included, for good or bad.
 If just single files from the folder are copied somewhere else, the `.git` is not copied with them, thus not including the history/database.
 
-## Clone and Fork
+### Clone and Fork
 
 - if repo not started locally, must clone
 
@@ -77,7 +77,7 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 - fork is any clone with changes!
 
 
-## Commit
+### Commit
 
 **"commiting"** is the activity of saving your changes into the **`git`** database, 
 the result of this is also called a **"commit"**.
@@ -127,7 +127,7 @@ Furthermore, the hash of every commit is used by `git` in the background to make
 
 
 
-### Automatic commiting
+#### Automatic commiting
 
 If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
 
@@ -145,7 +145,7 @@ If you don't wan't to commit manually, there are two software tools that handle 
     *  may be integrated into the `papermill` project
 
 
-## Branch
+### Branch
 
 We already established that **clones** are copies of a **repository**, and **forks** are **clones** with any changes not found elsewhere.
 
@@ -163,7 +163,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 [^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
 
-## Push
+### Push
 
 - repo can have one or more remotes
 - remotes are other places where copies of the repo exist
@@ -177,7 +177,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 - uses: backup, collabo
 
 
-## Collaboration
+### Collaboration
 
 - goes hand in hand with versioning
 - fun fact: collaboration can also happen between 1 person (me, and me from last week)
@@ -187,7 +187,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 ![A small repository on github](../_images/screenshot-github-user-repo.png)
 
 
-### Merging
+#### Merging
 
 If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with other. Even when using paper, they are the same:
 

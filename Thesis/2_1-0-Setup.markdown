@@ -1,4 +1,4 @@
-# Setup
+## Setup
 
 `papermill` is, at it's core, a formalized project structure with configuration.
 
@@ -8,7 +8,7 @@ Also, keep in mind that you can start you own project from a [**stationery**](ht
 – preconfigured templates that include everything mentioned here. The are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 
-## Project
+### Project
 
 The basic rules are very simple:
 
@@ -24,7 +24,7 @@ The basic rules are very simple:
 ```
 
 
-## Document
+### Document
 
 **'Documents'** contain the content of your project. \
 They are plain text files, formatted in `Markdown`. 
@@ -59,7 +59,7 @@ This can for example be used to produce different parts of a dissertation that s
         └── > { "input": [ "Text", "More-Text.md" ] }
 ```
 
-## Configuration
+### Configuration
 
 The **configuration** file is the second most important part of a project. \
 It contains all the information *about* the project needed to produce 'output'.
@@ -70,7 +70,7 @@ It is also a text file, but enconded in [`JSON`](http://www.JSON.org/),
 ```{.edit}
 TODO: move to "config" section
 ```
-### Input
+#### Input
 
 As we have already seen in the examples above, the configuration defines an 'input', which is at least a **`path`** to a document.
 
@@ -102,7 +102,7 @@ This object can also contain a 'list' of documents, which will be treated as sub
 ```
 
 
-### Output
+#### Output
 
 The 'output' defines how the 'input' documents will be converted (*'compiled'*) to a **target** (a format suitable for reading).
 
