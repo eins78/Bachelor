@@ -92,4 +92,12 @@ The changed article is then converted back into the classic Wikitext. This conve
 
 ---
 
+liberal input, strict output
+
+---
+
+framework: do, just document, dont do
+
+---
+
 # Refs
