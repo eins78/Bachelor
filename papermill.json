@@ -12,10 +12,6 @@
       "Introduction",
       "Manual",
       {
-        "path": "Manual",
-        "geometry": "a5paper"
-      },
-      {
         "path": "CODE/C0DE.md",
         "output": {
           "web": false,
