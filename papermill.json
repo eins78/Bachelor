@@ -5,15 +5,18 @@
   "version": "0.0.0",
   "private": true,
   "input": {
+    "xauthor": "Max F. Albrecht",
     "bibliography": "bibliography.bib",
     "csl": "/.papermill/ieee-with-url.csl",
     "list": [
-      "Thesis",
+      "Introduction",
+      "Manual",
+      {
+        "path": "Manual",
+        "geometry": "a5paper"
+      },
       {
         "path": "CODE/C0DE.md",
-        "author": "Max F. Albrecht <1@178.is>",
-        "title": "Papermill: C0DE",
-        "date": "2013-08-09",
         "output": {
           "web": false,
           "listings": true,

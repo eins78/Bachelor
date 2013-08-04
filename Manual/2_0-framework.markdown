@@ -1,3 +1,9 @@
+% Papermill: **Manual**
+% Max F. Albrecht
+% Bachelor Thesis, \
+  Bauhaus-Universität Weimar, \
+  2013
+
 # Manual
 
 ## The (anti-)framework    {#manual}

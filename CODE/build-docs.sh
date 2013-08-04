@@ -16,7 +16,10 @@ git submodule update --init
 # prepare
 cd $SOURCES
 OUTPUT="../../../$DOCS"
-cat /dev/null > $OUTPUT
+echo "% Papermill: **C0DE**"        > $OUTPUT
+echo "% Max F. Albrecht <1@178.is>" >> $OUTPUT
+echo "% $(date '+%FT%T')"           >> $OUTPUT
+echo ""                             >> $OUTPUT
 
 # LOOP LIST
 for FILE in $LIST; do
