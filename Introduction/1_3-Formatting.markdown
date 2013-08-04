@@ -1,6 +1,6 @@
-## Formatting
+# Formatting
 
-### Markup and Markdown
+## Markup and Markdown
 
 Historically, formatting has always been "embedded" into the final document by the author or writer. 
 Any emphasis, the position of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
@@ -30,7 +30,7 @@ Note that there are alternatives in the market, but these are mostly aimed at ve
 An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allowing input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
 
 
-### Common Pitfalls
+## Common Pitfalls
 
 - historic connotations - traditional way to stylize intend (partly cause of the confusion)
 - ex: the intent is *emphasize*
@@ -69,7 +69,7 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 > [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
-### Types of formatting
+## Types of formatting
 
 Before we look at how these problems are solved in the realm of
 software developement, let's enumerate what I mean by "formatting":
