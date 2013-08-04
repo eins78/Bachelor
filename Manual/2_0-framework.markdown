@@ -4,9 +4,9 @@
   Bauhaus-Universität Weimar, \
   2013
 
-# Manual
 
-## The (anti-)framework    {#manual}
+
+# The (anti-)framework
 
 Papermill is a modular, decooupled framework.
 
@@ -26,7 +26,7 @@ this has several implications:
 - can be supported by multiple tool, services, projects, …
 
 
-## Cross-media publishing
+# Cross-media publishing
 
 - one of the main goals of this project
 
@@ -48,7 +48,7 @@ goal: to define every important element with a general syntax, allowing it to be
 That means a carefull weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
     
 
-## Walkthrough
+# Walkthrough
 
 The following part of the *MANUAL* should explain all the steps neccessary to procuce 
 a publication with `papermill`.
