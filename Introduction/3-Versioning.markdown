@@ -42,7 +42,7 @@ On the other hand, this same knowledge should enable you to learn how to use any
 The most basic term a one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
 
-!['Repository' Folder ](../_images/icon-folder-repository.png)
+!['Repository' Folder ](../_images/git/icon-folder-repository.png)
 
 This is not even wrong: If you directly edit files in a `git` repository on 
 your computer, it will be there just like any other folder.
@@ -57,9 +57,9 @@ So, what makes this folder special?
 Inside of it, there is one more thing: 
 a **`hidden folder`** called `.git`!
 
-!['.git' Folder](../_images/icon-folder-git.png)
+!['.git' Folder](../_images/git/icon-folder-git.png)
 
-As a user, you never directly use this folder, but it is good to know where it is and what's it's purpose.[^fn-git-folder] 
+As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
 It contains lots of meta-data and also a small database-like storage. 
 The **`git`** software reads and writes to this storage to faciltate all the nice things described further in this chapter. 
 It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) programm which reads and writes to this small database inside your repository.
@@ -81,7 +81,7 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 
 **"commiting"** is the activity of saving your changes into the **`git`** database, 
 the result of this is also called a **"commit"**.
-Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it's best to think of every commit as a "version" of your project. 
+Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it is best to think of every commit as a "version" of your project. 
 You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to a list changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
 
 Let's take a look at how to do a commit:
@@ -184,7 +184,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 *GitHub* has also played a vital role in shaping the ways people are collaborating using *git*.
 
-![A small repository on github](../_images/screenshot-github-user-repo.png)
+![A small repository on github](../_images/git/screenshot-github-user-repo.png)
 
 
 ### Merging

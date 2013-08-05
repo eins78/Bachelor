@@ -16,7 +16,7 @@ This is the theoretical part of my bachelor thesis, 'Papermill'.
 For the sake of usefullness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
-The instructional character of this document has several small implications regarding it's structure. 
+The instructional character of this document has several small implications regarding its structure. 
 
 **Part 1** starts with the [Glossary](#glossary), which may be skipped by technically advanced readers. It explains several important technical topics which are set in a **`bold-monospaced font`** throughout the rest of the thesis. It is followed by an introduction into the different aspects of my reasearch and practical work. This also serves as a foundation for the following parts by familarizing the reader with the general concepts and problems in the scope of this project.
 

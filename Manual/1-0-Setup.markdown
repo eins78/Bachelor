@@ -1,6 +1,6 @@
 # Setup
 
-`papermill` is, at it's core, a formalized project structure with configuration.
+`papermill` is, at its core, a formalized project structure with configuration.
 
 These are the elements you need to know about. It might seem complicated, but most of that is only needed for more complicated projects.
 
@@ -12,7 +12,7 @@ Also, keep in mind that you can start you own project from a [**stationery**](ht
 
 The basic rules are very simple:
 
-* every **'project'** has it's own folder
+* every **'project'** has its own folder
 * there is one **'configuration'** file
 * there is at least one **'document'**, in the folder and the configuration
 
@@ -29,7 +29,7 @@ The basic rules are very simple:
 **'Documents'** contain the content of your project. \
 They are plain text files, formatted in `Markdown`. 
 
-For more flexibility while writing, a document can also be it's own **folder**. 
+For more flexibility while writing, a document can also be its own **folder**. 
 All `Markdown`-files in it will be combined
 into one single document, in alphabetical order.
 
@@ -140,7 +140,7 @@ Moreover, any additional settings for one of those targets can be given in an ob
     }
 ```
 
-Because the document conversion is handled by **`pandoc`**, all it's settings are supported (written a little bit different, `--some-setting` becomes `someSetting`). 
+Because the document conversion is handled by **`pandoc`**, all its settings are supported (written a little bit different, `--some-setting` becomes `someSetting`). 
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 

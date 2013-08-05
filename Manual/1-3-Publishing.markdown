@@ -2,7 +2,7 @@
 
 ## Web
 
-- it's just HTML, go upload it onto some host
+- it is just HTML, go upload it onto some host
 
 - self-contained: assets go inside
     - good for outside of web: email, downloads, mobile devices, usb sticks etc

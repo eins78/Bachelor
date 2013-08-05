@@ -24,9 +24,13 @@
   },
   "output": {
     "path": "_output",
-    "web": true,
+    "web": {
+      "defaultImageExtension": "svg"
+    },
     "print": {
       "class": "book",
+      "geometry": "a4paper, centering, bindingoffset=15mm",
+      "defaultImageExtension": "pdf",
       "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro",
       "fontsize": "11pt"
