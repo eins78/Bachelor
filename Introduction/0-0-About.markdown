@@ -13,7 +13,7 @@
 ## About this document
 
 This is the theoretical part of my bachelor thesis, 'Papermill'.
-For the sake of usefullness, it doubles as the first version of an
+For the sake of usefulness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
 The instructional character of this document has several small implications regarding its structure. 
