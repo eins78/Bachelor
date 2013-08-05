@@ -47,11 +47,12 @@ An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Fra
 
 ## Common Pitfalls
 
+<!-- narrative:
 - historic connotations - traditional way to stylize intend (partly cause of the confusion)
 - ex: the intent is *emphasize*
    - the "default" style is an *italic* font variant
    - historically also underlining has been used
-   - in a web browser, this can be taken quite literally:
+   - in a web browser, this can be taken quite literally: -->
 
 The relationship between formatting, typography and design 
 is a common source of confusion. 
