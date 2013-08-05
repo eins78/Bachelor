@@ -12,7 +12,6 @@ Some things can be written in more than one way in Markdown. To be more concise,
 
 ### Text Formatting
 
-(micro-typography)
 
 These all work with words and phrases.
 
@@ -74,11 +73,19 @@ that also could be interpreted as Markdown, HTML or LaTeX:
 
 [backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
 
-### Basic Text Formatting
+
+### Special Elements
 
 These all work with words and phrases.
 
-#### link (simple)
+#### Links
+
+A **link** consists of two units: a **target** and an **anchor**. 
+The target is the link's destination and the anchor which is the part of the document that 'links' to the target. 
+
+For example, in a web browser, the user clicks the anchor to go to the target.
+
+##### plain
 
 The most simple link is just the target in `<>` *(pointy bracket)* characters. 
 
@@ -88,7 +95,7 @@ The most simple link is just the target in `<>` *(pointy bracket)* characters.
 
 #### link (inline)
 
-A normal link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
+The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
     Some text [linking somewhere else](http://example.com).
