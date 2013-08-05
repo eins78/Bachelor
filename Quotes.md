@@ -100,4 +100,10 @@ framework: do, just document, dont do
 
 ---
 
+"EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS ARE TO BE PURCHASED, LEASED, etc., etc. Apple is an innovative company. We must believe and lead in all areas. If word processing is so neat, then let's all use it! Goal: by 1-1-81, NO typewriters at Apple... We believe the typewriter is obsolete. Let's prove it inside before we try and convince our customers."
+
+Michael Scott, President of Apple Computer, 1980 [-@scott:typewriters, P.1 ]
+
+---
+
 # Refs
