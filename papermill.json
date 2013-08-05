@@ -8,12 +8,12 @@
     "bibliography": "bibliography.bib",
     "csl": "/.papermill/ieee-with-url.csl",
     "list": [
+      "Introduction"
+      "Manual",
       {
         "path": "BA-Cover-Title.md",
         "class": "article"
       },
-      "Introduction",
-      "Manual",
       {
         "path": "CODE/C0DE.md",
         "output": {
@@ -22,6 +22,9 @@
           "smart": false,
           "template": "CODE/sources/pandocco/pandocco.latex"
         }          
+      },
+      {
+        "path": "Source"
       }
     ]
   },
