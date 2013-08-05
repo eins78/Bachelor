@@ -61,19 +61,15 @@ that also could be interpreted as Markdown, HTML or LaTeX:
 
 **Bad:** 
 
-``My *product* name has stars around it.`` \
 ``In HTML, there is a <blink> tag.``
 
-`=>` My *product* name has stars around it. \
-In HTML, there is a tag.
+`=>` In HTML, there is a tag.
 
 **Good:** 
 
-``My `*`product`*` name has stars around it.`` \
 ``In `HTML`, there is a `<blink>` tag.``
 
-`=>` My `*`product`*` name has stars around it. \
-In `HTML`, there is a `<blink>` tag.
+`=>` In `HTML`, there is a `<blink>` tag.
 
 
 [backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
