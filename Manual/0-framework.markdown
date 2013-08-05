@@ -8,6 +8,8 @@
 
 # The (anti-)framework
 
+![`papermill` 'software stack' in comparison](../_images/papermill-stack-1)
+
 Papermill is a modular, decoupled framework.
 
 "Modular" means many parts working together.
