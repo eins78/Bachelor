@@ -39,32 +39,31 @@ The rest of the content is spread throughout the following attachments:
 
 ### (Typographic) conventions
 
-- `monospaced` \
+`monospaced` \
 acronyms, technical terms, standards, trademarks and names of software. A block of monospaced text denotes a source code listing.
 
-- **`bold-monospaced`** \
+**`bold-monospaced`** \
 [Glossary](#glossary) keywords
 
-- *italic* \
+*italic* \
 emphasis
 
-- **bold** \
+**bold** \
 strong emphasis
 
-- 'single quotes' \
+'single quotes' \
 idiomatic terms and expressions
 
-- *'single quotes italic'* \
+*'single quotes italic'* \
 foreign terms
 
-- "double quotes" \
+"double quotes" \
 quotation
 
-- All **quotes** from external sources are referenced in the *Bibliography* chapter.
+All **quotes** from external sources are referenced in the *Bibliography* chapter.
 
-- External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore but are not crucial to the understanding of the text. 
-
-  In the print edition, they are are represented by footnotes.
+External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore but are not crucial to the understanding of the text. \
+In the print edition, they are are represented by footnotes.
   
 
 <!-- only for print: -->
