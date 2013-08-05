@@ -174,7 +174,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 - always from branch to branch
 - always linear history
 
-- uses: backup, collabo
+- uses: backup, collaboration
 
 
 ## Collaboration
@@ -184,7 +184,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 *GitHub* has also played a vital role in shaping the ways people are collaborating using *git*.
 
-![A small repository on github](../_images/git/screenshot-github-user-repo.png)
+![A small repository on GitHub](../_images/git/screenshot-github-user-repo.png)
 
 
 ### Merging
@@ -192,7 +192,7 @@ This commit is the starting point of the branch, or *where your changes branch o
 If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with other. Even when using paper, they are the same:
 
 - obtain a copy of the document(s) *(clone)*
-- make some changes, review and save them *(comit)*
+- make some changes, review and save them *(commit)*
 - instead of just sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
 - informing the source of the document of your changes, asking it to integrate them
 
@@ -213,7 +213,7 @@ Example letter:
 >     - In the file "doc.md", third line, first character, 
 >       I have changed the word "hello" to "world".
 
-But instead of doing all this steps manually, we have already learned to that **`git`** takes care of the cloning, branching and commiting; and that every commit is nothing more than the differnece between the new version and the old version.
+But instead of doing all this steps manually, we have already learned to that **`git`** takes care of the cloning, branching and committing; and that every commit is nothing more than the difference between the new version and the old version.
 
 **So, how do we send our changes?**
 
