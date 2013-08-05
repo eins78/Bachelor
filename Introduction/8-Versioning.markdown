@@ -1,5 +1,17 @@
 # Versioning
 
+````{.edit}
+
+
+maybe talk about 
+
+- PEOPLE: author, editor, maintainer
+- PHASES: draft, edit, publish, update
+
+- Status of docs: MMD_titleblock variable???
+
+````
+
 In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
 By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the developement of the document and possibly even the thought process of the author.
 
