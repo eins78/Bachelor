@@ -34,7 +34,7 @@ On the other hand, this same knowledge should enable you to learn how to use any
 
 [^fn-git-data-promise]:
    > "I guarantee you, if you put your data in git: 
-   > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, […] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds some gravitas to his testimony.)
+   > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [...] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, they were malicious agents physically breaking into a data center, trying to smuggle bad changes into the Linux kernel, which adds some gravitas to his testimony.)
 
 
 ## Repository
