@@ -28,10 +28,7 @@ The first prototype was written alongside Naomi T. Salmons PhD Dissertation
 "Als ich Künstler war".
 
 Using the tools that were already available (`Markdown`, `pandoc`, `git`), 
-everything from automation to templates was written *('scripted')* for this specific publication.
-Furthermore, I guided the process of collaborating via version control. 
-
-Working in this project as a technical administrator allowed to gain valuable insight for the next steps of the developement process.
+everything from automation to templates was written *('scripted')* for this specific publication. I also guided the process of collaborating via version control. Furthermore, my role as a technical administrator provided valuable insight for the next steps of the developement process.
 
 The finished Dissertation, in web and print format, can be downloaded at 
 the [project website](http://phd.nts.is), 
