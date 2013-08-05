@@ -46,5 +46,5 @@ Technically, the goal was to find generally useful solution to the problems that
 
 - `bookstrap`: template and style for web output to complement the LaTeX templates
     * optimized for modern web browsers
-    * designed for long-form text: readabiblity, non-distractive
+    * designed for long-form text: readabiblity, non-distractive, toc-sidebar
     * uses novel grid system based on typographic `em`-units.
