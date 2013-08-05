@@ -8,7 +8,10 @@
     "bibliography": "bibliography.bib",
     "csl": "/.papermill/ieee-with-url.csl",
     "list": [
-      "BA-Cover-Title.md",
+      {
+        "path": "BA-Cover-Title.md",
+        "class": "article"
+      },
       "Introduction",
       "Manual",
       {
