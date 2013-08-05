@@ -10,7 +10,7 @@
     "list": [
       "Introduction",
       "Manual",
-      "Source-Title.md"
+      "Source-Title.md",
       {
         "path": "BA-Cover-Title.md",
         "class": "article",

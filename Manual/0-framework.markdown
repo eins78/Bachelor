@@ -4,8 +4,6 @@
   Bauhaus-Universität Weimar, \
   2013
 
-
-
 # The (anti-)framework
 
 ![`papermill` 'software stack' in comparison](../_images/papermill-stack-1)
@@ -14,7 +12,7 @@
 
 In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is an abstraction which solves a general problem in a reusable way. 
 
-'Modular' means that the framework itself consist of already-existing
+'Modular' means that the framework itself consists of already-existing
 components, along with additional 'glue' software to better integrate them.
 
 Being 'decoupled' means that the framework should still be useful if
