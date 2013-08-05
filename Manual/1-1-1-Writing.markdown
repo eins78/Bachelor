@@ -9,7 +9,7 @@ Generally, we can distinguish between two different kinds of text editors:
 
 a) the very minimalistic editors, with limited functionality, like the ones that ship 
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
-b) IDEs, integrated developement environments
+b) IDEs, integrated development environments
 c) every step in between, of course
 
 Recommendations: 
@@ -101,7 +101,7 @@ subscript, superscript
 
 
 verbatim
-:   To set a verbatim phrase, for example short example code or names of programms, put a `` ` `` *(backtick)* character directly around it (two of them if the enclosed text itself contains a backtick).
+:   To set a verbatim phrase, for example short example code or names of programs, put a `` ` `` *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
 
     ```less` is more`` \
     `=>` `less` is more
@@ -126,6 +126,8 @@ verbatim
     `=>` My `*`product`*` name has stars around it. \
     In `HTML`, there is a `<blink>` tag.
 
+
+[backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
 
 ### Basic Text Formatting
 
