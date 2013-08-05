@@ -33,7 +33,6 @@ It covers the following steps:
     * manual or from template ("stationary")
     * get to know the project (folder) structure  
 
-
 -  **INPUT**: write content
 
     * text: markdown / pandoc
