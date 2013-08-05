@@ -1,5 +1,4 @@
-% Papermill \
-  *Books in a Browser*
+% Papermill: **Introduction**
 % Max F. Albrecht
 % Bachelor Thesis, \
   Bauhaus-Universität Weimar, \

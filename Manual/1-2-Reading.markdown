@@ -1,6 +1,6 @@
-## Output
+# Output
 
-### Cross-media publishing
+## Cross-media publishing
 
 - is one of the main goals of this project
 
@@ -17,13 +17,13 @@
     
     
     
-### Print (via LaTeX to PDF)
+## Print (via LaTeX to PDF)
 
 In order to print your document, a suitable output needs to be created. 
 
 **`[Pandoc]`** not only enhanced the Markdown syntax, but also supports more output formats than just **`HTML`**, 
 
-#### **`LaTeX`**'s document classes
+### **`LaTeX`**'s document classes
 
 We just need 3 of the [most common document classes](http://texblog.org/2007/07/09/documentclassbook-report-article-or-letter/): 
 
@@ -39,7 +39,7 @@ Output from this class is also suitable for reading on a screen, in case the 'we
 The **book** class is like the report, but optimized for two-folded binding. It also repeats the name of the current chapter on the top of each page to help the reader navigate large documents.
 
 
-#### Print-Only "Tricks"
+### Print-Only "Tricks"
 
 As we have learned in the chapter "[Input][]", we strive to produce a document source which is as output-agnostic as possible, in the hopes
 that if it works for print and web today, it should be easy to adapt
@@ -47,9 +47,9 @@ to the to-be-invented media of the future.
 
 However, we also need to publish
 
-#### layout
+### layout
 
 - `\pagebreak`
 
-### Web (to HTML)
+## Web (to HTML)
 

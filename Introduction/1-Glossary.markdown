@@ -1,7 +1,7 @@
-# Information
-## Glossary
 
-### `HTML`
+# Glossary
+
+## `HTML`
 
 The formatting language of the web, [invented by Tim Berners-Lee at the `CERN` in 1989](http://www.w3.org/History/1989/proposal.html).
 
@@ -25,7 +25,7 @@ Today, these two standards serves as the foundation of the web, along with `CSS`
 ```
 
 
-### `(La)Tex`
+## `(La)Tex`
 
 - invented by Donald Knuth
 - wrote Book: "The Art of computer programming"
@@ -33,17 +33,17 @@ Today, these two standards serves as the foundation of the web, along with `CSS`
 - also unhappy with alternative: writing with computer, setting manually by hand
 - invents `Metafont` system, `TeX`
 
-### `git`
+## `git`
 
 `Git` is a distributed version/revision control system system dubbed as "the stupid content tracker" [@link:git:readme, line. 3] developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
 Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, so he 
 
 
-### `pandoc`
+## `pandoc`
 
 Test: see [`diff`](#diff)
 
-### `diff`, (`patch`) {#diff}
+## `diff`, (`patch`) {#diff}
 
 - diff, the *(noun)*
 - diff, to *(verb)*
@@ -85,7 +85,7 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
 
 [^fn-diff]: On a [*nix][] operating system, this programm is itself called `diff` (from "difference") and gave name to the concept. 
 
-### Hidden file, -folder
+## Hidden file, -folder
 
 Certain files or folder on a computer, 
 for example configuration files belonging to software, 
@@ -94,7 +94,7 @@ This is usually to keep the user from inadvertedly modifying or deleting them, b
 On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
 
 
-### wiki
+## wiki
 
 - many single documents
 - hypertext: links
