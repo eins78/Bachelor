@@ -72,10 +72,10 @@ Some things can be written in more than one way in Markdown. To be more concise,
 ``````
 # Heading
 
-Some text.
-More text of the *same* paragraph.
+Some text with *emphasize* and **strong emphasize**.
+More text of the same paragraph.
 
-Another paragraph of text, because of the **blank** line.
+Another paragraph of text.
 
 ## Sub-Heading
 
