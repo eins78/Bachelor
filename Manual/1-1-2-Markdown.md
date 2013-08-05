@@ -89,9 +89,9 @@ For example, in a web browser, the user clicks the anchor to go to the target.
 
 The most simple link is just the target in `<>` *(pointy bracket)* characters. 
 
-    ```
-    A full link to <http://example.com>.
-    ```
+```
+A full link to <http://example.com>.
+```
 
 ##### inline
 
@@ -124,24 +124,24 @@ A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
 
 Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. Also see: **figure**.
 
-    - text inside the anchor is used as the image description
-    - the target denotes the path to the image
-    - images can have the following formats: 'JPG', 'GIF, 'PNG'
-    - the description will only be visible if the image is a *figure*
-    
-    *Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
+- text inside the anchor is used as the image description
+- the target denotes the path to the image
+- images can have the following formats: 'JPG', 'GIF, 'PNG'
+- the description will only be visible if the image is a *figure*
 
-    ```
-    Text with image ![Image Description](/path/to/image.jpg) inside.
-    ```
+*Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
 
-    *or*
+```
+Text with image ![Image Description](/path/to/image.jpg) inside.
+```
 
-    ```
-    Text with image ![Another Image][picture-id] inside.
-    
-    [picture-id]: /path/to/image.jpg
-    ```
+*or*
+
+```
+Text with image ![Another Image][picture-id] inside.
+
+[picture-id]: /path/to/image.jpg
+```
 
 
 ### Document Structure Elements
