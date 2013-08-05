@@ -8,7 +8,7 @@
 
 # The (anti-)framework
 
-Papermill is a modular, decooupled framework.
+Papermill is a modular, decoupled framework.
 
 "Modular" means many parts working together.
 
@@ -38,19 +38,19 @@ this has several implications:
     - covers the most important missing elements
       - citations/bibliography
       - tables
-      - defintion lists
+      - definition lists
     - is very flexible
     - but: 
     - but: danger of 'implementation leakage'
 
 
 goal: to define every important element with a general syntax, allowing it to be exported to either print or web.
-That means a carefull weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
+That means a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
     
 
 # Walkthrough
 
-The following part of the *MANUAL* should explain all the steps neccessary to procuce 
+The following part of the *MANUAL* should explain all the steps necessary to produce 
 a publication with `papermill`.
 
 It covers the following steps:
@@ -71,10 +71,11 @@ It covers the following steps:
 
     * saving: commit & push
     * helping: fork & clone
-    * collabo: pull & merge
+    * collaboration: pull & merge
 
 
 -  **OUTPUT**: output your content
 
     * web -> `HTML`
     * print -> `LaTeX`
+
