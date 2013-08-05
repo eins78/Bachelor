@@ -1,5 +1,9 @@
 # Writing
 
+“EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`...`] If word processing is so neat, then let’s all use it! Goal: by 1-1-81, NO typewriters at Apple… We believe the typewriter is obsolete. Let’s prove it inside before we try and convince our customers.”
+
+Michael Scott, President of Apple Computer, 1980 [9, p. 1]
+
 ## Text editor
 
 Choose a text editor *you* are comfortable with.
