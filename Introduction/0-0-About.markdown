@@ -39,25 +39,25 @@ The rest of the content is spread throughout the following attachments:
 
 ### (Typographic) conventions
 
-`monospaced` \
+- `monospaced` \
 acronyms, technical terms, standards, trademarks and names of software. A block of monospaced text denotes a source code listing.
 
-**`bold-monospaced`** \
+- **`bold-monospaced`** \
 [Glossary](#glossary) keywords
 
-*italic* \
+- *italic* \
 emphasis
 
-**bold** \
+- **bold** \
 strong emphasis
 
-'single quotes' \
+- 'single quotes' \
 idiomatic terms and expressions
 
-*'single quotes italic'* \
+- *'single quotes italic'* \
 foreign terms
 
-"double quotes" \
+- "double quotes" \
 quotation
 
 - All **quotes** from external sources are referenced in the *Bibliography* chapter.
@@ -68,5 +68,5 @@ quotation
   
 
 <!-- only for print: -->
-<!-- \vfill -->
-<!-- \pagebreak -->
+\vfill
+\pagebreak
