@@ -1,5 +1,20 @@
 # Formatting
 
+````
+TODO:
+- explain document structure (from Manual)
+- examples of markups? HTML, La
+
+narative: 
+- we need structured text. 
+- html and latex are too hard
+ and media-specific!
+- ok, then markdown
+  - from web
+  - extensions for elements
+- publication structure: papermill config
+````
+
 ## Markup and Markdown
 
 Historically, formatting has always been "embedded" into the final document by the author or writer. 
