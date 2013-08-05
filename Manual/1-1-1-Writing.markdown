@@ -73,9 +73,9 @@ Some things can be written in more than one way in Markdown. To be more concise,
 # Heading
 
 Some text.
-More text of the same paragraph.
+More text of the *same* paragraph.
 
-Another paragraph of text.
+Another paragraph of text, because of the **blank** line.
 
 ## Sub-Heading
 
