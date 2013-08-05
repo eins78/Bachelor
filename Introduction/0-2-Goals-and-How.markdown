@@ -32,7 +32,7 @@ everything from automation to templates was written *('scripted')* for this spec
 
 The finished Dissertation, in web and print format, can be downloaded at 
 the [project website](http://phd.nts.is), 
-while the source code (including the aforemntioned prototype) is [published on github](http://github.com/NTS/PhD).
+while the source code (including the aforementioned prototype) is [published on github](http://github.com/NTS/PhD).
 
 ### Version 1: This document
 
