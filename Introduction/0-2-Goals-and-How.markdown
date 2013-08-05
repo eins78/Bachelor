@@ -3,9 +3,13 @@
 
 ## publication *development*
 
-Make the tools and workflows used in (open source) software development more accessible for authors and writers
-    - version control 
-    - automation
+Make the tools and workflows used in (open source) software development more accessible for authors and writers.
+
+- version control 
+- automation
+- continuos integration
+- IDEs
+- libraries: reusable modules
 
 - formalizing and documenting configuration and process
 
