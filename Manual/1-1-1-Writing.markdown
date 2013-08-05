@@ -76,7 +76,7 @@ emphasis
 :   To emphasize a phrase, put `*` *(star)* symbols directly around it
 
     `this *word* is important` \
-    ⇒ this *word* is important
+    `⇒` this *word* is important
 
 
 strong emphasis
