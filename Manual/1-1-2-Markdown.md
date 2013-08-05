@@ -153,184 +153,184 @@ This also increases the clarity of the document source, especially because block
 #### paragraph
 
 A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
-    All line breaks inside a paragraph are **ignored**!
+All line breaks inside a paragraph are **ignored**!
 
-    ```
-    This is a paragraph.
-    
-    This is the next paragraph.
-    ```
-    
-    How Markdown handles paragraphs and linebreaks might be the most alienating thing 
-    about it. It takes some getting used to, but increases flexibility while writing because 
-    linebreaks can be inserted to break long lines in the source, without effecting the output.
-    
-    ```
-    This is all 
-    just one 
-    paragraph.
-    
-    This is the next paragraph.
-    ```
-    
-    Conversely, this doesn't work for specific text, where line breaks are important. \
-    To **force a line break**, end the line with a `\` *(backslash)* character. 
-    *Example [poem]:*
-    
-    ```
-    Roses are red, \
-    Violets are blue, \
-    Sugar is sweet, \
-    And so are you.
-    ```
-    
-    [poem]: https://en.wikipedia.org/wiki/Roses_are_red
+```
+This is a paragraph.
+
+This is the next paragraph.
+```
+
+How Markdown handles paragraphs and linebreaks might be the most alienating thing 
+about it. It takes some getting used to, but increases flexibility while writing because 
+linebreaks can be inserted to break long lines in the source, without effecting the output.
+
+```
+This is all 
+just one 
+paragraph.
+
+This is the next paragraph.
+```
+
+Conversely, this doesn't work for specific text, where line breaks are important. \
+To **force a line break**, end the line with a `\` *(backslash)* character. 
+*Example [poem]:*
+
+```
+Roses are red, \
+Violets are blue, \
+Sugar is sweet, \
+And so are you.
+```
+
+[poem]: https://en.wikipedia.org/wiki/Roses_are_red
 
 
 #### heading
 
 A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
 
-    ```
-    # Top-Level Heading
-    
-    Some text.
-    
-    ## Second-Level Heading
-    
-    More text, where I write about hashtags. For example, 
-    #OccupyWallStreet ist just text, NOT a heading (no blank line before).
-    ``` 
+```
+# Top-Level Heading
+
+Some text.
+
+## Second-Level Heading
+
+More text, where I write about hashtags. For example, 
+#OccupyWallStreet ist just text, NOT a heading (no blank line before).
+``` 
 
 
 #### unordered list
 
 bullet-point lists are one or more lines starting with a `-` (minus) character
 
-    Simple:
-    
-    ```
-    A list:
+Simple:
 
-    - lists
-    - some
-    - things
-    ```
-    
-    With sub-elements (see *'nesting elements'*)
-    
-    ```
-    A nested list:
+```
+A list:
 
-    - first item
-    - this item
-        - has subitems
-        - which are intended
-        - with 4 spaces
-    - last item
-    ```
+- lists
+- some
+- things
+```
+
+With sub-elements (see *'nesting elements'*)
+
+```
+A nested list:
+
+- first item
+- this item
+    - has subitems
+    - which are intended
+    - with 4 spaces
+- last item
+```
 
 
 #### ordered list
 
 numbered lists are one or more lines starting with a `number` and a `.` (period) character
 
-    ```
-    A numbered list:
+```
+A numbered list:
 
-    1. lists
-    2. some
-    3. things
-    ```
+1. lists
+2. some
+3. things
+```
 
 
 #### figure
 
 A line of text with only an *image* (see above) is interpreted as a 'figure'. 
-    This means it will be a separate, centered, document element.
-    More importantly, the image description is used as the 'caption'.
-    In print, they will also be numbered chronologically throughout the document.
+This means it will be a separate, centered, document element.
+More importantly, the image description is used as the 'caption'.
+In print, they will also be numbered chronologically throughout the document.
 
-    ```
-    ![Figure caption](/path/to/image.jpg)
-    ```
+```
+![Figure caption](/path/to/image.jpg)
+```
 
-    *Trick:* To insert a seperate picture without turning it into a figure, 
-    for example when including a logo, insert a 'invisible whitespace' before it, like this:
+*Trick:* To insert a seperate picture without turning it into a figure, 
+for example when including a logo, insert a 'invisible whitespace' before it, like this:
 
-    ```
-    \ ![This is not a figure](/path/to/image.jpg)
-    ```
+```
+\ ![This is not a figure](/path/to/image.jpg)
+```
 
 
 #### blockquote
 
 For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
 
-    ```
-    One of my favorite quotes:
-    
-    > "Most quotes you find on the internet 
-    > are wrongly attributed." — Oscar Wilde
-    ```
+```
+One of my favorite quotes:
+
+> "Most quotes you find on the internet 
+> are wrongly attributed." — Oscar Wilde
+```
 
 #### code block
 
 like the *'verbatim'* text formatting, but in a block. \
-    There are two ways to achive this:
+There are two ways to achive this:
 
-    1. Indent every line by 4 spaces: 
+1. Indent every line by 4 spaces: 
 
-        ```
-        Some `BASIC` code:
+    ```
+    Some `BASIC` code:
 
-            10 PRINT "Hello World"
-            20 GOTO 10
+        10 PRINT "Hello World"
+        20 GOTO 10
 
-        More text.
-        ```
+    More text.
+    ```
 
-    2. *or* put a "fence" of (at least) 3 backticks around it. 
-       With this syntax, a language can optionally be specified (for syntax highlighting), 
-       by writing it after the opening line of backticks: 
-    
-        ``````
-        Some `JavaScript` code:
+2. *or* put a "fence" of (at least) 3 backticks around it. 
+   With this syntax, a language can optionally be specified (for syntax highlighting), 
+   by writing it after the opening line of backticks: 
 
-        ```js
-        var form = function (content) {
-          follow(content);
-        };
-        ```
+    ``````
+    Some `JavaScript` code:
 
-        More text.
-        ``````
+    ```js
+    var form = function (content) {
+      follow(content);
+    };
+    ```
+
+    More text.
+    ``````
 
 
 #### nesting elements
 
 Block elements can contain other block elements.
 
-    Each nested element has to be **indented by 4 spaces more** than the parent block.
+Each nested element has to be **indented by 4 spaces more** than the parent block.
 
-    ```
-    A nested list:
+```
+A nested list:
 
-    - A paragraph in a list.
+- A paragraph in a list.
 
-        Another paragraph belonging to the first item.
+    Another paragraph belonging to the first item.
 
-    - Another paragraph.
+- Another paragraph.
 
-        - The second list item
-        - contains itself
+    - The second list item
+    - contains itself
+
+        > "A blockquote inside the second list."
     
-            > "A blockquote inside the second list."
-        
-        - another list
+    - another list
 
-    - Last paragraph.
-    ```
+- Last paragraph.
+```
 
 ````{.edit}
 TODO: definition list, special list numbers, hrules, tables, (mmd_)titleblock, footnotes, citations, 
