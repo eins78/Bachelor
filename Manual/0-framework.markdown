@@ -12,24 +12,13 @@
 
 `papermill` aims to be a modular, decoupled framework.
 
-In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is a collection of reusable components which helps solving a specific problem.
-The component 
+In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is an abstraction which solves a general problem in a reusable way. 
 
-A 'framework' integrates different parts working together for a specific purpose. 
-An overview is given the diagram above.
+'Modular' means that the framework itself consist of already-existing
+components, along with additional 'glue' software to better integrate them.
 
-'Modular' and 'decoupled' also means the you can choose from the parts
-and they will also wrk if some are missing (dependencies)
-
-some things are coupled, though, to make it easier
-that means the actual content format
-as well as the metadata.
-
-the metadata are also build instructions. they define how to output
-the content, in an open format.
-this has several implications:
-- more future proof
-- can be supported by multiple tool, services, projects, …
+Being 'decoupled' means that the framework should still be useful if
+a user uses only some of it's components.
 
 
 # Cross-media publishing
