@@ -45,27 +45,27 @@ Some text with [a short link](http://178.is).
 
 These all work with words and phrases.
 
-emphasis
+#### emphasis
 :   To emphasize a phrase, put `*` *(asterisk)* symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 
-strong emphasis
+#### strong emphasis
 :   To strongly emphasize a phrase, put 2 `*` *(asterisk)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
 
     
-strikeout
+#### strikeout
 :   To strike a phrase out, put 2 `~` *(tilde)* characters before and after it
 
     `this ~~word~~ is striked out` \
     `=>` this ~~word~~ is striked out
 
-subscript, superscript
+#### subscript, superscript
 :   - to put a phrase into superscript, put a `^` *(caret)* character before and after it
     - for subscript, use the `~` *(tilde)* character
     
@@ -73,7 +73,7 @@ subscript, superscript
     `=>` H~2~O is a liquid.  2^10^ is 1024.
 
 
-verbatim
+#### verbatim
 :   To set a verbatim phrase, for example short example code or names of programs, put a `` ` `` *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
 
     ```less` is more`` \
@@ -106,15 +106,17 @@ verbatim
 
 These all work with words and phrases.
 
-link (simple)
-:   The most simple link is just the target in `<>` *(pointy bracket)* characters. 
+#### link (simple)
+
+The most simple link is just the target in `<>` *(pointy bracket)* characters. 
 
     ```
     A full link to <http://example.com>.
     ```
 
-link (inline)
-:   A normal link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
+#### link (inline)
+
+A normal link consists of two units: a **target** and an **anchor**, which is the phrase that 'links' to the target. The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
     ```
     Some text [linking somewhere else](http://example.com).
@@ -122,8 +124,9 @@ link (inline)
     ```
 
 
-link (reference-style)
-:   For a more readable source, the target can also be put seperately. 
+#### link (reference-style)
+
+For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 
     followed by an `:` (colon) and the link.
     A different name can be given to an anchor
@@ -138,8 +141,9 @@ link (reference-style)
     ```
 
 
-image
-:   Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. Also see: **figure**.
+#### image
+
+Images can be inserted anywhere in the text. The syntax for images is the same as links, just with a `!` *(exclamation mark)* character preceding the anchor. Also see: **figure**.
 
     - text inside the anchor is used as the image description
     - the target denotes the path to the image
@@ -167,8 +171,8 @@ Also called 'block elements', because they form their own 'block' of content.
 The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
 This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*).
 
-paragraph
-:   A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
+#### paragraph
+A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
     All line breaks inside a paragraph are **ignored**!
 
     ```
@@ -203,8 +207,8 @@ paragraph
     [poem]: https://en.wikipedia.org/wiki/Roses_are_red
 
 
-heading
-:   A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
+#### heading
+A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
 
     ```
     # Top-Level Heading
@@ -218,8 +222,8 @@ heading
     ``` 
 
 
-unordered list
-:   bullet-point lists are one or more lines starting with a `-` (minus) character
+#### unordered list
+bullet-point lists are one or more lines starting with a `-` (minus) character
 
     Simple:
     
@@ -245,8 +249,8 @@ unordered list
     ```
 
 
-ordered list
-:   numbered lists are one or more lines starting with a `number` and a `.` (period) character
+#### ordered list
+numbered lists are one or more lines starting with a `number` and a `.` (period) character
 
     ```
     A numbered list:
@@ -257,8 +261,8 @@ ordered list
     ```
 
 
-figure:
-:   A line of text with only an *image* (see above) is interpreted as a 'figure'. 
+#### figure:
+A line of text with only an *image* (see above) is interpreted as a 'figure'. 
     This means it will be a separate, centered, document element.
     More importantly, the image description is used as the 'caption'.
     In print, they will also be numbered chronologically throughout the document.
@@ -275,8 +279,8 @@ figure:
     ```
 
 
-blockquote
-:   For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
+#### blockquote
+For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
 
     ```
     One of my favorite quotes:
@@ -285,8 +289,8 @@ blockquote
     > are wrongly attributed." — Oscar Wilde
     ```
 
-code block
-:   like the *'verbatim'* text formatting, but in a block. \
+#### code block
+like the *'verbatim'* text formatting, but in a block. \
     There are two ways to achive this:
 
     1. Indent every line by 4 spaces: 
@@ -317,8 +321,9 @@ code block
         ``````
 
 
-nesting elements
-:    Block elements can contain other block elements.
+#### nesting elements
+
+Block elements can contain other block elements.
 
     Each nested element has to be **indented by 4 spaces more** than the parent block.
 
