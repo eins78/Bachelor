@@ -100,14 +100,14 @@ Some text with [a short link](http://178.is).
 These all work with words and phrases.
 
 emphasis
-:   To emphasize a phrase, put `*` *(star)* symbols directly around it
+:   To emphasize a phrase, put `*` *(asterisk)* symbols directly around it
 
     `this *word* is important` \
     `=>` this *word* is important
 
 
 strong emphasis
-:   To strongly emphasize a phrase, put 2 `*` *(star)* symbols directly around it
+:   To strongly emphasize a phrase, put 2 `*` *(asterisk)* symbols directly around it
 
     `this **word** is more important` \
     `=>` this **word** is more important
