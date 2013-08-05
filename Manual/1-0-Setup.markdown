@@ -70,6 +70,16 @@ It is also a text file, but encoded in [`JSON`](http://www.JSON.org/),
 
 In general, the configuration lists the following items:
 
-- Meta-data about the publication
-- *Input*: One or more document's sources
-- *Output*: How to output the 'input' for web and print.
+- **Meta-data** about the publication
+- **Input**: One or more document's sources
+- **Output**: How to output the 'input' for web and print.
+
+A simple example looks like this:
+
+````js
+````
+
+It is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
+
+The detailed description of the configuration file is available in the Chapter *mill*, Section [papermill.json].
+
