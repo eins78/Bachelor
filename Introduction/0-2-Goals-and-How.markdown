@@ -24,7 +24,7 @@ That requires a careful weighing of options and features. The syntax has to be p
 
 # long-term reproducibility
 
-Make shure that a once-written publication can inde
+Make sure that once written, the source of the publication can be compiled into the desired output 'forever', or at least as long as computers exist.
 
 * open standard for publication 'packages'
 * long-term availabilty of the build toolchain through use of open source software 
