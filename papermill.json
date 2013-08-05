@@ -5,7 +5,6 @@
   "version": "0.0.0",
   "private": true,
   "input": {
-    "xauthor": "Max F. Albrecht",
     "bibliography": "bibliography.bib",
     "csl": "/.papermill/ieee-with-url.csl",
     "list": [
