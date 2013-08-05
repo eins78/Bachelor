@@ -68,3 +68,8 @@ It is also a text file, but encoded in [`JSON`](http://www.JSON.org/),
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
 
 
+In general, the configuration lists the following items:
+
+- Meta-data about the publication
+- *Input*: One or more document's sources
+- *Output*: How to output the 'input' for web and print.
