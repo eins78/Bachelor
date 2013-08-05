@@ -6,8 +6,8 @@
 
 
 <!-- only for print: -->
-\vfill
-\pagebreak
+<!-- \vfill -->
+<!-- \pagebreak -->
 
 
 ## About this document
@@ -60,8 +60,13 @@ foreign terms
 "double quotes" \
 quotation
 
-All quotes from external sources are referenced in the *Bibliography* chapter.
+- All **quotes** from external sources are referenced in the *Bibliography* chapter.
+
+- External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore but are not crucial to the understanding of the text. 
+
+  In the print edition, they are are represented by footnotes.
+  
 
 <!-- only for print: -->
-\vfill
-\pagebreak
+<!-- \vfill -->
+<!-- \pagebreak -->
