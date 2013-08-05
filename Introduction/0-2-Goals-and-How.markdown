@@ -40,7 +40,7 @@ If a document is to be written in a binary container (like a Microsoft Word File
 
 ## Online & offline
 
-The framework should be usable on a *general purpose computer* without requiring an internet connection.
+The framework should be usable on a [*general purpose computer*](https://en.wikipedia.org/wiki/Turing_machine) without requiring an internet connection.
 
 At the same time, it should be possible to use it 
 with any web browser, because less and less computing devices 
