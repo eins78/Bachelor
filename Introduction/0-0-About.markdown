@@ -29,7 +29,7 @@ The rest of the content is spread throughout the following attachments:
 
     It is a homage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
 
-- Papermill: **Source**: Since the entire thesis is also [produced using the framework laid out in it][dogfooding],
+- Papermill: **Source**: Since the entire thesis is also [produced using the framework laid out in it][dogfooding], the final attachment is it's own source code.
 
 [dogfooding]: https://en.wikipedia.org/wiki/Eating_your_own_dog_food 
 
