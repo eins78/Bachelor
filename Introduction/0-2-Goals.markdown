@@ -27,8 +27,8 @@ This means a minimal working solution is developed while producing an actual pub
 The first prototype was written alongside Naomi T. Salmons PhD Dissertation "Als ich Künstler war".
 It used the tools that were already available (`Markdown`, `pandoc`, `git`); 
 but everything from automation to templates was developed for this specific publication.
-
 Furthermore, I guided the process of collaborating via version control. 
+
 Working in this project as a technical administrator allowed to gain valuable insight for the next steps of the developement process.
 
 ### Version 1: This document
