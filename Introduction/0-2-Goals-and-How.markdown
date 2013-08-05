@@ -42,6 +42,7 @@ However, considering the already listed goals, the problems that arise from them
 [flossmeme]: http://thinkahol.wordpress.com/2012/04/05/open-source-all-the-things-free-energy-and-free-information-for-a-free-people/ 
 -->
 
+
 # Implementation
 
 The implementation of the goals happens in the form of real-world prototypes. 
