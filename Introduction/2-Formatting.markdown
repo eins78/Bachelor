@@ -93,18 +93,7 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 > [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
-## Types of formatting
 
-Before we look at how these problems are solved in the realm of
-software development, let's enumerate what I mean by "formatting":
-
-* Emphasis
-    - light
-    - strong
-  
-  
-
----
 
 [^fn-tschicholdparagraphs]: Original: "Tausende von Arbeitsstunden werden von Typographen geopfert, 
 um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
