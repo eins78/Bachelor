@@ -61,8 +61,8 @@ a **`hidden folder`** called `.git`!
 
 As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
 It contains lots of meta-data and also a small database-like storage. 
-The **`git`** software reads and writes to this storage to faciltate all the nice things described further in this chapter. 
-It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) programm which reads and writes to this small database inside your repository.
+The **`git`** software reads and writes to this storage to facilitate all the nice things described further in this chapter. 
+It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) program which reads and writes to this small database inside your repository.
 
 [^fn-git-folder]: Namely, if you move or copy repository-folder from one place to another (disk, computer, …).
 If the folder is copied as a whole, the `.git` folder is still inside, meaning the complete versioned history is included, for good or bad.
@@ -79,7 +79,7 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 
 ## Commit
 
-**"commiting"** is the activity of saving your changes into the **`git`** database, 
+**"committing"** is the activity of saving your changes into the **`git`** database, 
 the result of this is also called a **"commit"**.
 Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it is best to think of every commit as a "version" of your project. 
 You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to a list changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
@@ -90,8 +90,8 @@ First, you should review your changes.
 If you are happy with them, you need to tell **`git`** which files you want to commit. 
 This is called **"staging"**. It allows you to make several changes at the same time, 
 but only commit a fraction of them each time. 
-In software developement, this is mostly done to break up the changes into smaller pieces, 
-making them easier to review on the recieving side.
+In software development, this is mostly done to break up the changes into smaller pieces, 
+making them easier to review on the receiving side.
 
 After all changes that should be included are staged, you can proceed with the actual commit. 
 It includes:
@@ -102,13 +102,13 @@ It includes:
 - a **hash** of all those items
 
 The **commit message** is meant to *explain* the changes you've made. 
-Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a reository's history.
+Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a repository's history.
 
 In the software world, this message is very important, because the text being worked on
 is *source code*, meant to be interpreted by a computer. Any changes can have side effects 
 which might be non-obvious by just looking at the changes. 
 
-When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be ommited or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
+When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be omitted or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
 
 A **hash** is a concept that comes from the area of cryptography. 
 A simplistic explanation would be think of it as a'cross sum' of all your content, 
@@ -116,30 +116,30 @@ which (mathematically) can only be obtained if you really have the content, not 
 
 The specific 'hash function' `git` is using is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is git users sometimes call the hash a `SHA`. 
 It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
-This can be automatically abreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
+This can be automatically abbreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
 
-Practically, the hash can be used a ***unique* version number**, refering to a special commit in a repository.
+Practically, the hash can be used a ***unique* version number**, referring to a special commit in a repository.
 
-Furthermore, the hash of every commit is used by `git` in the background to make shure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographicly speaking) secured as much as the content of your online banking website.
+Furthermore, the hash of every commit is used by `git` in the background to make sure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
 
-[^fn-hash]: A hash can thus be used to prove that one was in posession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
+[^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
 
 
 
 
 ### Automatic commiting
 
-If you don't wan't to commit manually, there are two software tools that handle automatic commiting in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
+If you don't wan't to commit manually, there are two software tools that handle automatic committing in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
 
 -  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
-    *  user friendly, written in the `python` programming lanuage
+    *  user friendly, written in the `python` programming language
     *  extendable with plugins
     *  runs on `Linux` (well) and `Mac OS X` (manual work needed) 
 
 - [`git-o-mat`](https://github.com/eins78/git-o-mat) – inspired by `flashbake`, written by Max F. Albrecht
 
-    *  very simpe, written as a `shell` script
+    *  very simple, written as a `shell` script
     *  extendable with your own scripts (for message generation)
     *  runs well on `Linux` and `Mac OS X`
     *  may be integrated into the `papermill` project
@@ -149,9 +149,9 @@ If you don't wan't to commit manually, there are two software tools that handle 
 
 We already established that **clones** are copies of a **repository**, and **forks** are **clones** with any changes not found elsewhere.
 
-But git is even more flexible: There is also the possibilty of having a complete copy of the repository inside your local copy. These "built-in" copies are called **branches**.
+But git is even more flexible: There is also the possibility of having a complete copy of the repository inside your local copy. These "built-in" copies are called **branches**.
 
-They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be commited in small steps.
+They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be committed in small steps.
 
 There is always at least one branch in every git repository, by default this branch is called *'master'*, which is nothing more a default name.[^fn-master-branch] 
 
