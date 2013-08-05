@@ -97,27 +97,27 @@ The most simple link is just the target in `<>` *(pointy bracket)* characters.
 
 The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
-    ```
-    Some text [linking somewhere else](http://example.com).
-    [Internal links](#Chapter) are also possible.
-    ```
+```
+Some text [linking somewhere else](http://example.com).
+[Internal links](#Chapter) are also possible.
+```
 
 
 ##### reference-style
 
-For a more readable source, the target can also be put seperately. 
-    The anchor still needs to be put in square brackets and be repeated later, 
-    followed by an `:` (colon) and the link.
-    A different name can be given to an anchor
-    by writing directly after it, also in square brackets:
-    
-    ```
-    A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
-    
-    [lots]: http://example.com
-    [links]: http://example.com/link
-    [ugly]: http://example.com/ugly
-    ```
+For a more readable source, the *target* can also be put seperately. 
+The *anchor* still needs to be put in square brackets and be repeated later, 
+followed by an `:` (colon) and the link.
+A different name can be given to an *anchor*
+by writing directly after it, also in square brackets:
+
+```
+A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
+
+[lots]: http://example.com
+[links]: http://example.com/link
+[ugly]: http://example.com/ugly
+```
 
 
 #### image
