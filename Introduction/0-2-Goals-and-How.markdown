@@ -13,16 +13,7 @@ Make the tools and workflows used in (open source) software development more acc
 
 - semantic content
 
-# long-term reproducibility
-
-Make shure that a once-written publication can inde
-
-* open standard for publication 'packages'
-* long-term availabilty of the build toolchain through use of open source software 
-
-
 ## Cross-media publishing
-
 
 - *problem*: one input, multiple outputs
 - *solution*: semantic and structured content
@@ -31,16 +22,29 @@ Define every important element with a general syntax, allowing it to be exported
 
 That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
 
+# long-term reproducibility
+
+Make shure that a once-written publication can inde
+
+* open standard for publication 'packages'
+* long-term availabilty of the build toolchain through use of open source software 
+
+
 ## Free/Libre/Open Source
 
-Using 'Open Source' software can be a goal in itself, but that is a matter of personal or political opinion. 
-Considering the already listed goals and the existing approaches to solve them, 
+Using 'Open Source' software can be a goal in itself. Usually, this is a matter of personal or political opinion. 
 
+However, considering the already listed goals, the problems that arise from them and the existing approaches to solve them, we can safely conclude that there is no alternative to use 'Open Source' software.
+
+!["Open Source All The Things" *([internet meme])*](../_stash/open-source-all-the-things.jpg)
+
+[internet meme]: http://thinkahol.wordpress.com/2012/04/05/open-source-all-the-things-free-energy-and-free-information-for-a-free-people/
 
 # Implementation
 
 The implementation of the goals happens in the form of real-world prototypes. 
 This means a minimal working solution is developed while actual publication is produced with it.
+
 
 ## Prototypes
 
@@ -57,6 +61,7 @@ Furthermore, my role as a technical administrator provided valuable insight and 
 The finished Dissertation, in web and print format, can be downloaded at 
 the [project website](http://phd.nts.is), 
 while the source code (including the aforementioned prototype) is [published on GitHub](http://github.com/NTS/PhD).
+
 
 ### Version 1: This document
 
