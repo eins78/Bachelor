@@ -1,8 +1,9 @@
-## mill
+# mill
 
-`mill` is the backend for the papermill project, combining all the pieces described in the software stack
+`mill` is the backend for the papermill project, combining all the pieces described in the software stack.
 
 
+## papermill.json
 
 ### Input
 
