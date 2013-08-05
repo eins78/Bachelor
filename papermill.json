@@ -10,6 +10,7 @@
     "list": [
       "Introduction",
       "Manual",
+      "Source-Title.md"
       {
         "path": "BA-Cover-Title.md",
         "class": "article",
@@ -23,10 +24,6 @@
           "smart": false,
           "template": "CODE/sources/pandocco/pandocco.latex"
         }          
-      },
-      {
-        "path": "Source-Title.md",
-        "toc": false
       }
     ]
   },
