@@ -1,7 +1,7 @@
 # Goals
 
 
-## publication *development*
+## Publication *development*
 
 Make the tools and workflows used in (open source) software development more accessible for authors and writers.
 
@@ -22,7 +22,7 @@ Define every important element with a general syntax, allowing it to be exported
 
 That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
 
-# long-term reproducibility
+# Long-term reproducibility
 
 Make sure that once written, the source of the publication can be compiled into the desired output 'forever', or at least as long as computers exist.
 
