@@ -37,7 +37,7 @@ The rest of the content is spread throughout the following attachments:
 \vfill
 \pagebreak
 
-### Typographic conventions
+### (Typographic) conventions
 
 `monospaced` \
 acronyms, technical terms, standards, trademarks and names of software. A block of monospaced text denotes a source code listing.
