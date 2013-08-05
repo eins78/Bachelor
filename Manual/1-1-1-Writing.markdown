@@ -15,13 +15,15 @@ c) every step in between, of course
 Recommendations: 
 
 - [`TextMate`][tm] (Mac, openSource)
-- [`SublimeText`][st] (Mac, Windows, Linux; not openSource but friendly)
+- [`SublimeText`][st] (Mac, Windows, Linux; not open source but friendly)
 
 [tm]: http://macromates.com
 [st]: http://www.sublimetext.com
 
 
 ## Document Structure
+
+A very generic structure. Not all publications use all of the elements.
 
 - Titleblock/-page
     * Title
@@ -76,7 +78,7 @@ emphasis
 :   To emphasize a phrase, put `*` *(star)* symbols directly around it
 
     `this *word* is important` \
-    `⇒` this *word* is important
+    `=>` this *word* is important
 
 
 strong emphasis
