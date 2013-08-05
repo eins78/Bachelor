@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1309px" height="588px" viewBox="0 0 1309 588" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>papermill-stack-1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs x2="41.4968782%" id="linearGradient-1" x1="69.4037518%" stop-color="#85C1F8" y2="51.4878511%" y1="51.4878511%">
+        <linearGradient>
+            <stop stop-opacity="0" offset="0%"></stop>
+            <stop stop-opacity="0.479865579" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page 1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M179,20 L179,501 L722,501 L722,20 L179,20 Z M179,20" id="Rectangle 64" stroke="#979797" stroke-width="3" fill="url(#linearGradient-1)"></path>
+        <path d="M958,20 L958,501 L1125,501 L1125,20 L958,20 Z M958,20" id="Rectangle 64 copy" stroke="#979797" stroke-width="3" fill-opacity="0.194824219" fill="#D4D4D4"></path>
+        <path d="M740,20 L740,501 L940,501 L940,20 L740,20 Z M740,20" id="Rectangle 64 copy 2" stroke="#979797" stroke-width="3" fill-opacity="0.194824219" fill="#D4D4D4"></path>
+        <text id="Output Format" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="right" line-spacing="22">
+            <tspan x="45.35" y="76.2382065">Output Format</tspan>
+            <tspan x="161" y="98.3742065"></tspan>
+            <tspan x="161" y="120.374207"></tspan>
+            <tspan x="72.764" y="142.238207">Conversion</tspan>
+            <tspan x="161" y="164.374207"></tspan>
+            <tspan x="161" y="186.374207"></tspan>
+            <tspan x="72.008" y="208.238207">Templating</tspan>
+            <tspan x="161" y="230.374207"></tspan>
+            <tspan x="161" y="252.374207"></tspan>
+            <tspan x="18.746" y="274.238207">Formatting Syntax</tspan>
+            <tspan x="161" y="296.374207"></tspan>
+            <tspan x="161" y="318.374207"></tspan>
+            <tspan x="41.966" y="340.238207">Version Control</tspan>
+            <tspan x="161" y="362.374207"></tspan>
+            <tspan x="161" y="384.374207"></tspan>
+            <tspan x="48.968" y="406.238207">Build/Compile</tspan>
+            <tspan x="161" y="428.374207"></tspan>
+            <tspan x="161" y="450.374207"></tspan>
+            <tspan x="23.282" y="472.238207">Operating System</tspan>
+        </text>
+        <text id="Output Format" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" line-spacing="22">
+            <tspan x="1139.544" y="71.8645048">Output Format</tspan>
+            <tspan x="1143" y="94.0005048"></tspan>
+            <tspan x="1143" y="116.000505"></tspan>
+            <tspan x="1139.544" y="137.864505">Conversion</tspan>
+            <tspan x="1143" y="160.000505"></tspan>
+            <tspan x="1143" y="182.000505"></tspan>
+            <tspan x="1139.544" y="203.864505">Templating</tspan>
+            <tspan x="1143" y="226.000505"></tspan>
+            <tspan x="1143" y="248.000505"></tspan>
+            <tspan x="1139.544" y="269.864505">Formatting Syntax</tspan>
+            <tspan x="1143" y="292.000505"></tspan>
+            <tspan x="1143" y="314.000505"></tspan>
+            <tspan x="1139.544" y="335.864505">Version Control</tspan>
+            <tspan x="1143" y="358.000505"></tspan>
+            <tspan x="1143" y="380.000505"></tspan>
+            <tspan x="1139.544" y="401.864505">Build/Compile</tspan>
+            <tspan x="1143" y="424.000505"></tspan>
+            <tspan x="1143" y="446.000505"></tspan>
+            <tspan x="1139.544" y="467.864505">Operating System</tspan>
+        </text>
+        <g id="Group copy" transform="translate(278.000000, 39.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 3" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="HTML" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="12.5" y="32.6260459">
+                <tspan>HTML</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(365.000000, 39.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 3" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="PDF" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="19.5" y="32.6260459">
+                <tspan>PDF</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(191.500000, 39.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="ePub" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="15.5" y="32.6260459">
+                <tspan>ePub</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(191.000000, 171.000000)">
+            <path d="M1,0 L1,40 L156,40 L156,0 L1,0 Z M1,0" id="Rectangle 1 copy 3" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="HTML" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="54.91" y="35.6260459">
+                <tspan>HTML</tspan>
+            </text>
+        </g>
+        <g id="Group copy 3" transform="translate(192.000000, 105.000000)">
+            <path d="M1,0 L1,40 L351,40 L351,0 L1,0 Z M1,0" id="Rectangle 1 copy 3" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="pandoc" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="145.633" y="33.6260459">
+                <tspan>pandoc</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(367.000000, 171.000000)">
+            <path d="M0,0 L0,40 L68,40 L68,0 L0,0 Z M0,0" id="Rectangle 1 copy 5" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="LaTeX" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="10.699" y="35.6260459">
+                <tspan>LaTeX</tspan>
+            </text>
+        </g>
+        <path d="M191,368 L191,408 L261,408 L261,368 L191,368 Z M191,368" id="Rectangle 1 copy 5" stroke="#4A4A4A" fill="#85C2F8"></path>
+        <text id="mill copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="211" y="400.626046">
+            <tspan>mill</tspan>
+        </text>
+        <g id="Group" transform="translate(364.000000, 368.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 5" stroke="#979797" fill="#C5DAEC"></path>
+            <text id="make copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="15.5" y="32.6260459">
+                <tspan>make</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(761.000000, 368.000000)">
+            <path d="M0,0 L0,40 L155,40 L155,0 L0,0 Z M0,0" id="Rectangle 1 copy 5" stroke="#979797" fill="#D4D4D4"></path>
+            <text id="make copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="58.424" y="35.6260459">
+                <tspan>make</tspan>
+            </text>
+        </g>
+        <path d="M277,368 L277,408 L347,408 L347,368 L277,368 Z M277,368" id="Rectangle 1 copy 6" stroke="#979797" fill="#C5DAEC"></path>
+        <text id="grunt copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="291.5" y="400.626046">
+            <tspan>grunt</tspan>
+        </text>
+        <path d="M433,535 L433,575 L551,575 L551,535 L433,535 Z M433,535" id="Rectangle 1 copy 7" stroke="#979797" fill="#C5DAEC"></path>
+        <text id="documented" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="446" y="567.626046">
+            <tspan>documented</tspan>
+        </text>
+        <path d="M583,535 L583,575 L703,575 L703,535 L583,535 Z M583,535" id="Rectangle 1 copy 8" stroke="#979797" fill="#D4D4D4"></path>
+        <text id="do-it-yourself" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="592.5" y="567.626046">
+            <tspan>do-it-yourself</tspan>
+        </text>
+        <path d="M191,433 L191,473 L261,473 L261,433 L191,433 Z M191,433" id="Rectangle 1 copy 6" stroke="#4A4A4A" fill="#85C2F8"></path>
+        <text id="Linux copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="205" y="465.626046">
+            <tspan>Linux</tspan>
+        </text>
+        <path d="M306,535 L306,575 L416,575 L416,535 L306,535 Z M306,535" id="Rectangle 1 copy 7" stroke="#4A4A4A" fill="#85C2F8"></path>
+        <text id="integrated" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="322.584" y="567.626046">
+            <tspan>integrated</tspan>
+        </text>
+        <path d="M349,433 L349,473 L419,473 L419,433 L349,433 Z M349,433" id="Rectangle 1 copy 6" stroke="#4A4A4A" fill="#85C2F8"></path>
+        <text id="Mac copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="367" y="465.626046">
+            <tspan>Mac</tspan>
+        </text>
+        <path d="M260,433 L260,473 L350,473 L350,433 L260,433 Z M260,433" id="Rectangle 1 copy 7" stroke="#4A4A4A" fill="#85C2F8"></path>
+        <text id="UNIX" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="284.218" y="466.626046">
+            <tspan>UNIX</tspan>
+        </text>
+        <g id="Group copy" transform="translate(439.500000, 433.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 7" stroke="#979797" fill="#C5DAEC"></path>
+            <text id="Win" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="21" y="32.6260459">
+                <tspan>Win</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(979.000000, 433.000000)">
+            <path d="M0,0 L0,40 L120,40 L120,0 L0,0 Z M0,0" id="Rectangle 1 copy 8" stroke="#979797" fill="#D8D8D8"></path>
+            <text id="Win/Mac" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="29.884" y="35.6260459">
+                <tspan>Win/Mac</tspan>
+            </text>
+        </g>
+        <g id="Group copy 3" transform="translate(979.500000, 35.000000)">
+            <path d="M0,0 L0,40 L120,40 L120,0 L0,0 Z M0,0" id="Rectangle 1 copy 8" stroke="#979797" fill="#D8D8D8"></path>
+            <text id="&quot;HTML&quot;, PDF" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="15.353" y="35.6260459">
+                <tspan>"HTML", PDF</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(191.000000, 303.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C2F8"></path>
+            <text id="git" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="24.5" y="32.6260459">
+                <tspan>git</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(364.000000, 303.000000)">
+            <path d="M0,0 L0,40 L52.7155797,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#979797" fill="#C5DAEC"></path>
+            <text id="bzr" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="23.5" y="32.6260459">
+                <tspan>bzr</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(277.000000, 303.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 5" stroke="#979797" fill="#C5DAEC"></path>
+            <text id="hg" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="26" y="32.6260459">
+                <tspan>hg</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(849.000000, 303.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 6" stroke="#979797" fill="#D4D4D4"></path>
+            <text id="svn" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="22.5" y="32.6260459">
+                <tspan>svn</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(762.000000, 303.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 6" stroke="#979797" fill="#D4D4D4"></path>
+            <text id="git" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="24.5" y="32.6260459">
+                <tspan>git</tspan>
+            </text>
+        </g>
+        <path d="M598.5,368 L598.5,408 L701.5,408 L701.5,368 L598.5,368 Z M598.5,368" id="Rectangle 1 copy 9" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="606.548" y="403.626046">
+            <tspan>you choose!</tspan>
+        </text>
+        <path d="M598.5,433 L598.5,473 L701.5,473 L701.5,433 L598.5,433 Z M598.5,433" id="Rectangle 1 copy 9" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="606.548" y="468.626046">
+            <tspan>you choose!</tspan>
+        </text>
+        <path d="M761,433 L761,473 L916,473 L916,433 L761,433 Z M761,433" id="Rectangle 1 copy 10" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy 2" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="797.548" y="468.626046">
+            <tspan>you choose!</tspan>
+        </text>
+        <path d="M598.5,303 L598.5,343 L701.5,343 L701.5,303 L598.5,303 Z M598.5,303" id="Rectangle 1 copy 9" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="606.548" y="338.626046">
+            <tspan>you choose!</tspan>
+        </text>
+        <g id="Group" transform="translate(598.000000, 172.000000)">
+            <path d="M0.5,0 L0.5,40 L103.5,40 L103.5,0 L0.5,0 Z M0.5,0" id="Rectangle 1 copy 10" stroke="#979797" fill="#D8D8D8"></path>
+            <text id="y copy 2" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="8.548" y="35.6260459">
+                <tspan>you choose!</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(598.000000, 107.000000)">
+            <path d="M0.5,0 L0.5,40 L103.5,40 L103.5,0 L0.5,0 Z M0.5,0" id="Rectangle 1 copy 10" stroke="#979797" fill="#D8D8D8"></path>
+            <text id="y copy 2" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="8.548" y="35.6260459">
+                <tspan>you choose!</tspan>
+            </text>
+        </g>
+        <path d="M598.5,237 L598.5,277 L701.5,277 L701.5,237 L598.5,237 Z M598.5,237" id="Rectangle 1 copy 10" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy 2" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="606.548" y="272.626046">
+            <tspan>you choose!</tspan>
+        </text>
+        <path d="M465,40 L465,80 L701.5,80 L701.5,40 L465,40 Z M465,40" id="Rectangle 1 copy 10" stroke="#979797" fill="#D8D8D8"></path>
+        <text id="y copy 2" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="normal" sketch:alignment="middle" x="490.23" y="71.6260459">
+            <tspan>mediawiki, .odt, .docx, …</tspan>
+        </text>
+        <g id="Group copy" transform="translate(186.000000, 236.000000)">
+            <path d="M6,0 L6,40 L128,40 L128,0 L6,0 Z M6,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C1F8"></path>
+            <text id="Markdown" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="26.862" y="33.6260459">
+                <tspan>Markdown</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(386.000000, 236.000000)">
+            <path d="M0,0 L0,40 L47,40 L47,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C1F8"></path>
+            <text id="-GFM" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="4.159" y="33.6260459">
+                <tspan>-GFM</tspan>
+            </text>
+        </g>
+        <g id="Group copy 3" transform="translate(432.000000, 236.000000)">
+            <path d="M0,0 L0,40 L50,40 L50,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C1F8"></path>
+            <text id="-MMD" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="5.08" y="33.6260459">
+                <tspan>-MMD</tspan>
+            </text>
+        </g>
+        <g id="Group copy 4" transform="translate(313.000000, 236.000000)">
+            <path d="M0,0 L0,40 L74,40 L74,0 L0,0 Z M0,0" id="Rectangle 1 copy 4" stroke="#4A4A4A" fill="#85C1F8"></path>
+            <text id="-pandoc" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" x="6.145" y="33.6260459">
+                <tspan>-pandoc</tspan>
+            </text>
+        </g>
+        <path d="M761,38 L761,278 L831,278 L831,38 L761,38 Z M761,38" id="Rectangle 1 copy 5" stroke="#9B9B9B" fill="#D4D4D4"></path>
+        <text id="" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" line-spacing="20">
+            <tspan x="773" y="81.0002524"></tspan>
+            <tspan x="773" y="101.000252"></tspan>
+            <tspan x="773" y="121.000252"></tspan>
+            <tspan x="768.842" y="138.468252">HTML</tspan>
+        </text>
+        <path d="M849,107 L849,276 L919,276 L919,107 L849,107 Z M849,107" id="Rectangle 1 copy 6" stroke="#9B9B9B" fill="#D4D4D4"></path>
+        <text id="LaTeX" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" line-spacing="20" x="856.342" y="203.841954">
+            <tspan>LaTeX</tspan>
+        </text>
+        <g id="Group copy 2" transform="translate(499.000000, 236.000000)">
+            <path d="M0,0 L0,40 L70,40 L70,0 L0,0 Z M0,0" id="Rectangle 1 copy 6" stroke="#9B9B9B" fill="#C5DAEC"></path>
+            <text id="textile" fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle" x="12" y="32.6260459">
+                <tspan>textile</tspan>
+            </text>
+        </g>
+        <g id="Group copy 2" transform="translate(453.000000, 171.000000)">
+            <path d="M0,0 L0,40 L90,40 L90,0 L0,0 Z M0,0" id="Rectangle 1 copy 6" stroke="#9B9B9B" fill="#C5DAEC"></path>
+            <text id="mustache" fill="#000000" font-family="Source Sans Pro" font-size="18" font-style="italic" font-weight="bold" sketch:alignment="middle" x="7.317" y="33.6260459">
+                <tspan>mustache</tspan>
+            </text>
+        </g>
+        <g id="Group copy" transform="translate(980.000000, 107.000000)">
+            <path d="M0,0 L0,301 L120,301 L120,0 L0,0 Z M0,0" id="Rectangle 25" stroke="#979797" fill="#D8D8D8"></path>
+            <text id="MS Word," fill="#000000" font-family="Source Sans Pro" font-size="18" font-weight="normal" sketch:alignment="middle">
+                <tspan x="24.612" y="35.1260459">MS Word,</tspan>
+                <tspan x="60" y="58.1260459"></tspan>
+                <tspan x="12.246" y="81.1260459">Apple Pages,</tspan>
+                <tspan x="60" y="104.126046"></tspan>
+                <tspan x="25.026" y="127.126046">InDesign,</tspan>
+                <tspan x="60" y="150.126046"></tspan>
+                <tspan x="22.992" y="173.126046">QExpress,</tspan>
+                <tspan x="60" y="196.126046"></tspan>
+                <tspan x="51" y="219.126046" font-family="Lucida Grande">…</tspan>
+            </text>
+        </g>
+        <text id="Papermill " fill="#000000" font-family="Source Sans Pro" font-size="24" font-weight="bold" sketch:alignment="middle" x="179.040527">
+            <tspan y="551.168061">Papermill </tspan>
+            <tspan y="582.168061">tool chain</tspan>
+        </text>
+        <text id="Proprietary" fill="#000000" font-family="Source Sans Pro" font-size="24" font-weight="bold" x="980">
+            <tspan y="551.168061">Proprietary</tspan>
+            <tspan y="582.168061">Options</tspan>
+        </text>
+        <text id="Classic FLOSS" fill="#000000" font-family="Source Sans Pro" font-size="24" font-weight="bold" x="761">
+            <tspan y="550.168061">Classic FLOSS</tspan>
+            <tspan y="581.168061">Options</tspan>
+        </text>
+    </g>
+</svg>
