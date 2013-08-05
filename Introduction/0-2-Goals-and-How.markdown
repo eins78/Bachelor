@@ -11,38 +11,23 @@ Make the tools and workflows used in (open source) software development more acc
 - IDEs
 - libraries: reusable modules
 
-- formalizing and documenting configuration and process
-
 - semantic content
 
-- cross-media publishing
-    * 1 input, many outputs
+# long-term reproducibility
 
-- reproducibility 
-    * open standard for publication 'packages'
-    * long-term availabilty of the build toolchain through use of open source software 
+* open standard for publication 'packages'
+* long-term availabilty of the build toolchain through use of open source software 
 
 
 ## Cross-media publishing
 
-- one of the main goals of this project
 
 - *problem*: one input, multiple outputs
-- *solution*: a general syntax (markdown) and converter (pandoc)
+- *solution*: semantic and structured content
 
-- *but*: md was made for web
-- *solution*: pandoc enhanced syntax
-    - covers the most important missing elements
-      - citations/bibliography
-      - tables
-      - definition lists
-    - is very flexible
-    - but: 
-    - but: danger of 'implementation leakage'
+Define every important element with a general syntax, allowing it to be exported to either print or web.
 
-
-goal: to define every important element with a general syntax, allowing it to be exported to either print or web.
-That means a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
+That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
 
 
 # Implementation
