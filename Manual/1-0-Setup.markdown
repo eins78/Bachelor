@@ -46,7 +46,7 @@ Practically, this means that you can just start writing new chapters whenever yo
 ```
 
 A project can have more than one document, although the convention is that their *content should be related*. 
-This can for example be used to produce different parts of a dissertation that should be printed seperately.
+This can for example be used to produce different parts of a dissertation that should be printed separately.
 
 ```
     Project/
@@ -64,7 +64,7 @@ This can for example be used to produce different parts of a dissertation that s
 The **configuration** file is the second most important part of a project. \
 It contains all the information *about* the project needed to produce 'output'.
 
-It is also a text file, but enconded in [`JSON`](http://www.JSON.org/), 
+It is also a text file, but encoded in [`JSON`](http://www.JSON.org/), 
 "a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
 
 ```{.edit}
@@ -190,13 +190,13 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   just use the original Markdown
 
 `read`
-:   - choose a Markdown flavour
+:   - choose a Markdown flavor
         * `markdown`: pandoc's Markdown
         * `markdown_strict`: original Markdown
         * `markdown_github`: [GFM (GitHub flavored Markdown)][GFM]
         * `markdown_phpextra`: original Markdown
                                                       \
-    - *or* build your own flavour: choose one as a base and enable or disable pandoc extension by adding them with a `+` or `-` sign
+    - *or* build your own flavor: choose one as a base and enable or disable pandoc extension by adding them with a `+` or `-` sign
         * `{markdown_flavor}+{extension}-{extension}`
         * e.g.: `markdown_github+footnotes` for GFM with footnotes
                                                       \
@@ -209,10 +209,10 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 **Customizing Output:**
 
 `template`
-:   use a costum **`pandoc`** [template](https://github.com/papermill/pandoc-templates)(!)
+:   use a custom **`pandoc`** [template](https://github.com/papermill/pandoc-templates)(!)
 
 `css`
-:   use a costum style sheet *(web only)*
+:   use a custom style sheet *(web only)*
 
 `includeInHeader`, `includeBeforeBody`, `includeAfterBody`
 :   include other files (untouched) before conversion
