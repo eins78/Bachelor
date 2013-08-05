@@ -76,7 +76,7 @@ that also could be interpreted as Markdown, HTML or LaTeX:
 
 ### Special Elements
 
-These all work with words and phrases.
+More than just text.
 
 #### Links
 
@@ -93,7 +93,7 @@ The most simple link is just the target in `<>` *(pointy bracket)* characters.
     A full link to <http://example.com>.
     ```
 
-#### link (inline)
+##### inline
 
 The anchor is put into `[]` *(square bracket)* characters, followed directly by the target, enclosed in `()` *(parenthese)* characters, like this: `[anchor](target)`
 
@@ -103,7 +103,7 @@ The anchor is put into `[]` *(square bracket)* characters, followed directly by 
     ```
 
 
-#### link (reference-style)
+##### reference-style
 
 For a more readable source, the target can also be put seperately. 
     The anchor still needs to be put in square brackets and be repeated later, 

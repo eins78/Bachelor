@@ -6,6 +6,8 @@
 
 - formalizing and documenting configuration and process
 
+- semantic content
+
 - cross-media publishing
     * 1 input, many outputs
 
