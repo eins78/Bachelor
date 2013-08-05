@@ -13,4 +13,5 @@ I.  **Manual**
 I.  **C0DE**
 I.  **Source**
 
-<!--  -->
+
+*Weimar, 2013*
