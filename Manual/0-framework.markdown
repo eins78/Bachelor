@@ -10,9 +10,10 @@
 
 ![`papermill` 'software stack' in comparison](../_images/papermill-stack-1)
 
-Papermill is a modular, decoupled framework.
+`papermill` aims to be a modular, decoupled framework.
 
-"Modular" means many parts working together.
+"Modular" means that there are many different parts working together, 
+as seen in the diagram above.
 
 decoupled means the you can choose from the parts
 and they will also wrk if some are missing (dependencies)
