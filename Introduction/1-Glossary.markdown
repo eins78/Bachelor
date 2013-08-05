@@ -50,13 +50,13 @@ Test: see [`diff`](#diff)
 
 > "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. […]"
 > 
-> "**diff:** An unselective and microscopically thorough comparision between two versions of something.
+> "**diff:** An unselective and microscopically thorough comparison between two versions of something.
 >  From the *Unix* diff utility, which compares *files*." — @graham:hackers [pp. 224, 244]
 
 A **diff**, in general, is a text file which stores the differences between two files, in a standard format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
 
 This means that with just the original file and the **diff** of that file and a different version, a piece of software can produce the other version only be *applying* the **diff** to the original file.[^fn-diff] 
-This process is also called *"patching"*, which is why a **diff** might sometimes be refered to as a **patch**.
+This process is also called *"patching"*, which is why a **diff** might sometimes be referred to as a **patch**.
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
 
@@ -83,14 +83,14 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
         +I WROTE IT.
 
 
-[^fn-diff]: On a [*nix][] operating system, this programm is itself called `diff` (from "difference") and gave name to the concept. 
+[^fn-diff]: On a [*nix][] operating system, this program is itself called `diff` (from "difference") and gave name to the concept. 
 
 ## Hidden file, -folder
 
 Certain files or folder on a computer, 
 for example configuration files belonging to software, 
 can be hidden from the user by the operating system and/or file browser.
-This is usually to keep the user from inadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
+This is usually to keep the user from indadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
 On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
 
 
