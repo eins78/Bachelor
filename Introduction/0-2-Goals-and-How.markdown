@@ -15,7 +15,7 @@ Make the tools and workflows used in (open source) software development more acc
 
 # long-term reproducibility
 
-Don't make non-technical authors 
+Make shure that a once-written publication can inde
 
 * open standard for publication 'packages'
 * long-term availabilty of the build toolchain through use of open source software 
@@ -30,6 +30,11 @@ Don't make non-technical authors
 Define every important element with a general syntax, allowing it to be exported to either print or web.
 
 That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
+
+## Free/Libre/Open Source
+
+Using 'Open Source' software can be a goal in itself, but that is a matter of personal or political opinion. 
+Considering the already listed goals and the existing approaches to solve them, 
 
 
 # Implementation
