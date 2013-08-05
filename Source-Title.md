@@ -6,4 +6,4 @@
   2013
 
 
-(this is empty. if you find this: this *is* the source.)
+This is intentionally empty to prevent recursion.

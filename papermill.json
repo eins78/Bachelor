@@ -25,7 +25,8 @@
         }          
       },
       {
-        "path": "Source-Title.md"
+        "path": "Source-Title.md",
+        "toc": false
       }
     ]
   },
