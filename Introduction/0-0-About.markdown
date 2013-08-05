@@ -60,6 +60,8 @@ foreign terms
 "double quotes" \
 quotation
 
+All quotes from external sources are referenced in the *Bibliography* chapter.
+
 <!-- only for print: -->
 \vfill
 \pagebreak
