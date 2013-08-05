@@ -46,7 +46,7 @@ acronyms, technical terms, standards, trademarks and names of software. A block 
 [Glossary](#glossary) keywords
 
 *italic* \
-emphasis, name of chapter, trademark
+emphasis, reference to chapter title
 
 **bold** \
 strong emphasis
