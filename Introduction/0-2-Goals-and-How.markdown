@@ -36,9 +36,9 @@ Using 'Open Source' software can be a goal in itself. Usually, this is a matter 
 
 However, considering the already listed goals, the problems that arise from them and the existing approaches to solve them, we can safely conclude that there is no alternative to use 'Open Source' software.
 
-!["Open Source All The Things" *([internet meme])*](../_stash/open-source-all-the-things.jpg)
+!["Open Source All The Things" *([internet meme][flossmeme])*](../_stash/open-source-all-the-things.jpg)
 
-[internet meme]: http://thinkahol.wordpress.com/2012/04/05/open-source-all-the-things-free-energy-and-free-information-for-a-free-people/
+[flossmeme]: http://thinkahol.wordpress.com/2012/04/05/open-source-all-the-things-free-energy-and-free-information-for-a-free-people/
 
 # Implementation
 
