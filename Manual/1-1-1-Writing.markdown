@@ -67,6 +67,27 @@ John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
 Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
+### CHEAT SHEET
+
+``````
+# Heading
+
+Some text.
+More text of the same paragraph.
+
+Another paragraph of text.
+
+## Sub-Heading
+
+A list of different colors:
+
+- red
+- green
+- blue
+
+
+``````
+
 
 ### Text Formatting
 
