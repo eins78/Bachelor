@@ -12,9 +12,9 @@ So, long before the widespread use of computers in the writing process and befor
 the printing press marks the transition from thinking about and working with text as a discrete (countable, "digital") signal, 
 as opposed to the monolithic, continuous signal it was seen as before.
 
-Not surprinsingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
+Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
 
-Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproced properly and with loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the early 20th century, is complaining about the ambivilance of paragraph positions still in the 1960, when authors already used (discrete) typewriters to turn in manuscripts:
+Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly and with loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the early 20th century, is complaining about the ambivalence of paragraph positions still in the 1960, when authors already used (discrete) typewriters to turn in manuscripts:
 
 > "Thousands of working hours are sacrificed by typographers,
 > getting the right order of letters written without indentation,
@@ -36,21 +36,21 @@ An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Fra
 - ex: the intent is *emphasize*
    - the "default" style is an *italic* font variant
    - historically also underlining has been used
-   - in a webbrowser, this can be taken quite literally:
+   - in a web browser, this can be taken quite literally:
 
-The relationsship between formatting, typography and design 
+The relationship between formatting, typography and design 
 is a common source of confusion. 
 On the one hand, it can be summed up quite simply:
 
 * Formatting *conveys intent*, thus is part of the document's *source*. \
 * Design *translates* this source into an *output*, using tyography.
 
-On the other hand, there are specific connotations embeded in our visual and cultural knowlege.
+On the other hand, there are specific connotations embedded in our visual and cultural knowledge.
 These are shaped by a) how this translation was handled historically; and b) the user interface of text editors since the 1980s:
 
 ![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../_images/bold-italic-buttons.png)
 
-As these exampes show, interfaces of text editors rarely make a difference between 'bold' and 'strong emphasis', 
+As these examples show, interfaces of text editors rarely make a difference between 'bold' and 'strong emphasis', 
 
 bold, italic, underline, letter-spacing ^[in German: "Sperrung" oder "Sperrsatz"]
    
@@ -72,7 +72,7 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 ## Types of formatting
 
 Before we look at how these problems are solved in the realm of
-software developement, let's enumerate what I mean by "formatting":
+software development, let's enumerate what I mean by "formatting":
 
 * Emphasis
     - light
