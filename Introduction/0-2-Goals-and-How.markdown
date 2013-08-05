@@ -38,6 +38,15 @@ From these, we derive our secondary goals:
 
 If a document is to be written in a binary container (like a Microsoft Word File), the uses of a software-like development process are very limited.
 
+## Online & offline
+
+The framework should be usable on a *general purpose computer* without requiring an internet connection.
+
+At the same time, it should be possible to use it 
+with any web browser, because less and less computing devices 
+that people use are in fact general purpose.
+
+
 ## Free/Libre/Open Source
 
 Using 'Open Source' software can be a goal in itself. Usually, this is a matter of personal or political opinion. 
