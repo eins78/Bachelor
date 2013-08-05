@@ -17,58 +17,63 @@ Some things can be written in more than one way in Markdown. To be more concise,
 These all work with words and phrases.
 
 #### emphasis
-:   To emphasize a phrase, put `*` *(asterisk)* symbols directly around it
 
-    `this *word* is important` \
-    `=>` this *word* is important
+To emphasize a phrase, put `*` *(asterisk)* symbols directly around it
+
+`this *word* is important` \
+`=>` this *word* is important
 
 
 #### strong emphasis
-:   To strongly emphasize a phrase, put 2 `*` *(asterisk)* symbols directly around it
 
-    `this **word** is more important` \
-    `=>` this **word** is more important
+To strongly emphasize a phrase, put 2 `*` *(asterisk)* symbols directly around it
+
+`this **word** is more important` \
+`=>` this **word** is more important
 
     
 #### strikeout
-:   To strike a phrase out, put 2 `~` *(tilde)* characters before and after it
 
-    `this ~~word~~ is striked out` \
-    `=>` this ~~word~~ is striked out
+To strike a phrase out, put 2 `~` *(tilde)* characters before and after it
+
+`this ~~word~~ is striked out` \
+`=>` this ~~word~~ is striked out
 
 #### subscript, superscript
-:   - to put a phrase into superscript, put a `^` *(caret)* character before and after it
-    - for subscript, use the `~` *(tilde)* character
-    
-    `H~2~O is a liquid.  2^10^ is 1024.` \
-    `=>` H~2~O is a liquid.  2^10^ is 1024.
+
+- to put a phrase into superscript, put a `^` *(caret)* character before and after it
+- for subscript, use the `~` *(tilde)* character
+
+`H~2~O is a liquid.  2^10^ is 1024.` \
+`=>` H~2~O is a liquid.  2^10^ is 1024.
 
 
 #### verbatim
-:   To set a verbatim phrase, for example short example code or names of programs, put a `` ` `` *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
 
-    ```less` is more`` \
-    `=>` `less` is more
+To set a verbatim phrase, for example short example code or names of programs, put a `` ` `` *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
 
-    Inside a verbatim phrase, **no other syntax is interpreted**! \
-    This is especially important when something needs to be written 
-    that also could be interpreted as Markdown, HTML or LaTeX:
+```less` is more`` \
+`=>` `less` is more
 
-    **Bad:** 
-    
-    ``My *product* name has stars around it.`` \
-    ``In HTML, there is a <blink> tag.``
-    
-    `=>` My *product* name has stars around it. \
-    In HTML, there is a tag.
-    
-    **Good:** 
+Inside a verbatim phrase, **no other syntax is interpreted**! \
+This is especially important when something needs to be written 
+that also could be interpreted as Markdown, HTML or LaTeX:
 
-    ``My `*`product`*` name has stars around it.`` \
-    ``In `HTML`, there is a `<blink>` tag.``
-    
-    `=>` My `*`product`*` name has stars around it. \
-    In `HTML`, there is a `<blink>` tag.
+**Bad:** 
+
+``My *product* name has stars around it.`` \
+``In HTML, there is a <blink> tag.``
+
+`=>` My *product* name has stars around it. \
+In HTML, there is a tag.
+
+**Good:** 
+
+``My `*`product`*` name has stars around it.`` \
+``In `HTML`, there is a `<blink>` tag.``
+
+`=>` My `*`product`*` name has stars around it. \
+In `HTML`, there is a `<blink>` tag.
 
 
 [backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
@@ -338,7 +343,7 @@ but the possibilities are endless.
 Attributes are written inside `{}` *(curly braces)* at the end of the elements' first line.
 
 ID
-:   set the `id` of an element. \
+    set the `id` of an element. \
     Headers always have an `id`, if it is not defined it will be auto-generated.
 
     ```
@@ -353,7 +358,7 @@ ID
     
 
 class
-:   give the element a class
+    give the element a class
 
     ```
     # Heading {.my-class}
@@ -367,7 +372,7 @@ class
     
 
 general attribute
-:   give the element a general attribute, with an optional value
+    give the element a general attribute, with an optional value
 
     ```
     # Heading {my-attribute=value}
