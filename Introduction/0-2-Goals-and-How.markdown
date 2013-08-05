@@ -15,6 +15,8 @@ Make the tools and workflows used in (open source) software development more acc
 
 # long-term reproducibility
 
+Don't make non-technical authors 
+
 * open standard for publication 'packages'
 * long-term availabilty of the build toolchain through use of open source software 
 
@@ -33,7 +35,7 @@ That requires a careful weighing of options and features. The syntax has to be p
 # Implementation
 
 The implementation of the goals happens in the form of real-world prototypes. 
-This means a minimal working solution is developed while producing an actual publication.
+This means a minimal working solution is developed while actual publication is produced with it.
 
 ## Prototypes
 
