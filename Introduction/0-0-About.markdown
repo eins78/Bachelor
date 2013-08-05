@@ -23,7 +23,7 @@ It is followed by an introduction into the different aspects of my research and 
 
 The rest of the content is spread throughout the following attachments:
 
-- The **Manual**: A step-by-step description of how to use the `papermill` framework to produce a publication.
+- The **Manual**: A step-by-step description of how to use the `papermill` framework to produce a publication. It will evolve alongside the framework.
 
 - **`C0DE`**. Here, the complete and in large parts annotated source code of the `mill` Command Line Utility can be inspected. 
 It is a homage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
