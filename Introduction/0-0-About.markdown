@@ -18,12 +18,14 @@ end user's manual for the practical part of the thesis: a framework for writing 
 
 The instructional character of this document has several implications regarding its structure. 
 
-It starts with a [Glossary](#glossary), which may be skipped by technically advanced readers. It explains several important technical topics. It is followed by an introduction into the different aspects of my research and practical work. This also serves as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
+It starts with a [Glossary](#glossary), which explains several important technical topics. 
+It is followed by an introduction into the different aspects of my research and practical work. This also serves as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
 
-**Part 2** is the actual [Manual](#manual): A step-by-step description of how to use the `papermill` framework to produce a publication.
-This 
+The rest of the content is spread throughout the following attachments:
 
-In **Part 3**, [`C0DE`](#c0de), 
+- The [Manual](#manual): A step-by-step description of how to use the `papermill` framework to produce a publication.
+
+- [`C0DE`](#c0de), 
 the complete and in large parts annotated source code of the `mill` Command Line Utility can be inspected. 
 It is a homage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
 
