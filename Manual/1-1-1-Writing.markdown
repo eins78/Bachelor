@@ -3,7 +3,7 @@
 > "EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`...`] \
 > If word processing is so neat, then let’s all use it!"
 > 
-> — Michael Scott, President of Apple Computer, 1980 [9, p. 1]
+> — Michael Scott, President of Apple Computer, 1980 [-@scott:typewriters, p. 1]
 
 ## Text editor
 
