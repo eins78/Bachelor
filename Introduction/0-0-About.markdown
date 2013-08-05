@@ -16,14 +16,15 @@ This is the theoretical part of my bachelor thesis, 'Papermill'.
 For the sake of usefulness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
-The instructional character of this document has several small implications regarding its structure. 
+The instructional character of this document has several implications regarding its structure. 
 
-**Part 1** starts with the [Glossary](#glossary), which may be skipped by technically advanced readers. It explains several important technical topics which are set in a **`bold-monospaced font`** throughout the rest of the thesis. It is followed by an introduction into the different aspects of my research and practical work. This also serves as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
+It starts with a [Glossary](#glossary), which may be skipped by technically advanced readers. It explains several important technical topics. It is followed by an introduction into the different aspects of my research and practical work. This also serves as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
 
-**Part 2** is the actual [Manual](#manual): A step-by-step description of the current state of the `papermill` framework
+**Part 2** is the actual [Manual](#manual): A step-by-step description of how to use the `papermill` framework to produce a publication.
+This 
 
 In **Part 3**, [`C0DE`](#c0de), 
-the complete and in large parts annotated source code of the `papermill` project can be inspected. 
+the complete and in large parts annotated source code of the `mill` Command Line Utility can be inspected. 
 It is a homage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
 
 <!-- only for print: -->
