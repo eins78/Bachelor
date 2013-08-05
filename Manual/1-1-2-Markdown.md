@@ -1,4 +1,4 @@
-## (**`pandoc`**'s) Markdown
+##  Markdown
 
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
@@ -172,6 +172,7 @@ The have to be *preceded and followed by a blank line*, so they are set apart fr
 This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*).
 
 #### paragraph
+
 A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
     All line breaks inside a paragraph are **ignored**!
 
@@ -208,6 +209,7 @@ A paragraph is any text, **followed by a blank line** (because it is a 'block el
 
 
 #### heading
+
 A heading is created by a line starting with one or more `#` *(hash)* characters. The number of hashes denotes the heading's **level**.
 
     ```
@@ -223,6 +225,7 @@ A heading is created by a line starting with one or more `#` *(hash)* characters
 
 
 #### unordered list
+
 bullet-point lists are one or more lines starting with a `-` (minus) character
 
     Simple:
@@ -250,6 +253,7 @@ bullet-point lists are one or more lines starting with a `-` (minus) character
 
 
 #### ordered list
+
 numbered lists are one or more lines starting with a `number` and a `.` (period) character
 
     ```
@@ -261,7 +265,8 @@ numbered lists are one or more lines starting with a `number` and a `.` (period)
     ```
 
 
-#### figure:
+#### figure
+
 A line of text with only an *image* (see above) is interpreted as a 'figure'. 
     This means it will be a separate, centered, document element.
     More importantly, the image description is used as the 'caption'.
@@ -280,6 +285,7 @@ A line of text with only an *image* (see above) is interpreted as a 'figure'.
 
 
 #### blockquote
+
 For larger citations, start each line with a `>` *(greater-then)* character, just like in an email:
 
     ```
@@ -290,6 +296,7 @@ For larger citations, start each line with a `>` *(greater-then)* character, jus
     ```
 
 #### code block
+
 like the *'verbatim'* text formatting, but in a block. \
     There are two ways to achive this:
 
