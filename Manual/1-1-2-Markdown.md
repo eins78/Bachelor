@@ -3,10 +3,6 @@
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
-<!-- *Less is more:* 
-
-*More is more:* there are several extension to the syntax supported by pandoc. -->
-
 This following is based on 
 John Grubers original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
 John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
