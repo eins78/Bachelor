@@ -1,6 +1,9 @@
 # Goals
 
-- make the tools and workflows used in (open source) software developement more accessible for authors and writers
+
+## publication *development*
+
+Make the tools and workflows used in (open source) software development more accessible for authors and writers
     - version control 
     - automation
 
