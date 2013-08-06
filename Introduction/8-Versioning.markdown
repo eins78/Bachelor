@@ -130,24 +130,6 @@ Furthermore, the **`hash`** of every commit is used by `git` in the background t
 
 
 
-### Automatic commiting
-
-If you don't wan't to commit manually, there are two software tools that handle automatic committing in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
-
--  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
-
-    *  user friendly, written in the `python` programming language
-    *  extendable with plugins
-    *  runs on `Linux` (well) and `Mac OS X` (manual work needed) 
-
-- [`git-o-mat`](https://github.com/eins78/git-o-mat) – inspired by `flashbake`, written by Max F. Albrecht
-
-    *  very simple, written as a `shell` script
-    *  extendable with your own scripts (for message generation)
-    *  runs well on `Linux` and `Mac OS X`
-    *  may be integrated into the `papermill` project
-
-
 ## Branch
 
 We already established that **clones** are copies of a **repository**, and **forks** are **clones** with any changes not found elsewhere.
