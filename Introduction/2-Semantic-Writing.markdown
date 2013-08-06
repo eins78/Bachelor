@@ -14,7 +14,7 @@
 > The pencil is located on a different level of reality as for example the grammar, the idea or the motive to write.
 > The gesture of writing obeys a specific linearity."
 >
-> — [@Flusser:Schreiben, pp. 261, own translation]
+> — Vilém Flusser [@Flusser:Schreiben, pp. 261, own translation]
 
 ````
 TODO:
