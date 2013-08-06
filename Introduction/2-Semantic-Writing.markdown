@@ -73,12 +73,12 @@ On the one hand, it can be summed up quite simply:
 * Design *translates* this source into an *output*, using typography
 
 On the other hand, there are specific connotations embedded in our visual and cultural knowledge.
-These are shaped by a) how this translation was handled historically; and b) the user interface of text editors since the 1980s:
+These are shaped by a) how this translation was handled historically; and b) the user interface of word processors since the 1980s:
 
 ![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../_images/bold-italic-buttons.png)
 
 As these examples show, the interface of most word processors visualize 'emphasis' as 'italic' and 'strong emphasis' as 'bold'.
-This is consistent with how these semantic intentions are usually expressed typographicly, but i
+While this is consistent with how these semantic intentions are usually expressed typographically,  
 
 ````{.edit}
 
