@@ -21,7 +21,7 @@ Historically, the semantic structure of any text has always been "embedded" into
 Any emphasis, the division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
 
 With the introduction of the [moveable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
-Any text now had to be split up into it's composing letters and spaces and then re-arranged, using only the available (lead) characters.
+Any text now had to be split up into its composing letters and spaces and then re-arranged, using only the available (lead) characters.
 
 So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization"^[in German: *'Digitalisierung'*] even started,
 the printing press marks the transition from thinking about and working with text as a discrete (countable, 'digital') signal, 
