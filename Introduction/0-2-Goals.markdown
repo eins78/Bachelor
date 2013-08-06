@@ -44,6 +44,18 @@ The framework should be usable on a [*general purpose computer*](https://en.wiki
 At the same time, it should be possible to use it 
 with just a web browser, because less and less computing devices that people use are in fact general purpose.
 
+## Ease of use
+
+A complicated system is harder to use and harder to explain than a simple one.
+
+A long-term goal is to abstract away as much as possible from the user, 
+while at the same time still providing all the necessary information 
+for the ones that *want* to know what is happening in the background.
+
+Most of the contents of the current **'Manual'** will stay relevant 
+and will simply be updated in parallel with the framework. 
+This **'Introduction'** however is hopefully not a required reading in the future.
+
 
 ## Free/Libre/Open Source
 
