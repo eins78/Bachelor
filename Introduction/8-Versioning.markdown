@@ -21,7 +21,7 @@ As Doctorow summarizes in a blog post:
 
 > "I was prompted to do this after discussions with several digital archivists who complained that, prior to the computerized era, writers produced a series complete drafts on the way to publications, complete with erasures, annotations, and so on. These are archival gold, since they illuminate the creative process [...]. By contrast, many writers produce only a single (or a few) digital files that are modified right up to publication time, without any real systematic records of the interim states between the first bit of composition and the final draft."
 
-Being a blogger, digital activist and all-round-nerd, he falls into the target group of 'technically involved' authors, so it comes a no surprise that he found a highly technical solution. He commissioned a piece of software ([`flashbake`](https://github.com/commandline/flashbake)), which automatically keeps track of his work in 15-minute-intervals.
+Being a blogger, digital activist and all-round-nerd, he falls into the target group of 'technically involved' authors, so it comes as no surprise that he found a highly technical solution. He commissioned a piece of software ([`flashbake`](https://github.com/commandline/flashbake)), which automatically keeps track of his work in 15-minute-intervals.
 
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
 de-facto standard for versioning and collaborating open-source software project. 
