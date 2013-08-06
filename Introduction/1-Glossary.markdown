@@ -12,16 +12,17 @@ a) an [operating system][os] family with a [history] back to the year 1969 .
     
     Most of the internet runs on some kind of `*nix`, 
     in fact today most computers that don't have a *Windows* 
-    sticker on them probably run it, including Apple's 
+    sticker on them probably run a variation, including Apple's 
     and Google's smartphones and tablets.
 
 [os]: https://en.wikipedia.org/wiki/Operating_system
 [history]: https://en.wikipedia.org/wiki/Unix
 
-b) a philosophy
-- everything is a file
-- programs should do one thing and good (modularity)
-- 
+b) a [philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
+
+    - everything is a file
+    - programs should do one thing and good (modularity)
+    - 
 
 
 ## `HTML`
