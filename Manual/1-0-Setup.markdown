@@ -135,12 +135,11 @@ If you don't wan't to commit manually, there are two software tools that handle 
     *  extendable with plugins
     *  runs on `Linux` (well) and `Mac OS X` (manual work needed) 
 
-- [`git-o-mat`](https://github.com/eins78/git-o-mat) – inspired by `flashbake`, written by Max F. Albrecht
+- [`git-o-mat`](https://github.com/papermill/git-o-mat) – inspired by `flashbake`, and yet another `papermill` prototype
 
     *  very simple, written as a `shell` script
     *  extendable with your own scripts (for message generation)
     *  runs well on `Linux` and `Mac OS X`
-    *  may be integrated into the `papermill` project
 
 
 
