@@ -8,7 +8,12 @@ Unix is:
 a) an [operating system][os] family with a [history] back to the year 1969 .
 
     `Linux` is a well-known member of this diverse family, 
-    so the term
+    so `*nix` is sometimes used as a more general term.
+    
+    Most of the internet runs on some kind of `*nix`, 
+    in fact today most computers that don't have a *Windows* 
+    sticker on them probably run it, including Apple's 
+    and Google's smartphones and tablets.
 
 [os]: https://en.wikipedia.org/wiki/Operating_system
 [history]: https://en.wikipedia.org/wiki/Unix
@@ -17,8 +22,6 @@ b) a philosophy
 - everything is a file
 - programs should do one thing and good (modularity)
 - 
-
-
 
 
 ## `HTML`
