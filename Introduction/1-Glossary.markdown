@@ -5,7 +5,10 @@
 
 Unix is:
 
-a) an [operating system][os] with a [history] back to the year 1969 
+a) an [operating system][os] family with a [history] back to the year 1969 .
+
+    `Linux` is a well-known member of this diverse family, 
+    so the term
 
 [os]: https://en.wikipedia.org/wiki/Operating_system
 [history]: https://en.wikipedia.org/wiki/Unix
@@ -14,6 +17,8 @@ b) a philosophy
 - everything is a file
 - programs should do one thing and good (modularity)
 - 
+
+
 
 
 ## `HTML`
