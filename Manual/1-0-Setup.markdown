@@ -68,7 +68,7 @@ This can for example be used to produce different parts of a dissertation that s
 
 Their *content should be related*, otherwise they would be two different projects.
 
-This feature could for example be used to also produce an output from a `Drafts/` folder
+This could for example be used to also produce an output from a `Drafts/` folder in order to preview it.
 
 ```
     Project/
