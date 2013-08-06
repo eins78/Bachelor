@@ -88,7 +88,7 @@ A **hash** is a concept that comes from the area of cryptography.
 A simplistic explanation would be think of it as a'cross sum' of all your content, 
 which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
 
-A specific 'hash function' which is used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is git users sometimes call the hash a `SHA`. 
+The 'hash function' used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a `SHA`. 
 It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
 This can be automatically abbreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
 
