@@ -1,20 +1,3 @@
-# Semantic Writing
-
-> "To be able to write, we need – among others – the following things: \
-> a surface (sheet of paper), 
-> a tool (pencil), 
-> symbols (letters), 
-> a convention (meaning of the letters), 
-> rules (orthography), 
-> a system (grammar), 
-> a system denoted by the system of language (semantic knowledge of the language), 
-> a message to write (idea) 
-> and the act of writing. 
-> The complexity is found less in the multitude of the essential factors, but in their heterogeneity. 
-> The pencil is located on a different level of reality as for example the grammar, the idea or the motive to write."
->
-> — *Vilém Flusser* [@Flusser:Schreiben, pp. 261, own translation]
-
 
 <!-- 
 
@@ -31,10 +14,12 @@ narative:
   - extensions for elements
 - publication structure: papermill config
 
-- semantic vs. style -->
+- semantic vs. style 
+
+-->
 
 
-## Markup and Markdown
+# Semantic Writing
 
 Historically, formatting has always been "embedded" into the final document by the author or writer. 
 Any emphasis, the position of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
@@ -56,6 +41,14 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > This idling could be avoided if the manuscripted would be
 > handed in formatted as described here." [[@Tschichold:Drucksachen]] [^fn-tschicholdparagraphs]
 
+[^fn-tschicholdparagraphs]: *Original:* "Tausende von Arbeitsstunden werden von Typographen geopfert, 
+um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
+und Nachdenken richtig zu ordnen.
+Dieser Leerlauf ließe sich vermeiden, wenn die Manuskripte gleich
+in der soeben beschriebenen Art abgeliefert würden."
+
+
+
 Since then, the situation became equally better and worse: 
 Nowadays, most authors produce their manuscripts digitally, which should leave less room for interpretations and errors.
 Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`, meaning the intent of the author is once again visual output 
@@ -64,7 +57,7 @@ Note that there are alternatives in the market, but these are mostly aimed at ve
 An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allowing input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
 
 
-## Common Pitfalls
+## Formatting: Markup and Markdown
 
 <!-- narrative:
 - historic connotations - traditional way to stylize intend (partly cause of the confusion)
@@ -113,11 +106,5 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 
 
 
-
-[^fn-tschicholdparagraphs]: Original: "Tausende von Arbeitsstunden werden von Typographen geopfert, 
-um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
-und Nachdenken richtig zu ordnen.
-Dieser Leerlauf ließe sich vermeiden, wenn die Manuskripte gleich
-in der soeben beschriebenen Art abgeliefert würden."
 
 
