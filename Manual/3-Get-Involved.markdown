@@ -9,7 +9,8 @@ As with any open source project, there is a wide range of possible involvement, 
 
 ## Learning Resources
 
-- The Idiomatic JS 'Styleguide [@url:idiomaticjs]
+- "Eloquent Javascript" by Marijn Haverbeke [[-@guide:eloquentjs]]
+- "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
 
 ## Challenges Ahead
 
