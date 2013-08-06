@@ -1,14 +1,5 @@
 # The Process of Writing
-````{.edit}
 
-
-maybe talk about 
-
-- PEOPLE: author, editor, maintainer
-- PHASES: draft, edit, publish, update
-
-
-````
 
 
 ## People
@@ -23,6 +14,7 @@ maybe talk about
 **editor**
 
 :   An editor does not create content, but does contribute editorial changes, correcting errors, etc.
+
 
 ## Phases
 
@@ -43,4 +35,16 @@ maybe talk about
 
 **Update** 
 
-:   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information. T
+:   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information.
+
+
+## Communication
+
+
+### README
+
+The most easy way and fool-proof to communicate inside a project is, 
+like the content itself, text-based.
+
+A straightforward solution, which is often used in software, is the README file. It is a text file in which general information *about* the project is collected. 
+The main advantage of this is that, when using version control, this file will always be stored and versioned together with the contents.
