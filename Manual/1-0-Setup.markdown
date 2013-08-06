@@ -61,13 +61,15 @@ For example, unfinished chapters could be stored in a `Drafts/` folder.
         └── > { "input": [ "Text" ] }
 ```
 
-
+Note that the configuration is the same as in the previous example. 
 
 A project can have more than one document, although the convention is that their *content should be related*. 
 This can for example be used to produce different parts of a dissertation that should be printed separately.
 
 ```
     Project/
+    ├── Drafts
+    │   └── an-unfinished-chapter.md
     ├── Text
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
