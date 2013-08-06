@@ -3,7 +3,6 @@
 
 ````{.TODO}
 TODO:
-
 - better intro
 ````
 
@@ -70,8 +69,8 @@ For example, unfinished chapters could be stored in a `Drafts/` folder.
         └── > { "input": [ "Text" ] }
 ```
 
-A project can also have more than one document as an input. \
-This can for example be used to produce different parts of a dissertation that should be printed separately.
+A project can also have more than one document as inputs. \
+This can for example be used to produce different parts of a dissertation which should be printed separately.
 
 Their *content should be related*, otherwise they would be two different projects.
 
