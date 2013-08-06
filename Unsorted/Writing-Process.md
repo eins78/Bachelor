@@ -2,8 +2,6 @@
 
 
 
-![Screen Shot 2013 08 06 At 15.11.34](../_stash/Screen%20Shot%202013-08-06%20at%2015.11.34.png)
-
 ## People
 
 **author**(s)
@@ -41,6 +39,18 @@
 
 
 ## Tools
+
+An *integrated* development environment (**`IDE`**) for `papermill` 
+is a long-term goal of the project, but because the important modules
+of the framework are all tried and proven, there are many diverse tools
+that support these modules.
+
+However, the ability to 'mix and match' the tools according to personal
+taste and requirements 
+
+
+![Tools used to produce this publication](../_stash/Screen%20Shot%202013-08-06%20at%2015.11.34.png)
+
 
 
 ### Text editor
