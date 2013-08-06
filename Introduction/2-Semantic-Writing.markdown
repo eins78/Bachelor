@@ -78,7 +78,7 @@ While this is consistent with how these semantic intentions are usually expresse
 it shows the general problem of the **`WYSIWYG`** paradigm: 
 the semantic structure of the document is once again 'embedded', thus uncertain.
 
-The alternative approach 
+The alternative approach is to use a Markup Language
    
 In `HTML`, there is the "`<em>`"-Tag,
 which marks the enclosed text as emphasized. 
