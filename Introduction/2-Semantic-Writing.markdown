@@ -1,5 +1,21 @@
 # Semantic Writing
 
+> "To be able to write, we need - among others - the following things:
+> a surface (sheet of paper),
+> a tool (pencil),
+> symbols (letters),
+> a convention (meaning of the letters),
+> rules (orthography),
+> a system (grammar),
+> a system denoted by the system of language (semantic knowledge of the language),
+> a message to write (idea)
+> and the act of writing.
+> The complexity is found less in the multitude of the essential factors, but in their heterogeneity.
+> The pencil is located on a different level of reality as for example the grammar, the idea or the motive to write.
+> The gesture of writing obeys a specific linearity."
+>
+> — [@Flusser:Schreiben, pp. 261, own translation]
+
 ````
 TODO:
 - explain document structure (from Manual)
