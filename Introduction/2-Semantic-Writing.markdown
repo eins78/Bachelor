@@ -57,7 +57,7 @@ Note that there are alternatives in the market, but these are mostly aimed at ve
 An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allowing input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
 
 
-## Formatting: Markup and Markdown
+## Formatting
 
 <!-- narrative:
 - historic connotations - traditional way to stylize intend (partly cause of the confusion)
@@ -106,5 +106,11 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 
 
 
+## Markup and Markdown
 
+"Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`...`] 
+The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+
+To this end, Markdown’s syntax is comprised entirely of punctuation characters [`...`] carefully chosen so as to look like what they mean. 
+E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
