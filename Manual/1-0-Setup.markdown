@@ -61,8 +61,12 @@ For example, unfinished chapters could be stored in a `Drafts/` folder.
         └── > { "input": [ "Text" ] }
 ```
 
-Moreover, a project can have more than one document, although the convention is that their *content should be related*. 
+A project can also have more than one document as an input. \
 This can for example be used to produce different parts of a dissertation that should be printed separately.
+
+Their *content should be related*, otherwise they would be two different projects.
+
+This feature could example be used to 
 
 ```
     Project/
@@ -74,7 +78,7 @@ This can for example be used to produce different parts of a dissertation that s
     │   └── 3-another-chapter.md
     ├── More-Text.md
     └── papermill.json
-        └── > { "input": [ "Text", "More-Text.md" ] }
+        └── > { "input": [ "Text", "Drafts" ] }
 ```
 
 
