@@ -78,10 +78,13 @@ While this is consistent with how these semantic intentions are usually expresse
 it shows the general problem of the **`WYSIWYG`** paradigm: 
 the semantic structure of the document is once again 'embedded', thus uncertain.
 
-The alternative approach is to use a Markup Language
+
+## Markup and Markdown
+
+There is an alternative approach, sometimes called "What you mean is what you get" in response to **`WYSIWYG`**, 
+is to use a Markup Language, like **`HTML`**.
    
-In `HTML`, there is the "`<em>`"-Tag,
-which marks the enclosed text as emphasized. 
+Continuing with our example, `HTML` a phrase is emphasized by enclosing it in a "`<em>`"-Tag.
 
 If there is no associated (`CSS`-) instruction the browser how to  *style* this tag, it uses the built-in default. 
 In case of the Safari web browser, as in all relevant browsers, this defines "emphasis" as "italic":
@@ -95,8 +98,6 @@ In case of the Safari web browser, as in all relevant browsers, this defines "em
 > [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
-
-## Markup and Markdown
 
 "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`...`] 
 The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
