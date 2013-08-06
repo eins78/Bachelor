@@ -60,7 +60,7 @@ foreign terms
 "double quotes" \
 quotation
 
-All **quotes** from external sources are referenced in the *Bibliography* chapter.
+Quoted **sources** are referenced numerically and listed in in the *References* chapter at the end of each document.
 
 External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore but are not crucial to the understanding of the text. \
 In the print edition, they are are represented by footnotes.
