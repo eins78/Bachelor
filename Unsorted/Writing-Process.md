@@ -19,6 +19,11 @@ maybe talk about
     It is the person or people responsible or creating the content.
     If there are several co-authors, a strategy for managing them has to be devised.
 
+
+**editor**
+
+:   An editor does not create content, but does contribute editorial changes, correcting errors, etc.
+
 ## Phases
 
 **Draft**
