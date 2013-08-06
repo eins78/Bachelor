@@ -59,6 +59,23 @@ This can for example be used to produce different parts of a dissertation that s
         └── > { "input": [ "Text", "More-Text.md" ] }
 ```
 
+While you are writing,
+
+```
+    Project/
+    ├── Drafts
+    │   └── an-unfinished-chapter.md
+    ├── Text
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    ├── More-Text.md
+    └── papermill.json
+        └── > { "input": [ "Text", "More-Text.md" ] }
+```
+
+
+
 ## Configuration
 
 The **configuration** file is the second most important part of a project. \
