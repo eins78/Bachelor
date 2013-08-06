@@ -1,5 +1,11 @@
 # Implementation
 
+
+<!-- 
+    TODO: directly refer to the goals!
+ -->
+
+
 The implementation of the goals happens in the form of real-world prototypes. 
 This means a minimal working solution is developed while actual publication is produced with it.
 
@@ -44,7 +50,3 @@ The goal was to find generally useful solutions to the technical problems that a
     
 - *Bonus:* `Papermill.app`, a graphical 'drag-and-drop' interface to compile `papermill` projects on *Mac OS X*
 
-
-<!-- 
-    TODO: directly refer to the goals!
- -->

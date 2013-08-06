@@ -31,7 +31,7 @@ Make sure that once written, the source of the publication can be compiled into 
 * long-term availabilty of the build toolchain through use of open source software 
 
 
-From these, we derive our secondary goals:
+From these, we can derive our secondary goals:
 
 ## Plain text
 
