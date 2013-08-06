@@ -12,14 +12,14 @@ a) an [operating system][os] family with a [history] back to the year 1969 .
     Most of the internet runs on some kind of `*nix`, 
     in fact today most computers that don't have a *Windows* 
     sticker on them probably run a variation, including Apple's 
-    and Google's smartphones and tablets.
+    and Google's computers smartphones and tablets.
 
 [os]: https://en.wikipedia.org/wiki/Operating_system
 [history]: https://en.wikipedia.org/wiki/Unix
 
 b) a [philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-    - **everything is a** (text) **file**
+    - **everything is a** (text) **file!**
     - Simplicity and modularity
 
 
@@ -125,9 +125,8 @@ Certain files or folder on a computer,
 for example configuration files belonging to software, 
 can be hidden from the user by the operating system and/or file browser.
 This is usually to keep the user from indadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
-On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
+On operating systems in the `UNIX` family, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
 
-## Markdown
 
 
 ## wiki
