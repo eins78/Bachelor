@@ -121,7 +121,7 @@ This can be automatically abbreviated by `git` to the shortest string that still
 
 ## Hidden file, -folder
 
-Certain files or folder on a computer, 
+Certain files or folders on a computer, 
 for example configuration files belonging to software, 
 can be hidden from the user by the operating system and/or file browser.
 This is usually to keep the user from indadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
