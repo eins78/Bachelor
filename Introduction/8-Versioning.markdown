@@ -58,7 +58,7 @@ This is not even wrong: If you directly edit files in a `git` repository on
 your computer, it will be there just like any other folder.
 In our case, this folder contains all the files related to a publication:
 
-- The text files, of course
+- Most importantly, the text files *('sources')*
 - Any non-text assets that are part of the publication, like images and figures.
 - The `papermill.json` configuration file
 - Any additional files that need to be tracked, or just shared.
@@ -70,7 +70,7 @@ a **`hidden folder`** called `.git`!
 !['.git' Folder](../_images/git/icon-folder-git.png)
 
 As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
-It contains lots of meta-data and also a small database-like storage. 
+It contains a lot of meta-data and also a small database-like storage. 
 The **`git`** software reads and writes to this storage to facilitate all the nice things described further in this chapter. 
 It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) program which reads and writes to this small database inside your repository.
 
