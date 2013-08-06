@@ -9,6 +9,7 @@ Also, keep in mind that you can start you own project from a [**stationery**](ht
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
 
+
 ## Project
 
 The basic rules are very simple:
@@ -67,7 +68,7 @@ This can for example be used to produce different parts of a dissertation that s
 
 Their *content should be related*, otherwise they would be two different projects.
 
-This feature could example be used to 
+This feature could for example be used to also produce an output from a `Drafts/` folder
 
 ```
     Project/

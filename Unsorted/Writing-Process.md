@@ -71,6 +71,7 @@ known from programming languages:
 - *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
 
 - *Shortcuts:* Offer quicker way to type the syntax. Although with Markdown the syntax is as minimal as possible, they still can be of great help. \
+
   They come in the following forms:
     * 
 
