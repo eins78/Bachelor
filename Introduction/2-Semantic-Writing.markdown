@@ -16,7 +16,9 @@
 >
 > — Vilém Flusser [@Flusser:Schreiben, pp. 261, own translation]
 
-````
+
+<!-- 
+
 TODO:
 - explain document structure (from Manual)
 - examples of markups? HTML, La
@@ -29,7 +31,9 @@ narative:
   - from web
   - extensions for elements
 - publication structure: papermill config
-````
+
+- semantic vs. style -->
+
 
 ## Markup and Markdown
 
