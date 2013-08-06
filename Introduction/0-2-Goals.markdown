@@ -10,10 +10,9 @@ Make the tools and workflows used in (open source) software development more acc
 - **version control** 
 - automation
 - continuos integration
-- IDEs
+- IDEs: Integrated Development Environment
 - libraries: reusable modules
 
-- semantic content
 
 ## Cross-media publishing
 
