@@ -1,6 +1,6 @@
 # Semantic Writing
 
-> "To be able to write, we need - among others - the following things:
+> "To be able to write, we need – among others – the following things: \
 > a surface (sheet of paper),
 > a tool (pencil),
 > symbols (letters),
