@@ -13,8 +13,10 @@ maybe talk about
 
 ## People
 
-The author is, obviously, the most important person of any publication.
-If there are several co-authors, a strategy 
+**author**(s)
+
+:   The author is, obviously, the most important person of any publication.
+    If there are several co-authors, a strategy 
 
 ## Phases
 
