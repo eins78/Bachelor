@@ -109,7 +109,8 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
 
 ## `hash`
 A **hash** is a concept that comes from the area of cryptography. 
-A simplistic explanation would be think of it as a'cross sum' of all your content, 
+A simplistic explanation would be think of it as a 
+'cross sum' of all your content, 
 which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
 
 The 'hash function' used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a `SHA`. 
