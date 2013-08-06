@@ -72,8 +72,8 @@ AND SMALL FINGERS, TO MAKE USE OF US."
 [@Nietzsche:Kugel, own translation] [quoted after @Stingelin:Kugelausserungen, p. 332]
 
 "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"
-Nietzsche an Heinrich Köselitz, Ende Februar 1882, KSB 6, Nr. 202, S. 172
-[quoted after @stingelin:schreibzeug, p. 304]
+[[-@Nietzsche:schreibzeug]], 
+quoted after [@stingelin:schreibzeug, p. 304]
 
 ---
 
