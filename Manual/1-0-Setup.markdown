@@ -1,5 +1,12 @@
 # Setup
 
+
+````{.TODO}
+TODO:
+
+- better intro
+````
+
 `papermill` is, at its core, a formalized project structure with configuration.
 
 These are the elements you need to know about. It might seem complicated, but most of that is only needed for more complicated projects.
