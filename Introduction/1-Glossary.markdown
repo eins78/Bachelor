@@ -57,7 +57,7 @@ Today, these two standards serves as the foundation of the web, along with `CSS`
 
 ## `git`
 
-`Git` is a distributed version/revision control system system dubbed as "the stupid content tracker" [@link:git:readme, line. 3] developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
+`Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
 Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, so he put of work on linux until git was usable.
 
 For a step-by-step introduction to Versioning and git, see the chapter *Versioning*.
