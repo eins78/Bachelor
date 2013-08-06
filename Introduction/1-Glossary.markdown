@@ -19,7 +19,7 @@ a) an [operating system][os] family with a [history] back to the year 1969 .
 
 b) a [philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
-    - **everything is a** (text) **file!**
+    - **everything is a *(text)* file!**
     - Simplicity and modularity
 
 
