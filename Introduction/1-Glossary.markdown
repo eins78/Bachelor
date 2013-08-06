@@ -41,10 +41,6 @@ Just like Donald Knuth and his `TeX` project, Linus became so frustrated with th
 For a step-by-step introduction to Versioning and git, see the chapter *Versioning*.
 
 
-## `pandoc`
-
-Test: see [`diff`](#diff)
-
 ## `diff`, (`patch`) {#diff}
 
 - diff, the *(noun)*
@@ -94,6 +90,8 @@ for example configuration files belonging to software,
 can be hidden from the user by the operating system and/or file browser.
 This is usually to keep the user from indadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
 On operating systems in the `UNIX` family, which includes `Linux` and `Mac OS X`, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
+
+## Markdown
 
 
 ## wiki
