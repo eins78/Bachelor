@@ -28,7 +28,7 @@ With the introduction of the [moveable type printing press](https://en.wikipedia
 Any text now had to be split up into it's composing letters and spaces and then re-arranged, using only the available (lead) characters.
 
 So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization"^[in German: *'Digitalisierung'*] even started,
-the printing press marks the transition from thinking about and working with text as a discrete (countable, "digital") signal, 
+the printing press marks the transition from thinking about and working with text as a discrete (countable, 'digital') signal, 
 as opposed to the monolithic, continuous signal it was seen as before.
 
 Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
