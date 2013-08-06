@@ -12,6 +12,7 @@ As with any open source project, there is a wide range of possible involvement, 
 - "Eloquent Javascript" by Marijn Haverbeke [[-@guide:eloquentjs]]
 - "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
 - "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
+- "Node: Up and Running" [[-@guide:noderun]]
 
 ## Challenges Ahead
 
