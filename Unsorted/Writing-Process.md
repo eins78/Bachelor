@@ -55,8 +55,7 @@ taste and requirements
 
 ### Text editor
 
-Choose a text editor *you* are comfortable with.
-It should support plain text, but even Microsoft Word does this (reluctantly).
+As we already have established, we don't want to use a word processor because we are working with plain text.
 
 Generally, we can distinguish between different kinds of text editors: 
 
