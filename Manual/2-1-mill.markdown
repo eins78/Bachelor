@@ -79,7 +79,7 @@ Because the document conversion is handled by **`pandoc`**, all its settings are
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
-**General Options:**
+#### General Options
 
 `bibliography`
 :   path to bibliography file
@@ -90,9 +90,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `selfContained`
 :   include all assets in file *(web only)*
 
----
 
-**Visual/Layout Options:**
+#### Visual/Layout Options
 
 `toc`
 :   enable a 'Table of Contents'
@@ -117,9 +116,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 `numberSections`
 :   "Number section headings" *(print only)*
 
----
 
-**Content Options:**
+#### Content Options
 
 `strict`
 :   just use the original Markdown
@@ -139,9 +137,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown
 
----
 
-**Customizing Output:**
+#### Customizing Output
 
 `template`
 :   use a custom **`pandoc`** [template](https://github.com/papermill/pandoc-templates)(!)
@@ -168,7 +165,8 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
     * `urlcolor`
     * `links-as-notes`
 
----
+
+### Defaults
 
 For reference, these are the complete **default settings**, general and for both targets: 
 
