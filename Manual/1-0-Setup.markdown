@@ -45,6 +45,24 @@ Practically, this means that you can just start writing new chapters whenever yo
         └─> { "input": "Text" }
 ```
 
+While writing, any other files or folders in the project directory will not be considered as input.
+
+For example, unfinished chapters could be stored in a `Drafts/` folder.
+
+```
+    Project/
+    ├── Drafts
+    │   └── an-unfinished-chapter.md
+    ├── Text
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    └── papermill.json
+        └── > { "input": [ "Text" ] }
+```
+
+
+
 A project can have more than one document, although the convention is that their *content should be related*. 
 This can for example be used to produce different parts of a dissertation that should be printed separately.
 
@@ -58,22 +76,6 @@ This can for example be used to produce different parts of a dissertation that s
     └── papermill.json
         └── > { "input": [ "Text", "More-Text.md" ] }
 ```
-
-While you are writing,
-
-```
-    Project/
-    ├── Drafts
-    │   └── an-unfinished-chapter.md
-    ├── Text
-    │   ├── 1-intro.md
-    │   ├── 2-a-chapter.md
-    │   └── 3-another-chapter.md
-    ├── More-Text.md
-    └── papermill.json
-        └── > { "input": [ "Text", "More-Text.md" ] }
-```
-
 
 
 ## Configuration
