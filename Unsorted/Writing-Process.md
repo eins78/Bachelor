@@ -63,7 +63,6 @@ a) the very minimalistic editors, with limited functionality, like the ones that
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
 b) **`IDEs`**, integrated development environments
 c) every step in between them, of course
-d) **`WYSIWYG`** 'Word processors', like Microsoft Word.
 
 Recommendations: 
 
@@ -72,6 +71,15 @@ Recommendations:
 
 [tm]: http://macromates.com
 [st]: http://www.sublimetext.com
+
+These both have the ability to be extended with 'bundles', and already ship with a 'Markdown bundle' built-in.
+
+That means they 'understand' the basic syntax of the formatting language, which enables them to offer features 
+known from programming languages:
+
+- *Syntax highlighting:* Make the plain text source more **readable** by using colors, font sizes to visualized the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+Like other text editors that have support
 
 
 ## Communication
