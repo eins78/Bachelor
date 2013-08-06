@@ -127,9 +127,6 @@ The **`hash`** of each commit is calculated. It can be used as a ***unique* vers
 
 Furthermore, the **`hash`** of every commit is used by `git` in the background to make sure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
 
-[^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
-
-
 
 
 ### Automatic commiting
