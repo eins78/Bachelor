@@ -1,6 +1,12 @@
 
 # Glossary
 
+## `Unix`, `Linux`, `*nix`
+
+- everything is a file
+- programs should do one thing and good (modularity)
+- 
+
 ## `HTML`
 
 The formatting language of the web, [invented by Tim Berners-Lee at the `CERN` in 1989](http://www.w3.org/History/1989/proposal.html).
