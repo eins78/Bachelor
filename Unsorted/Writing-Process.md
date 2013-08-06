@@ -61,8 +61,18 @@ Generally, we can distinguish between different kinds of text editors:
 
 a) the very minimalistic editors, with limited functionality, like the ones that ship 
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
-b) **`IDEs`**, integrated development environments
-c) every step in between them, of course
+b) **`IDE`**s, integrated development environments
+
+Of course, there also exists every gradation in between those two. 
+There are some editors from the 
+hat means they 'understand' the basic syntax of the formatting language, which enables them to offer features 
+known from programming languages:
+
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+- *Shortcuts:* Offer quicker way to type the syntax. Although with Markdown the syntax is as minimal as possible, it still helps to 
+
+Like other text editors that have support
 
 Recommendations: 
 
@@ -73,15 +83,6 @@ Recommendations:
 [st]: http://www.sublimetext.com
 
 These both have the ability to be extended with 'bundles', and already ship with a 'Markdown bundle' built-in.
-
-That means they 'understand' the basic syntax of the formatting language, which enables them to offer features 
-known from programming languages:
-
-- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
-
-- Shortcuts: 
-
-Like other text editors that have support
 
 
 ## Communication
