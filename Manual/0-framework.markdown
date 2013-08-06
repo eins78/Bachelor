@@ -19,7 +19,7 @@ Being 'decoupled' means that the framework should still be useful if
 a user uses only some of its components.
 
 
-# Walkthrough
+## A quick Walkthrough
 
 The following part of the *MANUAL* should explain all the steps necessary to produce 
 a publication with `papermill`.
