@@ -64,7 +64,7 @@ a) the very minimalistic editors, with limited functionality, like the ones that
 with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
 b) **`IDEs`**, integrated development environments
 c) every step in between them, of course
-d) **`WYSIWYG`**
+d) **`WYSIWYG`** 'Word processors', like Microsoft Word.
 
 Recommendations: 
 
