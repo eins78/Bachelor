@@ -10,8 +10,9 @@ As with any open source project, there is a wide range of possible involvement, 
 ## Learning Resources
 
 - "Eloquent Javascript" by Marijn Haverbeke [[-@guide:eloquentjs]]
-- "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
+- "JavaScript Pocket Reference" [[-@guide:jspocket]]
 - "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
+- "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
 - "Node: Up and Running" [[-@guide:noderun]]
 
 ## Challenges Ahead
