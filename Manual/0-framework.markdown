@@ -16,7 +16,7 @@ In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) i
 components, along with additional 'glue' software to better integrate them.
 
 Being 'decoupled' means that the framework should still be useful if
-a user uses only some of it's components.
+a user uses only some of its components.
 
 
 # Walkthrough
