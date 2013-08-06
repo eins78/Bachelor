@@ -108,6 +108,10 @@ In general, the configuration lists the following items:
 A simple example looks like this:
 
 ````js
+"input": {
+  "path": "doc.md",
+  "class": "article"
+}
 ````
 
 It is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
