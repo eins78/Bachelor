@@ -3,9 +3,15 @@
 
 ## `Unix`, `Linux`, `*nix`
 
+Unix is:
+
+a) an [operating system](https://en.wikipedia.org/wiki/Operating_system) 
+
+b) a philosophy
 - everything is a file
 - programs should do one thing and good (modularity)
 - 
+
 
 ## `HTML`
 
