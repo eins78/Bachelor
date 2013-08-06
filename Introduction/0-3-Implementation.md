@@ -40,4 +40,6 @@ The goal was to find generally useful solutions to the technical problems that a
 - `bookstrap`: template and style for web output to complement the LaTeX templates
     * optimized for modern web browsers
     * designed for long-form text: readability, non-distractive, table/sidebar of contents
-    * uses novel grid system based on typographic `em`-units.
+    * uses novel grid system based on typographic `em`-units
+    
+- *Bonus:* `Papermill.app`, a graphical 'drag-and-drop' interface to compile `papermill` projects on *Mac OS X*
