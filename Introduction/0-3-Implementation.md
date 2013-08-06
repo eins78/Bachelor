@@ -16,9 +16,10 @@ everything from automation to templates was written *('scripted')* for this spec
 I also guided the usage of version control for collaborating with (proof-reading) editors. 
 Furthermore, my role as a technical administrator provided valuable insight and inspiration for the next steps of the development process.
 
-The finished Dissertation, in web and print format, can be downloaded at 
-the [project website](http://phd.nts.is), 
-while the source code (including the aforementioned prototype) is [published on GitHub](http://github.com/NTS/PhD).
+The dissertation can be downloaded at in web and print format 
+at the [project website](http://phd.nts.is), 
+while the source code (including the aforementioned prototype) 
+is [published on GitHub](http://github.com/NTS/PhD).
 
 
 ### Version 1: This document
@@ -27,12 +28,12 @@ This document, my Bachelor thesis, was written alongside the development of seve
 
 The goal was to find generally useful solutions to the technical problems that are common to most publication projects.
 
-- Project Configuration specification
+- *Project Configuration* specification
     * Metadata
     * Inputs
     * Outputs
 
-- `mill` Command Line Utility
+- `mill` *Command Line Utility*
     * compiles papermill projects
     * inside: `node.js` module, usable locally and server-side
 
