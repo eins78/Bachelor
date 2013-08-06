@@ -86,8 +86,9 @@ is to use a Markup Language, like **`HTML`**.
    
 Continuing with our example, `HTML` a phrase is emphasized by enclosing it in a "`<em>`"-Tag.
 
-If there is no associated (`CSS`-) instruction the browser how to  *style* this tag, it uses the built-in default. 
-In case of the Safari web browser, as in all relevant browsers, this defines "emphasis" as "italic":
+If there is no associated (`CSS`-) instruction the browser how to *style* this (semantic) tag, it uses the built-in default, which defines "emphasis" as "italic".
+
+As an example, this is how this definition looks in the source code of the [`Safari` web browser](http://apple.com/safari):
 
 > ```
 > em {
