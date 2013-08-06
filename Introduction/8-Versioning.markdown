@@ -227,7 +227,7 @@ But instead of doing all this steps manually, we have already learned to that **
 
 **So, how do we send our changes?**
 
-Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) is mostly dealt with.
+Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
 
 Note: Gitlab calls this "Merge Request", which could be argued to be a better fitting term.
 
