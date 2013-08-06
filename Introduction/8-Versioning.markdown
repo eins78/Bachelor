@@ -35,9 +35,6 @@ Sources for this guide and further reading: "Pro Git" by Scott Chacon [[-@chacon
 
 ## Git
 
-git is a distributed version control system. 
-There is no inherit need to have a central server
-
 This chapter might seem overly technical, but I have broken down what one needs to know about **`git`** to an absolute minimum. For example, won't explain in detail how to use the **`git`** command line, or any other **`git`** interface.
 
 Some newer graphical interfaces (especially GitHub's apps for [Mac](http://mac.github.com) and [Windows](http://windows.github.com)) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half are 3-4 clicks in their web interface.
@@ -180,6 +177,14 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 
 ## Push
+
+**`git`** is a distributed version control system. 
+There is no inherit need to have a central server, or any internet connection: 
+everything can be done locally/offline.
+
+Yet, it is possible to use any number of 'remotes', which are again copies of the repository, outside of it. 
+They *can* be a real server, but it is also possible to use any storage, like an external USB drive.
+
 
 - repo can have one or more remotes
 - remotes are other places where copies of the repo exist
