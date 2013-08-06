@@ -21,7 +21,7 @@ narative:
 
 # Semantic Writing
 
-Historically, formatting has always been "embedded" into the final document by the author or writer. 
+Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
 Any emphasis, the position of line breaks and paragraphs was (hopefully) copied in conjunction with the text.
 With the introduction of the moveable type printing press, this changed dramatically:
 Any text now had to be split up into it's composing letters and spaces and re-arranged by just using the available components,
