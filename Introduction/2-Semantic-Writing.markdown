@@ -33,7 +33,7 @@ as opposed to the monolithic, continuous signal it was seen as before.
 
 Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
 
-Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly and with loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the early 20th century, is complaining about the ambivalence of paragraph positions still in the 1960, when authors already used (discrete) typewriters to turn in manuscripts:
+Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly and with loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the 20th century, is complaining about the ambivalence of paragraph positions still in the 1960, when authors already used (also discrete) typewriters to turn in manuscripts:
 
 > "Thousands of working hours are sacrificed by typographers,
 > getting the right order of letters written without indentation,
