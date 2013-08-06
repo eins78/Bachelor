@@ -182,11 +182,11 @@ They *can* be a real server, but it is also possible to use any storage, like an
 
 ### Merging
 
-If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with other. Even when using paper, they are the same:
+If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
 
 - obtain a copy of the document(s) *(clone)*
 - make some changes, review and save them *(commit)*
-- instead of just sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
+- instead of sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
 - informing the source of the document of your changes, asking it to integrate them
 
 [^fn-manual-diff]: Keep in mind that even if you don't do it yourself, then whomever you sent the document to has to do it.
