@@ -12,6 +12,19 @@
 <!-- don't display page numbers -->
 \pagenumbering{gobble}
 
+<!-- Note: centering does not word with block elements, like lists.
+           that means: only basic text formatting is supported!     -->
+
+
+````{.some-space}
+ 
+ 
+ 
+ 
+ 
+````
+
+
 Documents:
 
 I.\
