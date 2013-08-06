@@ -1,7 +1,10 @@
 # mill
 
-`mill` is the backend for the papermill project, combining all the pieces described in the software stack.
+`mill` is a *Command Line Utility* written in [JavaScript] using [node.js].
 
+
+[JavaScript]: https://en.wikipedia.org/wiki/Javascript
+[node.js] : http://nodejs.org
 
 ## papermill.json
 
