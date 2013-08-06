@@ -25,7 +25,7 @@ Being a blogger, digital activist and all-round-nerd, he falls into the target g
 
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
 de-facto standard for versioning and collaborating open-source software project. 
-It's usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a whole ecosystem of features, 
+Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a whole ecosystem of features, 
 including a web view for all files and content of the repository. 
 
 Sources for this guide and further reading: "Pro Git" by Scott Chacon [[-@chacon:progit]]
