@@ -99,6 +99,7 @@ As an example, this is how this definition looks in the source code of the [`Saf
 > [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
+Another well-known syntax for structured text, at least among scientific and technical authors, is the syntax used in `TeX`, `LaTeX` and other `TeX`-like systems.
 
 "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`...`] 
 The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
