@@ -2,6 +2,8 @@
 
 
 
+![Screen Shot 2013 08 06 At 15.11.34](../_stash/Screen%20Shot%202013-08-06%20at%2015.11.34.png)
+
 ## People
 
 **author**(s)
