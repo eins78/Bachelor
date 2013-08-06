@@ -83,6 +83,12 @@ This could for example be used to also produce an output from a `Drafts/` folder
         └── > { "input": [ "Text", "Drafts" ] }
 ```
 
+**Important:** Any further sub-folders inside an 'input' folder should be avoided. 
+
+Files in them will not be combined, but it also not a good idea to move source files between different 'depths' of folders if there are images in them (see the chapter on *Assets*).
+
+In the above example, moving the unfinished chapter to the `Text/` folder would not cause any problems because they both have the same 'depth'.
+
 
 ## Configuration
 
