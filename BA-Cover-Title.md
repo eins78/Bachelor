@@ -6,8 +6,10 @@
   2013
 
 
-<!-- print-only -->
+<!-- print-only: -->
+<!-- center the content -->
 \center
+<!-- don't display page numbers -->
 \pagenumbering{gobble}
 
 Documents:
