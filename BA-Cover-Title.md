@@ -8,7 +8,7 @@
 
 <!-- print-only -->
 \center
-\pagestyle{empty}
+\pagenumbering{gobble}
 
 Documents:
 
