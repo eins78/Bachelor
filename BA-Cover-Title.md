@@ -8,6 +8,7 @@
 
 <!-- print-only -->
 \center
+\pagestyle{empty}
 
 Documents:
 
