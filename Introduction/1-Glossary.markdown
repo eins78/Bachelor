@@ -84,6 +84,8 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
 
 [^fn-diff]: On a [*nix][] operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
 
+
+## `hash`
 A **hash** is a concept that comes from the area of cryptography. 
 A simplistic explanation would be think of it as a'cross sum' of all your content, 
 which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
