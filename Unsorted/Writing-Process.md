@@ -30,12 +30,15 @@
 
 **Publish**
 
-:   The content is final, 
+:   The content is final. Now, the output is checked for errors.
 
 
 **Update** 
 
 :   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information.
+
+
+## Tools
 
 
 ## Communication
