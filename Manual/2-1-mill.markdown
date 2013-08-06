@@ -14,7 +14,7 @@ as well as an *compiler* (a module that outputs the document(s) according to the
 
 ### Input
 
-As we have already seen in the examples above, the configuration defines an 'input', which is at least a **`path`** to a document.
+An 'input' is at least a **`path`** to at least 1 document.
 
 It can be just the **`path`** as a string:
 
