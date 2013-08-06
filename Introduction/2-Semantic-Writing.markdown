@@ -24,11 +24,10 @@ narative:
 Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
 Any emphasis, the division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
 
-With the introduction of the moveable type printing press, this changed dramatically:
-Any text now had to be split up into it's composing letters and spaces and re-arranged by just using the available components,
-namely the lead characters.
+With the introduction of the [moveable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
+Any text now had to be split up into it's composing letters and spaces and then re-arranged, using only the available (lead) characters.
 
-So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization" even started,
+So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization"^[in German: *'Digitalisierung'*] even started,
 the printing press marks the transition from thinking about and working with text as a discrete (countable, "digital") signal, 
 as opposed to the monolithic, continuous signal it was seen as before.
 
