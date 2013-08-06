@@ -77,7 +77,9 @@ These both have the ability to be extended with 'bundles', and already ship with
 That means they 'understand' the basic syntax of the formatting language, which enables them to offer features 
 known from programming languages:
 
-- *Syntax highlighting:* Make the plain text source more **readable** by using colors, font sizes to visualized the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+- Shortcuts: 
 
 Like other text editors that have support
 
