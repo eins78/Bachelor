@@ -10,7 +10,7 @@
 ````
 
 In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
-By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the developement of the document and possibly even the thought process of the author.
+By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the development of the document and possibly even the thought process of the author.
 
 These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
 Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
