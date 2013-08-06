@@ -2,11 +2,11 @@
 
 
 For my Bachelor thesis I will focus on the process of 
-producing and publishing books and similar types long-from text. 
+producing and publishing books and similar types long-form text. 
 This most basic form of content creation has always changed 
 along with available tools and other technical aspects.
 In the age of general- and special-purpose, globally 
-interconnected computing devices I have a special interest
+interconnected computing devices, I have a special interest
 in the role of the authors and their workflow.
 
 The author as the creator, is the 
@@ -15,7 +15,7 @@ which turns everyone with access to these devices into a
 potential self-publishing author.
 
 The tools for writing, managing and publishing textual content
-have advanced to a great deal, especially since the widespread
+have advanced a great deal, especially since the widespread
 usage of rich web applications (aka "Web 2.0"), yet when it 
 comes to addressing the complexities involved while handling 
 whole books or large academic papers, they leave much to be desired. 
