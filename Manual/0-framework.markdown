@@ -12,8 +12,8 @@
 
 In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is an abstraction which solves a general problem in a reusable way. 
 
-'Modular' means that the framework itself consists of already-existing
-components, along with additional 'glue' software to better integrate them.
+A 'modular' framework consists itself of
+components which are also useful by themselves (and could already existing), along with additional 'glue' software to better integrate them.
 
 Being 'decoupled' means that the framework should still be useful if
 a user uses only some of its components.
