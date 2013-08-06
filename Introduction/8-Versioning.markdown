@@ -1,8 +1,9 @@
 # Versioning
 
-````{.edit}
+````{.TODO}
 
-TODO: segue to GIT 
+- segue to GIT 
+- clone + fork
 
 ````
 
@@ -77,12 +78,16 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 
 ## Clone and Fork
 
+
+````{.TODO}
+
 - if repo not started locally, must clone
 
 - clone is a copy of a repo
 
 - fork is any clone with changes!
 
+````
 
 ## Commit
 
