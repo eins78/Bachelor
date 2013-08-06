@@ -43,3 +43,8 @@ The goal was to find generally useful solutions to the technical problems that a
     * uses novel grid system based on typographic `em`-units
     
 - *Bonus:* `Papermill.app`, a graphical 'drag-and-drop' interface to compile `papermill` projects on *Mac OS X*
+
+
+<!-- 
+    TODO: directly refer to the goals!
+ -->
