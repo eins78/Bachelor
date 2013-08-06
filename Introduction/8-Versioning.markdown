@@ -112,7 +112,7 @@ It includes:
 - your name and email 
 - a **commit message** (if you supplied one)
 - a **`diff`** of your changes
-- a **hash** of all those items
+- a **`hash`** of all those items
 
 The **commit message** is meant to *explain* the changes you've made. 
 Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a repository's history.
@@ -123,17 +123,9 @@ which might be non-obvious by just looking at the changes.
 
 When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be omitted or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
 
-A **hash** is a concept that comes from the area of cryptography. 
-A simplistic explanation would be think of it as a'cross sum' of all your content, 
-which (mathematically) can only be obtained if you really have the content, not by guessing.[^fn-hash] 
+The **`hash`** of each commit is calculated. It can be used as a ***unique* version number** because it refers to a specific commit in a repository.
 
-The specific 'hash function' `git` is using is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is git users sometimes call the hash a `SHA`. 
-It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
-This can be automatically abbreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
-
-Practically, the hash can be used a ***unique* version number**, referring to a special commit in a repository.
-
-Furthermore, the hash of every commit is used by `git` in the background to make sure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
+Furthermore, the **`hash`** of every commit is used by `git` in the background to make sure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
 
 [^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain time, just by publicly releasing the hash.
 
