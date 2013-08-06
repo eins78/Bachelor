@@ -5,22 +5,22 @@
   Bauhaus-Universität Weimar, \
   2013
 
+
 <!-- print-only -->
 \center
 
-
 Documents:
 
-I. \
+I.\
 **Introduction** 
 
-II. \
+II.\
 **Manual** 
 
-III. \
+III.\
 **C0DE** 
 
-IV. \
+IV.\
 **Source**
 
 
