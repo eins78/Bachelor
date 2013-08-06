@@ -15,8 +15,9 @@ maybe talk about
 
 **author**(s)
 
-:   The author is, obviously, the most important person of any publication.
-    If there are several co-authors, a strategy 
+:   The author is, obviously, the most important person of any publication. \
+    It is the person or people responsible or creating the content.
+    If there are several co-authors, a strategy for managing them has to be devised.
 
 ## Phases
 
