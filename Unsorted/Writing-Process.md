@@ -35,7 +35,7 @@
 
 **Update** 
 
-:   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information.
+:   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information. That means that the *Edit* and *Publish*, with the added requirement that a record of the new changes has to be kept (usually called "Errata")
 
 
 ## Tools
