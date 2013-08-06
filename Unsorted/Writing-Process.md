@@ -42,7 +42,7 @@
 
 An *integrated* development environment (**`IDE`**) for `papermill` 
 is a long-term goal of the project, but because the important modules
-of the framework are all tried and proven, there are many diverse tools
+of the framework are all tried and proven, there are already diverse tools
 that support these modules.
 
 However, the ability to 'mix and match' the tools according to personal
