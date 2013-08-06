@@ -1,5 +1,10 @@
 ##  Markdown
 
+> "The typewriter will alienate the hand of the man of letters from the pen only when the precision of typographic forms has directly entered the conception of his books.  
+> One might suppose that new systems with more variable typefaces would then be needed. 
+> They will replace the pliancy of the hand with the innervation of commanding fingers." 
+> — Walter Benjamin [@benjamin:teaching, Lines 12-13]
+
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
