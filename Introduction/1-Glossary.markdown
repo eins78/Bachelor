@@ -79,7 +79,7 @@ A **diff**, in general, is a file which stores the differences between two files
 
 If there is **A**) *the original file* and 
 **B**) *a different version of the same file*, a piece of software can produce **B** only by *applying* the **diff** between **A** and **B** to the file **A**.[^fn-diff] 
-This process is also called *"patching"*, which is why a **diff** might sometimes be referred to as a **patch**.
+This process is also called *"patching"*, which is why a **diff** might sometimes be referred to as a **patch**. 
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
 
@@ -106,7 +106,7 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
         +I WROTE IT.
 
 
-[^fn-diff]: On a [*nix][] operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
+[^fn-diff]: On a `*nix` operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
 
 
 ## `hash`
