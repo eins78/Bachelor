@@ -10,8 +10,8 @@ a) an [operating system][os] family with a [history] back to the year 1969 .
     so `*nix` is sometimes used as a more general term.
     
     Most of the internet runs on some kind of `*nix`, 
-    in fact today most computers that don't have a *Windows* 
-    sticker on them probably run a variation, including Apple's 
+    in fact today most computers that don't bear a *Windows* 
+    sticker probably run a variation of it, including Apple's 
     and Google's computers smartphones and tablets.
 
 [os]: https://en.wikipedia.org/wiki/Operating_system
