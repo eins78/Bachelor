@@ -58,7 +58,8 @@ Today, these two standards serve as the foundation of the web, along with `CSS` 
 ## `git`
 
 `Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
-Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, so he put of work on linux until git was usable.
+Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
+that he put of work on linux until git was usable.
 
 For a step-by-step introduction to Versioning and git, see the chapter *Versioning*.
 
@@ -74,9 +75,10 @@ For a step-by-step introduction to Versioning and git, see the chapter *Versioni
 > "**diff:** An unselective and microscopically thorough comparison between two versions of something.
 >  From the *Unix* diff utility, which compares *files*." — @graham:hackers [pp. 224, 244]
 
-A **diff**, in general, is a text file which stores the differences between two files, in a standard format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
+A **diff**, in general, is a file which stores the differences between two files in a text format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
 
-This means that with just the original file and the **diff** of that file and a different version, a piece of software can produce the other version only be *applying* the **diff** to the original file.[^fn-diff] 
+If there is **A**) *the original file* and 
+**B**) *a different version of the same file*, a piece of software can produce **B** only by *applying* the **diff** between **A** and **B** to the file **A**.[^fn-diff] 
 This process is also called *"patching"*, which is why a **diff** might sometimes be referred to as a **patch**.
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
