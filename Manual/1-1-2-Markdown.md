@@ -87,6 +87,21 @@ that also could be interpreted as Markdown, HTML or LaTeX:
 
 [backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
 
+#### Nesting text formatting
+
+Nesting of most test formatting is easily possible, 
+but may show unexpected results in certain cases.
+
+Special care should be given to spaces: there should be **none** between a formatting character and the enclosing text.
+
+Furthermore, since 
+
+A good strategy to deal with both cases is to break down the the phrases into smaller components.
+
+<!-- ``` -->
+**`H`**`yper`***`T`***`ext `**`T`**`ransfer `**`P`**`rotocoll`
+<!-- ``` -->
+
 
 ### Special Elements
 
