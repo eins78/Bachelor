@@ -8,6 +8,7 @@
     "bibliography": "bibliography.bib",
     "csl": "/.papermill/ieee-with-url.csl",
     "list": [
+      "Drafts",
       "Introduction",
       "Manual",
       "Source-Title.md",

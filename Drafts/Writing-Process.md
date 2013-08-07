@@ -51,7 +51,7 @@ However, the ability to 'mix and match' the tools according to personal
 taste and requirements 
 
 
-![Tools used to produce this publication](../_stash/Screen%20Shot%202013-08-06%20at%2015.11.34.png)
+![Tools used to produce this publication](../_stash/mytools.png)
 
 
 
