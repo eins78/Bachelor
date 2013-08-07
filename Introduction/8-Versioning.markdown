@@ -60,18 +60,17 @@ In our case, this folder contains all the files related to a publication:
 
 - Most importantly: the text files *('sources')*
 - Any non-text assets that are part of the publication, like images and figures.
-- The `papermill.json` configuration file
 - Any additional files that need to be tracked, or just shared.
 
 So, what makes this folder special? 
-Inside of it, there is one more thing: 
+Inside it, there is one more thing: 
 a **`hidden folder`** called `.git`!
 
 !['.git' Folder](../_images/git/icon-folder-git.png)
 
 As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
 It contains a lot of meta-data and also a small database-like storage. 
-The **`git`** software reads and writes to this storage to facilitate all the nice things described further in this chapter. 
+The **`git`** software reads and writes to this storage facilitating all the nice things described further in this chapter. 
 It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) program which reads and writes to this small database inside your repository.
 
 [^fn-git-folder]: Namely, if you move or copy repository-folder from one place to another (disk, computer, …).
@@ -96,7 +95,7 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 **"committing"** is the activity of saving your changes into the **`git`** database, 
 the result of this is also called a **"commit"**.
 Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it is best to think of every commit as a "version" of your project. 
-You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to a list changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
+You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to get a list of changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
 
 Let's take a look at how to do a commit:
 
@@ -110,23 +109,23 @@ making them easier to review on the receiving side.
 After all changes that should be included are staged, you can proceed with the actual commit. 
 It includes:
 
-- your name and email 
-- a **commit message** (if you supplied one)
-- a **`diff`** of your changes
-- a **`hash`** of all those items
+- Your name and email 
+- A **commit message** (if you supplied one)
+- A **`diff`** of your changes
+- A **`hash`** of all those items
 
 The **commit message** is meant to *explain* the changes you've made. 
-Depending on your context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a repository's history.
+Depending on the context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a repository's history.
 
 In the software world, this message is very important, because the text being worked on
 is *source code*, meant to be interpreted by a computer. Any changes can have side effects 
 which might be non-obvious by just looking at the changes. 
 
-When working with a human-language document's source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be omitted or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
+When working with a human-language document source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be omitted or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
 
 The **`hash`** of each commit is calculated. It can be used as a ***unique* version number** because it refers to a specific commit in a repository.
 
-Furthermore, the **`hash`** of every commit is used by `git` in the background to make sure that your content has not been change, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
+Furthermore, the **`hash`** of every commit is used by `git` in the background to make sure that your content has not been changed, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
 
 
 
@@ -182,16 +181,16 @@ They *can* be a real server, but it is also possible to use any storage, like an
 
 ### Merging
 
-If we break this process down into the individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
+If we break this process down into individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
 
-- obtain a copy of the document(s) *(clone)*
-- make some changes, review and save them *(commit)*
-- instead of sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
-- informing the source of the document of your changes, asking it to integrate them
+- Obtain a copy of the document(s) *(clone)*
+- Make some changes, review and save them *(commit)*
+- Instead of sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
+- Informing the source of the document of your changes, asking it to integrate them
 
 [^fn-manual-diff]: Keep in mind that even if you don't do it yourself, then whomever you sent the document to has to do it.
 
-Example letter:
+*Example letter:*
 
 >     Dear Sir/Madam,
 >     
@@ -206,7 +205,7 @@ Example letter:
 >     - In the file "doc.md", third line, first character, 
 >       I have changed the word "hello" to "world".
 
-But instead of doing all this steps manually, we have already learned to that **`git`** takes care of the cloning, branching and committing; and that every commit is nothing more than the difference between the new version and the old version.
+But instead of doing all these steps manually, we have already learned that **`git`** takes care of the cloning, branching and committing; and that every commit is nothing more than the difference between the new version and the old version.
 
 **So, how do we send our changes?**
 
