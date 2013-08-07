@@ -82,8 +82,8 @@ This process can also be called *"patching"*, which is why a **diff** is sometim
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
 
-  ***Example:***
-  a small text file, another version of it, and the `diff`
+***Example:*** 
+A small text file, another version of it, and the `diff`
 
 1.   **text1.txt**:
 
@@ -112,8 +112,8 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
 
 A **hash** is a concept from the area of cryptography. 
 
-A simplistic explanation would be think of it as a 
-'cross sum' of all your content, 
+A simplistic explanation would be to think of it as a 
+'cross sum' of some content, 
 which (mathematically) can only be calculated with access to the exact content (and not by guessing, for example).[^fn-hash] 
 
 A 'hash function' used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a `SHA`. 
