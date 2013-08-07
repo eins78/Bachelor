@@ -5,7 +5,7 @@ to:
 
 - [NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype
 
-- everybody at [MR](http://maschinenraum.tk), for providing a space where ideas like this can grow; jd and marv for listening
+- everybody at [MR](http://maschinenraum.tk), for providing a space where ideas like this can grow; jd, marv, eick et. al. for listening to my ramblings
 
 - the whole [KTE](http://kte.is?Kunst-Technik-Einheit) staff
 
@@ -13,7 +13,7 @@ to:
 
 - The [Open Source Initiative (OSI)](https://en.wikipedia.org/wiki/Open_Source_Initiative), namely Christine Peterson, for establishing the more marketable term 'open source' (which can be understood without bringing up beer)
 
-- Linus Thorvalds, for **`Linux`** and **`git`**
+- Linus Thorvalds, for creating and maintaing **`Linux`** and **`git`**
 
 - Chris Wanstrath, Tom Preston-Werner and PJ Hyett, for [founding GitHub](http://tom.preston-werner.com/2011/03/29/ten-lessons-from-githubs-first-year.html) and exposing the world to **`git`** through a world-class service
 
