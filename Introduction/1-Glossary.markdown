@@ -82,11 +82,11 @@ This process can also be called *"patching"*, which is why a **diff** is sometim
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
 
-\nobreak
 
 ***Example:*** 
 A small text file, another version of it, and the `diff`
 
+\nobreak
 1.   **text1.txt**:
 
         THIS IS A TEXT.  
@@ -105,8 +105,8 @@ A small text file, another version of it, and the `diff`
          THIS IS A TEXT.  
         -I MADE IT.
         +I WROTE IT.
-
 \nobreak
+
 
 [^fn-diff]: On a `*nix` operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
 
