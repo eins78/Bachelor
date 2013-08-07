@@ -13,9 +13,11 @@
 \pagenumbering{gobble}
 
 <!-- Note: centering does not word with block elements, like lists.
-           that means: only basic text formatting is supported!     -->
+that means: only basic text formatting is supported!     -->
 
 
+
+---
 
 Documents:
 
@@ -32,3 +34,19 @@ IV.\
 **Source**
 
 
+---
+
+Vorgelegt von:
+
+Max F. Albrecht \
+Abraham-Lincoln-Str. 23 \
+99423 Weimar
+
+Email: `max.albrecht@uni-weimar.de` \
+Matrikelnummer: `60690` \
+BA-Studiengang: Mediengestaltung \
+
+Erstgutachter: Prof. Dr. Jens Geelhaar Zweitgutachter: Prof. Dr. Friedrich Balke
+Weimar, den 22. Juli 2008
+
+---
