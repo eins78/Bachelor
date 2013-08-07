@@ -37,7 +37,7 @@ This chapter might seem overly technical, but I have broken down what one needs 
 
 Some newer graphical interfaces (especially GitHub's apps for [Mac](http://mac.github.com) and [Windows](http://windows.github.com)) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
 
-But: since your documents history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
+But: since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
 The hope is to give you peace of mind that your work is *saved* and *safe*. 
 Though there is a [quote from Linux Thorvalds promising exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
