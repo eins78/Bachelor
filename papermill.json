@@ -31,7 +31,7 @@
   "output": {
     "path": "_output",
     "web": {
-      "defaultImageExtension": "svg"
+      "defaultImageExtension": "png"
     },
     "print": {
       "class": "book",

@@ -1,0 +1,23 @@
+{
+  "name": "papermill_markdown_example",
+  "author": "Max F. Albrecht",
+  "description": "markdown example snippets to be used as figures in the MANUAL",
+  "input": {
+    "list": [
+      "heading.md",
+      "list-ul.md",
+      "list-ol.md",
+      "blockquote.md",
+      "code-fence.md",
+      "nesting.md",
+      "footnote.md"
+    ]
+  },
+  "output": {
+    "toc": false,
+    "web": {
+      "template": "../../bookstrap/bookstrap-template.html",
+      "css": "../../bookstrap/assets/bookstrap.css"
+    }
+  }
+}
