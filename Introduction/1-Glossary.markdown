@@ -30,7 +30,7 @@ The formatting language of the web.
 it allows authors to write a plain text and 'mark it up' using [`<tags>`](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html). 
 By enclosing content to them, distinct *elements* of a document can be created, like headings, paragraphs, images, links, and so on.
   
-Made specifically to be used with `HTTP` (the **`H`**`yper`**`T`**`ext `**`T`**`ransfer `**`P`**`rotocoll`), which explains the meaning of the acronym: **`H`**`yper`**`T`**`ext `**`M`**`arkup `**`L`**`anguage`.
+Made specifically to be used with `HTTP` (the **`H`**`yper` **`T`**`ext ` **`T`**`ransfer` **`P`**`rotocoll`), which explains the meaning of the acronym: **`H`**`yper` **`T`**`ext` **`M`**`arkup` **`L`**`anguage`.
 
 Today, these two standards serve as the foundation of the web, along with `CSS` (for styling) and JavaScript (for interactive and programmatic elements).
 
