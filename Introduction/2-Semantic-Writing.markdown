@@ -73,7 +73,7 @@ These are shaped by a) how this translation was handled historically; and b) the
 
 ![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../_images/bold-italic-buttons.png)
 
-As these examples show, the interface of most word processors visualize 'emphasis' as 'italic' and 'strong emphasis' as 'bold'.
+As the examples show, the interface of most word processors visualize 'emphasis' as 'italic' and 'strong emphasis' as 'bold'.
 While this is consistent with how these semantic intentions are usually expressed typographically, 
 it shows the general problem of the **`WYSIWYG`** paradigm: 
 the semantic structure of the document is once again 'embedded', thus uncertain.
