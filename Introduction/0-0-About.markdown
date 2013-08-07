@@ -16,7 +16,7 @@ This is the theoretical part of my bachelor thesis, 'Papermill'.
 For the sake of usefulness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
-The instructional character of this document has several implications regarding its structure. 
+The thesis' instructional character has several implications regarding its structure. 
 
 It starts with a [Glossary](#glossary), which explains several important technical topics,
 followed by an introduction to the different aspects of my research and practical work. This should serve as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
@@ -36,6 +36,7 @@ The rest of the content is spread throughout the following attachments:
 <!-- only for print: -->
 \vfill
 \pagebreak
+
 
 ### (Typographic) conventions
 
@@ -60,9 +61,9 @@ foreign terms
 "double quotes" \
 quotation
 
-Quoted **sources** are referenced numerically and listed in in the *References* chapter at the end of each document.
+Quoted **sources** are referenced numerically and listed in the *References* chapter at the end of each document.
 
-External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore but are not crucial to the understanding of the text. \
+External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore, but are not crucial to the understanding of the text. \
 In the print edition, they are are represented by footnotes.
   
 
