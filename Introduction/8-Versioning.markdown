@@ -49,7 +49,7 @@ Moreover, this same knowledge should enable you to learn how to use any **`git`*
 
 ## Repository
 
-The most basic term a one needs to know when using **`git`** is a **"repository"**.
+The most basic term one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
 
 !['Repository' Folder ](../_images/git/icon-folder-repository.png)
@@ -58,7 +58,7 @@ This is not even wrong: If you directly edit files in a `git` repository on
 your computer, it will be there just like any other folder.
 In our case, this folder contains all the files related to a publication:
 
-- Most importantly, the text files *('sources')*
+- Most importantly: the text files *('sources')*
 - Any non-text assets that are part of the publication, like images and figures.
 - The `papermill.json` configuration file
 - Any additional files that need to be tracked, or just shared.
