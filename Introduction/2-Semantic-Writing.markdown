@@ -108,15 +108,15 @@ As an example, this is how this definition looks in the source code of the [`Saf
 
 Another well-known syntax for structured text, at least among scientific and technical authors, is the syntax used in **`TeX`**, `LaTeX` and other `TeX`-like systems. 
 
-However, both **`HTML`** and **`TeX`** share the same problems:
+However, both **`HTML`** and **`TeX`** share the same problems. They are: 
 
-a) they are to **complicated** to use for the average user
-a) they are very **verbose** — lots of typing 
-a) they are **media-specific**, **`HTML`** is for the web and  **`TeX`** for print.
+a) to **complicated** to use for the average user
+a) very **verbose** — lots of typing 
+a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print.
 
 A popular approach for the first two problems is called **Markdown**. 
 
-Markdown's creator, John Gruber, presents it like this:
+Markdown's creator, John Gruber, presents it as follows:
 
 > "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
 > The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
