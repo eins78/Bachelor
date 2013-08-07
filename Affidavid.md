@@ -1,9 +1,11 @@
+
 Bachelor Thesis "Papermill"
 
 Max F. Albrecht, Matrikel 60690
 
 Bauhaus-Universität Weimar, 2013
 
+---
 
 **EHRENWÖRTLICHE ERKLÄRUNG**
 
