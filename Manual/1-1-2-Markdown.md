@@ -92,7 +92,8 @@ but may show unexpected results in certain cases.
 
 Special care should be given to spaces: there should be **none** between a formatting character and the enclosing text.
 
-Furthermore, since 
+Furthermore, since no markdown is interpreted inside a 'verbatim' text, there is no possibility to
+emphasize parts of it. 
 
 A good strategy to deal with both cases is to break down the the phrases into smaller components.
 
