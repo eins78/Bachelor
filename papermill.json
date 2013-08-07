@@ -18,6 +18,11 @@
         "toc": false
       },
       {
+        "path": "Affidavid.md",
+        "class": "article",
+        "toc": false
+      },
+      {
         "path": "CODE/C0DE.md",
         "output": {
           "web": false,

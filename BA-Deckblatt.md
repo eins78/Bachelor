@@ -44,7 +44,7 @@ Abraham-Lincoln-Str. 23 \
 
 Email: `max.albrecht@uni-weimar.de` \
 Matrikelnummer: `60690` \
-BA-Studiengang: Mediengestaltung \
+BA-Studiengang: Mediengestaltung
 
 Erstgutachter: Prof. Dr. Jens Geelhaar \
 Zweitgutachter: Dipl. postgrad. Künstler Michael Markert
