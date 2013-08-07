@@ -1,6 +1,6 @@
 # Writing
 
-> "EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`...`] \
+> "EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`…`] \
 > If word processing is so neat, then let’s all use it!"
 > 
 > — *Michael Scott, President of Apple Computer, 1980 (internal memo)* [-@scott:typewriters, p. 1]

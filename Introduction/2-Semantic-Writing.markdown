@@ -111,10 +111,10 @@ A popular approach for the first two problems is called **Markdown**.
 
 Markdown's creator, John Gruber, presents it like this:
 
-> "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`...`] 
+> "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
 > The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 > 
-> To this end, Markdown’s syntax is comprised entirely of punctuation characters [`...`] carefully chosen so as to look like what they mean. 
+> To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
 > E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
 > "HTML is a publishing format; Markdown is a writing format. "
