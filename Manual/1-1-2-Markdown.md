@@ -175,7 +175,7 @@ This is some text.[^footnote] And more text.[^another-fn]
 
 The syntax for citations is also quite simple: 
 just an identifier for the cited item, 
-preceeded by an **`@`** ([at-sign]) character.
+preceded by an **`@`** *([at-sign])* character.
 
 However, a 'database' of all your literature is needed to find the item refered to by the identifier. For more information, see the the section on *Assets*.
 
