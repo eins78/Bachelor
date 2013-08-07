@@ -74,14 +74,12 @@ that also could be interpreted as Markdown, HTML or LaTeX:
 
 **Bad:** 
 
-``In HTML, there is a <blink> tag.``
-
+``In HTML, there is a <blink> tag.`` \
 `=>` In HTML, there is a tag.
 
 **Good:** 
 
-``In `HTML`, there is a `<blink>` tag.``
-
+``In `HTML`, there is a `<blink>` tag.`` \
 `=>` In `HTML`, there is a `<blink>` tag.
 
 
@@ -98,9 +96,9 @@ Furthermore, since
 
 A good strategy to deal with both cases is to break down the the phrases into smaller components.
 
-<!-- ``` -->
-**`H`**`yper`***`T`***`ext `**`T`**`ransfer `**`P`**`rotocoll`
-<!-- ``` -->
+```
+**`H`**`yper`***`T`****`ext`* **`T`**`ransfer `**`P`**`rotocoll`
+```
 
 
 ### Special Elements
