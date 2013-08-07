@@ -43,9 +43,9 @@ The hope is to give you peace of mind that your work is *saved* and *safe*.
 Though there is a [quote from Linus Thorvalds promising exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
 On the other hand, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
 
-[^fn-git-data-promise]:
-   > "I guarantee you, if you put your data in git: 
-   > You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [...] you can verify that the data you get out is the exact same data you've put in." (He goes on to explain that in the past, it was tried smuggling bad changes into the Linux kernel by physically breaking into a data center, which adds some gravitas to his testimony.)
+[^fn-git-data-promise]: Quote: "I guarantee you, if you put your data in git: You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [`…`] you can verify that the data you get out is the exact same data you've put in." 
+
+ (He goes on to explain that in the past, it was tried smuggling bad changes into the Linux kernel by physically breaking into a data center, which adds some gravitas to his testimony.)
 
 
 ## Repository
