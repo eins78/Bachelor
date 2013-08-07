@@ -1,13 +1,13 @@
 # mill
 
-`mill` is a *Command Line Utility* written in [JavaScript] using [node.js].
+`mill` is a *Command Line Utility* written in [JavaScript] using [node.js][node].
 
 It contains a *parser* (a module that can read and understand the configuration) 
 as well as an *compiler* (a module that outputs the document(s) according to the configuration).
 
 
 [JavaScript]: https://en.wikipedia.org/wiki/Javascript
-[node.js] : http://nodejs.org
+[node] : http://nodejs.org
 
 
 ## papermill.json
