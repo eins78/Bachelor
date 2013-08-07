@@ -25,9 +25,9 @@ b) a [philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 
 ## `HTML`
 
-The formatting language of the web, [invented by Tim Berners-Lee at the `CERN` in 1989](http://www.w3.org/History/1989/proposal.html).
-
-Allows the author to write a plain text and 'mark it up' using [`<tags>`](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html). 
+The formatting language of the web.
+[Invented by Tim Berners-Lee at the `CERN` in 1989](http://www.w3.org/History/1989/proposal.html), 
+it allows authors to write a plain text and 'mark it up' using [`<tags>`](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html). 
 By enclosing content into them, distinct elements of a document can be created, like headings, paragraphs, images, links, and so on.
   
 Made specifically to be used with `HTTP` (the `HyperText Transfer Protocoll`), which explains the meaning of the acronym: `HyperText Markup Language`.
