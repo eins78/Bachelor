@@ -9,7 +9,7 @@ As with any open source project, there is a wide range of possible involvement, 
 
 ## Learning Resources
 
-(listed in ascending order of experience)
+(listed in ascending order of expected experience)
 
 - "Eloquent Javascript" by Marijn Haverbeke [[-@guide:eloquentjs]]
 - "JavaScript Pocket Reference" [[-@guide:jspocket]]
