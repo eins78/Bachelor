@@ -416,6 +416,9 @@ How to write words with \*stars\* but no emphasis?
 
 ### Attributes
 
+**ADVANCED TOPIC!** \
+*If you don't understand this, don't worry – you'll propably don't need it.*
+
 Attributes (metadata) can be added to heading and code block elements.
 These are useful when customizing the project, especially when working with the `HTML` output. 
 In the simplest form, they can be used to style these elements visually, 
