@@ -55,6 +55,7 @@ A document with a top-level heading with the text "Hello", followed by a paragra
 - also unhappy with alternative: writing with computer, setting manually by hand
 - invents `Metafont` system, `TeX`
 
+
 ## `git`
 
 `Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
