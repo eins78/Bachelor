@@ -124,4 +124,23 @@ Markdown's creator, John Gruber, presents it as follows:
 > To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
 > E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
+He also makes its relation to **`HTML`** clear:
+
 > "HTML is a publishing format; Markdown is a writing format. "
+
+However, this heritage means that Markdown is also media-specific. 
+
+There are several extensions to Markdown trying to solve this
+and other shortcomings of the basic syntax.
+The most popular include MultiMarkdown, Markdown Extra, 
+and `pandoc`'s Markdown, which is the most complete of them.
+
+`pandoc` is a programm that converts Markdown to HTML, like the 
+original implementation Gruber released together with his specification, 
+but also extends the concept in several important ways.
+
+It was written by John MacFarlane, himself also a scientist and author, 
+so his program, the supported syntax extensions and novel output options 
+(namely `TeX`) are a natural fit for the `papermill` project and it's most 
+important basis.
+
