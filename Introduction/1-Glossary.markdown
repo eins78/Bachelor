@@ -110,14 +110,16 @@ As seen in the example, a **"diff"** only compares a file *line by line*.
 
 ## `hash`
 
-A **hash** is a concept that comes from the area of cryptography. 
+A **hash** is a concept from the area of cryptography. 
+
 A simplistic explanation would be think of it as a 
 'cross sum' of all your content, 
-which (mathematically) can only be calculated with access to the exact content (and not by guessing, for eaxmple).[^fn-hash] 
+which (mathematically) can only be calculated with access to the exact content (and not by guessing, for example).[^fn-hash] 
 
 A 'hash function' used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a `SHA`. 
+
 It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
-This can be automatically abbreviated by `git` to the shortest string that still is unique, in our case that would be: `eb9095849a`.
+This can be automatically abbreviated by `git` to the shortest string that still is unique, in this case it would be: `eb9095849a`.
 
 [^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain point time, just by publicly releasing the hash (but **not** the document). If the document is published at a later point, anyone can calculate that the previously released 'proof-hash' was correct.
 
