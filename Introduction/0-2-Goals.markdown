@@ -16,12 +16,12 @@ Make the tools and workflows used in (open source) software development more acc
 
 ## Cross-media publishing
 
-- *problem*: one input, multiple outputs
-- *solution*: semantic and structured content
+- *Problem*: one input, multiple outputs
+- *Solution*: semantic and structured content
 
 Define every important element with a general syntax, allowing it to be exported to either print or web.
 
-That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimate newcomers.
+That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimidate newcomers.
 
 ## Long-term reproducibility
 
