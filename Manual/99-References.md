@@ -34,8 +34,12 @@ Ich bin mir bewusst, dass eine falsche Erklärung zur Note „ungenügend“ f
 
 Weimar, den `__.__.____`.
 
-Unterschrift: `.....................................`
+```
 
+.....................................
+```
+
+(Unterschrift)
 
 ## References
 
