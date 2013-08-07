@@ -35,7 +35,7 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > getting the right order of letters written without indentation,
 > with countless pencil marks and deep thought.
 > This idling could be avoided if the manuscripted would be
-> handed in formatted as described here."[^fn-tschicholdparagraphs] [[@Tschichold:Drucksachen]] *(own translation)*
+> handed in formatted as described here." [[@Tschichold:Drucksachen]] *(own translation)*[^fn-tschicholdparagraphs]
 
 [^fn-tschicholdparagraphs]: *Original:* "Tausende von Arbeitsstunden werden von Typographen geopfert, 
 um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
