@@ -153,7 +153,7 @@ Text with image ![Another Image][picture-id] inside.
 
 Also called 'block elements', because they form their own 'block' of content.
 The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
-This also increases the clarity of the document source, especially because block elements can be nested (see *"nesting elements"*).
+This also increases the clarity of the *source*, especially because block elements can be nested (see *"nesting elements"*).
 
 #### paragraph
 
@@ -312,7 +312,7 @@ There are two ways to achive this:
     ``````
 
 
-#### nesting elements
+### nesting elements
 
 Block elements can contain other block elements.
 
@@ -340,6 +340,27 @@ A nested list:
 ````{.edit}
 TODO: definition list, special list numbers, hrules, tables, (mmd_)titleblock, footnotes, citations, 
 ````
+
+### Escaping
+
+Although the punctuation characters used in the Markdown syntax are carefully choosen 
+to not have unintended side effects, it still can happen sometimes.
+
+The solution in all these cases is to use a technique called 'escaping'. 
+By putting a `\` *(backslash)* in front of any character, 
+it will NOT be interpreted as Markdown.
+
+(We have already seen an example of this in the *paragraph* section: 
+Ending a line with a backslash does actually 'escape' the linebreak!)
+
+*Example:* How to write words with \*stars\* but no emphasis?
+
+*Solution: *Backslash escapes
+
+```
+How to write words with \*stars\* but no emphasis?
+```
+
 
 ### Attributes
 

@@ -1,22 +1,7 @@
 # Output
 
-## Cross-media publishing
 
-- is one of the main goals of this project
 
-- problem: one input, multiple outputs
-- solution: a general syntax (markdown) and converter (pandoc)
-
-- problem 2: md was made for web
-- solution: pandoc enhanced syntax
-    - covers the most important missing elements
-      - citations/bibliography
-      - tables
-      - defintion lists
-    - is very flexible
-    
-    
-    
 ## Print (via LaTeX to PDF)
 
 In order to print your document, a suitable output needs to be created. 
@@ -53,3 +38,4 @@ However, we also need to publish
 
 ## Web (to HTML)
 
+TODO: bookstrap here???
