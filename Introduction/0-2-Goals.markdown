@@ -50,10 +50,10 @@ A complicated system is harder to use, explain and extend than a simple one.
 
 A long-term goal is to abstract away as much as possible from the user, 
 while at the same time still providing all the necessary information 
-for the ones that *want* to know what is happening in the background.
+for those who *want* to know what is happening in the background.
 
 Most of the contents of the current **'Manual'** will stay relevant 
-and will simply be updated in parallel with the framework. 
+and will simply be updated parallel to the framework. 
 This **'Introduction'** however will hopefully not be required reading in the future.
 
 
