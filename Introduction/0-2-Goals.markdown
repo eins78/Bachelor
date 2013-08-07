@@ -3,7 +3,7 @@
 
 There are 3 primary goals:
 
-## Publication *development*
+## Publication development
 
 Make the tools and workflows used in (open source) software development more accessible for authors and writers.
 
