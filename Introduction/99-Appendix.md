@@ -9,9 +9,10 @@ Made with:
 - TextMate 2
 - BibDesk
 - Marked.app
+- Tower.app
 - Hardware from Apple
 
-Using fonts from Adobe, published under an open source license:
+Published using fonts from Adobe, published under an open source license:
 
 - Source Sans Pro
 - `Source Code Pro`
