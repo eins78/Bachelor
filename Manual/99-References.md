@@ -32,7 +32,7 @@ Es wurden keine anderen als die von mir angegebenen Quellen und Hilfsmittel (ink
 Die Arbeit wurde bisher keiner anderen Prüfungsbehörde vorgelegt und auch nicht veröffentlicht.
 Ich bin mir bewusst, dass eine falsche Erklärung zur Note „ungenügend“ führt und rechtliche Folgen nach sich ziehen kann.
 
-Weimar, den `...................................`.
+Weimar, den `__.__.____`.
 
 Unterschrift: `.....................................`
 
