@@ -35,7 +35,7 @@ including a web view for all files and content of the repository.
 
 This chapter might seem overly technical, but I have broken down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
 
-Some newer graphical interfaces (especially GitHub's apps for [Mac](http://mac.github.com) and [Windows](http://windows.github.com)) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half are 3-4 clicks in their web interface.
+Some newer graphical interfaces (especially GitHub's apps for [Mac](http://mac.github.com) and [Windows](http://windows.github.com)) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
 
 But: since your documents history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
