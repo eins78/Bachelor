@@ -111,7 +111,7 @@ Another well-known syntax for structured text, at least among scientific and tec
 However, both **`HTML`** and **`TeX`** share the same problems. They are: 
 
 a) to **complicated** to use for the average user
-a) very **verbose** — lots of typing 
+a) very **verbose** and require excessive of typing 
 a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print.
 
 A popular approach for the first two problems is called **Markdown**. 
