@@ -16,9 +16,11 @@ This is the theoretical part of my bachelor thesis, 'Papermill'.
 For the sake of usefulness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
-The thesis' instructional character has several implications regarding its structure. 
+The instructional character has several implications regarding its structure:
 
-It starts with a [Glossary](#glossary), which explains several important technical topics,
+After enumerating the goals of the project and how they are planned to be achieved, 
+the **Introduction** starts with a [Glossary](#glossary).
+It explains several important technical topics,
 followed by an introduction to the different aspects of my research and practical work. This should serve as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
 
 The rest of the content is spread throughout the following attachments:
