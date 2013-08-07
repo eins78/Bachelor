@@ -129,13 +129,7 @@ This can be automatically abbreviated by `git` to the shortest string that still
 Certain files or folders on a computer, 
 for example configuration files belonging to software, 
 can be hidden from the user by the operating system and/or file browser.
-This is usually done to keep the user from indadvertedly modifying or deleting them, because "seeing" them usually requires some kind of setting, command line flag or other kind of "trick".
-On operating systems in the `UNIX` family, there is a historically grown convention that files and folder starting with a dot (`.`) character are hidden.
+This is usually done to keep the user from indadvertedly modifying or deleting them, because 'seeing' and editing them usually requires some kind of setting, command line flag or other kind of 'trick'.
+there is a historically grown convention in operating systems in the `UNIX` family, that files and folder starting with a **`.`** *(dot)* character are hidden.
 
 
-
-## wiki
-
-- many single documents
-- hypertext: links
-- suitable for collaborative information gathering (wikipedia)
