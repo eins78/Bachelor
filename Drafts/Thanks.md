@@ -21,7 +21,7 @@ to:
 
 - [John MacFarlane](http://johnmacfarlane.net/), for `pandoc`, its Markdown extensions and related software
 
-- brendan eich: js
+- [Brendan Eich](http://brendaneich.com), for creating JavaScript
 
 - ryan dahl, izs: node
 
