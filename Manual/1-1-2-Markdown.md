@@ -100,6 +100,9 @@ A good strategy to deal with both cases is to break down the the phrases into sm
 **`H`**`yper`***`T`****`ext`* **`T`**`ransfer `**`P`**`rotocoll`
 ```
 
+`=>` **`H`**`yper`***`T`****`ext`* **`T`**`ransfer `**`P`**`rotocoll`
+
+
 
 ### Special Elements
 
