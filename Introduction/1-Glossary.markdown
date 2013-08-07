@@ -34,10 +34,10 @@ Made specifically to be used with `HTTP` (the **`H`**`yper` **`T`**`ext ` **`T`*
 
 Today, these two standards serve as the foundation of the web, along with `CSS` (for styling) and JavaScript (for interactive and programmatic elements).
 
-  ***Example:** 
-  a Document with a top-level heading with the text "Hello", followed by a paragraph with the text "World!"*
+***Example:** 
+A document with a top-level heading with the text "Hello", followed by a paragraph with the text "World!"*
 
-```html
+```
 <html>
 <body>
   <h1>Hello</h1>
