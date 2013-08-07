@@ -23,7 +23,7 @@ to:
 
 - [Brendan Eich](http://brendaneich.com), for creating JavaScript
 
-- ryan dahl, izs: node
+- [Ryan Dahl](https://github.com/ry) for creating `node.js` and [Isaac Z. Schlueter](http://izs.me) at Joyent for keeping it running
 
 - [Lakshan Perera](https://github.com/laktek), for his software ["`punch`"](https://github.com/laktek/punch), which convinced me to learn `JavaScript` and `node.js` for this project
 
