@@ -407,8 +407,11 @@ Ending a line with a backslash does actually 'escape' the linebreak!)
 
 *Example:* How to write words with \*stars\* but no emphasis?
 
-*Solution:* `How to write words with \*stars\* but no emphasis?`
+*Solution:*
 
+```
+How to write words with \*stars\* but no emphasis?
+```
 
 
 ### Attributes
