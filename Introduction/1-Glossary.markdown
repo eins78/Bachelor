@@ -73,7 +73,7 @@ For a step-by-step introduction to Versioning and git, see the chapter *Versioni
 > "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. […]"
 > 
 > "**diff:** An unselective and microscopically thorough comparison between two versions of something.
->  From the *Unix* diff utility, which compares *files*." — @graham:hackers [pp. 224, 244]
+>  From the *Unix* diff utility, which compares *files*." — [@graham:hackers pp. 224, 244]
 
 A **diff**, in general, is a file which stores the differences between two files in a text format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
 
@@ -81,6 +81,8 @@ If there is an original file **A** and a different version of the same file **B*
 This process can also be called *"patching"*, which is why a **diff** is sometimes be referred to as a **patch**. 
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
+
+\nobreak
 
 ***Example:*** 
 A small text file, another version of it, and the `diff`
@@ -104,6 +106,7 @@ A small text file, another version of it, and the `diff`
         -I MADE IT.
         +I WROTE IT.
 
+\nobreak
 
 [^fn-diff]: On a `*nix` operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
 
