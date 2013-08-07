@@ -28,7 +28,7 @@ That requires a careful weighing of options and features. The syntax has to be p
 Make sure that once written, the source of the publication can be compiled into the desired output 'forever', or at least as long as computers exist.
 
 * open standard for publication 'packages'
-* long-term availabilty of the build toolchain through use of open source software 
+* long-term availability of the toolchain through usage of open source software 
 
 
 From these, we can derive our secondary goals:
