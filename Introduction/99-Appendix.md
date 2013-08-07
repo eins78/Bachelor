@@ -8,14 +8,18 @@ Made with:
 - `papermill`
 - TextMate 2
 - BibDesk
-- Marked.app
-- Tower.app
-- Hardware from Apple
+- Marked
+- Tower
+- Hardware and OS X from Apple
 
 Published using fonts from Adobe, published under an open source license:
 
 - Source Sans Pro
 - `Source Code Pro`
+
+<!-- print-only -->
+\vfill
+\pagebreak
 
 
 ### Thanks
