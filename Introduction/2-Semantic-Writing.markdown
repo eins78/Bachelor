@@ -18,7 +18,7 @@ narative:
 # Semantic Writing
 
 Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
-Any emphasis, the division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
+Any emphasis, division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
 
 With the introduction of the [moveable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
 Any text now had to be split up into its composing letters and spaces and then re-arranged, using only the available (lead) characters.
@@ -27,9 +27,9 @@ So, long before the widespread use of computers in the writing process and befor
 the printing press marks the transition from thinking about and working with text as a discrete (countable, 'digital') signal, 
 as opposed to the monolithic, continuous signal it was seen as before.
 
-Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved till now.
+Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved until now.
 
-Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly while loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the 20th century, is complaining about the ambivalence of paragraph positions still in the 1960, when authors already used (also discrete) typewriters to turn in manuscripts:
+Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly while loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the 20th century, is still complaining about the ambivalence of paragraph positions in the 1960, when authors already used (also discrete) typewriters to turn in manuscripts:
 
 > "Thousands of working hours are sacrificed by typographers,
 > getting the right order of letters written without indentation,
