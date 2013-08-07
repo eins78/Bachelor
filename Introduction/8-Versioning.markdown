@@ -31,7 +31,7 @@ including a web view for all files and content of the repository.
 
 ## Git
 
-*Sources for this guide and further reading:*  *"Pro Git" by Scott Chacon* [[-@chacon:progit]]
+*Sources for this guide and further reading:*  *"The Git Parable"* [[@blog:tpw:gitparable]] *"Pro Git"* [[@chacon:progit]]
 
 This chapter might seem overly technical, but I have broken down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
 
