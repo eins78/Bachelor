@@ -27,6 +27,8 @@ to:
 
 - [Lakshan Perera](https://github.com/laktek) for his software ["`punch`"](https://github.com/laktek/punch), which convinced me to learn `JavaScript` and `node.js` for this project
 
+- [Jeremy Ashkenas](https://twitter.com/jashkenas) for [underscore](http://underscorejs.org), docco and much more
+
 - [nodejitsu](https://www.nodejitsu.com): `<3` for [flatiron](http://flatironjs.org) and all the other modules
 
 
