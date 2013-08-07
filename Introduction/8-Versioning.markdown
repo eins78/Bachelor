@@ -40,7 +40,7 @@ Some newer graphical interfaces (especially GitHub's apps for [Mac](http://mac.g
 But: since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
 The hope is to give you peace of mind that your work is *saved* and *safe*. 
-Though there is a [quote from Linux Thorvalds promising exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
+Though there is a [quote from Linus Thorvalds promising exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
 On the other hand, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
 
 [^fn-git-data-promise]:
