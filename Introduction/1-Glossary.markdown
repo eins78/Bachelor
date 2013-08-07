@@ -78,7 +78,7 @@ For a step-by-step introduction to Versioning and git, see the chapter *Versioni
 A **diff**, in general, is a file which stores the differences between two files in a text format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
 
 If there is an original file **A** and a different version of the same file **B**, a piece of software can produce **B** only by *applying* the **diff** between **A** and **B** to the file **A**.[^fn-diff] 
-This process is also called *"patching"*, which is why a **diff** might sometimes be referred to as a **patch**. 
+This process can also be called *"patching"*, which is why a **diff** is sometimes be referred to as a **patch**. 
 
 As seen in the example, a **"diff"** only compares a file *line by line*.
 
