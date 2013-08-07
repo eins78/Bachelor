@@ -28,9 +28,10 @@ de-facto standard for versioning and collaborating open-source software projects
 Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a whole ecosystem of features, 
 including a web view for all files and content of the repository. 
 
-Sources for this guide and further reading: "Pro Git" by Scott Chacon [[-@chacon:progit]]
 
 ## Git
+
+*Sources for this guide and further reading:*  *"Pro Git" by Scott Chacon* [[-@chacon:progit]]
 
 This chapter might seem overly technical, but I have broken down what one needs to know about **`git`** to an absolute minimum. For example, won't explain in detail how to use the **`git`** command line, or any other **`git`** interface.
 
