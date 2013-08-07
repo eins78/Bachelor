@@ -118,7 +118,7 @@ which (mathematically) can only be calculated with access to the exact content (
 
 A 'hash function' used in `git` and many other software programs is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a `SHA`. 
 
-It is a series of letters and numbers and looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
+The common textual representation of a hash looks like this: `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
 This can be automatically abbreviated by `git` to the shortest string that still is unique, in this case it would be: `eb9095849a`.
 
 [^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain point time, just by publicly releasing the hash (but **not** the document). If the document is published at a later point, anyone can calculate that the previously released 'proof-hash' was correct.
