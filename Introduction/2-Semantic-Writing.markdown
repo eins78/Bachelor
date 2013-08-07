@@ -17,6 +17,13 @@ narative:
 
 # Semantic Writing
 
+
+> "EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`…`] \
+> If word processing is so neat, then let’s all use it!"
+> 
+> — *Michael Scott, President of Apple Computer, 1980 (internal memo)* [-@scott:typewriters, p. 1]
+
+
 Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
 Any emphasis, division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
 
