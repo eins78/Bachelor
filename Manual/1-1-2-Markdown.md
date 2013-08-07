@@ -92,16 +92,16 @@ but may show unexpected results in certain cases.
 
 Special care should be given to spaces: there should be **none** between a formatting character and the enclosing text.
 
-Furthermore, since no markdown is interpreted inside a 'verbatim' text, there is no possibility to
+Furthermore, since no Markdown is interpreted inside a 'verbatim' text, there is no possibility to
 emphasize parts of it. 
 
 A good strategy to deal with both cases is to break down the the phrases into smaller components.
 
 ```
-**`H`**`yper`***`T`****`ext`* **`T`**`ransfer `**`P`**`rotocoll`
+**`H`**`yper` ***`T`****`ext`* **`T`**`ransfer ` **`P`**`rotocoll`
 ```
 
-`=>` **`H`**`yper`***`T`****`ext`* **`T`**`ransfer `**`P`**`rotocoll`
+`=>` **`H`**`yper` ***`T`****`ext`* **`T`**`ransfer ` **`P`**`rotocoll`
 
 
 
