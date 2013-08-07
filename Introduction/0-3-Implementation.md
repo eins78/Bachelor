@@ -6,8 +6,8 @@
  -->
 
 
-The implementation of the goals happens in the form of real-world prototypes. 
-This means a minimal working solution is developed while actual publication is produced with it.
+Implementation of the goals happens in the form of real-world prototypes. 
+This means a minimal working solution is developed while actual publication is produced along with it.
 
 
 ## Prototypes
@@ -22,7 +22,7 @@ everything from automation to templates was written *('scripted')* for this spec
 I also guided the usage of version control for collaborating with (proof-reading) editors. 
 Furthermore, my role as a technical administrator provided valuable insight and inspiration for the next steps of the development process.
 
-The dissertation can be downloaded at in web and print format 
+The dissertation can be downloaded in web and print format 
 at the [project website](http://phd.nts.is), 
 while the source code (including the aforementioned prototype) 
 is [published on GitHub](http://github.com/NTS/PhD).

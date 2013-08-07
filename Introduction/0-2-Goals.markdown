@@ -62,7 +62,7 @@ Using 'open source' software can be a goal in itself. Usually, this is a matter 
 However, considering the already listed goals, the problems that arise from them and the existing approaches to solve them, we can safely conclude that there is no alternative to use 'open source' software, at least for the framework itself.[^fn-usersoft]
 
 [^fn-usersoft]: The users operating system, text editor, etc. can of course be proprietary or 'Open Source'.
-It does not make any difference as long as all the needed software can be installed easily – that for example rules out Apple's closed `iOS` system as well as the 'open' Android (for now).
+It does not make any difference as long as all the needed software can be installed easily – that alone rules out Apple's closed `iOS` system as well as the 'open' Android (for today).
 
 <!-- 
 !["Open Source All The Things" *([internet meme][flossmeme])*](../_stash/open-source-all-the-things.jpg)
