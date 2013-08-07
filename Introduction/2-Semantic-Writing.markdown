@@ -135,12 +135,12 @@ and other shortcomings of the basic syntax.
 The most popular include MultiMarkdown, Markdown Extra, 
 and `pandoc`'s Markdown, which is the most complete of them.
 
-`pandoc` is a programm that converts Markdown to HTML, like the 
+`pandoc` is a program that converts Markdown to HTML, like the 
 original implementation Gruber released together with his specification, 
 but also extends the concept in several important ways.
 
 It was written by John MacFarlane, himself also a scientist and author, 
 so his program, the supported syntax extensions and novel output options 
-(namely `TeX`) are a natural fit for the `papermill` project and it's most 
+(namely `TeX`) are a natural fit for the `papermill` framework and it's most 
 important basis.
 
