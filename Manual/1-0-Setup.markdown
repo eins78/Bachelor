@@ -8,10 +8,10 @@ TODO:
 
 `papermill` is, at its core, a formalized project structure with configuration.
 
-These are the elements you need to know about. It might seem complicated, but most of that is only needed for more complicated projects.
+These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects.
 
 Also, keep in mind that you can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
-– preconfigured [templates] that include everything mentioned here. The are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
+– preconfigured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
 
@@ -45,7 +45,7 @@ Practically, this means that you can just start writing new chapters whenever yo
 
 ```
     Project/
-    ├── Text
+    ├── Text/
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
     │   └── 3-another-chapter.md
@@ -59,9 +59,9 @@ For example, unfinished chapters could be stored in a `Drafts/` folder.
 
 ```
     Project/
-    ├── Drafts
+    ├── Drafts/
     │   └── an-unfinished-chapter.md
-    ├── Text
+    ├── Text/
     │   ├── 1-intro.md
     │   ├── 2-a-chapter.md
     │   └── 3-another-chapter.md
@@ -74,17 +74,12 @@ This can for example be used to produce different parts of a dissertation which 
 
 Their *content should be related*, otherwise they would be two different projects.
 
-This could for example be used to also produce an output from a `Drafts/` folder in order to preview it.
+The follwing configuration would also produce a seperate output from the `Drafts/` folder in order to preview it: 
 
 ```
     Project/
-    ├── Drafts
-    │   └── an-unfinished-chapter.md
-    ├── Text
-    │   ├── 1-intro.md
-    │   ├── 2-a-chapter.md
-    │   └── 3-another-chapter.md
-    ├── More-Text.md
+    ├── Drafts/
+    ├── Text/
     └── papermill.json
         └── > { "input": [ "Text", "Drafts" ] }
 ```
@@ -98,7 +93,7 @@ In the above example, moving the unfinished chapter to the `Text/` folder would 
 
 ## Configuration
 
-The **configuration** file is the second most important part of a project. \
+The **configuration** file is the second most important part of any project. \
 It contains all the information *about* the project needed to produce 'output'.
 
 It is also a text file, but encoded in [`JSON`](http://www.JSON.org/), 
@@ -126,26 +121,26 @@ The detailed description of the configuration file is available in the Chapter *
 
 ## `git`
 
-See the *Versioning* chapter in the *Introduction* for 
+See the *Versioning* chapter in the **Introduction** for 
 an overview of the concepts and term that you should know 
 when working with git.
 
 
 ### Automatic committing
 
-If you don't wan't to commit manually, there are two software tools that handle automatic committing in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
+If you don't want to commit manually, there are two software tools that handle automatic committing in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
 
 -  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
-    *  user friendly, written in the `python` programming language
-    *  extendable with plugins
-    *  runs on `Linux` (well) and `Mac OS X` (manual work needed) 
+    *  User friendly, written in the `python` programming language
+    *  Extendable with plugins
+    *  Runs on `Linux` (well) and `Mac OS X` (manual work needed) 
 
 - [`git-o-mat`](https://github.com/papermill/git-o-mat) – inspired by `flashbake`, and yet another `papermill` prototype
 
-    *  very simple, written as a `shell` script
-    *  extendable with your own scripts (for message generation)
-    *  runs well on `Linux` and `Mac OS X`
+    *  Very simple, written as a `shell` script
+    *  Extendable with your own scripts (for message generation)
+    *  Runs well on `Linux` and `Mac OS X`
 
 
 

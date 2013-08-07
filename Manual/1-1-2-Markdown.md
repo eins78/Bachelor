@@ -8,11 +8,11 @@
 The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
-This following is based on 
+The following is based on 
 John Grubers original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
 John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
-Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
+*Note:* Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
 
 
@@ -29,7 +29,7 @@ The basic text formatting syntax works with words and phrases.
 *Note:* Every description has short example, 
 which is followed by how it would output *in this document* (preceded by an "`=>`").
 
-#### emphasis
+#### Emphasis
 
 To emphasize a phrase, put **`*`** *(asterisk)* symbols directly around it
 
@@ -37,7 +37,7 @@ To emphasize a phrase, put **`*`** *(asterisk)* symbols directly around it
 `=>` this *word* is important
 
 
-#### strong emphasis
+#### Strong emphasis
 
 To strongly emphasize a phrase, put 2 **`*`** *(asterisk)* symbols directly around it
 
@@ -45,14 +45,14 @@ To strongly emphasize a phrase, put 2 **`*`** *(asterisk)* symbols directly arou
 `=>` this **word** is more important
 
     
-#### strikeout
+#### Strikeout
 
 To strike a phrase out, put 2 **`~`** *(tilde)* characters before and after it
 
 `this ~~word~~ is striked out` \
 `=>` this ~~word~~ is striked out
 
-#### subscript, superscript
+#### Subscript, superscript
 
 - to put a phrase into superscript, put a **`^`** *(caret)* character before and after it
 - for subscript, use the **`~`** *(tilde)* character
@@ -61,7 +61,7 @@ To strike a phrase out, put 2 **`~`** *(tilde)* characters before and after it
 `=>` H~2~O is a liquid.  2^10^ is 1024.
 
 
-#### verbatim
+#### Verbatim
 
 To set a verbatim phrase, for example short example code or names of programs, put a **`` ` ``** *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
 
@@ -70,7 +70,7 @@ To set a verbatim phrase, for example short example code or names of programs, p
 
 Inside a verbatim phrase, **no other syntax is interpreted**! \
 This is especially important when something needs to be written 
-that also could be interpreted as Markdown, HTML or LaTeX:
+that could also be interpreted as Markdown, HTML or LaTeX:
 
 **Bad:** 
 
@@ -113,9 +113,9 @@ A good strategy to deal with both cases is to break down the the phrases into sm
 A **link** consists of two units: a **target** and an **anchor**. 
 The target is the link's destination and the anchor which is the part of the document that 'links' to the target. 
 
-For example, in a web browser, the user clicks the anchor to go to the target.
+In a web browser, a user clicks the anchor to navigate to the target.
 
-##### plain
+##### Plain
 
 The most simple link is just the target in **`<>`** *(pointy bracket)* characters. 
 
@@ -123,7 +123,7 @@ The most simple link is just the target in **`<>`** *(pointy bracket)* character
 A full link to <http://example.com>.
 ```
 
-##### inline
+##### Inline
 
 The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parenthese)* characters, like this: `[anchor](target)`
 
@@ -133,7 +133,7 @@ Some text [linking somewhere else](http://example.com).
 ```
 
 
-##### reference-style
+##### Reference-style
 
 For a more readable source, the *target* can also be put seperately. 
 The *anchor* still needs to be put in square brackets and be repeated later, 
@@ -150,14 +150,14 @@ A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
 ```
 
 
-#### image
+#### Image
 
 Images can be inserted anywhere in the text. The syntax for images is the same as links, but with a **`!`** *(exclamation mark)* character preceding the anchor. Also see: **figure**.
 
-- text inside the anchor is used as the image description
-- the target denotes the path to the image
-- images can have the following formats: 'JPG', 'GIF, 'PNG'
-- the description will only be visible if the image is a *figure*
+- Yext inside the anchor is used as the image description
+- Yhe target denotes the path to the image
+- Images can have the following formats: 'JPG', 'GIF, 'PNG'
+- The description will only be visible if the image is a *figure*
 
 *Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
 
@@ -174,7 +174,7 @@ Text with image ![Another Image][picture-id] inside.
 ```
 
 
-#### footnote
+#### Footnote
 
 Footnotes almost look like reference-style 'links', but the anchor has to start with a **`^`** *(caret)* character.
 
@@ -196,20 +196,33 @@ preceded by an **`@`** *([at-sign])* character.
 
 However, a 'database' of all your literature is needed to find the item refered to by the identifier. For more information, see the the section on *Assets*.
 
+Example:
+
+```
+# Title
+Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
+
+## References
+```
+
+A list of references will be automatically inserted at the end of a document, 
+but you have to include a 'heading' yourself, as show above.
+
 [at-sign]: https://en.wikipedia.org/wiki/At_sign
 
 
 ### Document Structure Elements
 
 Also called 'block elements', because they form their own 'block' of content.
-The have to be *preceded and followed by a blank line*, so they are set apart from the rest of the text. 
+They have to be *preceded and followed by a blank line*, so that they are set apart from the rest of the text. 
 This also increases the clarity of the *source*, especially because block elements can be nested (see *"nesting elements"*).
 
 *Note:* There are examples for every block element. 
 For the most important of them, example output for print (using a default **`LaTeX`** template) and web (using the '`bookstrap`' template). 
 Naturally, there are small differences between the original web output and how it is reproduced in print (background colors, for example).
 
-#### paragraph
+
+#### Paragraph
 
 A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
 All line breaks inside a paragraph are **ignored**!
@@ -246,7 +259,7 @@ And so are you.
 [poem]: https://en.wikipedia.org/wiki/Roses_are_red
 
 
-#### heading
+#### Heading
 
 A heading is created by a line starting with one or more **`#`** *(hash)* characters. The number of hashes denotes the heading's **level**.
 
@@ -260,14 +273,14 @@ Some text.
 ## Second-Level Heading
 
 More text, where I write about hashtags. For example, 
-#OccupyWallStreet ist just text, NOT a heading (no blank line before).
+#OccupyWallStreet ist just text, NOT a heading
 ```
 
 ![Output of 'heading' example (print, web)](../_images/markdown_examples/figures/heading)
 
-#### unordered list
+#### Unordered list
 
-bullet-point lists are one or more lines starting with a **`-`** (minus) character
+Bullet-point lists are one or more lines starting with a **`-`** (minus) character
 
 *Example*, simple:
 
@@ -295,7 +308,7 @@ bullet-point lists are one or more lines starting with a **`-`** (minus) charact
 ![Output of second 'list' example (print, web)](../_images/markdown_examples/figures/list-ul)
 
 
-#### ordered list
+#### Ordered list
 
 When the order of the items in the list matters, they can be numbered.
 
@@ -312,7 +325,7 @@ Ordered lists are one or more lines starting with a `number` and a **`.`** (peri
 ![Output of 'ordered list' example (print, web)](../_images/markdown_examples/figures/list-ol)
 
 
-#### figure
+#### Figure
 
 A line of text with only an *'image'* (see above) is interpreted as a 'figure'. 
 This means it will be a separate, centered, document element.
@@ -331,7 +344,7 @@ for example when including a logo, insert a 'invisible whitespace' before it, li
 ```
 
 
-#### blockquote
+#### Blockquote
 
 For larger citations, start each line with a **`>`** *(greater-then)* character, just like in an email:
 
@@ -347,9 +360,9 @@ One of my favorite quotes:
 ![Output of 'blockquote' example (print, web)](../_images/markdown_examples/figures/blockquote)
 
 
-#### code block
+#### Code block
 
-like the *'verbatim'* text formatting, but in a block. \
+Like the *'verbatim'* text formatting, but in a block. \
 There are two ways to achieve this:
 
 1. Indent every line by 4 spaces: 
@@ -363,7 +376,7 @@ There are two ways to achieve this:
         More text.
 ```
 
-2. *or* put a "fence" of (at least) 3 backticks around it. 
+2. *Or* put a "fence" of (at least) 3 backticks around it. 
    With this syntax, a language can optionally be specified (for syntax highlighting), 
    by writing it after the opening line of backticks: 
 
@@ -386,7 +399,7 @@ There are two ways to achieve this:
 
 Block elements can contain other block elements.
 
-Each nested element has to be **indented by 4 spaces more** than the parent block.
+Each nested element has to be **indented by 4 more spaces** than the parent block.
 
 ```
 A nested list:
@@ -443,7 +456,7 @@ but the possibilities are endless.
 
 Attributes are written inside **`{}`** *(curly braces)* at the end of the elements' first line.
 
-ID
+**ID**
 :    set the `id` of an element. \
     Headers always have an `id`, if it is not defined it will be auto-generated.
 
@@ -458,9 +471,8 @@ ID
     ```
     
 
-class
-:    give the element a class
-
+**class**
+:   
     ```
     # Heading {.my-class}
     ```
@@ -472,8 +484,8 @@ class
     ```
     
 
-general attribute
-:    give the element a general attribute, with an optional value
+**general attribute**
+:    with an optional value
 
     ```
     # Heading {my-attribute=value}

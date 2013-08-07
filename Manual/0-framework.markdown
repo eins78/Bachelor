@@ -13,10 +13,11 @@
 In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is an abstraction which solves a general problem in a reusable way. 
 
 A 'modular' framework consists itself of
-components which are also useful by themselves (and could already existing), along with additional 'glue' software to better integrate them.
+components which are also useful by themselves (and could already be existing), along with additional 'glue' software to better integrate them.
 
 Being 'decoupled' means that the framework should still be useful if
-a user uses only some of its components.
+a user uses only some of its components, and that it should be relatively easy to 
+change them for different ones.
 
 
 ## A quick Walkthrough
@@ -34,15 +35,7 @@ It covers the following steps:
 -  **INPUT**: write content
 
     * text: markdown / pandoc
-    * assets: images, figures, bibliography, data???
-
-
--  **GIT**: version your content
-
-    * saving: commit & push
-    * helping: fork & clone
-    * collaboration: pull & merge
-
+    * assets: images, figures, bibliography
 
 -  **OUTPUT**: output your content
 

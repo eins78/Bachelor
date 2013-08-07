@@ -3,7 +3,8 @@
 `mill` is a *Command Line Utility* written in [JavaScript] using [node.js].
 
 It contains a *parser* (a module that can read and understand the configuration) 
-as well as an *compiler* (a module that outputs the document(s) according to the configuration).
+as well as an *compiler* (a module that outputs the document(s) according to their configuration) — 
+of course using `pandoc`.
 
 
 [JavaScript]: https://en.wikipedia.org/wiki/Javascript
@@ -31,7 +32,7 @@ It can also be an object with more configuration:
     }
 ```
 
-This object can also contain a 'list' of documents, which will be treated as subfolders of the parent **`path`**:
+This object may also contain a 'list' of documents, which will be treated as subfolders of the parent **`path`**:
 
 ```js
     "input": {
@@ -69,7 +70,7 @@ These are the default values used when nothing is configured:
     }
 ```
 
-That means that if one the default targets is not wanted, it can be turned of by setting it to 'false'. 
+That means that if one of the default targets is not wanted, it can be turned off by setting it to 'false'. 
 Moreover, any additional settings for one of those targets can be given in an object:
 
 ```js
@@ -82,7 +83,7 @@ Moreover, any additional settings for one of those targets can be given in an ob
     }
 ```
 
-Because the document conversion is handled by **`pandoc`**, all its settings are supported (written a little bit different, `--some-setting` becomes `someSetting`). 
+Because the document conversion is handled by **`pandoc`**, all its settings are supported (written a bit different, `--some-setting` becomes `someSetting`). 
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
@@ -130,17 +131,17 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 :   just use the original Markdown
 
 `read`
-:   - choose a Markdown flavor
+:   - Choose a Markdown flavor
         * `markdown`: pandoc's Markdown
         * `markdown_strict`: original Markdown
         * `markdown_github`: [GFM (GitHub flavored Markdown)][GFM]
         * `markdown_phpextra`: original Markdown
                                                       \
-    - *or* build your own flavor: choose one as a base and enable or disable pandoc extension by adding them with a `+` or `-` sign
+    - *Or* build your own flavor: choose one as a base and enable or disable `pandoc` extension by adding them with a `+` or `-` sign
         * `{markdown_flavor}+{extension}-{extension}`
         * e.g.: `markdown_github+footnotes` for GFM with footnotes
                                                       \
-    - *or* define any other input format supported by **`pandoc`** (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
+    - *Or* define any other input format supported by `pandoc` (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown
 

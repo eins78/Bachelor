@@ -6,7 +6,6 @@
 
 In order to print your document, a suitable output needs to be created. 
 
-**`[Pandoc]`** not only enhanced the Markdown syntax, but also supports more output formats than just **`HTML`**, 
 
 ### **`LaTeX`**'s document classes
 
