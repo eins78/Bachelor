@@ -37,7 +37,7 @@ Translating a book is no easy task. Even **`git`** can't really help us here, at
 
 A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.com/progit/progit), which was translated into more than 10 languages, reveals that just adding a new translation itself is easy enough. The ["README" states](https://github.com/progit/progit#translation): 
 
-> "If you wish to translate the book, […] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
+> "If you wish to translate the book, [`…`] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
 
 [TODO]
 
