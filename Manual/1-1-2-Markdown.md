@@ -168,6 +168,8 @@ This is some text.[^footnote] And more text.[^another-fn]
 [^another-fn]: And another footnote.
 ```
 
+![Output of 'footnote' example (print, web)](../markdown_examples/figures/footnote)
+
 
 #### Citations
 
@@ -244,6 +246,7 @@ More text, where I write about hashtags. For example,
 #OccupyWallStreet ist just text, NOT a heading (no blank line before).
 ```
 
+![Output of 'heading' example (print, web)](../markdown_examples/figures/heading)
 
 #### unordered list
 
@@ -272,6 +275,8 @@ bullet-point lists are one or more lines starting with a **`-`** (minus) charact
     - last item
 ```
 
+![Output of second 'list' example (print, web)](../markdown_examples/figures/list-ul)
+
 
 #### ordered list
 
@@ -287,6 +292,7 @@ Ordered lists are one or more lines starting with a `number` and a **`.`** (peri
     3. things
 ```
 
+![Output of 'ordered list' example (print, web)](../markdown_examples/figures/list-ol)
 
 
 #### figure
@@ -321,6 +327,8 @@ One of my favorite quotes:
 > — *Oscar Wilde*
 ```
 
+![Output of 'blockquote' example (print, web)](../markdown_examples/figures/blockquote)
+
 
 #### code block
 
@@ -354,6 +362,8 @@ There are two ways to achieve this:
     More text.
 ``````
 
+![Output of 'code fence' example (print, web)](../markdown_examples/figures/code-fence)
+
 
 ### Nesting elements
 
@@ -379,6 +389,8 @@ A nested list:
 
 - Last paragraph.
 ```
+
+![Output of 'nesting elements' example (print, web)](../markdown_examples/figures/nesting)
 
 
 ### Escaping
