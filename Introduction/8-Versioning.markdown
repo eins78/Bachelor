@@ -15,7 +15,7 @@ By extension, this also tracks the *changes* made between those revisions, makin
 These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
 Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
 
-This danger was also my personal starting point for this whole project, 
+This danger was also personal starting point for this whole project as well, 
 sparked by Cory Doctorow's essay "Extreme Geek" [[@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
 As Doctorow summarizes in a blog post:
 
