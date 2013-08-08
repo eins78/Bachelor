@@ -104,129 +104,6 @@ A good strategy to deal with both cases is to break down the the phrases into sm
 `=>` **`H`**`yper` ***`T`****`ext`* **`T`**`ransfer ` **`P`**`rotocoll`
 
 
-
-### Special Elements
-
-
-#### Links
-
-A **link** consists of two units: a **target** and an **anchor**. 
-The target is the link's destination and the anchor which is the part of the document that 'links' to the target. 
-
-In a web browser, a user clicks the anchor to navigate to the target.
-
-##### Plain
-
-The most simple link is just the target in **`<>`** *(pointy bracket)* characters. 
-
-```
-A full link to <http://example.com>.
-```
-
-##### Inline
-
-The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parenthese)* characters, like this: `[anchor](target)`
-
-```
-Some text [linking somewhere else](http://example.com).
-[Internal links](#Chapter) are also possible.
-```
-
-##### Reference-style
-
-For a more readable source, the *target* can also be put seperately. 
-The *anchor* still needs to be put in square brackets and be repeated later, 
-followed by an **`:`** (colon) and the link.
-A different name can be given to an *anchor*
-by writing directly after it, also in square brackets:
-
-```
-A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
-
-[lots]: http://example.com
-[links]: http://example.com/link
-[ugly]: http://example.com/ugly
-```
-
-##### Internal Links
-
-All 'headings' are automatically recognized as targets, 
-so a reference-style link can be constructed without declaring them outside of the heading themselves (if the heading is to long, an ID can also be declared manually, see *'Attributes'*).
-
-```
-## Section on Semantics
-
-Some Text, linking to
-
-## Another Section {#more}
-
-For more information, see the [Section on Semantics].
-```
-
-
-#### Image
-
-Images can be inserted anywhere in the text. The syntax for images is the same as links, but with a **`!`** *(exclamation mark)* character preceding the anchor. Also see: **figure**.
-
-- Yext inside the anchor is used as the image description
-- Yhe target denotes the path to the image
-- Images can have the following formats: 'JPG', 'GIF, 'PNG'
-- The description will only be visible if the image is a *figure*
-
-*Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
-
-```
-Text with image ![Image Description](/path/to/image.jpg) inside.
-```
-
-*or*
-
-```
-Text with image ![Another Image][picture-id] inside.
-
-[picture-id]: /path/to/image.jpg
-```
-
-
-#### Footnote
-
-Footnotes almost look like reference-style 'links', but the anchor has to start with a **`^`** *(caret)* character.
-
-```
-This is some text.[^footnote] And more text.[^another-fn]
-
-[^footnote]: With a footnote.
-[^another-fn]: And another footnote.
-```
-
-![Output of 'footnote' example (print, web)](../_images/markdown_examples/figures/footnote)
-
-
-#### Citation
-
-The syntax for citations is also quite simple: 
-just an identifier for the cited item, 
-preceded by an **`@`** *([at-sign])* character.
-
-A list of references will be automatically inserted at the end of a document, 
-but you have to include a 'heading' yourself, as shown in the example.
-
-However, a 'database' of all your literature is needed to find the item refered to by the identifier. For more information, see the the section on *Assets*.
-
-Example:
-
-```
-Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
-
-## References
-```
-
-![Output of 'citation' example (print, web)](../_images/markdown_examples/figures/citation)
-
-
-[at-sign]: https://en.wikipedia.org/wiki/At_sign
-
-
 ### Document Structure Elements
 
 Also called 'block elements', because they form their own 'block' of content.
@@ -262,8 +139,7 @@ This is the next paragraph.
 ```
 
 Conversely, this doesn't work for specific kinds of text, where line breaks are important. \
-To **force a line break**, end the line with a **`\`** *(backslash)* character. 
-*Example [poem]:*
+To **force a line break**, end the line with a **`\`** *(backslash)* character. For example, this [poem]:
 
 ```
 Roses are red, \
@@ -279,7 +155,6 @@ And so are you.
 
 A heading is created by a line starting with one or more **`#`** *(hash)* characters. The number of hashes denotes the heading's **level**.
 
-*Example:*
 
 ```
 # Top-Level Heading
@@ -298,7 +173,7 @@ More text, where I write about hashtags. For example,
 
 Bullet-point lists are one or more lines starting with a **`-`** (minus) character
 
-*Example*, simple:
+*Simple:*
 
 ```
     A list:
@@ -308,7 +183,7 @@ Bullet-point lists are one or more lines starting with a **`-`** (minus) charact
     - things
 ```
 
-*Example*, with sub-elements (see *'nesting elements'*): 
+*With sub-elements (see* ***'nesting elements'****):* 
 
 ```
     A nested list:
@@ -437,6 +312,129 @@ A nested list:
 ```
 
 ![Output of 'nesting elements' example (print, web)](../_images/markdown_examples/figures/nesting)
+
+
+### Special Elements
+
+
+#### Links
+
+A **link** consists of two units: a **target** and an **anchor**. 
+The target is the link's destination and the anchor which is the part of the document that 'links' to the target. 
+
+In a web browser, a user clicks the anchor to navigate to the target.
+
+##### Plain
+
+The most simple link is just the target in **`<>`** *(pointy bracket)* characters. 
+
+```
+A full link to <http://example.com>.
+```
+
+##### Inline
+
+The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parenthese)* characters, like this: `[anchor](target)`
+
+```
+Some text [linking somewhere else](http://example.com).
+```
+
+##### Reference-style
+
+For a more readable source, the *target* can also be put seperately. 
+The *anchor* still needs to be put in square brackets and be repeated later, 
+followed by an **`:`** (colon) and the link.
+A different name can be given to an *anchor*
+by writing directly after it, also in square brackets:
+
+```
+A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
+
+[lots]: http://example.com
+[links]: http://example.com/link
+[ugly]: http://example.com/ugly
+```
+
+##### Internal Links
+
+All 'headings' are automatically recognized as targets, 
+so a reference-style link can be constructed without declaring them outside of the heading themselves (if the heading is to long, an ID can also be declared manually, see *'Attributes'*).
+
+```
+## Section on Semantics
+
+Some Text, refering to [the other section][more].
+
+## Another Section {#more}
+
+For more information, see the [Section on Semantics].
+```
+
+
+#### Image
+
+Images can be inserted anywhere in the text. The syntax for images is the same as links, but with a **`!`** *(exclamation mark)* character preceding the anchor. Also see: **figure**.
+
+- Yext inside the anchor is used as the image description
+- Yhe target denotes the path to the image
+- Images can have the following formats: 'JPG', 'GIF, 'PNG'
+- The description will only be visible if the image is a *figure*
+
+*Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
+
+```
+Text with image ![Image Description](/path/to/image.jpg) inside.
+```
+
+*or*
+
+```
+Text with image ![Another Image][picture-id] inside.
+
+[picture-id]: /path/to/image.jpg
+```
+
+
+#### Footnote
+
+Footnotes almost look like reference-style 'links', but the anchor has to start with a **`^`** *(caret)* character.
+
+```
+This is some text.[^footnote] And more text.[^another-fn]
+
+[^footnote]: With a footnote.
+[^another-fn]: And another footnote.
+```
+
+![Output of 'footnote' example (print, web)](../_images/markdown_examples/figures/footnote)
+
+
+#### Citation
+
+The syntax for citations is also quite simple: 
+just an identifier for the cited item, 
+preceded by an **`@`** *([at-sign])* character.
+
+A list of references will be automatically inserted at the end of a document, 
+but you have to include a 'heading' yourself, as shown in the example.
+
+However, a 'database' of all your literature is needed to find the item referred to by the identifier. Moreover the desired 'style' for the citations differs
+between publications. 
+For more information, see the the section on *Assets*.
+
+
+```
+Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
+
+## References
+```
+
+![Output of 'citation' example (print, web)](../_images/markdown_examples/figures/citation)
+
+
+[at-sign]: https://en.wikipedia.org/wiki/At_sign
+
 
 
 ### Escaping
