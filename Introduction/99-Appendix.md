@@ -24,7 +24,7 @@ Published using fonts from Adobe, published under an open source license:
 
 ### Acknowledgements
 
-To: [NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype. 
+[NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype. 
 The [Kunst-Technik-Einheit](http://kte.is) staff. 
 Everybody at [MR](http://maschinenraum.tk), for providing a space where ideas like this can grow; jd, marv, eick et. 
 al. 
@@ -40,7 +40,7 @@ Chris Wanstrath, Tom Preston-Werner and PJ Hyett, for [founding GitHub](http://t
 Schlueter](http://izs.me) at Joyent for keeping it running. 
 Lakshan 'laktek' Perera, for his software ["`punch`"](https://github.com/laktek/punch), which convinced me to learn `JavaScript` and `node.js` for this project. 
 [Jeremy Ashkenas](https://twitter.com/jashkenas), for [underscore](http://underscorejs.org), [docco](http://jashkenas.github.io/docco), etc. 
-Everyone from the node.js community, especially [nodejitsu](https://www.nodejitsu.com), for [flatiron](http://flatironjs.org) and all the other modules `<3`. 
+Everyone from the node.js community, especially [nodejitsu](https://www.nodejitsu.com), for [flatiron](http://flatironjs.org) and all the other modules. **`<3`** 
 
 
 
