@@ -207,7 +207,8 @@ of the project. In any case only the sources **or** the results should be tracke
 
 ### Bibliography
 
-References to external sources, like books and articles is a requirement 
+[References](https://en.wikipedia.org/wiki/Citation) 
+to external sources, like books and articles is a requirement 
 for many types of publications.
 
 As shown in the *Markdown* section, there is an easy syntax to 
