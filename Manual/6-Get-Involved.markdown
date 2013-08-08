@@ -5,7 +5,7 @@ As this manual shows, the `papermill` project is merely starting to be a complet
 The rest of this chapter is a collection of ideas, which is supposed to show the direction I want to take with this project once it is released and **`open source`**.
 
 But people are much more important than ideas. If you like (parts of) this document and want `papermill` to succeed, *you, the reader* have to get involved.
-As with any open source project, there is a wide range of possible involvement, starting from just [simple feedback](mailto:papermill@178.is), to structured feedback in the form of bug reports and feature requests, writing and fixing documentation, design and software.
+As with any open source project, there is a wide range of possible involvement, starting from just [simple feedback](mailto:papermill@178.is), to structured feedback in the form of bug reports and feature requests, writing and fixing documentation, design and software. Most of this can even happen from the comfort of your web browser.
 
 ## Learning Resources
 
@@ -13,15 +13,17 @@ As with any open source project, there is a wide range of possible involvement, 
 
 - "Eloquent JavaScript" by Marijn Haverbeke [[-@guide:eloquentjs]]
 - "JavaScript Pocket Reference" [[-@guide:jspocket]]
+- "The Node Beginner Book" [[@guide:nodebegin]]
 - "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
 - "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
+- "Hands-on Node.js" [[@guide:nodehand]]
 - "Node: Up and Running" [[-@guide:noderun]]
 
-## Challenges Ahead
+<!-- ## Challenges Ahead
 
 ### all-in-one web interface
 
-- combine the main tool chain into a single web app
+- Combine the main tool chain into a single web app
 - be more opinionated than the framework to lessen complexity
 
 - *Collaboration*: check git for changes from collaborator and give warnings before merge conflicts can 
@@ -39,7 +41,7 @@ A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.
 
 > "If you wish to translate the book, [`…`] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
 
-[TODO]
+But the workflow for managing the *status* of these translation seems complicated. Either a lot of scripting or manual work. Let's ask them.
 
 ### Editions
 
@@ -53,4 +55,4 @@ A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.
 ### Even More
 
 - continuous integration
-
+ -->

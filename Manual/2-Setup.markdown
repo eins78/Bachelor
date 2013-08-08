@@ -1,7 +1,7 @@
 # Setup
 
 
-`papermill` is, at its core, a formalized project structure with configuration.
+`papermill` is, at its core, a formalized project structure and configuration.
 
 <!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
 
@@ -173,7 +173,7 @@ tracked and all collaborators have access to them.
 
 *Note:* Because the assets may are also created using software, 
 they could have a 'source' themselves: 
-An image created in Photoshop would have a source '`.psd`' file 
+An image created in *Photoshop* would have a source '`.psd`' file 
 and a resulting '`.jpg`' image.
 
 As mentioned above, generated content should not be committed. 

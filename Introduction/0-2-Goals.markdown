@@ -39,7 +39,7 @@ From these, we can derive our secondary goals:
 
 ### Plain text
 
-If a document is to be written in a binary container (like a Microsoft Word File), 
+If a document is to be written in a binary container (like a *Microsoft Word* File), 
 the usefulness of a software-like development process are very limited.
 
 ### Online & offline

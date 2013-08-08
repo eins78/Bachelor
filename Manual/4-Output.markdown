@@ -125,17 +125,36 @@ Source code and further information: \ `http://github.com/papermill/bookstrap`
 - Grid based on typographical em-units — adheres to line length regardless of zooming
 
 
+## Styling
+
+Naturally, styling the web output is possible by using `CSS`.
+The generated markup has a semantic structure and allows easy styling.
+
+Additional attributes can be also added to elements in order to style them, see 'Attributes' in the *Markdown* section.
+
+Finally, the generated markup can also be customized with [templates](http://github.com/papermill/pandoc-templates).
+
+If `CSS` is new to you, use Mozilla's documentation as a starting point:
+`https://developer.mozilla.org/CSS`
+
+
 ## Publishing
 
-### Web
 
-- it is just HTML, go upload it onto some host
+The resulting HTML can be uploaded to any web host, 
+but is optimized to be shared via any other digital medium: 
 
-- self-contained: assets go inside
-    - good for outside of web: email, downloads, mobile devices, USB sticks etc
-    - can be turned off if it is just for web (caching!)  
-      `{ "selfContained": false }`
-  
-- PDF is also an option, but the default PDF settings in `papermill` are optimized for print, for example links are moved to footnotes.
+**All 'assets' (images, styles, fonts, etc) will be 'embedded' into the** **`HTML`** **file.**
+
+This means that it can be sent via USB drives, email, uploaded to a blog, content management system or file sharing service without 'breaking' them because of missing assets. 
+Otherwise, some files may not be copied along, or may not available due to the nature of the medium.
+
+
+This can be turned off in the configuration by setting `"selfContained": false` and should be done if publishing to a regular web server is planned, where links to the assets are known to work. Especially if fonts, styles or images are shared between multiple documents published to the same web host, the `selfContained` feature would cause needless re-downloading of files that could otherwise be in the browser's cache.
+
+
+Lastly, publishing a **`PDF`** file to the web is also an option, but it should be noted that the default settings in `papermill` are optimized for print purposes. 
+For example, links are represented as footnotes and there are no colors present other than black (except in images or syntax-highlighted code). 
+This be adjusted in the project configuration if desired.
 
 
