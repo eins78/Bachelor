@@ -30,7 +30,7 @@ A very generic structure. Not all publications use all of the elements.
     * etc.
 
 
-The most important of those can be expressed with syntax, for example the titleblock (for which the supplied metadata is used). 
+The most important of those can already be expressed with syntax, for example the titleblock (for which the supplied metadata is used). 
 Headings of different levels divide the document into chapters, sections etc; 
 and a 'Table of Contents' is generated automatically from this organization.
 
