@@ -3,6 +3,7 @@
   "author": "Max F. Albrecht",
   "description": "markdown example snippets to be used as figures in the MANUAL",
   "input": {
+    "bibliography": "bibl.bib",
     "list": [
       "heading.md",
       "list-ul.md",
@@ -10,14 +11,15 @@
       "blockquote.md",
       "code-fence.md",
       "nesting.md",
-      "footnote.md"
+      "footnote.md",
+      "citation.md"
     ]
   },
   "output": {
     "toc": false,
     "web": {
-      "template": "../../bookstrap/bookstrap-template.html",
-      "css": "../../bookstrap/assets/bookstrap.css"
+      "template": "../../../bookstrap/bookstrap-template.html",
+      "css": "../../../bookstrap/assets/bookstrap.css"
     }
   }
 }

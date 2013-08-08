@@ -202,25 +202,27 @@ This is some text.[^footnote] And more text.[^another-fn]
 ![Output of 'footnote' example (print, web)](../_images/markdown_examples/figures/footnote)
 
 
-#### Citations
+#### Citation
 
 The syntax for citations is also quite simple: 
 just an identifier for the cited item, 
 preceded by an **`@`** *([at-sign])* character.
+
+A list of references will be automatically inserted at the end of a document, 
+but you have to include a 'heading' yourself, as shown in the example.
 
 However, a 'database' of all your literature is needed to find the item refered to by the identifier. For more information, see the the section on *Assets*.
 
 Example:
 
 ```
-# Title
 Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
 
 ## References
 ```
 
-A list of references will be automatically inserted at the end of a document, 
-but you have to include a 'heading' yourself, as show above.
+![Output of 'citation' example (print, web)](../_images/markdown_examples/figures/citation)
+
 
 [at-sign]: https://en.wikipedia.org/wiki/At_sign
 
