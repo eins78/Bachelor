@@ -264,6 +264,9 @@ I <3 open source!
 >>>>>>> B
 ```
 
-The much better solution is obviously trying to not have merge conflicts at all. This requires a rigorous workflow if more than two people are involved in the project.
+The much better solution is obviously trying to not create conflicts at all. This requires a rigorous workflow if more than two people are involved in the project, but can be summed up as:
+
+- commit early
+- push often
 
 
