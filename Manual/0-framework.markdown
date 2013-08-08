@@ -19,6 +19,9 @@ Being 'decoupled' means that the framework should still be useful if
 a user uses only some of its components, and that it should be relatively easy to 
 change them for different ones.
 
+For example, someone already writing in **`TeX`** does not have to use the 
+Markdown syntax and still take advantage of the configuration and automation.
+
 
 ## A quick Walkthrough
 
