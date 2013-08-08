@@ -269,16 +269,17 @@ and there are many variations.
 
 The most common distinctions are listing the references in 
 numerical order, or by author and date ('Harvard' or 'Chicago' style). 
-The latter is the defa
+The latter is the default (when no style is explicitly configured).
 
-and luckily there is yet another established standard 
+Luckily there is yet another established standard 
 defining them in a machine-readable way: 
 The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language).
 
-- [csl files](http://citationstyles.org)
-- [download](http://zotero.org/styles) the one which suits your context most
-- general distinction: numeric, author-date
-- if unsure, stick to the standards
+
+
+- [Download](http://zotero.org/styles) the one which suits your context most
+
+- The standards:
       * numeric
         * [IEEEE](http://zotero.org/styles/ieee-with-url)
         * [DIN 1505-2](http://zotero.org/styles/din-1505-2-numeric)
