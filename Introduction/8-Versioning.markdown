@@ -265,4 +265,6 @@ The much better solution is obviously trying to not create conflicts at all. Thi
 - commit early
 - push often
 
-Finally, this example shows one the advantages of web interface
+Finally, this example shows one the advantages of web interfaces like github: When a 'Merge Request' is created, it is automatically checked for conflicts. 
+If there are none, the merge can happen directly on the server, so the result can directly be pulled.
+
