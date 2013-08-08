@@ -211,12 +211,17 @@ References to external sources, like books and articles is a requirement
 for many types of publications.
 
 As shown in the *Markdown* section, there is an easy syntax to 
-insert a reference anywhere in the text,
+insert a reference anywhere in the text, using only an **identifier** 
+and an optional location, 
+like so: `See [@id, pp. 23-42]`.
+
+However, for this to work a **database**, storing the actual meta-data 
+pertaining to the identifier.
 
 - everybody needs to quote stuff
 - with `papermill`, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
 - each item in db has id
-- you then use a link-like syntax, with the id, like so: `See [@id, pp. 23-42]`
+- you then use a link-like syntax, with the id
 
 
 ### Database
