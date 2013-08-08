@@ -66,7 +66,7 @@ It contains a lot of meta-data and also a small database-like storage.
 The **`git`** software reads and writes to this storage facilitating all the nice things described further in this chapter. 
 It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) program which reads and writes to this small database inside your repository.
 
-[^fn-git-folder]: Namely, if you move or copy repository-folder from one place to another (disk, computer, …).
+[^fn-git-folder]: Namely, if you move or copy repository-folder from one place to another (disk, computer, `…`).
 If the folder is copied as a whole, the `.git` folder is still inside, meaning the complete versioned history is included, for good or bad.
 If just single files from the folder are copied somewhere else, the `.git` is not copied with them, thus not including the history/database.
 
