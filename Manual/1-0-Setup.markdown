@@ -174,7 +174,21 @@ If version control is used, this also ensures that all assets are
 tracked and all collaborators have access to them. 
 
 *Note:* Because the assets may are also created using software, 
-they could have a 'source' themselves: An image created in Photoshop
+they could have a 'source' themselves: 
+An image created in Photoshop would have a source '`.psd`' file 
+and a resulting '`.jpg`' image.
+
+As mentioned above, generated content should not be committed. 
+If this applies to generated assets as well depends on the context 
+of the project: 
+
+- If the **production** of the assets should happen **collaboratively**, 
+  their sources should be committed. This requires that all 
+  collaborators have access to the software producing the results, 
+  which could be a problem when using commercial software. Also, 
+  a mechanism must be in place so that the assets are re-generated 
+  every time the sources change, 
+
 
 
 ### Images
