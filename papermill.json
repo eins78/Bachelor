@@ -11,7 +11,7 @@
       "Drafts",
       "Introduction",
       "Manual",
-      "Source-Title.md",
+      "Source/Source.md",
       {
         "path": "BA-Deckblatt.md",
         "class": "article",
@@ -51,7 +51,7 @@
     "docco": "https://github.com/papermill/docco/tarball/papermill"
   },
   "scripts": {
-    "precompile": "./CODE/build-docs.sh"
+    "precompile": "./CODE/build-docs.sh && ./Source/build-source.sh"
   },
   "license": "MIT",
   "repository": {
