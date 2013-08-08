@@ -214,6 +214,12 @@ The formal way of asking someone to pull your changes is called a "Pull Request"
 
 Both names have some truth to them, because pulling, like pushing happens from branch to branch and only allows linear history.
 
-Because of this, pullingactually happens in two stages: first, the remote changes are **fetched** from the remote, then they are merged into 
+Because of this, pulling actually happens in two stages: 
+first, the remote changes are **fetched** from the remote, 
+then they are merged into the desired local branch.
+
+If there are any **conflicts**, they have to be solved before the **merge** can be competed (it can also be aborted).
+
+
 
 
