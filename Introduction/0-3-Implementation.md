@@ -37,7 +37,7 @@ The goal was to find generally useful solutions to the technical problems that a
 - *Project Configuration* specification
     * defines Meta data, Inputs, Outputs
     
-- *stationery*: 
+- *Stationery*: 
 
 - `mill` *Command Line Utility*
     * compiles `papermill` projects

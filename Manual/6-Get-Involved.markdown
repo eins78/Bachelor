@@ -2,9 +2,9 @@
 
 As this manual shows, the `papermill` project is merely starting to be a complete solution for 'machine writers'.
 
-The rest of this chapter is a collection of ideas, which is supposed to show the direction I want to take with this project once it is released and **`open source`**.
+<!-- The rest of this chapter is a collection of ideas, which is supposed to show the direction I want to take with this project once it is released and **`open source`**.
 
-But people are much more important than ideas. If you like (parts of) this document and want `papermill` to succeed, *you, the reader* have to get involved.
+But people are much more important than ideas. --> If you like (parts of) this document and want the `papermill` to go on, *you, the reader* have to get involved.
 As with any open source project, there is a wide range of possible involvement, starting from just [simple feedback](mailto:papermill@178.is), to structured feedback in the form of bug reports and feature requests, writing and fixing documentation, design and software. Most of this can even happen from the comfort of your web browser.
 
 ## Learning Resources

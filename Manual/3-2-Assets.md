@@ -89,7 +89,7 @@ together with the following configuration:
 to external sources, like books and articles is a requirement 
 for many types of publications.
 
-As shown in the *Markdown* section, there is an easy syntax to 
+As shown in the *[Markdown]* section, there is an easy syntax to 
 insert a reference anywhere in the text, using only an **identifier** 
 and an optional location, 
 like so: `See [@id, pp. 23-42]`.

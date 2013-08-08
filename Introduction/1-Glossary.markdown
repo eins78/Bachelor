@@ -62,7 +62,7 @@ A document with a top-level heading with the text "Hello", followed by a paragra
 Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
 that he put of work on Linux until git was usable.
 
-For a step-by-step introduction to Version Control and git, see the chapter *Versioning*.
+For a step-by-step introduction to Version Control and git, see the chapter *[Versioning]*.
 
 
 

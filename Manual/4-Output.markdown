@@ -128,7 +128,7 @@ Source code and further information: \ `http://github.com/papermill/bookstrap`
 Naturally, styling the web output is possible by using `CSS`.
 The generated markup has a semantic structure and allows easy styling.
 
-Additional attributes can be also added to elements in order to style them, see 'Attributes' in the *Markdown* section.
+Additional attributes can be also added to elements in order to style them, see '[Attributes]' in the *[Markdown]* section.
 
 Finally, the generated markup can also be customized with [templates](http://github.com/papermill/pandoc-templates).
 

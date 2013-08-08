@@ -34,7 +34,7 @@ It covers the following steps:
 
 -  **SETUP**: start your project
 
-    * Manually or from template ("stationery")
+    * Manually or from template ("Stationery")
     * Get to know the project (folder) structure  
 
 -  **INPUT**: write content

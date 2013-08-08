@@ -381,7 +381,7 @@ Images can be inserted anywhere in the text. The syntax for images is the same a
 - Images can have the following formats: 'JPG', 'GIF, 'PNG'
 - The description will only be visible if the image is a *figure*
 
-*Careful:* The image files need to be inside the project folder, see the section on *'Assets'* for more information.
+*Careful:* The image files need to be inside the project folder, see the section on *'[Assets]'* for more information.
 
 ```
 Text with image ![Image Description](/path/to/image.jpg) inside.
@@ -421,7 +421,7 @@ but you have to include a 'heading' yourself, as shown in the example.
 
 However, a 'database' of all your literature is needed to find the item referred to by the identifier. Moreover the desired 'style' for the citations differs
 between publications. 
-For more information, see the the section on *Assets*.
+For more information, see the the section on *[Assets]*.
 
 
 ```
@@ -476,7 +476,7 @@ How to write words with \*stars\* but no emphasis?
 **ADVANCED TOPIC!** \
 *If you don't understand this, don't worry – you'll probably don't need it.*
 
-Attributes (meta data) can be added to heading and code block elements.
+Attributes (meta-data) can be added to heading and code block elements.
 These are useful when customizing the project, especially when working with the `HTML` output. 
 In the simplest form, they can be used to style these elements visually, 
 but the possibilities are endless.

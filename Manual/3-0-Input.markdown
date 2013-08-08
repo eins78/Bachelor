@@ -29,7 +29,7 @@ A very generic structure. Not all publications use all of the elements.
     * Affidavit
 
 
-The most important of those can already be expressed with syntax, for example the titleblock (for which the supplied meta data is used). 
+The most important of those can already be expressed with syntax, for example the titleblock (for which the supplied meta-data is used). 
 Headings of different levels divide the document into chapters, sections etc; 
 and a 'Table of Contents' is generated automatically from this organization.
 

@@ -13,7 +13,7 @@
 
 <!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
 
-You can start your own project from a [**stationery**](https://github.com/papermill/stationery) 
+You can start your own project from a [**Stationery**](https://github.com/papermill/Stationery) 
 – pre-configured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
@@ -43,7 +43,8 @@ For more flexibility while writing, a document can also be its own **folder**.
 All *Markdown*-files in it will be combined
 into one single document, in alphabetical order.
 
-Practically, this means that you can just start writing new chapters whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
+Practically, this means that you can just start writing new chapters whenever you want, and take care about their order later on, just by renaming the files. \
+A good idea is to simply use a "`number`-*" prefix.
 
 ```
     Project/
@@ -71,7 +72,7 @@ For example, unfinished chapters could be stored in a `Drafts/` folder.
         └── > { "input": [ "Text" ] }
 ```
 
-A project can also have more than one document as inputs. \
+A project can also have more than one document as input. \
 This can for example be used to produce different parts of a dissertation which should be printed separately.
 
 Their *content should be related*, otherwise they would be two different projects.
@@ -88,7 +89,7 @@ The following configuration would also produce a separate output from the `Draft
 
 **Important:** Any further sub-folders inside an 'input' folder should be avoided. 
 
-Files in them will not be combined, but it also not a good idea to move source files between different 'depths' of folders if there are images in them (see the chapter on *Assets*).
+Files in them will not be combined, but it is generally  not a good idea to move source files between different 'depths' of folders if there are images in them (see the chapter on *[Assets]*).
 
 In the above example, moving the unfinished chapter to the `Text/` folder would not cause any problems because they both have the same 'depth'.
 
@@ -122,7 +123,7 @@ A simple example looks like this:
 
 Again, it is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
 
-The detailed description of the configuration file is available in the Chapter *mill*, Section [papermill.json].
+The detailed description of the configuration file is available in the Chapter *[mill]*, Section [`papermill.json`].
 
 
 ## Text editor
@@ -172,7 +173,7 @@ it is also a source of confusion since all merge conflicts have to be solved
 two times, once for the source and again for the result.
 
 **`git`** can **ignore** files that should not be tracked, for this or any other reason. This is configured in a **`hidden file`** named ['.gitignore'](http://git-scm.com/docs/gitignore). 
-Again, when using a `papermill` stationery, this is already taken care of.
+Again, when using a `papermill` Stationery, this is already taken care of.
 
 
 ### Automatic committing
