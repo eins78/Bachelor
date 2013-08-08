@@ -12,6 +12,7 @@ A very generic structure. Not all publications use all of the elements.
 
 - Front Matter
     * Table of Contents
+    * Imprint
     * Abstract
     * etc.
 
