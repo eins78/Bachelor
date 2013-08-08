@@ -182,6 +182,10 @@ As mentioned above, generated content should not be committed.
 How this applies to generated assets as well depends on the context 
 of the project. In any case only the sources **or** the results should be tracked.
 
+- If the assets are fairly static, or are the responsibility of either a 
+  single collaborator or someone outside the project, the results can be
+  committed. 
+  
 - If the **production** of the assets should happen **collaboratively**, 
   their sources should be committed. This requires that all 
   collaborators have *access to the software* producing the results, 
@@ -189,11 +193,8 @@ of the project. In any case only the sources **or** the results should be tracke
   a mechanism must be in place so that the assets are *re-generated* 
   every time the sources change.
   
-- If the assets are fairly static, or are the responsibility of either a 
-  single collaborator or someone outside the project, the 
-  
-- In more complex cases, a separate repository just dealing with assets 
-  could be created and the generated assets published elsewhere.
+- In more complex cases, a [separate repository](http://git-scm.com/book/en/Git-Tools-Submodules) 
+  just dealing with assets could be created and the generated assets published elsewhere.
 
 
 
