@@ -229,19 +229,20 @@ of media, including how cross-reference them (e.g. an article *in* a book).
 Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
 which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
 
-*Example:* A `BibTeX` file with a book, an article ('incollection') inside that book and a web resource.
+*Example:* A `BibTeX` file with a book, an article ('incollection', note the 'Crossref') inside that book and a web resource.
 
 ```
-@incollection{benjamin:teaching,
-	Crossref = {benjamin:street},
-	Title = {TEACHING AIDS (1928)}}
-
 @book{benjamin:street,
 	Author = {Walter Benjamin},
 	Booktitle = {Walter Benjamin},
 	Publisher = {Penguin UK},
 	Title = {One-Way Street and Other Writings},
 	Year = {2009}}
+
+@incollection{benjamin:teaching,
+	Crossref = {benjamin:street},
+	Title = {TEACHING AIDS},
+	Year = {1928}}
 
 @electronic{ziemann:formalia,
 	Author = {Andreas Ziemann},
