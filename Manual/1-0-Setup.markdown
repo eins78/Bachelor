@@ -239,7 +239,6 @@ which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'we
 ```
 @book{benjamin:street,
 	Author = {Walter Benjamin},
-	Booktitle = {Walter Benjamin},
 	Publisher = {Penguin UK},
 	Title = {One-Way Street and Other Writings},
 	Year = {2009}}
@@ -284,7 +283,10 @@ The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Langu
 
 
 - [Search and Download](http://zotero.org/styles) the one which suits your context most
+
 - There is also the [Beta-Version of a style browser and editor by Mendeley](http://editor.citationstyles.org/about/) available
+
+- Configuration: `"csl": "style.csl"`
 
 - The standards:
       * numeric
