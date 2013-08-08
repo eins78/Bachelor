@@ -164,3 +164,30 @@ It could also be used by advanced users who want to send a steady 'stream' of th
     *  Extendable with your own scripts (for message generation)
     *  Runs well on `Linux` and `Mac OS X`
 
+### Hooks
+
+**`git`** can help with managing some automation 
+by using [**hooks**](http://git-scm.com/book/en/Customizing-Git-Git-Hooks) to run commands when git does certain actions, for example committing.
+
+Hooks are small (executable) scripts that reside inside a git repository, under **`.git/hook/$action`**, 
+where `$action` is a known hook.
+
+In the the context of `papermill`, there are two particularly useful hooks:
+
+post-commit
+:   can be used to run a command after every commit.
+    
+    *Example:* `.git/hooks/post-commit` renders the output
+
+    ```
+    #!/bin/sh
+    mill output .
+    ```
+
+pre-commit
+:   as the name implies, this script is run *before* every commit. Furthermore, if it returns an error, commiting is **aborted**!
+
+    Using the `post-commit` example as a `pre-commit` 
+    hook would ensure that no data can be commited 
+    that would *not build an output* (but also adds
+    a considerable delay before the commit happens).
