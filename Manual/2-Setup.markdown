@@ -13,7 +13,7 @@
 
 <!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
 
-You can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
+You can start your own project from a [**stationery**](https://github.com/papermill/stationery) 
 – pre-configured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
@@ -37,10 +37,10 @@ The basic rules are very simple:
 ## Document
 
 **'Documents'** contain the textual content of your project. \
-They are plain text files, formatted in `Markdown`.^[and encoded in 'UTF-8', also known as 'Unicode'] 
+They are plain text files, formatted in *Markdown*.^[and encoded in 'UTF-8', also known as 'Unicode'] 
 
 For more flexibility while writing, a document can also be its own **folder**. 
-All `Markdown`-files in it will be combined
+All *Markdown*-files in it will be combined
 into one single document, in alphabetical order.
 
 Practically, this means that you can just start writing new chapters whenever you want, and take care about their order later on, just by renaming the files. A good idea is to simply use a "`number`-*" prefix.
@@ -139,12 +139,12 @@ b) **`IDE`**s, integrated development environments
 
 Of course, there also exists every gradation in between those two. 
 
-Some of these editors already have some support for Markdown. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
+Some of these editors already have some support for *Markdown*. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
 known from programming languages:
 
 - *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
 
-- *Shortcuts:* Offer quicker way to type the syntax. Although with Markdown the syntax is as minimal as possible, they still can be of great help. 
+- *Shortcuts:* Offer quicker way to type the syntax. Although with *Markdown* the syntax is as minimal as possible, they still can be of great help. 
 
 Recommendations: 
 
@@ -154,10 +154,10 @@ Recommendations:
 [tm]: http://macromates.com
 [st]: http://www.sublimetext.com
 
-These both have the ability to be extended with 'bundles', and already ship with a 'Markdown bundle' built-in.
+These both have the ability to be extended with 'bundles', and already ship with a '*Markdown* bundle' built-in.
 
-(Like other text editors that have support for Markdown, they 
-only know about the basic Markdown syntax, so some extension will not be properly highlighted.)
+(Like other text editors that have support for *Markdown*, they 
+only know about the basic *Markdown* syntax, so some extension will not be properly highlighted.)
 
 ## `git`
 

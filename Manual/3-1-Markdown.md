@@ -1,18 +1,18 @@
-##  Markdown
+##  *Markdown*
 
 > "The typewriter will alienate the hand of the man of letters from the pen only when the precision of typographic forms has directly entered the conception of his books.  
 > One might suppose that new systems with more variable typefaces would then be needed. 
 > They will replace the pliancy of the hand with the innervation of commanding fingers." 
 > — Walter Benjamin [@benjamin:teaching, Lines 12-13]
 
-The Markdown syntax aims to be easy to learn, type and read for humans.
+The *Markdown* syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
 The following is based on 
-John Gruber's original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
+John Gruber's original "*Markdown*: Basics" [[-@url:gruber:mdbasic]] and
 John MacFarlane's "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
-*Note:* Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
+*Note:* Some things can be written in more than one way in *Markdown*. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
 
 
@@ -70,7 +70,7 @@ To set a verbatim phrase, for example short example code or names of programs, p
 
 Inside a verbatim phrase, **no other syntax is interpreted**! \
 This is especially important when something needs to be written 
-that could also be interpreted as Markdown, HTML or LaTeX:
+that could also be interpreted as *Markdown*, HTML or LaTeX:
 
 **Bad:** 
 
@@ -92,7 +92,7 @@ but may show unexpected results in certain cases.
 
 Special care should be given to spaces: there should be **none** between a formatting character and the enclosing text.
 
-Furthermore, since no Markdown is interpreted inside a 'verbatim' text, there is no possibility to
+Furthermore, since no *Markdown* is interpreted inside a 'verbatim' text, there is no possibility to
 emphasize parts of it. 
 
 A good strategy to deal with both cases is to break down the the phrases into smaller components.
@@ -126,7 +126,7 @@ This is a paragraph.
 This is the next paragraph.
 ```
 
-How Markdown handles paragraphs and line breaks might be the most alienating thing 
+How *Markdown* handles paragraphs and line breaks might be the most alienating thing 
 about it. It takes some getting used to, but increases flexibility while writing because 
 line breaks can be inserted to break long lines in the source, without effecting the output.
 
@@ -452,12 +452,12 @@ The weather was <!-- not --> good.
 
 ### Escaping
 
-Although the punctuation characters used in the Markdown syntax are carefully chosen 
+Although the punctuation characters used in the *Markdown* syntax are carefully chosen 
 to not have unintended side effects, it still can happen sometimes.
 
 The solution in all these cases is to use a technique called 'escaping'. 
 By putting a `\` *(backslash)* in front of any character, 
-it will NOT be interpreted as Markdown.
+it will NOT be interpreted as *Markdown*.
 
 (We have already seen an example of this in the *paragraph* section: 
 Ending a line with a backslash does actually 'escape' the linebreak!)

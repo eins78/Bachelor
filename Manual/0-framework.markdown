@@ -21,7 +21,7 @@ a user uses only some of its components, and that it should be relatively easy t
 change them for different ones.
 
 For example, someone already writing in **`TeX`** does not have to use the 
-Markdown syntax and still can take advantage of the configuration and automation, 
+*Markdown* syntax and still can take advantage of the configuration and automation, 
 although e.g. the web output might not work as expected.
 
 
@@ -34,12 +34,12 @@ It covers the following steps:
 
 -  **SETUP**: start your project
 
-    * Manually or from template ("stationary")
+    * Manually or from template ("stationery")
     * Get to know the project (folder) structure  
 
 -  **INPUT**: write content
 
-    * Text: Markdown / pandoc
+    * Text: *Markdown* / `pandoc`
     * Assets: images, figures, bibliography
 
 -  **OUTPUT**: output your content

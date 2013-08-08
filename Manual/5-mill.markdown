@@ -128,14 +128,14 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 #### Content Options
 
 `strict`
-:   just use the original Markdown
+:   just use the original *Markdown*
 
 `read`
-:   - Choose a Markdown flavor
-        * `markdown`: pandoc's Markdown
-        * `markdown_strict`: original Markdown
-        * `markdown_github`: [GFM (GitHub flavored Markdown)][GFM]
-        * `markdown_phpextra`: original Markdown
+:   - Choose a *Markdown* flavor
+        * `markdown`: pandoc's *Markdown*
+        * `markdown_strict`: original *Markdown*
+        * `markdown_github`: [GFM (GitHub flavored *Markdown*)][GFM]
+        * `markdown_phpextra`: original *Markdown*
                                                       \
     - *Or* build your own flavor: choose one as a base and enable or disable `pandoc` extension by adding them with a `+` or `-` sign
         * `{markdown_flavor}+{extension}-{extension}`

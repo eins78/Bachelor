@@ -86,7 +86,7 @@ it shows the general problem of the **`WYSIWYG`** paradigm:
 the semantic structure of the document is once again 'embedded', thus uncertain.
 
 
-## Markup and Markdown
+## Markup and *Markdown*
 
 There is an alternative approach, sometimes called "What you mean is what you get" in response to **`WYSIWYG`**, 
 is to use a Markup Language, like **`HTML`**.
@@ -114,28 +114,28 @@ a) to **complicated** to use for the average user
 a) very **verbose** and require excessive of typing 
 a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print.
 
-A popular approach for the first two problems is called **Markdown**. 
+A popular approach for the first two problems is called ***Markdown***. 
 
-Markdown's creator, John Gruber, presents it as follows:
+*Markdown*'s creator, John Gruber, presents it as follows:
 
-> "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
-> The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+> "*Markdown* is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
+> The single biggest source of inspiration for *Markdown*’s syntax is the format of plain text email.
 > 
-> To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
-> E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
+> To this end, *Markdown*’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
+> E.g., asterisks around a word actually look like \*emphasis\*. *Markdown* lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
 He also clarifies the relation to **`HTML`**:
 
-> "HTML is a publishing format; Markdown is a writing format. "
+> "HTML is a publishing format; *Markdown* is a writing format. "
 
-However, this heritage means that Markdown is also media-specific. 
+However, this heritage means that *Markdown* is also media-specific. 
 
-There are several extensions to Markdown trying to solve this
+There are several extensions to *Markdown* trying to solve this
 and other shortcomings of the basic syntax.
-The most popular include MultiMarkdown, Markdown Extra, 
-and `pandoc`'s Markdown, which is the most complete of them.
+The most popular include Multi*Markdown*, *Markdown* Extra, 
+and `pandoc`'s *Markdown*, which is the most complete of them.
 
-`pandoc` is a program that converts Markdown to HTML, like the 
+`pandoc` is a program that converts *Markdown* to HTML, like the 
 original implementation Gruber released together with his specification, 
 but also extends the concept in several important ways.
 It was written by John MacFarlane, himself also a scientist and author, 
