@@ -166,9 +166,8 @@ Assets are all files that are needed to output a publication
 other than the text source.
 
 In order to keep a project 'portable', all assets need to reside 
-inside the project folder, otherwise it can only be compiled on 
-the computer it was created (or another one with the missing files 
-in just the right place).
+inside the project folder, otherwise it might only be compiled on 
+the computer it was created.
 
 If version control is used, this also ensures that all assets are 
 tracked and all collaborators have access to them. 
