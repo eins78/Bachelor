@@ -47,7 +47,7 @@ A document with a top-level heading with the text "Hello", followed by a paragra
 ```
 
 
-## `(La)Tex`
+## `TeX`, `LaTex`, `*tex` {#tex}
 
 - invented by Donald Knuth
 - wrote Book: "The Art of computer programming"
