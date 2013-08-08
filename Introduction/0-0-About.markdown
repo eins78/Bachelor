@@ -6,8 +6,8 @@
 
 
 <!-- only for print: -->
-<!-- \vfill -->
-<!-- \pagebreak -->
+\vfill
+\pagebreak
 
 
 ## About this document
