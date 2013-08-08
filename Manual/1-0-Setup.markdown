@@ -225,7 +225,9 @@ operating systems helping to maintain a `BibTeX` file.
 
 The format has many idiosyncrasies, most of which are unfortunately shared by the GUIs. They are beyond the scope of this manual, but the `BibTeX` file used in 
 it can serve as an example. It shows how to store the most commonly used types 
-of media, including how cross-reference them (e.g. an article *in* a book)
+of media, including how cross-reference them (e.g. an article *in* a book). 
+Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
+which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
 
 
 ### Database
