@@ -291,7 +291,7 @@ The rest of them are almost-empty 'dependent' definitions of specific journals, 
 
 - The standards:
       * numeric
-        * [IEEEE](http://zotero.org/styles/ieee-with-url)
+        * [IEEEE](http://zotero.org/styles/ieee-with-url) *(used in this document)*
         * [DIN 1505-2](http://zotero.org/styles/din-1505-2-numeric)
       * author/date
         * [DIN 1505-2](http://zotero.org/styles/din-1505-2)
