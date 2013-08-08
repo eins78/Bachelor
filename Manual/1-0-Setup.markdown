@@ -1,16 +1,11 @@
 # Setup
 
 
-````{.TODO}
-TODO:
-- better intro
-````
-
 `papermill` is, at its core, a formalized project structure with configuration.
 
-These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects.
+<!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
 
-Also, keep in mind that you can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
+You can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
 – preconfigured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
