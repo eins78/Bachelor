@@ -125,6 +125,40 @@ Again, it is recommended that you choose a `papermill` Stationery to start of yo
 The detailed description of the configuration file is available in the Chapter *mill*, Section [papermill.json].
 
 
+## Text editor
+
+As we already have established[^fn-semanticwrite], we don't want to use a word processor because we are working with plain text.
+
+[^fn-semanticwrite]: see *Semantic Writing* chapter in the **Introduction**
+
+Generally, we can distinguish between different kinds of text editors: 
+
+a) the very minimalistic editors, with limited functionality, like the ones that ship 
+with an operating system (like *Windows*' `Notepad.exe` or *Apple*'s `TextEdit.app`).
+b) **`IDE`**s, integrated development environments
+
+Of course, there also exists every gradation in between those two. 
+
+Some of these editors already have some support for Markdown. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
+known from programming languages:
+
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+- *Shortcuts:* Offer quicker way to type the syntax. Although with Markdown the syntax is as minimal as possible, they still can be of great help. 
+
+Recommendations: 
+
+- [`TextMate`][tm] (Mac, 'open source')
+- [`SublimeText`][st] (Mac, Windows, Linux; not 'open source' but friendly)
+
+[tm]: http://macromates.com
+[st]: http://www.sublimetext.com
+
+These both have the ability to be extended with 'bundles', and already ship with a 'Markdown bundle' built-in.
+
+(Like other text editors that have support for Markdown, they 
+only know about the basic Markdown syntax, so some extension will not be properly highlighted.)
+
 ## `git`
 
 See the *Versioning* chapter in the **Introduction** for 
