@@ -105,11 +105,15 @@ A simple example looks like this:
 
 ````js
     {
-      "input": "doc.md"
+      "input": "doc.md",
+      "output": {
+          "web": false,
+          "documentclass": "article"
+      }
     }
 ````
 
-It is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
+Again, it is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
 
 The detailed description of the configuration file is available in the Chapter *mill*, Section [papermill.json].
 
