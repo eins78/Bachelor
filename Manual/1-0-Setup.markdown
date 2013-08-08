@@ -173,8 +173,8 @@ in just the right place).
 If version control is used, this also ensures that all assets are 
 tracked and all collaborators have access to them. 
 
-*Note:* Since the assets themselves are also created using software, they may 
-have a 'source' themselves: An image created in Photoshop
+*Note:* Because the assets may are also created using software, 
+they could have a 'source' themselves: An image created in Photoshop
 
 
 ### Images
