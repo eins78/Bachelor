@@ -193,7 +193,7 @@ of the project. In any case only the sources **or** the results should be tracke
   every time the sources change.
   
 - In more complex cases, a [separate repository](http://git-scm.com/book/en/Git-Tools-Submodules) 
-  just dealing with assets could be created and the generated assets published elsewhere.
+  for handling the assets could be created and the generated assets published elsewhere.
 
 
 
