@@ -52,10 +52,11 @@ Moreover, this same knowledge should enable you to learn how to use any **`git`*
 The most basic term one needs to know when using **`git`** is a **"repository"**.
 It is a purposefully general term, but it helps to think of it as a 'folder':
 
-!['Repository' Folder ](../_images/git/icon-folder-repository.png)
+<!-- !['Repository' Folder ](../_images/git/icon-folder-repository.png) -->
 
 This is not even wrong: If you directly edit files in a `git` repository on 
-your computer, it will be there just like any other folder.
+your computer, it will be there just like any other folder 
+(in **`git`** terms, this is your 'working folder').
 In our case, this folder contains all the files related to a publication:
 
 - Most importantly: the text files *('sources')*
@@ -66,7 +67,7 @@ So, what makes this folder special?
 Inside it, there is one more thing: 
 a **`hidden folder`** called `.git`!
 
-!['.git' Folder](../_images/git/icon-folder-git.png)
+<!-- !['.git' Folder](../_images/git/icon-folder-git.png) -->
 
 As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
 It contains a lot of meta-data and also a small database-like storage. 
@@ -142,7 +143,7 @@ There is always at least one branch in every git repository, by default this bra
 New **branches** are always based on a **commit** of an existing branch.
 This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
 
-![Illustration of a branch](../_stash/branches.png)
+<!-- ![Illustration of a branch](../_stash/branches.png) -->
 
 [^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
