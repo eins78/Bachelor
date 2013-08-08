@@ -128,8 +128,8 @@ when working with git.
 It is generally not recommended to track 'generated content' with **`git`**, 
 if that content is generated from sources that are already tracked. 
 Not only does it needlessly increase the size of the repository, 
-it is also a source of confusing since all merge conflicts have to be solved 
-two times, for the source and the result.
+it is also a source of confusion since all merge conflicts have to be solved 
+two times, once for the source and again for the result.
 
 **`git`** can **ignore** files that should not be tracked, for this or any other reason. This is configured in a **`hidden file`** named ['.gitignore'](http://git-scm.com/docs/gitignore). 
 Again, when using a `papermill` stationery, this is already taken care of.
