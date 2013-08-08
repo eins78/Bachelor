@@ -11,7 +11,8 @@ Made with:
 - [Marked](http://markedapp.com)
 - [Tower](http://www.git-tower.com)
 
-Published using fonts from Adobe, published under an open source license:
+Published using fonts from Adobe, published under an open source license: 
+[[-@url:adobeblogsans]]
 
 - Source Sans Pro
 - `Source Code Pro`
