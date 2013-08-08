@@ -285,7 +285,7 @@ in the official collection, [though less than a thousand of them are unique, or 
 The rest of them are almost-empty 'dependent' definitions of specific journals, declaring which of the 'independent' styles they use.
 
 
-- [Search and Download](http://zotero.org/styles) the one which suits your context most
+- [Search and Download](http://zotero.org/styles) a style which suits your context (or is required by your institution)
 
 - There is also the [Beta-Version of a style browser and editor by Mendeley](http://editor.citationstyles.org/about/) available
 
