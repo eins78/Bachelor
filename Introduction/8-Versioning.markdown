@@ -188,7 +188,7 @@ everything can be done locally/offline.
 
 Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
 They *can* be an actual server, but it is also possible to use any storage, like an external USB drive.
-Web Interfaces like GitHub and Gitlab (an open source self-hosted alternative) are based on the ability to use them as remotes and 
+Web Interfaces like GitHub and Gitlab are based on the ability to use them as remotes and 
 offer advanced features based on the data you send there. 
 
 Once a remote is set up, the commits can be **pushed** there.^[if the repository was cloned, the source is already configured as a remote with the name 'origin']
