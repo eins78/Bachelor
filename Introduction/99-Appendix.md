@@ -10,7 +10,6 @@ Made with:
 - BibDesk
 - Marked
 - Tower
-- Hardware and OS X from Apple
 
 Published using fonts from Adobe, published under an open source license:
 
@@ -22,7 +21,7 @@ Published using fonts from Adobe, published under an open source license:
 \pagebreak
 
 
-### Thanks
+### Acknowledgements
 
 To: [NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype. 
 The [Kunst-Technik-Einheit](http://kte.is) staff. 
