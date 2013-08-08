@@ -1,4 +1,3 @@
-
 ## Assets
 
 Assets are all files that are needed to output a publication 
@@ -38,10 +37,50 @@ of the project. In any case only the sources **or** the results should be tracke
 
 ### Images
 
-- needs relative paths from the document!
-- Pixel: png for web and print
-- Vector: svg for web, pdf for print
-- Leave extension, and it will be svg/pdf depending on web/print!
+Images need to be linked with a 'path' **relative** to the document!
+
+That means it should not start with a full path, like `C:\My Files\`, `/Users/foo/` or `/home/foo/`.
+
+Two dots (**`..`**) in a path mean 'go up one directory'.
+
+*Example:* In the following setup, the relative path from the document to the image is **'`../figures/image.jpg`'**
+
+```
+    Project/
+    ├── figures/
+    │   └── image.jpg
+    ├── Text/
+    │   ├── document.md
+    (...)
+```
+
+Supported Formats:
+
+- `JPG`, `GIF`, `PNG`
+
+There are 2 additional vector formats only support by either print or web targets: 
+
+- `PDF` can be used in print
+- `SVG` can be used in web
+
+If print and web outputs should be created from the same source, the `.pdf` or `.svg` extension has to be omitted from the 'path', like this: '`../figures/image`' **and** both versions must exist next to each other.
+
+```
+    (...)
+    ├── figures/
+    │   ├── image.pdf
+    │   ├── image.svg
+    (...)
+```
+
+If the creation of `SVG` images is not possible, it is recommended to use (non-vector) `PNG`, 
+together with the following configuration:
+
+```
+"web": {
+  "defaultImageExtension": "png"
+}
+```
 
 
 ### Bibliography

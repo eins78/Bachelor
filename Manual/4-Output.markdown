@@ -134,7 +134,7 @@ Additional attributes can be also added to elements in order to style them, see 
 
 Finally, the generated markup can also be customized with [templates](http://github.com/papermill/pandoc-templates).
 
-If `CSS` is new to you, use Mozilla's documentation as a starting point:
+If `CSS` is new to you, use Mozilla's documentation as a starting point: \
 `https://developer.mozilla.org/CSS`
 
 
