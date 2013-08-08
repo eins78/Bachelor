@@ -18,7 +18,7 @@ Being a blogger, a digital activist and an all-round-nerd, he falls into the tar
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
 de-facto standard for versioning and collaborating open-source software projects. 
 Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a complete ecosystem, 
-including a web view for all files and content of the repository and project management features like issue tracking. 
+including a web view for all files and content of the repository and project management features like issue tracking. An open source, self-hosted alternative with similar features is called [Gitlab](http://gitlab.org).
 
 
 ## Git
