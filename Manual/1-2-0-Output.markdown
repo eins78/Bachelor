@@ -10,9 +10,9 @@ The 'print' output produces a PDF file suitable for printing, using (`XeLa`)**`T
 
 These are the 3 most common document classes: 
 
-- article
-- report
-- book
+- Article
+- Report
+- Book
 
 An **article** is the most condensed output template. There is just a title block, followed by the content (including the optional table of contents).
 
