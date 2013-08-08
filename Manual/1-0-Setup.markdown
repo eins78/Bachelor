@@ -276,8 +276,8 @@ defining them in a machine-readable way:
 The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language).
 
 
-
-- [Download](http://zotero.org/styles) the one which suits your context most
+- [Search and Download](http://zotero.org/styles) the one which suits your context most
+- There is also the [Beta-Version of a style browser and editor by Mendeley](http://editor.citationstyles.org/about/) available
 
 - The standards:
       * numeric
