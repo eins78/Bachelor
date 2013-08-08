@@ -145,17 +145,8 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 ## Collaboration
 
-- goes hand in hand with versioning
-- fun fact: collaboration can also happen between 1 person (me, and me from last week)
 
-*GitHub* has also played a vital role in shaping the ways people are collaborating using *git*.
-
-![A small repository on GitHub](../_images/git/screenshot-github-user-repo.png)
-
-
-### Merging
-
-If we break this process down into individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
+If we break the process down into individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
 
 - Obtain a copy of the document(s) *(clone)*
 - Make some changes, review and save them *(commit)*
