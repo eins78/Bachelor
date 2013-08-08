@@ -287,7 +287,7 @@ The rest of them are almost-empty 'dependent' definitions of specific journals, 
 
 - [Search and Download](http://zotero.org/styles) a style which suits your context (or is required by your institution)
 
-- There is also the [Beta-Version of a style browser and editor by Mendeley](http://editor.citationstyles.org/about/) available
+- There is also a [style browser and editor by Mendeley *(Beta Version)*](http://editor.citationstyles.org/about/)
 
 - The standards:
       * numeric
