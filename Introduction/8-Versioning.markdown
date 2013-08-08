@@ -94,7 +94,7 @@ Let's have a look at how changes are made in the first place.
 ## Commit
 
 **"committing"** is the activity of saving your changes into the **`git`** database, 
-the result of this is also called a **"commit"**.
+the result of this is also called a **commit**.
 Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it is best to think of every commit as a "version" of your project. 
 You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to get a list of changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
 
@@ -102,7 +102,7 @@ Let's take a look at how to do a commit:
 
 First, you should review your changes. 
 If you are happy with them, you need to tell **`git`** which files you want to commit. 
-This is called **"staging"**. It allows you to make several changes at the same time, 
+This is called **staging**. It allows you to make several changes at the same time, 
 but only commit a fraction of them each time. 
 In software development, this is mostly done to break up the changes into smaller pieces, 
 making them easier to review on the receiving side.
@@ -136,7 +136,7 @@ We already established that **clones** are copies of a **repository**, and **for
 
 But git is even more flexible: There is also the possibility of having a complete copy of the repository inside your local copy. These "built-in" copies are called **branches**.
 
-They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the "main" project, but still should be committed in small steps.
+They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the 'main' project, but still should be committed in small steps.
 
 There is always at least one branch in every git repository, by default this branch is called *'master'*, which is nothing more than a default name.[^fn-master-branch] 
 
@@ -147,27 +147,6 @@ This commit is the starting point of the branch, or *where your changes branch o
 
 [^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
 
-
-## Push
-
-**`git`** is a distributed version control system. 
-There is no inherit need to have a central server, or any internet connection: 
-everything can be done locally/offline.
-
-Yet, it is possible to use any number of 'remotes', which are again copies of the repository, outside of it. 
-They *can* be a real server, but it is also possible to use any storage, like an external USB drive.
-
-
-- repo can have one or more remotes
-- remotes are other places where copies of the repo exist
-    * any local or external disk, like a USB drive
-    * servers
-    * services (GitHub, Gitlab)
-- can **push** to a remote
-- always from branch to branch
-- always linear history
-
-- uses: backup, collaboration
 
 
 ## Collaboration
@@ -211,6 +190,29 @@ But instead of doing all these steps manually, we have already learned that **`g
 **So, how do we send our changes?**
 
 Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
+
+
+## Push
+
+Becaue **`git`** is a distributed version control system, 
+there is no inherit need to have a central server, or any internet connection: 
+everything can be done locally/offline.
+
+Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
+They *can* be a real server, but it is also possible to use any storage, like an external USB drive.
+
+
+- repo can have one or more remotes
+- remotes are other places where copies of the repo exist
+    * any local or external disk, like a USB drive
+    * servers
+    * services (GitHub, Gitlab)
+- can **push** to a remote
+- always from branch to branch
+- always linear history
+
+- uses: backup, collaboration
+
 
 Note: Gitlab calls this "Merge Request", which could be argued to be a better fitting term.
 
