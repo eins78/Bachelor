@@ -36,7 +36,7 @@ Though Linus Thorvalds has publicly said exactly that](https://www.youtube.com/w
 Moreover, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
 
 [^fn-git-data-promise]: Quote: "I guarantee you, if you put your data in git: You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [`…`] you can verify that the data you get out is the exact same data you've put in." \
- (He goes on to explain that in the past, it was tried smuggling bad changes into the Linux kernel by physically breaking into a data center, which adds some gravitas to his testimony.)
+ (He goes on to explain that in the past, it was tried to smuggle bad changes into the Linux kernel by physically breaking into a data center, which adds some gravitas to his testimony.)
 
 
 ## Repository
@@ -208,5 +208,7 @@ However, when using the 1-branch-per-collaborator model this problem is partly r
 After new commits are pushed to a remote repository, 
 everyone (with access) can **pull** them into one of their local branches.
 
-The formal way of asking someone to pull your changes is called a "Pull Request".^[or "Merge Request" when using Gitlab].
+The formal way of asking someone to pull your changes is called a "Pull Request", or a"Merge Request" when using Gitlab.
+
+
 
