@@ -50,7 +50,7 @@ The **'fontsize'** can be either 10pt, 11pt or 12pt.
 
 #### Geometry
 
-The available options for the **'geometry'** setting can be found in the corresponding [package documentation](http://www.ctan.org/pkg/geometry). They can be used together if the are seperated 
+The available options for the **'geometry'** setting can be found in the corresponding [package documentation](http://www.ctan.org/pkg/geometry). They can be used together if the are separated 
 by a colon and a space, as in the example above. The most useful ones include: 
 
 - Paper sizes: `a4paper` *or* `a5paper` *or* `total={22.6cm, 32cm}`
@@ -132,7 +132,7 @@ Source code and further information: \ `http://github.com/papermill/bookstrap`
 - it is just HTML, go upload it onto some host
 
 - self-contained: assets go inside
-    - good for outside of web: email, downloads, mobile devices, usb sticks etc
+    - good for outside of web: email, downloads, mobile devices, USB sticks etc
     - can be turned off if it is just for web (caching!)  
       `{ "selfContained": false }`
   

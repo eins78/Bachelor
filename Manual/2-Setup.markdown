@@ -6,7 +6,7 @@
 <!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
 
 You can start you own project from a [**stationery**](https://github.com/papermill/stationery) 
-– preconfigured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
+– pre-configured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
 
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
 
@@ -69,7 +69,7 @@ This can for example be used to produce different parts of a dissertation which 
 
 Their *content should be related*, otherwise they would be two different projects.
 
-The follwing configuration would also produce a seperate output from the `Drafts/` folder in order to preview it: 
+The following configuration would also produce a separate output from the `Drafts/` folder in order to preview it: 
 
 ```
     Project/
@@ -231,7 +231,7 @@ The format has many idiosyncrasies, most of which are unfortunately shared by th
 it can serve as an example. It shows how to store the most commonly used types 
 of media, including how cross-reference them (e.g. an article *in* a book). 
 Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
-which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
+which *reliably work*.^[E.g. there is the media type 'electronic', 'URL' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
 
 *Example:* A `BibTeX` file with a **book**; an **article** inside that book ('incollection', note the 'Crossref'); an **'electronic'** resource; and a **'misc'** *(miscellaneous)* item to be used for anything else (like unpublished works).
 

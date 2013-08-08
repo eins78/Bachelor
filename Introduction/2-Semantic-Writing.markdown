@@ -53,7 +53,7 @@ in der soeben beschriebenen Art abgeliefert würden."
 
 Since then, the situation has become equally better and worse: 
 Nowadays, most authors produce their manuscripts digitally, which should leave less room for interpretations and errors.
-Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`, meaning the intent of the author is once again 'entangled' with the visual output (or even more so, as shown in the next section, *Formatting*).
+Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as *Microsoft* `Word` or *Apple* `Pages`, meaning the intent of the author is once again 'entangled' with the visual output (or even more so, as shown in the next section, *Formatting*).
 
 Note that there are alternatives in the market, but these are mostly aimed at very complex projects.
 An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allow input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
@@ -78,7 +78,7 @@ On the one hand, it can be summed up quite simply:
 On the other hand, there are specific connotations embedded in our visual and cultural knowledge.
 These are shaped by a) how this translation was handled historically; and b) the user interface of word processors since the 1980s.
 
-![Bold/Italic buttons. From left to right: Microsoft Word 2.0 (1989); Apple Pages (2009); WordPress (2012); Apple iOS 6 (2012) ](../_images/bold-italic-buttons.png)
+![Bold/Italic buttons. From left to right: *Microsoft Word 2.0* (1989); *Apple Pages* (2009); *WordPress* (2012); *Apple iOS 6* (2012) ](../_images/bold-italic-buttons.png)
 
 As the examples show, the interface of most word processors visualize 'emphasis' as 'italic' and 'strong emphasis' as 'bold'.
 While this is consistent with how these semantic intentions are usually expressed typographically, 

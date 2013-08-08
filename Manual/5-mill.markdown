@@ -32,7 +32,7 @@ It can also be an object with more configuration:
     }
 ```
 
-This object may also contain a 'list' of documents, which will be treated as subfolders of the parent **`path`**:
+This object may also contain a 'list' of documents, which will be treated as sub-folders of the parent **`path`**:
 
 ```js
     "input": {

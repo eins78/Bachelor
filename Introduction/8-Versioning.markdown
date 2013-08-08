@@ -27,7 +27,7 @@ including a web view for all files and content of the repository and project man
 
 This chapter might seem overly technical, but breaks down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
 
-Some newer graphical interfaces (especially GitHub's GUI apps) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
+Some newer graphical interfaces (especially *GitHub*'s GUI apps) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
 
 But: since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
@@ -174,7 +174,7 @@ But instead of doing all these steps manually, we have already learned that **`g
 
 **So, how do we send our changes?**
 
-Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the Linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
+Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the **`Linux`** kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
 
 The email model is fitting for a project like **`Linux`**, where the mailing list archives form a public record of which changes where proposed by whom, the discussion around them, and if, when and how they were integrated.
 

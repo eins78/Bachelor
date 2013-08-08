@@ -62,7 +62,7 @@ As we already have established, we don't want to use a word processor because we
 Generally, we can distinguish between different kinds of text editors: 
 
 a) the very minimalistic editors, with limited functionality, like the ones that ship 
-with an operating system (like Windows' `Notepad.exe` or Apple's `TextEdit.app`).
+with an operating system (like *Windows*' `Notepad.exe` or *Apple*'s `TextEdit.app`).
 b) **`IDE`**s, integrated development environments
 
 Of course, there also exists every gradation in between those two. 

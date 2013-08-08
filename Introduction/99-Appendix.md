@@ -6,11 +6,12 @@
 Made with:
 
 - `papermill`
-- **`git`**
 - [TextMate 2](http://macromates.com)
+- **`git`**
+- [Tower](http://www.git-tower.com)
 - [BibDesk](http://bibdesk.sourceforge.net)
 - [Marked](http://markedapp.com)
-- [Tower](http://www.git-tower.com)
+- [netspeak](http://www.netspeak.org)
 - [GNU aspell](http://aspell.net)
 
 Published using fonts from Adobe, released under an open source license: 

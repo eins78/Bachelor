@@ -9,8 +9,8 @@ The Markdown syntax aims to be easy to learn, type and read for humans.
 Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
 
 The following is based on 
-John Grubers original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
-John MacFarlanes "Pandoc User’s Guide" [[-@url:pandoc:guide]].
+John Gruber's original "Markdown: Basics" [[-@url:gruber:mdbasic]] and
+John MacFarlane's "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
 *Note:* Some things can be written in more than one way in Markdown. To be more concise, only a carefully chosen subset of the allowed syntax is described.
 
@@ -334,7 +334,7 @@ A full link to <http://example.com>.
 
 ##### Inline
 
-The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parenthese)* characters, like this: `[anchor](target)`
+The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parentheses)* characters, like this: `[anchor](target)`
 
 ```
 Some text [linking somewhere else](http://example.com).
@@ -342,7 +342,7 @@ Some text [linking somewhere else](http://example.com).
 
 ##### Reference-style
 
-For a more readable source, the *target* can also be put seperately. 
+For a more readable source, the *target* can also be put separately. 
 The *anchor* still needs to be put in square brackets and be repeated later, 
 followed by an **`:`** (colon) and the link.
 A different name can be given to an *anchor*
@@ -364,7 +364,7 @@ so a reference-style link can be constructed without declaring them outside of t
 ```
 ## Section on Semantics
 
-Some Text, refering to [the other section][more].
+Some Text, referring to [the other section][more].
 
 ## Another Section {#more}
 
@@ -376,8 +376,8 @@ For more information, see the [Section on Semantics].
 
 Images can be inserted anywhere in the text. The syntax for images is the same as links, but with a **`!`** *(exclamation mark)* character preceding the anchor. Also see: **figure**.
 
-- Yext inside the anchor is used as the image description
-- Yhe target denotes the path to the image
+- Text inside the anchor is used as the image description
+- He target denotes the path to the image
 - Images can have the following formats: 'JPG', 'GIF, 'PNG'
 - The description will only be visible if the image is a *figure*
 
@@ -439,7 +439,7 @@ Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
 
 ### Escaping
 
-Although the punctuation characters used in the Markdown syntax are carefully choosen 
+Although the punctuation characters used in the Markdown syntax are carefully chosen 
 to not have unintended side effects, it still can happen sometimes.
 
 The solution in all these cases is to use a technique called 'escaping'. 
@@ -461,9 +461,9 @@ How to write words with \*stars\* but no emphasis?
 ### Attributes
 
 **ADVANCED TOPIC!** \
-*If you don't understand this, don't worry – you'll propably don't need it.*
+*If you don't understand this, don't worry – you'll probably don't need it.*
 
-Attributes (metadata) can be added to heading and code block elements.
+Attributes (meta data) can be added to heading and code block elements.
 These are useful when customizing the project, especially when working with the `HTML` output. 
 In the simplest form, they can be used to style these elements visually, 
 but the possibilities are endless.

@@ -25,7 +25,7 @@ Furthermore, my role as a technical administrator provided valuable insight and 
 The dissertation can be downloaded in web and print format 
 at the [project website](http://phd.nts.is), 
 while the source code (including the aforementioned prototype) 
-is [published on GitHub](http://github.com/NTS/PhD).
+is [published on *GitHub*](http://github.com/NTS/PhD).
 
 
 ### Version 1: This document
