@@ -164,7 +164,7 @@ Some text.
 ## Second-Level Heading
 
 More text, where I write about hashtags. For example, 
-#OccupyWallStreet ist just text, NOT a heading
+#OccupyWallStreet is just text, NOT a heading
 ```
 
 ![Output of 'heading' example (print, web)](../_images/markdown_examples/figures/heading)
@@ -436,6 +436,19 @@ Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
 [at-sign]: https://en.wikipedia.org/wiki/At_sign
 
 
+### Comment
+
+Comments can be written in the **`HTML`** syntax by enclosing text between 
+**`<!--`** and **`-->`**.
+
+They are not visible in any 
+output format <!-- and --> can be used anywhere in the document.
+
+```
+<!-- A comment. It will NEVER be printed. -->
+
+The weather was <!-- not --> good. 
+````
 
 ### Escaping
 
