@@ -1,11 +1,11 @@
 
 <!-- 
 
-narative: 
+narrative: 
 - we need structured text. 
-- html and latex are too hard
+- HTML and latex are too hard
  and media-specific!
-- ok, then markdown
+- OK, then markdown
   - from web
   - extensions for elements
 - publication structure: papermill config
@@ -27,7 +27,7 @@ narative:
 Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
 Any emphasis, division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
 
-With the introduction of the [moveable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
+With the introduction of the [movable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
 Any text now had to be split up into its composing letters and spaces and then re-arranged, using only the available (lead) characters.
 
 So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization"^[in German: *'Digitalisierung'*] even started,
@@ -41,7 +41,7 @@ Suddenly, the letters of the used alphabet were not enough to properly "encode" 
 > "Thousands of working hours are sacrificed by typographers,
 > getting the right order of letters written without indentation,
 > with countless pencil marks and deep thought.
-> This idling could be avoided if the manuscripted would be
+> This idling could be avoided if the manuscripts would be
 > handed in formatted as described here." [[@Tschichold:Drucksachen]] *(own translation)*[^fn-tschicholdparagraphs]
 
 [^fn-tschicholdparagraphs]: *Original:* "Tausende von Arbeitsstunden werden von Typographen geopfert, 
@@ -53,7 +53,7 @@ in der soeben beschriebenen Art abgeliefert würden."
 
 Since then, the situation has become equally better and worse: 
 Nowadays, most authors produce their manuscripts digitally, which should leave less room for interpretations and errors.
-Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`, meaning the intent of the author is once again 'entagled' with the visual output (or even more so, as shown in the next section, *Formatting*).
+Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as Microsoft `Word` or Apple `Pages`, meaning the intent of the author is once again 'entangled' with the visual output (or even more so, as shown in the next section, *Formatting*).
 
 Note that there are alternatives in the market, but these are mostly aimed at very complex projects.
 An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allow input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
@@ -103,7 +103,7 @@ As an example, this is how this definition looks in the source code of the [`Saf
 > }
 > ``` 
 > 
-> [Webkit Default CSS, Zeilen 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
+> [Webkit Default CSS, Lines 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
 
 
 Another well-known language for writing structured text, at least among scientific and technical authors, is the syntax used in **`TeX`**, `LaTeX` and other `TeX`-like systems. 

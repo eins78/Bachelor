@@ -1,7 +1,7 @@
 # Versioning
 
 
-In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
+In general, *Version Control* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
 By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the development of the document and possibly even the thought process of the author.
 
 These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
@@ -16,7 +16,7 @@ As Doctorow summarizes in a blog post:
 Being a blogger, a digital activist and an all-round-nerd, he falls into the target group of 'technically involved' authors, so it comes as no surprise that he found a highly technical solution. He commissioned a piece of software ([`flashbake`](https://github.com/commandline/flashbake)), which automatically keeps track of his work in 15-minute-intervals.
 
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
-de-facto standard for versioning and collaborating open-source software projects. 
+de-facto standard for Version Control and collaborating in open source software projects. 
 Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a complete ecosystem, 
 including a web view for all files and content of the repository and project management features like issue tracking. An open source, self-hosted alternative with similar features is called [Gitlab](http://gitlab.org); another service with a different focus but similar hosting options is [bitbucket](https://bitbucket.org).
 
@@ -32,7 +32,7 @@ Some newer graphical interfaces (especially GitHub's GUI apps) make working with
 But: since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
 The hope is to give you peace of mind that your work is *saved* and *safe*. 
-Though Linus Thorvalds has publicly said exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
+Though Linus Torvalds has publicly said exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
 Moreover, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
 
 [^fn-git-data-promise]: Quote: "I guarantee you, if you put your data in git: You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [`…`] you can verify that the data you get out is the exact same data you've put in." \
@@ -81,7 +81,7 @@ If the clone has changes, it is considered a **fork**.[^fn-fork]
 
 Let's have a look at how changes are made in the first place.
 
-[^fn-fork]: Not the be confused with how 'fork' is used in software developement, where a project might split into 2 new ones with different goals, using the old code base as a starting point.
+[^fn-fork]: Not the be confused with how 'fork' is used in software development, where a project might split into 2 new ones with different goals, using the old code base as a starting point.
 
 
 
@@ -174,9 +174,9 @@ But instead of doing all these steps manually, we have already learned that **`g
 
 **So, how do we send our changes?**
 
-Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
+Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the Linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
 
-The email model is fitting for a project like **`Linux`**, where the mailig list archives form a public record of which changes where proposed by whom, the discussion around them, and if, when and how they were integrated.
+The email model is fitting for a project like **`Linux`**, where the mailing list archives form a public record of which changes where proposed by whom, the discussion around them, and if, when and how they were integrated.
 
 However, there are other built-in ways to share commits which are much simpler to use (and automate).
 

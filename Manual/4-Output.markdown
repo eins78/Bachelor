@@ -75,7 +75,7 @@ are allowed in the document source.
 These commands only affect the print output, so while it does make the 
 source less media-agnostic, it does not cause any further problems.
 
-#### Pagebreak
+#### Page break
 
 To force a pagebreak anywhere in the printed document, 
 enter the following two lines:

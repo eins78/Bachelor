@@ -35,17 +35,17 @@ This document, my Bachelor thesis, was written alongside the development of seve
 The goal was to find generally useful solutions to the technical problems that are common to most publication projects.
 
 - *Project Configuration* specification
-    * defines Metadata, Inputs, Outputs
+    * defines Meta data, Inputs, Outputs
     
 - *stationery*: 
 
 - `mill` *Command Line Utility*
-    * compiles papermill projects
+    * compiles `papermill` projects
     * inside: `node.js` module, usable locally and server-side
 
 - `bookstrap`: template and style for web output to complement the LaTeX templates
     * optimized for modern web browsers
-    * designed for long-form text: readability, non-distractive, table/sidebar of contents
+    * designed for long-form text: readability, non-distracting, table/sidebar of contents
     * uses novel grid system based on typographic `em`-units
     
 - *Bonus:* `Papermill.app`, a graphical 'drag-and-drop' interface to compile `papermill` projects on *Mac OS X*

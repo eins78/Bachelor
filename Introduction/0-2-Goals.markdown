@@ -9,7 +9,7 @@ Make the *mode of production* and tools used in (open source) software developme
 more accessible for authors and writers.
 
 - **Version control** 
-- **Automation**, Continuos integration
+- **Automation**, Continuous integration
 - IDEs: Integrated Development Environments
 - Libraries: reusable modules
 

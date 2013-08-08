@@ -60,9 +60,9 @@ A document with a top-level heading with the text "Hello", followed by a paragra
 
 `Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
 Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
-that he put of work on linux until git was usable.
+that he put of work on Linux until git was usable.
 
-For a step-by-step introduction to Versioning and git, see the chapter *Versioning*.
+For a step-by-step introduction to Version Control and git, see the chapter *Versioning*.
 
 
 
@@ -131,7 +131,7 @@ This can be automatically abbreviated by `git` to the shortest string that still
 Certain files or folders on a computer, 
 for example configuration files belonging to software, 
 can be hidden from the user by the operating system and/or file browser.
-This is usually done to keep the user from indadvertedly modifying or deleting them, because 'seeing' and editing them usually requires some kind of setting, command line flag or other kind of 'trick'.
+This is usually done to keep the user from inadvertently modifying or deleting them, because 'seeing' and editing them usually requires some kind of setting, command line flag or other kind of 'trick'.
 there is a historically grown convention in operating systems in the `UNIX` family, that files and folder starting with a **`.`** *(dot)* character are hidden.
 
 
