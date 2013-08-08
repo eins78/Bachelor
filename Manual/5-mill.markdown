@@ -11,7 +11,7 @@ of course using `pandoc`.
 [node.js]: http://nodejs.org
 
 
-## papermill.json
+## `papermill.json`
 
 ### Input
 

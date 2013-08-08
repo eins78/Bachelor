@@ -49,20 +49,28 @@ A document with a top-level heading with the text "Hello", followed by a paragra
 
 ## `TeX`, `LaTeX`, `*TeX` {#tex}
 
-- invented by Donald Knuth
-- wrote Book: "The Art of computer programming"
-- unhappy with the state of typesetting software
-- also unhappy with alternative: writing with computer, setting manually by hand
-- invents `Metafont` system, `TeX`
+> "I can’t go to a restaurant and order food because I keep looking at the fonts on the menu."
+>
+> — Donald Knuth [@knuth:questions, p. 321]
+
+A [typesetting engine](https://en.wikipedia.org/wiki/TeX), 
+with a formatting syntax that doubles as a programming language.
+
+Invented by Donald Knuth, while trying to digitally typeset the second edition 
+of his book "The Art of computer programming" (the hot metal machine used for 
+the first edition was no longer available). Unhappy with the then state of 
+typesetting software, he spend seven years to program the **`TeX`** system from scratch.
+
+Today, there exist several derivates, **`LaTeX`**, **`XeTeX`** are among the most used.
 
 
 ## `git`
 
 `Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
-Just like Donald Knuth and his `TeX` project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
-that he put of work on Linux until git was usable.
+Just like Donald Knuth and his **`TeX`** project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
+that he put of work on `Linux` until `git` was usable.
 
-For a step-by-step introduction to Version Control and git, see the chapter *[Versioning]*.
+For a step-by-step introduction to Version Control and `git`, see the chapter *[Versioning]*.
 
 
 

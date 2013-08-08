@@ -442,7 +442,7 @@ Comments can be written in the **`HTML`** syntax by enclosing text between
 **`<!--`** and **`-->`**.
 
 They are not visible in any 
-output format <!-- and --> can be used anywhere in the document.
+output format and can be used anywhere in the document.
 
 ```
 <!-- A comment. It will NEVER be printed. -->
@@ -455,7 +455,7 @@ The weather was <!-- not --> good.
 Although the punctuation characters used in the *Markdown* syntax are carefully chosen 
 to not have unintended side effects, it still can happen sometimes.
 
-The solution in all these cases is to use a technique called 'escaping'. 
+The solution in those cases is to use a technique called 'escaping'. 
 By putting a `\` *(backslash)* in front of any character, 
 it will NOT be interpreted as *Markdown*.
 
@@ -464,11 +464,7 @@ Ending a line with a backslash does actually 'escape' the linebreak!)
 
 *Example:* How to write words with \*stars\* but no emphasis?
 
-*Solution:*
-
-```
-How to write words with \*stars\* but no emphasis?
-```
+*Solution:* `How to write words with \*stars\* but no emphasis?`
 
 
 ### Attributes
@@ -499,7 +495,7 @@ Attributes are written inside **`{}`** *(curly braces)* at the end of the elemen
     
 
 **class**
-:   
+:   add a class to an element
     ```
     # Heading {.my-class}
     ```

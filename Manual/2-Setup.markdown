@@ -123,7 +123,7 @@ A simple example looks like this:
 
 Again, it is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
 
-The detailed description of the configuration file is available in the Chapter *[mill]*, Section [`papermill.json`].
+The detailed description of the configuration file is available in the Chapter *[`mill`]*, Section [`papermill.json`].
 
 
 ## Text editor
@@ -143,7 +143,7 @@ Of course, there also exists every gradation in between those two.
 Some of these editors already have some support for *Markdown*. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
 known from programming languages:
 
-- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes, etc. to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
 
 - *Shortcuts:* Offer quicker way to type the syntax. Although with *Markdown* the syntax is as minimal as possible, they still can be of great help. 
 
@@ -158,12 +158,12 @@ Recommendations:
 These both have the ability to be extended with 'bundles', and already ship with a '*Markdown* bundle' built-in.
 
 (Like other text editors that have support for *Markdown*, they 
-only know about the basic *Markdown* syntax, so some extension will not be properly highlighted.)
+only know about the basic syntax, so some extension to it will not be properly highlighted.)
 
 ## `git`
 
 See the *Versioning* chapter in the **Introduction** for 
-an overview of the concepts and term that you should know 
+an overview of the concepts and terms that you should know 
 when working with git.
 
 It is generally not recommended to track 'generated content' with **`git`**, 
@@ -212,7 +212,7 @@ In the the context of `papermill`, there are two particularly useful hooks:
 post-commit
 :   can be used to run a command after every commit.
     
-    *Example:* `.git/hooks/post-commit` renders the output
+    *Example:* a `.git/hooks/post-commit` compiling the output
 
     ```
     #!/bin/sh
