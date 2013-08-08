@@ -15,7 +15,7 @@
 ### Bibliography
 
 - everybody needs to quote stuff
-- with papermill, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
+- with `papermill`, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
 - each item in db has id
 - you then use a link-like syntax, with the id, like so: `See [@id, pp. 23-42]`
 

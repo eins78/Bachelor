@@ -97,7 +97,7 @@ The **configuration** file is the second most important part of any project. \
 It contains all the information *about* the project needed to produce 'output'.
 
 It is also a text file, but encoded in [`JSON`](http://www.JSON.org/), 
-"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@js:goodparts, p. 136]
+"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@guide:goodparts, p. 136]
 
 
 In general, the configuration lists the following items:
@@ -128,12 +128,19 @@ when working with git.
 
 ### Automatic committing
 
-If you don't want to commit manually, there are two software tools that handle automatic committing in the background. Both can also generate a commit message with as much info as you want and can get out of the computer you are working on. Installation and usage instructions are available at the project's own sites.
+If you don't want to commit manually, there are two software tools that can
+generate a commit message with as much info as you want and can get out of the computer you are working on.
+
+Both can also be set up to work *in the background*. 
+This is very useful for novel users, since they don't have to interact with the version control system at all. 
+It could also be used by advanced users who want to send a steady 'stream' of their work into their own 'live' branch, integrating a sum of those later on.
+
+*Installation and usage instructions are available at the project's own sites.*
 
 -  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
 
     *  User friendly, written in the `python` programming language
-    *  Extendable with plugins
+    *  Extendable with (`python`) plugins
     *  Runs on `Linux` (well) and `Mac OS X` (manual work needed) 
 
 - [`git-o-mat`](https://github.com/papermill/git-o-mat) – inspired by `flashbake`, and yet another `papermill` prototype

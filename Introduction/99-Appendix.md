@@ -11,7 +11,7 @@ Made with:
 - [Marked](http://markedapp.com)
 - [Tower](http://www.git-tower.com)
 
-Published using fonts from Adobe, published under an open source license: 
+Published using fonts from Adobe, released under an open source license: 
 [[-@url:adobeblogsans]]
 
 - Source Sans Pro
@@ -24,11 +24,11 @@ Published using fonts from Adobe, published under an open source license:
 
 ### Acknowledgements
 
-[NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype. 
+[NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype.
 The [Kunst-Technik-Einheit](http://kte.is) staff. 
 Everybody at [MR](http://maschinenraum.tk), for providing a space where ideas like this can grow; jd, marv, eick et. 
 al. 
-for listening to my ramblings. 
+for listening to my ramblings. CC for sponsoring this. 
 [Richard Stallman](http://www.stallman.org), for basing a religion-like ideology on the idea that software should be free (as in freedom, not as in free beer). 
 The [Open Source Initiative (OSI)](https://en.wikipedia.org/wiki/Open_Source_Initiative), namely Christine Peterson, for establishing the more marketable term 'open source' (which can be understood without bringing up beer). 
 [Linus Thorvalds](https://plus.google.com/+LinusTorvalds), for creating and maintaing **`Linux`** and **`git`**. 

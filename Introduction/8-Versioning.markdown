@@ -242,7 +242,7 @@ A conflict happens if the same part(s) of a file where changed in both branches.
     I <3 open source!
     ```
 
-- Trying to merge **B** into **A** warns "CONFLICT (content): Merge conflict in file.txt Automatic merge failed; fix conflicts and then commit the result."
+- Trying to merge **B** into **A** yields a warning: "Merge conflict in file.txt Automatic merge failed; fix conflicts and then commit the result."
 
 - The file now looks like this:
 
@@ -254,7 +254,7 @@ A conflict happens if the same part(s) of a file where changed in both branches.
     >>>>>>> B
     ```
 
-- Manually solving the conflict. The result can then be committed.
+- Manually solving the conflict. The result can then be committed: 
 
     ```
     I love open source!
@@ -262,9 +262,10 @@ A conflict happens if the same part(s) of a file where changed in both branches.
 
 The much better solution is obviously trying to not create conflicts at all. This requires a rigorous workflow if more than two people are involved in the project, but can be summed up as:
 
-- commit early
-- push often
+- Commit early!
+- Push often
+- Pull regularly
 
-Finally, this example shows one the advantages of web interfaces like github: When a 'Merge Request' is created, it is automatically checked for conflicts. 
+Finally, this example shows one the advantages of web interfaces like GitHub: When a 'Merge Request' is created, it is automatically checked for conflicts. 
 If there are none, the merge can happen directly on the server, so the result can directly be pulled.
 
