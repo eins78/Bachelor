@@ -180,7 +180,7 @@ and a resulting '`.jpg`' image.
 
 As mentioned above, generated content should not be committed. 
 How this applies to generated assets as well depends on the context 
-of the project. In any case either the sources **or** the results should be tracked.
+of the project. In any case only the sources **or** the results should be tracked.
 
 - If the **production** of the assets should happen **collaboratively**, 
   their sources should be committed. This requires that all 
