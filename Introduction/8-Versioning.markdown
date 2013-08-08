@@ -254,7 +254,7 @@ A conflict happens if the same part(s) of a file where changed in both branches.
     >>>>>>> B
     ```
 
-- The conflict is solved manually, the result can be committed.
+- Manually solving the conflict. The result can then be committed.
 
     ```
     I love open source!
