@@ -191,6 +191,9 @@ But instead of doing all these steps manually, we have already learned that **`g
 
 Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the linux kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
 
+The email model is fitting for a project like **`Linux`**, where the mailig list archives form a public record of which changes where proposed by whom, the discussion around them, and if, when and how they were integrated.
+
+However, there are other built-in ways to share commits which are much simpler to use (and automate).
 
 ## Push
 
@@ -199,9 +202,11 @@ there is no inherit need to have a central server, or any internet connection:
 everything can be done locally/offline.
 
 Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
-They *can* be a real server, but it is also possible to use any storage, like an external USB drive.
+They *can* be an actual server, but it is also possible to use any storage, like an external USB drive.
+Web Interfaces like GitHub and Gitlab (an open source self-hosted alternative) are based on the ability to use them as remotes and 
+offer advanced features based on the data you send there. 
 
-Once a remote is set up, the commits can be **pushed** there.
+Once a remote is set up, the commits can be **pushed** there.^[if the repository was cloned, the source is already configured as a remote with the name 'origin']
 This ability can be used for backups and syncing, but most importantly for sharing the code with collaborators.
 
 Remote repository also have branches, and pushing always happens from a local branch (e.g. 'master') to a specific branch in the remote. 
@@ -214,19 +219,7 @@ There are many ways to deal with this in bigger projects; they are outside the s
 However, when using the 1-branch-per-collaborator model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
 
 After new commits are pushed to a remote repository, 
-everyone can **pull** them into one of their local branches.
+everyone (with access) can **pull** them into one of their local branches.
 
-- repo can have one or more remotes
-- remotes are other places where copies of the repo exist
-    * any local or external disk, like a USB drive
-    * servers
-    * services (GitHub, Gitlab)
-- can **push** to a remote
-- always from branch to branch
-- always linear history
-
-- uses: backup, collaboration
-
-
-Note: Gitlab calls this "Merge Request", which could be argued to be a better fitting term.
+The formal way of asking someone to pull your changes is called a "Pull Request".^[or "Merge Request" when using Gitlab].
 
