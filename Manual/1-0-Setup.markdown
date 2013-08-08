@@ -35,7 +35,7 @@ The basic rules are very simple:
 ## Document
 
 **'Documents'** contain the content of your project. \
-They are plain text files, formatted in `Markdown`. 
+They are plain text files, formatted in `Markdown`.^[and encoded in 'UTF-8', also known as 'Unicode'] 
 
 For more flexibility while writing, a document can also be its own **folder**. 
 All `Markdown`-files in it will be combined
