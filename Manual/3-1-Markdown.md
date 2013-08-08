@@ -37,7 +37,7 @@ To emphasize a phrase, put **`*`** *(asterisk)* symbols directly around it
 `=>` this *word* is important
 
 
-#### Strong emphasis
+#### Strong Emphasis
 
 To strongly emphasize a phrase, put 2 **`*`** *(asterisk)* symbols directly around it
 
@@ -52,7 +52,7 @@ To strike a phrase out, put 2 **`~`** *(tilde)* characters before and after it
 `this ~~word~~ is striked out` \
 `=>` this ~~word~~ is striked out
 
-#### Subscript, superscript
+#### Subscript, Superscript
 
 - to put a phrase into superscript, put a **`^`** *(caret)* character before and after it
 - for subscript, use the **`~`** *(tilde)* character
@@ -85,7 +85,7 @@ that could also be interpreted as Markdown, HTML or LaTeX:
 
 [backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
 
-#### Nesting text formatting
+#### Nesting Text Formatting
 
 Nesting of most test formatting is easily possible, 
 but may show unexpected results in certain cases.
@@ -169,7 +169,7 @@ More text, where I write about hashtags. For example,
 
 ![Output of 'heading' example (print, web)](../_images/markdown_examples/figures/heading)
 
-#### Unordered list
+#### Unordered List
 
 Bullet-point lists are one or more lines starting with a **`-`** (minus) character
 
@@ -199,7 +199,7 @@ Bullet-point lists are one or more lines starting with a **`-`** (minus) charact
 ![Output of second 'list' example (print, web)](../_images/markdown_examples/figures/list-ul)
 
 
-#### Ordered list
+#### Ordered List
 
 When the order of the items in the list matters, they can be numbered.
 
@@ -251,7 +251,7 @@ One of my favorite quotes:
 ![Output of 'blockquote' example (print, web)](../_images/markdown_examples/figures/blockquote)
 
 
-#### Code block
+#### Code Block
 
 Like the *'verbatim'* text formatting, but in a block. \
 There are two ways to achieve this:
@@ -286,7 +286,7 @@ There are two ways to achieve this:
 ![Output of 'code fence' example (print, web)](../_images/markdown_examples/figures/code-fence)
 
 
-### Nesting elements
+### Nesting Elements
 
 Block elements can contain other block elements.
 

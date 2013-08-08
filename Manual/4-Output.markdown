@@ -22,7 +22,7 @@ These are also the settings used for this publication:
 }
 ```
 
-#### Document classes
+#### Document Classes
 
 These are the 3 most common document classes used in **`(La)TeX`**: 
 
@@ -75,7 +75,7 @@ are allowed in the document source.
 These commands only affect the print output, so while it does make the 
 source less media-agnostic, it does not cause any further problems.
 
-#### Page break
+#### Page Break
 
 To force a pagebreak anywhere in the printed document, 
 enter the following two lines:
@@ -108,7 +108,7 @@ Output for the 'web' is produced in **`HTML`** format,
 styled with the `bookstrap` template.
 
 
-## bookstrap
+## `bookstrap`
 
 Source code and further information: \ `http://github.com/papermill/bookstrap`
 

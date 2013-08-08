@@ -21,29 +21,29 @@ a user uses only some of its components, and that it should be relatively easy t
 change them for different ones.
 
 For example, someone already writing in **`TeX`** does not have to use the 
-Markdown syntax and still take advantage of the configuration and automation, 
+Markdown syntax and still can take advantage of the configuration and automation, 
 although e.g. the web output might not work as expected.
 
 
 ## A quick Walkthrough
 
-The following part of the *MANUAL* should explain all the steps necessary to produce 
+This *Manual* should explain all the steps necessary to produce 
 a publication with `papermill`.
 
 It covers the following steps:
 
 -  **SETUP**: start your project
 
-    * manual or from template ("stationary")
-    * get to know the project (folder) structure  
+    * Manually or from template ("stationary")
+    * Get to know the project (folder) structure  
 
 -  **INPUT**: write content
 
-    * text: markdown / pandoc
-    * assets: images, figures, bibliography
+    * Text: Markdown / pandoc
+    * Assets: images, figures, bibliography
 
 -  **OUTPUT**: output your content
 
-    * web -> `HTML`
-    * print -> `LaTeX`
+    * Web -> `HTML`
+    * Print -> `LaTeX`
 
