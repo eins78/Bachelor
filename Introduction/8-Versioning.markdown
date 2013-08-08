@@ -203,6 +203,8 @@ That means you will only be able to push if your changes based on *all* the chan
 There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
 However, when using the 1-branch-per-collaborator model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
 
+## Pull & Merge
+
 After new commits are pushed to a remote repository, 
 everyone (with access) can **pull** them into one of their local branches.
 
