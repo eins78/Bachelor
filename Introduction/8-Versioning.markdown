@@ -202,7 +202,7 @@ Furthermore, **`git`** only allows a linear history in each branch.
 That means you will only be able to push if your changes based on *all* the changes in the remote branch (or some of them could be lost).
 There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
 However, when using the 1-branch-per-collaborator model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
-Similarly, 1-branch-per-topic model ensures that this is not a practical problem by just pushing to a new remote branch (with the name of the topic), pushing al subsequent changes into the same one.
+Similarly, 1-branch-per-topic model ensures that this is not a practical problem by just first pushing to a *new* remote branch (with the name of the topic), and subsequent changes into the same one.
 
 
 ## Pull & Merge
@@ -214,6 +214,6 @@ The formal way of asking someone to pull your changes is called a "Pull Request"
 
 Both names have some truth to them, because pulling, like pushing happens from branch to branch and only allows linear history.
 
-This means that after changes are pulled ()
+Because of this, pullingactually happens in two stages: first, the remote changes are **fetched** from the remote, then they are merged into 
 
 
