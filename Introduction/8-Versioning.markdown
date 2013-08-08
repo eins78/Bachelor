@@ -242,6 +242,13 @@ A conflict happens if the same part(s) of a file where changed in both branches.
     I <3 open source!
     ```
 
+- Trying to merge **B** into **A** warns "CONFLICT (content): Merge conflict in file.txt Automatic merge failed; fix conflicts and then commit the result."
+
+- The file now looks like this:
+
+    ```
+    I <3 open source!
+    ```
 
 
 
