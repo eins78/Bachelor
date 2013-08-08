@@ -220,6 +220,26 @@ then they are merged into the desired local branch.
 
 If there are any **conflicts**, they have to be solved before the **merge** can be competed (it can also be aborted).
 
+A conflict happens if the same part(s) of a file where changed in both branches.
+
+Consider this text file as a base:
+
+```
+I <3 free software!
+```
+
+Changes made in branch **A**:
+
+```
+I love free software!
+```
+
+Changes made in branch **B**:
+
+```
+I <3 open source!
+```
+
 
 
 
