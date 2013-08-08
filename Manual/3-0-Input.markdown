@@ -27,7 +27,6 @@ A very generic structure. Not all publications use all of the elements.
     * Colophon
     * Acknowledgments
     * Affidavit
-    * etc.
 
 
 The most important of those can already be expressed with syntax, for example the titleblock (for which the supplied meta data is used). 

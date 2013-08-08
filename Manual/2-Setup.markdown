@@ -1,5 +1,112 @@
-# Setup
+# The Setup
 
+
+> "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"
+>
+> — *Friedrich Nietzsche writing on an early typewriter, 1882* [[-@Nietzsche:schreibzeug]], quoted after [@stingelin:schreibzeug, p. 304]
+
+## People
+
+**author**
+
+:   The author is, obviously, the most important person of any publication. \
+    It is the person or people responsible or creating the content.
+    If there are several co-authors, a strategy for managing their changes has to be devised.
+
+
+**editor**
+
+:   An editor does not create content, but does contribute editorial changes, correcting errors, etc.
+
+**maintainer**
+
+:   A maintainer is administering the technical part of the process. Can be someone not being involved in the content creation as well as an author or editor.
+
+
+## Phases
+
+**Draft**
+
+:   The earliest stage of any document. The content is still evolving.
+
+
+**Edit**
+
+:   The content is mostly finished. Proofreading and other content-polishing occurs.
+
+
+**Publish**
+
+:   The content is final. The output is checked for errors, optimized for the target media and then printed or uploaded.
+
+
+**Update** 
+
+:   Sometimes, there are updates to a document, be it for correcting errors or incorporating new information. That means passing through *Edit* and *Publish*, with the added requirement that a record of the new changes has to be kept (usually called "Errata")
+
+
+## Tools
+
+An *integrated* development environment (**`IDE`**) for `papermill` 
+is a long-term goal of the project, but because the important modules
+of the framework are all tried and proven, there are already diverse tools
+that support these modules.
+
+However, the ability to 'mix and match' the tools according to personal
+taste and requirements 
+
+
+![Tools used to produce this publication](../_stash/mytools.png)
+
+
+
+### Text editor
+
+As we already have established, we don't want to use a word processor because we are working with plain text.
+
+Generally, we can distinguish between different kinds of text editors: 
+
+a) the very minimalistic editors, with limited functionality, like the ones that ship 
+with an operating system (like *Windows*' `Notepad.exe` or *Apple*'s `TextEdit.app`).
+b) **`IDE`**s, integrated development environments
+
+Of course, there also exists every gradation in between those two. 
+
+Some of these editors already have some support for Markdown. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
+known from programming languages:
+
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+- *Shortcuts:* Offer quicker way to type the syntax. Although with Markdown the syntax is as minimal as possible, they still can be of great help. \
+
+  They come in the following forms:
+    * 
+
+Like other text editors that have support
+
+Recommendations: 
+
+- [`TextMate`][tm] (Mac, 'open source')
+- [`SublimeText`][st] (Mac, Windows, Linux; not 'open source' but friendly)
+
+[tm]: http://macromates.com
+[st]: http://www.sublimetext.com
+
+These both have the ability to be extended with 'bundles', and already ship with a 'Markdown bundle' built-in.
+
+
+## Communication
+
+
+### README
+
+The most easy way and fool-proof to communicate inside a project is, 
+like the content itself, text-based.
+
+A straightforward solution, which is often used in software, is the README file. It is a text file in which general information *about* the project is collected. 
+The main advantage of this is that, when using version control, this file will always be stored and versioned together with the contents.
+
+## Project
 
 `papermill` is, at its core, a formalized project structure and configuration.
 
@@ -11,7 +118,6 @@ You can start you own project from a [**stationery**](https://github.com/papermi
 [templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
 
 
-## Project
 
 The basic rules are very simple:
 
@@ -156,143 +262,4 @@ It could also be used by advanced users who want to send a steady 'stream' of th
     *  Very simple, written as a `shell` script
     *  Extendable with your own scripts (for message generation)
     *  Runs well on `Linux` and `Mac OS X`
-
-
-
-## Assets
-
-Assets are all files that are needed to output a publication 
-other than the text source.
-
-In order to keep a project 'portable', all assets need to reside 
-inside the project folder, otherwise it might only be compiled on 
-the computer it was created.
-
-If version control is used, this also ensures that all assets are 
-tracked and all collaborators have access to them. 
-
-*Note:* Because the assets may are also created using software, 
-they could have a 'source' themselves: 
-An image created in *Photoshop* would have a source '`.psd`' file 
-and a resulting '`.jpg`' image.
-
-As mentioned above, generated content should not be committed. 
-How this applies to generated assets as well depends on the context 
-of the project. In any case only the sources **or** the results should be tracked.
-
-- If the assets are fairly static, or are the responsibility of either a 
-  single collaborator or someone outside the project, the results can be
-  committed. 
-  
-- If the **production** of the assets should happen **collaboratively**, 
-  their sources should be committed. This requires that all 
-  collaborators have *access to the software* producing the results, 
-  which could be a problem when using commercial software. Also, 
-  a mechanism must be in place so that the assets are *re-generated* 
-  every time the sources change.
-  
-- In more complex cases, a [separate repository](http://git-scm.com/book/en/Git-Tools-Submodules) 
-  for handling the assets could be created and the generated assets published elsewhere.
-
-
-
-### Images
-
-- needs relative paths from the document!
-- Pixel: png for web and print
-- Vector: svg for web, pdf for print
-- Leave extension, and it will be svg/pdf depending on web/print!
-
-
-### Bibliography
-
-[References](https://en.wikipedia.org/wiki/Citation) 
-to external sources, like books and articles is a requirement 
-for many types of publications.
-
-As shown in the *Markdown* section, there is an easy syntax to 
-insert a reference anywhere in the text, using only an **identifier** 
-and an optional location, 
-like so: `See [@id, pp. 23-42]`.
-
-However, for this to work a **database**, storing the actual meta-data 
-pertaining to the identifier must exist, and be *configured* (`"bibliography": "foo.bib"`).
-
-The recommended database is [`BibTeX`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
-
-Because it already widely used, there are diverse (GUI) programs available for all 
-operating systems helping to maintain a `BibTeX` file. 
-It is possible that you are already using one, because software  which help managing 
-
-If you are already using software to manage and organize your resources (like for example  [Mendeley](https://en.wikipedia.org/wiki/Mendeley)), support for `BibTeX` might already be built-in.
-
-
-The format has many idiosyncrasies, most of which are unfortunately shared by the GUIs. They are beyond the scope of this manual, but the `BibTeX` file used in 
-it can serve as an example. It shows how to store the most commonly used types 
-of media, including how cross-reference them (e.g. an article *in* a book). 
-Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
-which *reliably work*.^[E.g. there is the media type 'electronic', 'URL' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
-
-*Example:* A `BibTeX` file with a **book**; an **article** inside that book ('incollection', note the 'Crossref'); an **'electronic'** resource; and a **'misc'** *(miscellaneous)* item to be used for anything else (like unpublished works).
-
-```
-@book{benjamin:street,
-	Author = {Walter Benjamin},
-	Publisher = {Penguin UK},
-	Title = {One-Way Street and Other Writings},
-	Year = {2009}}
-
-@incollection{benjamin:teaching,
-	Crossref = {benjamin:street},
-	Title = {TEACHING AIDS},
-	Year = {1928}}
-
-@electronic{ziemann:formalia,
-	Author = {Andreas Ziemann},
-	Title = {Eine kleine Einf{\"u}hrung in wissenschaftliches Arbeiten},
-	Url = {http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf},
-	Volume = {3},
-	Year = {2009}}
-    
-@misc{Nietzsche:schreibzeug,
-	Author = {Friedrich Nietzsche},
-	Howpublished = {KSB 6, Nr. 202},
-	Month = {02},
-	Title = {Letter to Heinrich K{\"o}selitz},
-	Year = {1882}}
-```
-
-#### Citation Style
-
-When resource is cited with the correct syntax,  
-and the identifier is found in the database, 
-the reference will appear in the output according 
-to the **citation style**.
-
-Generally, citation styles differ between institutions, 
-and there are many variations.
-
-The most common distinctions are listing the references in 
-numerical order, or by author and date ('Harvard' or 'Chicago' style). 
-The latter is the default (when no style is explicitly configured).
-
-Luckily there is yet another established standard: 
-The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language) 
-defining them in a machine-readable way. 
-There are currently [over 6000 styles](http://zoteromusings.wordpress.com/2013/04/30/why-you-should-be-excited-there-are-6000-csl-styles/) 
-in the official collection, [though less than a thousand of them are unique, or 'independent' styles](http://pinux.info/csls_counter/). 
-The rest of them are almost-empty 'dependent' definitions of specific journals, declaring which of the 'independent' styles they use.
-
-
-- [Search and Download](http://zotero.org/styles) a style which suits your context (or is required by your institution)
-
-- There is also a [style browser and editor by Mendeley *(Beta Version)*](http://editor.citationstyles.org/about/)
-
-- The standards:
-      * numeric
-        * [IEEEE](http://zotero.org/styles/ieee-with-url) *(used in this document)*
-        * [DIN 1505-2](http://zotero.org/styles/din-1505-2-numeric)
-      * author/date
-        * [DIN 1505-2](http://zotero.org/styles/din-1505-2)
-        * [Harvard](http://zotero.org/styles/harvard1) ([German](http://zotero.org/styles/harvard7de))
 

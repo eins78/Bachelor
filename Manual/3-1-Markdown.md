@@ -381,7 +381,7 @@ Images can be inserted anywhere in the text. The syntax for images is the same a
 - Images can have the following formats: 'JPG', 'GIF, 'PNG'
 - The description will only be visible if the image is a *figure*
 
-*Careful:* The image files need to be inside the project folder, see the section on [assets] for more information.
+*Careful:* The image files need to be inside the project folder, see the section on *'Assets'* for more information.
 
 ```
 Text with image ![Image Description](/path/to/image.jpg) inside.

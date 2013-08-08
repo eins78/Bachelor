@@ -55,7 +55,7 @@ by a colon and a space, as in the example above. The most useful ones include:
 
 - Paper sizes: `a4paper` *or* `a5paper` *or* `total={22.6cm, 32cm}`
 - Margins: `centering` *or* `marginratio=1:1` *or* `margin=2cm` or `top=2cm, left=2.5cm, right=3cm`
-
+- Binding offset: `bindingoffset=15mm`
 
 ### Layout Adjustments
 
