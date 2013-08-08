@@ -221,7 +221,11 @@ pertaining to the identifier must exist, and be *configured* (`"bibliography": "
 The recommended database is [`BibTeX`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
 
 Because it already widely used, there are diverse (GUI) programs available for all 
-operating systems helping to maintain a `BibTeX` file.
+operating systems helping to maintain a `BibTeX` file. 
+It is possible that you are already using one, because software  which help managing 
+
+If you are already using software to manage and organize your resources (like for example  [Mendeley](https://en.wikipedia.org/wiki/Mendeley)), support for `BibTeX` might already be built-in.
+
 
 The format has many idiosyncrasies, most of which are unfortunately shared by the GUIs. They are beyond the scope of this manual, but the `BibTeX` file used in 
 it can serve as an example. It shows how to store the most commonly used types 
@@ -252,7 +256,14 @@ which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'we
 	Year = {2009}}
 ```
 
-### Citation Style
+#### Citation Style
+
+When resource is cited with the correct syntax,  
+and the identifier is found in the database, 
+the reference will appear in the output according 
+to the **citation style**.
+
+In general, citation styles differ from 
 
 - is a matter of taste and style
 - but also differs by institution
