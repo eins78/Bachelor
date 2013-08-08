@@ -254,15 +254,11 @@ A conflict happens if the same part(s) of a file where changed in both branches.
     >>>>>>> B
     ```
 
-- The (manual solution):
+- The conflict is solved manually, the result can be committed.
 
-```
-<<<<<<< HEAD    
-I love free software!
-=======
-I <3 open source!
->>>>>>> B
-```
+    ```
+    I love open source!
+    ```
 
 The much better solution is obviously trying to not create conflicts at all. This requires a rigorous workflow if more than two people are involved in the project, but can be summed up as:
 
