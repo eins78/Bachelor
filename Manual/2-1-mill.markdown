@@ -141,7 +141,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
         * `{markdown_flavor}+{extension}-{extension}`
         * e.g.: `markdown_github+footnotes` for GFM with footnotes
                                                       \
-    - *Or* define any other input format supported by `pandoc` (HTML, LaTeX, restructuredText, textile, MediaWiki, …)
+    - *Or* define any other input format supported by `pandoc` (HTML, LaTeX, restructuredText, textile, MediaWiki, `…`)
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown
 

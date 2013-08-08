@@ -92,7 +92,7 @@ The **configuration** file is the second most important part of any project. \
 It contains all the information *about* the project needed to produce 'output'.
 
 It is also a text file, but encoded in [`JSON`](http://www.JSON.org/), 
-"a lightweight data interchange format. […] It is readable by humans and machines [and] easy to use." [@guide:goodparts, p. 136]
+"a lightweight data interchange format. [`…`] It is readable by humans and machines [and] easy to use." [@guide:goodparts, p. 136]
 
 
 In general, the configuration lists the following items:

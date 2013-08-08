@@ -71,7 +71,7 @@ For a step-by-step introduction to Versioning and git, see the chapter *Versioni
 - diff, the *(noun)*
 - diff, to *(verb)*
 
-> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. […]"
+> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. [`…`]"
 > 
 > "**diff:** An unselective and microscopically thorough comparison between two versions of something.
 >  From the *Unix* diff utility, which compares *files*." — [@graham:hackers pp. 224, 244]
