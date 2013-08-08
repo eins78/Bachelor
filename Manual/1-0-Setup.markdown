@@ -216,12 +216,14 @@ and an optional location,
 like so: `See [@id, pp. 23-42]`.
 
 However, for this to work a **database**, storing the actual meta-data 
-pertaining to the identifier.
+pertaining to the identifier must exist.
 
-- everybody needs to quote stuff
-- with `papermill`, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
-- each item in db has id
-- you then use a link-like syntax, with the id
+`papermill` uses the [`BibTex`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
+The format has many idiosyncrasies, which are beyond the scope of this manual. 
+
+Because it already widely used, there are diverse (GUI) programs available for all 
+operating systems helping to maintain a `BibTex` file.
+
 
 
 ### Database
