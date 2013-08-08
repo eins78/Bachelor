@@ -234,29 +234,21 @@ which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'we
 ```
 @incollection{benjamin:teaching,
 	Crossref = {benjamin:street},
-	Date-Added = {2013-08-01 19:35:53 +0000},
-	Date-Modified = {2013-08-01 19:40:22 +0000},
 	Title = {TEACHING AIDS (1928)}}
 
 @book{benjamin:street,
 	Author = {Walter Benjamin},
 	Booktitle = {Walter Benjamin},
-	Date-Added = {2013-08-01 19:31:25 +0000},
-	Date-Modified = {2013-08-01 19:35:47 +0000},
 	Publisher = {Penguin UK},
 	Title = {One-Way Street and Other Writings},
 	Year = {2009}}
 
 @electronic{ziemann:formalia,
 	Author = {Andreas Ziemann},
-	Date-Added = {2013-08-08 09:09:41 +0000},
-	Date-Modified = {2013-08-08 09:11:10 +0000},
 	Title = {Eine kleine Einf{\"u}hrung in wissenschaftliches Arbeiten},
 	Url = {http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf},
 	Volume = {3},
 	Year = {2009}}
-
-
 ```
 
 ### Citation Style
