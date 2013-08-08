@@ -22,7 +22,7 @@ For one, it is split into two documents.
 After enumerating the goals of the project and how they are planned to be achieved, 
 the **Introduction** starts with a [Glossary](#glossary).
 It explains several important technical topics,
-followed by an introduction to the different aspects of my research and practical work. This should serve as a foundation for the following parts by familiarizing the reader with the general concepts and problems in the scope of this project.
+followed by an overview to most important theoretical aspects of my research and practical work. This should serve as a foundation, familiarizing the reader with the general concepts and problems in the scope of this project.
 
 The **Manual** is a step-by-step description of how to use the `papermill` framework to produce a publication. It will evolve alongside the framework.
 
