@@ -1,9 +1,9 @@
-# Goals
+## Goals
 
 
 There are 3 primary goals:
 
-## Publication development
+### Publication development
 
 Make the tools and workflows used in (open source) software development more accessible for authors and writers.
 
@@ -14,7 +14,7 @@ Make the tools and workflows used in (open source) software development more acc
 - libraries: reusable modules
 
 
-## Cross-media publishing
+### Cross-media publishing
 
 - *Problem*: one input, multiple outputs
 - *Solution*: semantic and structured content
@@ -23,7 +23,7 @@ Define every important element with a general syntax, allowing it to be exported
 
 That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimidate newcomers.
 
-## Long-term reproducibility
+### Long-term reproducibility
 
 Make sure that once written, the source of the publication can be compiled into the desired output 'forever', or at least as long as computers exist.
 
@@ -31,18 +31,18 @@ Make sure that once written, the source of the publication can be compiled into 
 
 From these, we can derive our secondary goals:
 
-## Plain text
+### Plain text
 
 If a document is to be written in a binary container (like a Microsoft Word File), the uses of a software-like development process are very limited.
 
-## Online & offline
+### Online & offline
 
 The framework should be usable on a [*general purpose computer*](https://en.wikipedia.org/wiki/Turing_machine) without requiring an internet connection.
 
 At the same time, it should be possible to use it 
 with just a web browser, because less and less personal computing devices are in fact 'general purpose'.
 
-## Simplicity
+### Simplicity
 
 A complicated system is harder to use, explain and extend than a simple one.
 
@@ -55,7 +55,7 @@ and will simply be updated parallel to the framework.
 This **'Introduction'** however will hopefully not be required reading in the future.
 
 
-## Free/Libre/Open Source
+### Free/Libre/Open Source
 
 Using 'open source' software can be a goal in itself. Usually, this is a matter of personal or political opinion. 
 

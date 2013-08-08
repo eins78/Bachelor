@@ -1,4 +1,4 @@
-# Implementation
+## Implementation
 
 
 <!-- 
@@ -10,7 +10,7 @@ Implementation of the goals happens in the form of real-world prototypes.
 This means a minimal working solution is developed while actual publication is produced along with it.
 
 
-## Prototypes
+<!-- ## Prototypes -->
 
 ### Version 0: phd.nts.is
 
