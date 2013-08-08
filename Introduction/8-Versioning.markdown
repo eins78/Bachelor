@@ -78,6 +78,14 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 
 ## Clone and Fork
 
+If a repository is not started *('initialized')* locally, 
+it first has to be **cloned**.
+
+A **clone** is a copy of a repository.
+
+If the clone has changes, it is considered a **fork**.[^fn-fork]
+
+[^fn-fork]: Not the be confused with how 'fork' is used in software developement, where a project might split into 2 new ones with different goals, using the old code base as a starting point.
 
 ````{.TODO}
 
