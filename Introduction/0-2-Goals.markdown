@@ -5,13 +5,16 @@ There are 3 primary goals:
 
 ### Publication development
 
-Make the tools and workflows used in (open source) software development more accessible for authors and writers.
+Make the *mode of production* and tools used in (open source) software development 
+more accessible for authors and writers.
 
-- **version control** 
-- automation
-- continuos integration
-- IDEs: Integrated Development Environment
-- libraries: reusable modules
+- **Version control** 
+- **Automation**, Continuos integration
+- IDEs: Integrated Development Environments
+- Libraries: reusable modules
+
+Conceptually, there is no difference between a natural written language and a programming language. 
+Both have conventions like syntax and grammar, needs to be parsed, compiled.
 
 
 ### Cross-media publishing
@@ -19,21 +22,25 @@ Make the tools and workflows used in (open source) software development more acc
 - *Problem*: one input, multiple outputs
 - *Solution*: semantic and structured content
 
-Define every important element with a general syntax, allowing it to be exported to either print or web.
+Produce a document source which is as media-agnostic as possible, in the hopes
+that if it works for print and web today, it should be possible to adapt
+to the to-be-invented media of the future.
 
-That requires a careful weighing of options and features. The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimidate newcomers.
+Requires careful weighing of options and features: The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimidate newcomers.
 
 ### Long-term reproducibility
 
-Make sure that once written, the source of the publication can be compiled into the desired output 'forever', or at least as long as computers exist.
+Make sure that once written, the source of a publication can be compiled into the desired output 'forever', 
+or at least as long as computers exist.
 
-
+---
 
 From these, we can derive our secondary goals:
 
 ### Plain text
 
-If a document is to be written in a binary container (like a Microsoft Word File), the uses of a software-like development process are very limited.
+If a document is to be written in a binary container (like a Microsoft Word File), 
+the usefulness of a software-like development process are very limited.
 
 ### Online & offline
 

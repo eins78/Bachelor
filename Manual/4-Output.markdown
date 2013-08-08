@@ -6,9 +6,25 @@
 
 The 'print' output produces a PDF file suitable for printing, using (`XeLa`)**`TeX`**.
 
-### **`LaTeX`**'s document classes
 
-These are the 3 most common document classes: 
+### Styling
+
+Apart from the class, the following ways to style your print output are supported. 
+These are also the settings used for this publication: 
+
+```
+"print": {
+  "class": "book",
+  "mainfont": "Source Sans Pro",
+  "monofont": "Source Code Pro",
+  "fontsize": "11pt"
+  "geometry": "a4paper, centering, bindingoffset=15mm",
+}
+```
+
+#### Document classes
+
+These are the 3 most common document classes used in **`(La)TeX`**: 
 
 - Article
 - Report
@@ -21,53 +37,92 @@ Output from this class is also suitable for reading on a screen, in case the 'we
 
 The **book** class is like the report, but optimized for two-folded binding. It also repeats the name of the current chapter on the top of each page to help the reader navigate large documents.
 
+#### Font
 
-### Styling
+Using the **'\*font'** properties, you can select the exact name of any `TTF` or [`OpenType`](https://en.wikipedia.org/wiki/Opentype) font 
+installed on your computer.
 
-The following ways to style your print output are supported. 
-These are also the settings used for this publication.
+- `mainfont`: main body text
+- `monofont`: verbatim formatting, code blocks
+- `mathfont`: Math (formulas, symbols)
+
+The **'fontsize'** can be either 10pt, 11pt or 12pt.
+
+#### Geometry
+
+The available options for the **'geometry'** setting can be found in the corresponding [package documentation](http://www.ctan.org/pkg/geometry). They can be used together if the are seperated 
+by a colon and a space, as in the example above. The most useful ones include: 
+
+- Paper sizes: `a4paper` *or* `a5paper` *or* `total={22.6cm, 32cm}`
+- Margins: `centering` *or* `marginratio=1:1` *or* `margin=2cm` or `top=2cm, left=2.5cm, right=3cm`
+
+
+### Layout Adjustments
+
+The **`TeX`** systems are extremely powerful typesetting engines, 
+but nevertheless limited by the fact that they are software.
+
+While the engine is aware of common typographical errors, 
+in absence of a human it has to rely on an internal system 
+based on 'penalty points' for the decision making, thus 
+can not always be *right*.
+
+The position of page breaks and other layout/whitespace problems 
+are among the most common issues. They can be solved quite easily 
+by taking advantage of the fact that plain **`(La)TeX`** commands 
+are allowed in the document source. 
+
+These commands only affect the print output, so while it does make the 
+source less media-agnostic, it does not cause any further problems.
+
+#### Pagebreak
+
+To force a pagebreak anywhere in the printed document, 
+enter the following two lines:
 
 ```
-"print": {
-  "class": "book",
-  "geometry": "a4paper, centering, bindingoffset=15mm",
-  "mainfont": "Source Sans Pro",
-  "monofont": "Source Code Pro",
-  "fontsize": "11pt"
-}
+\vfill
+\pagebreak
 ```
 
-The available options for the 'geometry' setting can be found in the corresponding [package documentation](http://www.ctan.org/pkg/geometry). The most useful ones include: 
+The `\pagebreak`command's function seems self-evident, but it does not 
+have the same effect as one would expected from a word processor: 
+A page break *is* inserted, but the content on the page right before it 
+will be 'stretched' across the page via a (sometimes very) increased 
+line-height. 
 
-- paper sizes: `a4paper` or `a5paper`
-- margins: `centering` or `marginratio=1:1` or `margin=2cm` or `top=2cm, left=2.5cm, right=3cm`
+Conveniently, the `\vfill` command right before it 'fills' the vertical space before 
+the `\pagebreak`, so that the two commands together work as expected.
 
 
-### Print-Only "Tricks"
+## Extras
 
-As we have learned in the chapter "[Input][]", we strive to produce a document source which is as output-agnostic as possible, in the hopes
-that if it works for print and web today, it should be easy to adapt
-to the to-be-invented media of the future.
+### Additional Designs
 
-However, we also need to publish
+The **font** used in the default **`(La)TeX`** template is called [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern), also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. (Example: Title page for a letter-pressed cover)
 
-### layout
 
-- `\pagebreak`
+
 
 ## Web
 
-**`HTML`** + `bookstrap`
+Output for the 'web' is produced in **`HTML`** format, 
+styled with the `bookstrap` template.
+
 
 ## bookstrap
 
-- build for modern web
-- web standards
-- backwards compatibility
-  - mobile first, inherited from the parent framework bootstrap
-- less-css
-    - small components
+Source code and further information: \ `http://github.com/papermill/bookstrap`
 
+- Based on ['Bootstrap 3'](http://getbootstrap.com)
+- Build modern web browsers
+- Adheres to web standards
+- uses [`less` css](http://lesscss.org)
+    - small components
+    - configurable
+    - extendable
+- Focus on readability
+- Grid based on typographical em-units — adheres to line length regardless of zooming
 
 
 ## Publishing
@@ -82,11 +137,5 @@ However, we also need to publish
       `{ "selfContained": false }`
   
 - PDF is also an option, but the default PDF settings in `papermill` are optimized for print, for example links are moved to footnotes.
-
-
-### Print
-
-
-The **font** used in LaTeX templated is [Computer Modern], also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. Example: Title page for a letterpressed cover
 
 
