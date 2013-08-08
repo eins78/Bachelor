@@ -281,7 +281,7 @@ Luckily there is yet another established standard:
 The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language) 
 defining them in a machine-readable way. 
 There are currently [over 6000 styles](http://zoteromusings.wordpress.com/2013/04/30/why-you-should-be-excited-there-are-6000-csl-styles/) 
-in the official collection, though less than a thousand of them are unique, or 'independent' styles. 
+in the official collection, [though less than a thousand of them are unique, or 'independent' styles](http://pinux.info/csls_counter/). 
 The rest of them are almost-empty 'dependent' definitions of specific journals, declaring which of the 'independent' styles they use.
 
 
