@@ -2,8 +2,6 @@
 
 ````{.TODO}
 
-- segue to GIT 
-- working dir
 - clone + fork
 - push, remotes
 
