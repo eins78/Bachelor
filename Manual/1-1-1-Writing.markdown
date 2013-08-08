@@ -32,6 +32,13 @@ The most important of those can be expressed with syntax, for example the titleb
 Headings of different levels divide the document into chapters, sections etc; 
 and a 'Table of Contents' is generated automatically from this organization.
 
+Similarly, if citations are marked correctly, a list of references is inserted at the end of the document.
+
+<!-- The rest of the front matter can to date
+
+a) either be created using **`TeX`**
+b) by starting the document with a second-level heading before any top-level heading ('Chapter 0') -->
+
 Sources: [ziemann](http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf), 
 [wikibooks: latex](http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Top_matter)
 
