@@ -218,12 +218,14 @@ like so: `See [@id, pp. 23-42]`.
 However, for this to work a **database**, storing the actual meta-data 
 pertaining to the identifier must exist.
 
-`papermill` uses the [`BibTex`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
-The format has many idiosyncrasies, which are beyond the scope of this manual. 
+`papermill` uses the [`BibTeX`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
 
 Because it already widely used, there are diverse (GUI) programs available for all 
-operating systems helping to maintain a `BibTex` file.
+operating systems helping to maintain a `BibTeX` file.
 
+The format has many idiosyncrasies, most of which are unfortunately shared by the GUIs. They are beyond the scope of this manual, but the `BibTeX` file used in 
+it can serve as an example. It shows how to store the most commonly used types 
+of media, including how cross-reference them (e.g. an article *in* a book)
 
 
 ### Database
