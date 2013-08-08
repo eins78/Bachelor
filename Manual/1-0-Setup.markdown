@@ -179,15 +179,21 @@ An image created in Photoshop would have a source '`.psd`' file
 and a resulting '`.jpg`' image.
 
 As mentioned above, generated content should not be committed. 
-If this applies to generated assets as well depends on the context 
-of the project: 
+How this applies to generated assets as well depends on the context 
+of the project. In any case either the sources **or** the results should be tracked.
 
 - If the **production** of the assets should happen **collaboratively**, 
   their sources should be committed. This requires that all 
-  collaborators have access to the software producing the results, 
+  collaborators have *access to the software* producing the results, 
   which could be a problem when using commercial software. Also, 
-  a mechanism must be in place so that the assets are re-generated 
-  every time the sources change, 
+  a mechanism must be in place so that the assets are *re-generated* 
+  every time the sources change.
+  
+- If the assets are fairly static, or are the responsibility of either a 
+  single collaborator or someone outside the project, the 
+  
+- In more complex cases, a separate repository just dealing with assets 
+  could be created and the generated assets published elsewhere.
 
 
 
