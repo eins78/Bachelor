@@ -216,7 +216,7 @@ and an optional location,
 like so: `See [@id, pp. 23-42]`.
 
 However, for this to work a **database**, storing the actual meta-data 
-pertaining to the identifier must exist.
+pertaining to the identifier must exist, and be *configured* (`"bibliography": "foo.bib"`).
 
 The recommended database is [`BibTeX`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
 
