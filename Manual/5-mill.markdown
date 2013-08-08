@@ -1,4 +1,4 @@
-# mill
+# `mill`
 
 `mill` is a *Command Line Utility* written in [JavaScript] using [node.js].
 
