@@ -38,7 +38,7 @@ und das Schreiben.
 Die Komplexität liegt nicht so sehr in der Vielzahl der unerläßlichen Faktoren als in
 deren Heterogenität.
 Die Füllfeder liegt auf einer anderen Wirklichkeitsebene als etwas die Grammatik, die Ideen oder das Motiv zum Schreiben.
-Die Geste des Schreibens gehorcht einer spezifischen Linerität. (…)
+Die Geste des Schreibens gehorcht einer spezifischen Linerität. [`…`]
 "
 [@Flusser:Schreiben, pp. 261]
 
