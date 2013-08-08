@@ -1,11 +1,5 @@
 # Versioning
 
-````{.TODO}
-
-- clone + fork
-- push, remotes
-
-````
 
 In general, *versioning* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
 By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the development of the document and possibly even the thought process of the author.
