@@ -160,4 +160,61 @@ It could also be used by advanced users who want to send a steady 'stream' of th
 
 
 
+## Assets
+
+Assets are all files that are needed to output a publication 
+other than the text source.
+
+In order to keep a project 'portable', all assets need to reside 
+inside the project folder, otherwise it can only be compiled on 
+the computer it was created (or another one with the missing files 
+in just the right place).
+
+If version control is used, this also ensures that all assets are 
+tracked and all collaborators have access to them. 
+
+*Note:* Since the assets themselves are also created using software, they may 
+have a 'source' themselves: An image created in Photoshop
+
+
+### Images
+
+- needs relative paths from the document!
+- Pixel: png for web and print
+- Vector: svg for web, pdf for print
+- Leave extension, and it will be svg/pdf depending on web/print!
+
+
+### Bibliography
+
+- everybody needs to quote stuff
+- with `papermill`, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
+- each item in db has id
+- you then use a link-like syntax, with the id, like so: `See [@id, pp. 23-42]`
+
+
+### Database
+
+- bibtex
+- json
+- config: either
+    - just 1 .bib files
+    - { "bibliography": "foo.bib" }
+
+
+### Citation Style
+
+- is a matter of taste and style
+- but also differs by institution
+
+- [csl files](http://citationstyles.org)
+- [download](http://zotero.org/styles) the one which suits your context most
+- general distinction: numeric, author-date
+- if unsure, stick to the standards
+      * numeric
+        * [IEEEE](http://zotero.org/styles/ieee-with-url)
+        * [DIN 1505-2](http://zotero.org/styles/din-1505-2-numeric)
+      * author/date
+        * [DIN 1505-2](http://zotero.org/styles/din-1505-2)
+        * [Harvard](http://zotero.org/styles/harvard1) ([German](http://zotero.org/styles/harvard7de))
 
