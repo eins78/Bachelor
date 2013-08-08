@@ -6,10 +6,10 @@
 Made with:
 
 - `papermill`
-- TextMate 2
-- BibDesk
-- Marked
-- Tower
+- [TextMate 2](http://macromates.com)
+- [BibDesk](http://bibdesk.sourceforge.net)
+- [Marked](http://markedapp.com)
+- [Tower](http://www.git-tower.com)
 
 Published using fonts from Adobe, published under an open source license:
 
