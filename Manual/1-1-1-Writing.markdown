@@ -39,7 +39,7 @@ Similarly, if citations are marked correctly, a list of references is inserted a
 a) either be created using **`TeX`**
 b) by starting the document with a second-level heading before any top-level heading ('Chapter 0') -->
 
-Sources: [ziemann](http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf), 
+Sources: [@ziemann:formalia, p.13], 
 [wikibooks: latex](http://en.wikibooks.org/wiki/LaTeX/Document_Structure#Top_matter)
 
 
