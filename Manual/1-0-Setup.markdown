@@ -234,7 +234,7 @@ of media, including how cross-reference them (e.g. an article *in* a book).
 Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
 which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
 
-*Example:* A `BibTeX` file with a book, an article ('incollection', note the 'Crossref') inside that book and a web resource.
+*Example:* A `BibTeX` file with a book, an article ('incollection', note the 'Crossref') inside that book and an 'electronic' resource. 'Misc' can be used for anything else, like unpublished works.
 
 ```
 @book{benjamin:street,
@@ -255,6 +255,13 @@ which *reliably work*.^[E.g. there is the media type 'electronic', 'url' and 'we
 	Url = {http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf},
 	Volume = {3},
 	Year = {2009}}
+    
+@misc{Nietzsche:schreibzeug,
+	Author = {Friedrich Nietzsche},
+	Howpublished = {KSB 6, Nr. 202},
+	Month = {02},
+	Title = {Letter to Heinrich K{\"o}selitz},
+	Year = {1882}}
 ```
 
 #### Citation Style
@@ -264,7 +271,7 @@ and the identifier is found in the database,
 the reference will appear in the output according 
 to the **citation style**.
 
-In general, citation styles differ between institutions, 
+Generally, citation styles differ between institutions, 
 and there are many variations.
 
 The most common distinctions are listing the references in 
