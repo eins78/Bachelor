@@ -2,10 +2,9 @@
 
 
 
-## Print (via LaTeX to PDF)
+## Print
 
-In order to print your document, a suitable output needs to be created. 
-
+The 'print' output produces a PDF file suitable for printing, using (`XeLa`)**`TeX`**.
 
 ### **`LaTeX`**'s document classes
 
