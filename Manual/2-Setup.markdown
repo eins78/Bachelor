@@ -1,10 +1,11 @@
-# The Setup
+# Setup
 
 
-> "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"
+> "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"[^fn-schreibzeug]
 >
 > — *Friedrich Nietzsche writing on an early typewriter, 1882* [[-@Nietzsche:schreibzeug]], quoted after [@stingelin:schreibzeug, p. 304]
 
+[^fn-schreibzeug]: *English:* "YOU ARE RIGHT - OUR WRITING TOOLS COLLABORATE ON OUR THOUGHTS"
 
 ## Project
 

@@ -102,8 +102,6 @@ the `\pagebreak`, so that the two commands together work as expected.
 The **font** used in the default **`(La)TeX`** template is called [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern), also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. (Example: Title page for a letter-pressed cover)
 
 
-
-
 ## Web
 
 Output for the 'web' is produced in **`HTML`** format, 

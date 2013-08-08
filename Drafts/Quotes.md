@@ -76,6 +76,7 @@ AND SMALL FINGERS, TO MAKE USE OF US."
 quoted after [@stingelin:schreibzeug, p. 304]
 
 "YOU ARE RIGHT - OUR WRITING TOOLS COLLABORATE ON OUR THOUGHTS"
+
 ---
 
 CONTRA: 

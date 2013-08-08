@@ -1,12 +1,9 @@
 # The Process of Writing
 
-> "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"
->
-> — *Friedrich Nietzsche writing on an early typewriter, 1882* [[-@Nietzsche:schreibzeug]], quoted after [@stingelin:schreibzeug, p. 304]
 
 ## People
 
-**author**(s)
+**author**
 
 :   The author is, obviously, the most important person of any publication. \
     It is the person or people responsible or creating the content.
