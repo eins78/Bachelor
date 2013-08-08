@@ -49,3 +49,8 @@ A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.
     - only included in specified editions
     - be excluded from specified editions
 
+
+### Even More
+
+- continuous integration
+
