@@ -16,8 +16,8 @@ This is the theoretical part of my bachelor thesis, 'Papermill'.
 For the sake of usefulness, it doubles as the first version of an
 end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
 
-The instructional character has several implications regarding its structure: 
-for one, it is split into two documents.
+The instructional character has several implications regarding its structure. 
+For one, it is split into two documents.
 
 After enumerating the goals of the project and how they are planned to be achieved, 
 the **Introduction** starts with a [Glossary](#glossary).
@@ -26,7 +26,7 @@ followed by an introduction to the different aspects of my research and practica
 
 The **Manual** is a step-by-step description of how to use the `papermill` framework to produce a publication. It will evolve alongside the framework.
 
-The thesis is accompanied by following attachments:
+The thesis is accompanied by following two attachments:
 
 - Papermill: **`C0DE`**: Here, the complete and in large parts annotated source code of the `mill` Command Line Utility can be inspected. 
 
