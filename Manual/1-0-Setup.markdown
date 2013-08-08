@@ -263,10 +263,16 @@ and the identifier is found in the database,
 the reference will appear in the output according 
 to the **citation style**.
 
-In general, citation styles differ from 
+In general, citation styles differ between institutions, 
+and there are many variations.
 
-- is a matter of taste and style
-- but also differs by institution
+The most common distinctions are listing the references in 
+numerical order, or by author and date ('Harvard' or 'Chicago' style). 
+The latter is the defa
+
+and luckily there is yet another established standard 
+defining them in a machine-readable way: 
+The [Citation Style Language](https://en.wikipedia.org/wiki/Citation_Style_Language).
 
 - [csl files](http://citationstyles.org)
 - [download](http://zotero.org/styles) the one which suits your context most
