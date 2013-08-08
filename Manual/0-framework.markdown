@@ -4,6 +4,7 @@
   Bauhaus-Universität Weimar, \
   2013
 
+
 # The (anti-)framework
 
 ![`papermill` 'software stack' in comparison](../_images/papermill-stack-1)
@@ -20,7 +21,8 @@ a user uses only some of its components, and that it should be relatively easy t
 change them for different ones.
 
 For example, someone already writing in **`TeX`** does not have to use the 
-Markdown syntax and still take advantage of the configuration and automation.
+Markdown syntax and still take advantage of the configuration and automation, 
+although e.g. the web output might not work as expected.
 
 
 ## A quick Walkthrough
