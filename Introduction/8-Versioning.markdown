@@ -222,23 +222,25 @@ If there are any **conflicts**, they have to be solved before the **merge** can 
 
 A conflict happens if the same part(s) of a file where changed in both branches.
 
-Consider this text file as a base:
+*Example:*
 
-```
-I <3 free software!
-```
+- Base text file
+ 
+    ```
+    I <3 free software!
+    ```
 
-Changes made in branch **A**:
+- Changes made in branch **A**:
 
-```
-I love free software!
-```
+    ```
+    I love free software!
+    ```
 
-Changes made in branch **B**:
+- Changes made in branch **B**:
 
-```
-I <3 open source!
-```
+    ```
+    I <3 open source!
+    ```
 
 
 
