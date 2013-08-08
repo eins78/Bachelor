@@ -194,13 +194,27 @@ Technically, there are many ways to do this. **`git`** can create an email for y
 
 ## Push
 
-Becaue **`git`** is a distributed version control system, 
+Because **`git`** is a distributed version control system, 
 there is no inherit need to have a central server, or any internet connection: 
 everything can be done locally/offline.
 
 Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
 They *can* be a real server, but it is also possible to use any storage, like an external USB drive.
 
+Once a remote is set up, the commits can be **pushed** there.
+This ability can be used for backups and syncing, but most importantly for sharing the code with collaborators.
+
+Remote repository also have branches, and pushing always happens from a local branch (e.g. 'master') to a specific branch in the remote. 
+This remote branch can be the master branch as well (if it is your own project), or be a different ones. 
+Common strategies are to have a branch per collaborator, or one per topic.
+
+Furthermore, **`git`** only allows a linear history in each branch. 
+That means you will only be able to push if your changes based on *all* the changes in the remote branch (or some of them could be lost).
+There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
+However, when using the 1-branch-per-collaborator model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
+
+After new commits are pushed to a remote repository, 
+everyone can **pull** them into one of their local branches.
 
 - repo can have one or more remotes
 - remotes are other places where copies of the repo exist
