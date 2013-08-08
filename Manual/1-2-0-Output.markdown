@@ -8,7 +8,7 @@ The 'print' output produces a PDF file suitable for printing, using (`XeLa`)**`T
 
 ### **`LaTeX`**'s document classes
 
-We just need 3 of the [most common document classes](http://texblog.org/2007/07/09/documentclassbook-report-article-or-letter/): 
+These are the 3 most common document classes: 
 
 - article
 - report
