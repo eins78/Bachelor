@@ -207,6 +207,12 @@ of the project. In any case only the sources **or** the results should be tracke
 
 ### Bibliography
 
+References to external sources, like books and articles is a requirement 
+for many types of publications.
+
+As shown in the *Markdown* section, there is an easy syntax to 
+insert a reference anywhere in the text,
+
 - everybody needs to quote stuff
 - with `papermill`, like with `LaTeX`, you keep a 'database' of all the items you quote or otherwise reference.
 - each item in db has id
