@@ -132,7 +132,6 @@ Some text [linking somewhere else](http://example.com).
 [Internal links](#Chapter) are also possible.
 ```
 
-
 ##### Reference-style
 
 For a more readable source, the *target* can also be put seperately. 
@@ -147,6 +146,21 @@ A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
 [lots]: http://example.com
 [links]: http://example.com/link
 [ugly]: http://example.com/ugly
+```
+
+##### Internal Links
+
+All 'headings' are automatically recognized as targets, 
+so a reference-style link can be constructed without declaring them outside of the heading themselves (if the heading is to long, an ID can also be declared manually, see *'Attributes'*).
+
+```
+## Section on Semantics
+
+Some Text, linking to
+
+## Another Section {#more}
+
+For more information, see the [Section on Semantics].
 ```
 
 
