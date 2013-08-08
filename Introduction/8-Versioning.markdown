@@ -247,8 +247,23 @@ A conflict happens if the same part(s) of a file where changed in both branches.
 - The file now looks like this:
 
     ```
+    <<<<<<< HEAD    
+    I love free software!
+    =======
     I <3 open source!
+    >>>>>>> B
     ```
 
+- The (manual solution):
+
+```
+<<<<<<< HEAD    
+I love free software!
+=======
+I <3 open source!
+>>>>>>> B
+```
+
+The much better solution is obviously trying to not have merge conflicts at all. This requires a rigorous workflow if more than two people are involved in the project.
 
 
