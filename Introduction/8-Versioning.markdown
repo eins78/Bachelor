@@ -8,7 +8,7 @@ These drafts and revisions and their comparison have spawned diverse studies of 
 Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
 
 This danger was also personal starting point for this whole project as well, 
-sparked by Cory Doctorow's essay "Extreme Geek" [[@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
+sparked by Cory Doctorow's essay "Extreme Geek" [[-@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
 As Doctorow summarizes in a blog post:
 
 > "I was prompted to do this after discussions with several digital archivists who complained that, prior to the computerized era, writers produced a series [of] complete drafts on the way to publications, complete with erasures, annotations, and so on. These are archival gold, since they illuminate the creative process [`…`]. By contrast, many writers produce only a single (or a few) digital files that are modified right up to publication time, without any real systematic records of the interim states between the first bit of composition and the final draft." [-@blog:Cory:Flashbake]
@@ -17,8 +17,8 @@ Being a blogger, a digital activist and an all-round-nerd, he falls into the tar
 
 Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
 de-facto standard for versioning and collaborating open-source software projects. 
-Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a whole ecosystem of features, 
-including a web view for all files and content of the repository. 
+Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a complete ecosystem, 
+including a web view for all files and content of the repository and project management features like issue tracking. 
 
 
 ## Git
