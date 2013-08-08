@@ -124,7 +124,7 @@ Markdown's creator, John Gruber, presents it as follows:
 > To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
 > E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
-He also makes its relation to **`HTML`** clear:
+He also clarifies the relation to **`HTML`**:
 
 > "HTML is a publishing format; Markdown is a writing format. "
 
