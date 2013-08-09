@@ -7,7 +7,7 @@ By extension, this also tracks the *changes* made between those revisions, makin
 These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
 Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
 
-This danger was also personal starting point for this whole project as well, 
+This danger was the starting point for this whole project as well, 
 sparked by Cory Doctorow's essay "Extreme Geek" [[-@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
 As Doctorow summarizes in a blog post:
 
@@ -25,14 +25,14 @@ including a web view for all files and content of the repository and project man
 
 *Sources for this guide and further reading:*  *"The Git Parable"* [[@blog:tpw:gitparable]] *"Pro Git"* [[@chacon:progit]]
 
-This chapter might seem overly technical, but breaks down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
+This chapter breaks down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
 
 Some newer graphical interfaces (especially *GitHub*'s GUI apps) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
 
-But: since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
+*But:* since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
 
 The hope is to give you peace of mind that your work is *saved* and *safe*. 
-Though Linus Torvalds has publicly said exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
+Though there is [a video of Linus Torvalds saying exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
 Moreover, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
 
 [^fn-git-data-promise]: Quote: "I guarantee you, if you put your data in git: You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [`…`] you can verify that the data you get out is the exact same data you've put in." \
@@ -75,9 +75,7 @@ If just single files from the folder are copied somewhere else, the `.git` is no
 If a repository is not started *('initialized')* locally, 
 it first has to be **cloned**.
 
-A **clone** is a copy of a repository.
-
-If the clone has changes, it is considered a **fork**.[^fn-fork]
+A **clone** is a copy of a repository. If the clone has changes, it is considered a **fork**.[^fn-fork]
 
 Let's have a look at how changes are made in the first place.
 
@@ -167,7 +165,7 @@ If we break the process down into individual steps, it should sound familiar to 
 >     
 >     ---
 >     Changes:
->     - In the file "doc.md", third line, first character, 
+>     - In the file "doc.md", 3rd line, 1st character, 
 >       I have changed the word "hello" to "world".
 
 But instead of doing all these steps manually, we have already learned that **`git`** takes care of the cloning, branching and committing; and that every commit is nothing more than the difference between the new version and the old version.
@@ -189,7 +187,7 @@ everything can be done locally/offline.
 Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
 They *can* be an actual server, but it is also possible to use any storage, like an external USB drive.
 Web Interfaces like GitHub and Gitlab are based on the ability to use them as remotes and 
-offer advanced features based on the data you send there. 
+offer additional features based on the data you send there. 
 
 Once a remote is set up, the commits can be **pushed** there.^[if the repository was cloned, the source is already configured as a remote with the name 'origin']
 This ability can be used for backups and syncing, but most importantly for sharing the code with collaborators.
@@ -199,10 +197,8 @@ This remote branch can be the master branch as well (if it is your own project),
 Common strategies are to have a branch per collaborator, or one per topic.
 
 Furthermore, **`git`** only allows a linear history in each branch. 
-That means you will only be able to push if your changes based on *all* the changes in the remote branch (or some of them could be lost).
-There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
-However, when using the 1-branch-per-collaborator model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
-Similarly, 1-branch-per-topic model ensures that this is not a practical problem by just first pushing to a *new* remote branch (with the name of the topic), and subsequent changes into the same one.
+That means you will only be able to push if your changes based on *all* the changes in the remote branch (or some of them could be lost). To get these changes before we 
+can send our own, we have *pull* first.
 
 
 ## Pull & Merge
@@ -266,6 +262,11 @@ The much better solution is obviously trying to not create conflicts at all. Thi
 - Push often
 - Pull regularly
 
+
+There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
+However, when using a '1-branch-per-collaborator' model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
+Similarly, a '1-branch-per-topic' model ensures that this is not a practical problem by just first pushing to a *new* remote branch (with the name of the topic), and subsequent changes into the same one.
+
 Finally, this example shows one the advantages of web interfaces like GitHub: When a 'Merge Request' is created, it is automatically checked for conflicts. 
-If there are none, the merge can happen directly on the server, so the result can directly be pulled.
+If there are none, the merge can happen directly on the server, so the result can simply be pulled without handling a merge.
 
