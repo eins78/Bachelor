@@ -47,7 +47,7 @@ Published using fonts from Adobe, released under an open source license:
 \pagebreak
 
 
-### Acknowledgments
+## Acknowledgments
 
 [NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype.
 The [Kunst-Technik-Einheit](http://kte.is) staff. 

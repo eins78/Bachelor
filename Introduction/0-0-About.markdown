@@ -66,7 +66,7 @@ quotation
 
 Quoted **sources** are referenced numerically and listed in the *[References]* chapter at the end of each document.
 
-External **Links** are used to refer to further information, like Wikipedia articles about background topics the reader might want to explore, but are not crucial to the understanding of the text. In the print edition, they are represented by footnotes.
+External **Links** are used to refer to software or further information, like Wikipedia articles about background topics the reader might want to explore, but are not crucial to the understanding of the text. In the print edition, they are represented by footnotes.
   
 
 <!-- only for print: -->

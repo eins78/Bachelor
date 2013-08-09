@@ -88,12 +88,12 @@ the semantic structure of the document is once again 'embedded', thus uncertain.
 
 ## Markup and *Markdown*
 
-There is an alternative approach, sometimes called "What you mean is what you get" in response to **`WYSIWYG`**, 
+The alternative approach, sometimes called "What you mean is what you get" in response to **`WYSIWYG`**, 
 is to use a Markup Language, like **`HTML`**.
    
-Continuing with our example, `HTML` a phrase is emphasized by enclosing it in a "`<em>`"-Tag.
+Continuing with our example, in `HTML` a phrase is emphasized by enclosing it in a "`<em>`"-Tag.
 
-If there is no associated (`CSS`-) instruction the browser how to *style* this (semantic) tag, it uses the built-in default, which defines "emphasis" as "italic".
+If there is no associated (`CSS`-) instruction for the browser how to *style* this (semantic) tag, it uses the built-in default, which defines "emphasis" as "italic".
 
 As an example, this is how this definition looks in the source code of the [`Safari` web browser](http://apple.com/safari):
 
@@ -112,23 +112,25 @@ However, both **`HTML`** and **`TeX`** share the same problems. They are:
 
 a) to **complicated** to use for the average user
 a) very **verbose** and require excessive of typing 
-a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print.
+a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print
 
 A popular approach for the first two problems is called ***Markdown***. 
 
 *Markdown*'s creator, John Gruber, presents it as follows:
 
-> "*Markdown* is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
-> The single biggest source of inspiration for *Markdown*’s syntax is the format of plain text email.
+> "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
+> The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 > 
-> To this end, *Markdown*’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
-> E.g., asterisks around a word actually look like \*emphasis\*. *Markdown* lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
+> To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
+> E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
 
 He also clarifies the relation to **`HTML`**:
 
 > "HTML is a publishing format; *Markdown* is a writing format. "
 
-However, this heritage means that *Markdown* is also media-specific. 
+However, this means that *Markdown* also has a media-specific heritage,
+but the basic syntax is focused enough on semantic elements to be
+generally useful. 
 
 There are several extensions to *Markdown* trying to solve this
 and other shortcomings of the basic syntax.
