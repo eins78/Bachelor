@@ -43,8 +43,7 @@
       "defaultImageExtension": "pdf",
       "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro",
-      "fontsize": "11pt",
-      "includeBeforeBody": "version.latex"
+      "fontsize": "11pt"
     }
   },
   "dependencies": {
