@@ -13,9 +13,10 @@ more accessible for authors and writers.
 - IDEs: Integrated Development Environments
 - Libraries: reusable modules
 
-Conceptually, there is no difference between a natural written language and a programming language. 
+<!-- 
+Conceptually, there is no difference between a natural written language and a programming language.  
 Both have conventions like syntax and grammar, need to be parsed, compiled, etc.
-
+-->
 
 ### Cross-media publishing
 
