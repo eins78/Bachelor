@@ -16,7 +16,7 @@ As with any open source project, there is a wide range of possible involvement, 
 - "The Node Beginner Book" [[@guide:nodebegin]]
 - "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
 - "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
-- "Hands-on Node.js" [[@guide:nodehand]]
+- "Hands-on Node.js" [[@guide:nodehands]]
 - "Node: Up and Running" [[-@guide:noderun]]
 
 <!-- ## Challenges Ahead

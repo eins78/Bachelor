@@ -62,7 +62,7 @@ by a colon and a space, as in the example above. The most useful ones include:
 The **`TeX`** systems are extremely powerful typesetting engines, 
 but nevertheless limited by the fact that they are software.
 
-While the engine is aware of common typographical errors, 
+While the program is aware of common typographical errors, 
 in absence of a human it has to rely on an internal system 
 based on 'penalty points' for the decision making, thus 
 can not always be *right*.
@@ -85,7 +85,7 @@ enter the following two lines:
 \pagebreak
 ```
 
-The `\pagebreak`command's function seems self-evident, but it does not 
+The `\pagebreak` command's function seems self-evident, but it does not 
 have the same effect as one would expected from a word processor: 
 A page break *is* inserted, but the content on the page right before it 
 will be 'stretched' across the page via a (sometimes very) increased 
@@ -120,12 +120,12 @@ Source code and further information: \ `http://github.com/papermill/bookstrap`
     - configurable
     - extendable
 - Focus on readability
-- Grid based on typographical em-units — adheres to line length regardless of zooming
+- Grid based on typographical em-units — adheres to layout and line length regardless of zooming
 
 
 ## Styling
 
-Naturally, styling the web output is possible by using `CSS`.
+Styling the web output is possible by using `CSS`.
 The generated markup has a semantic structure and allows easy styling.
 
 Additional attributes can be also added to elements in order to style them, see '[Attributes]' in the *[Markdown]* section.

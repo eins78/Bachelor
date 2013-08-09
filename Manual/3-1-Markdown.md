@@ -1,4 +1,4 @@
-##  *Markdown*
+##  Markdown
 
 > "The typewriter will alienate the hand of the man of letters from the pen only when the precision of typographic forms has directly entered the conception of his books.  
 > One might suppose that new systems with more variable typefaces would then be needed. 
@@ -16,9 +16,7 @@ John MacFarlane's "Pandoc User’s Guide" [[-@url:pandoc:guide]].
 
 
 
-````{.edit}
-TODO: definition list, hrules, tables
-````
+<!-- TODO: definition list, hrules, tables -->
 
 
 ### Text Formatting

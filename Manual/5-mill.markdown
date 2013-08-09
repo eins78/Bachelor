@@ -6,6 +6,9 @@ It contains a *parser* (a module that can read and understand the configuration)
 as well as an *compiler* (a module that outputs the document(s) according to their configuration) — 
 of course using `pandoc`.
 
+For installation instructions and more information, 
+see the current version of the [README](http://github.com/papermill/mill).
+
 
 [JavaScript]: https://en.wikipedia.org/wiki/Javascript
 [node.js]: http://nodejs.org
@@ -15,7 +18,7 @@ of course using `pandoc`.
 
 ### Input
 
-An 'input' is at least a **`path`** to at least 1 document.
+An 'input' is at least a **`path`** to at least one document.
 
 It can be just the **`path`** as a string:
 
