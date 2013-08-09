@@ -65,7 +65,7 @@ Today, there exist several derivatives, **`LaTeX`**, **`XeTeX`** are among the m
 
 ## `WYSIWYG`
 
-"What you see is what you get." — a promise made by word processors 
+*"What you see is what you get"* — promise made by word processors 
 and other visual layout and design editors.
 
 
