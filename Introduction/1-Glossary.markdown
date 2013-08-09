@@ -61,7 +61,7 @@ of his book "The Art of computer programming" (the hot metal machine used for
 the first edition was no longer available). Unhappy with the then state of 
 typesetting software, he spend seven years to program the **`TeX`** system from scratch.
 
-Today, there exist several derivates, **`LaTeX`**, **`XeTeX`** are among the most used.
+Today, there exist several derivatives, **`LaTeX`**, **`XeTeX`** are among the most used.
 
 
 ## `git`

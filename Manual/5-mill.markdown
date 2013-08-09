@@ -86,7 +86,7 @@ Moreover, any additional settings for one of those targets can be given in an ob
     }
 ```
 
-Because the document conversion is handled by **`pandoc`**, all its settings are supported (written a bit different, `--some-setting` becomes `someSetting`). 
+Because the document conversion is handled by `pandoc`, all its settings are supported (written a bit different, `--some-setting` becomes `someSetting`). 
 
 These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
 
@@ -135,7 +135,7 @@ These are the most important settings (for a complete list, see [`pandoc`'s User
 
 `read`
 :   - Choose a *Markdown* flavor
-        * `markdown`: pandoc's *Markdown*
+        * `markdown`: `pandoc`'s *Markdown*
         * `markdown_strict`: original *Markdown*
         * `markdown_github`: [GFM (GitHub flavored *Markdown*)][GFM]
         * `markdown_phpextra`: original *Markdown*

@@ -3,7 +3,7 @@
 ## License
 
 This publication is 'free and open source', 
-licensed under the *MIT* license: 
+licensed under the *MIT license*: 
 
 > Copyright (c) 2013 Max F. Albrecht
 > 
@@ -18,6 +18,9 @@ licensed under the *MIT* license:
 > all copies or substantial portions of the Software.
 
 
+<!-- print-only -->
+\vfill
+\pagebreak
 
 ## References
 

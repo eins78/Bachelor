@@ -4,7 +4,7 @@
 
 ## Print
 
-The 'print' output produces a PDF file suitable for printing, using (`XeLa`)**`TeX`**.
+The 'print' output produces a PDF file suitable for printing, using (`Xe`)**`TeX`**.
 
 
 ### Styling
@@ -99,7 +99,7 @@ the `\pagebreak`, so that the two commands together work as expected.
 
 ### Additional Designs
 
-The **font** used in the default **`(La)TeX`** template is called [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern), also available in TTF format. Useful in cases where additional elements need to be designed and the same font is desired. (Example: Title page for a letter-pressed cover)
+The **font** used in the default **`TeX`** template is called [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern), also available in `TTF` format. Useful in cases where additional elements need to be designed and the same font is desired. (Example: Title page for a letter-pressed cover)
 
 
 ## Web

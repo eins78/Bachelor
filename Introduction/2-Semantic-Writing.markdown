@@ -132,7 +132,7 @@ However, this heritage means that *Markdown* is also media-specific.
 
 There are several extensions to *Markdown* trying to solve this
 and other shortcomings of the basic syntax.
-The most popular include Multi*Markdown*, *Markdown* Extra, 
+The most popular include [*MultiMarkdown*](http://fletcherpenney.net/multimarkdown/), [*PHP Markdown Extra*](http://michelf.ca/projects/php-markdown/extra/), 
 and `pandoc`'s *Markdown*, which is the most complete of them.
 
 `pandoc` is a program that converts *Markdown* to HTML, like the 

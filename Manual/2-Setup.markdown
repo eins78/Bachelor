@@ -220,9 +220,9 @@ post-commit
     ```
 
 pre-commit
-:   as the name implies, this script is run *before* every commit. Furthermore, if it returns an error, commiting is **aborted**!
+:   as the name implies, this script is run *before* every commit. Furthermore, if it returns an error, committing is **aborted**!
 
     Using the `post-commit` example as a `pre-commit` 
-    hook would ensure that no data can be commited 
+    hook would ensure that no data can be committed 
     that would *not build an output* (but also adds
     a considerable delay before the commit happens).
