@@ -55,7 +55,7 @@ Everybody at [MR](http://maschinenraum.tk), for providing a space where ideas li
 al. 
 for listening to my ramblings. CC for sponsoring this. 
 [Richard Stallman](http://www.stallman.org), for basing a religion-like ideology on the idea that software should be free (as in freedom, not as in free beer). 
-The [Open Source Initiative (OSI)](https://en.wikipedia.org/wiki/Open_Source_Initiative), namely Christine Peterson, for establishing the more marketable term 'open source' (which can be understood without bringing up beer). 
+The [Open Source Initiative (OSI)](https://en.wikipedia.org/wiki/Open_Source_Initiative),  for establishing the more marketable term 'open source' (which can be understood without bringing up beer). [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) for creating **`TeX`** etc.. 
 [Linus Thorvalds](https://plus.google.com/+LinusTorvalds), for creating and maintaining **`Linux`** and **`git`**. 
 Chris Wanstrath, Tom Preston-Werner and PJ Hyett, for [founding GitHub](http://tom.preston-werner.com/2011/03/29/ten-lessons-from-githubs-first-year.html) and exposing the world to **`git`** through a world-class service. 
 [John Gruber](http://daringfireball.net), for the original *Markdown* specification. 
