@@ -5,7 +5,9 @@ other than the text source.
 
 In order to keep a project 'portable', all assets need to reside 
 inside the project folder, otherwise it might only be compiled on 
-the computer it was created.
+the computer it was created. For the same reason, 
+**all** assets need to be declared using a **relative path**. 
+(See [Images] for an example).
 
 If version control is used, this also ensures that all assets are 
 tracked and all collaborators have access to them. 

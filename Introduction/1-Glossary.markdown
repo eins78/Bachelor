@@ -63,6 +63,11 @@ typesetting software, he spend seven years to program the **`TeX`** system from 
 
 Today, there exist several derivatives, **`LaTeX`**, **`XeTeX`** are among the most used.
 
+## `WYSIWYG`
+
+"What you see is what you get." — a promise made by word processors 
+and other visual layout and design editors.
+
 
 ## `git`
 

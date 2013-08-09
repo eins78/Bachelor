@@ -446,6 +446,12 @@ output format and can be used anywhere in the document.
 <!-- A comment. It will NEVER be printed. -->
 
 The weather was <!-- not --> good. 
+
+<!--
+this complete
+paragraph is
+ignored!
+-->
 ````
 
 ### Escaping

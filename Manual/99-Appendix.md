@@ -24,3 +24,6 @@ licensed under the *MIT license*:
 
 ## References
 
+<!-- List of References is inserted automatically
+     at the end of the document.
+-->
