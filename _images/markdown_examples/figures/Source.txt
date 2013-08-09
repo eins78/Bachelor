@@ -1,0 +1,2914 @@
+> papermill.json
+
+{
+  "name": "papermill",
+  "author": "Max F. Albrecht",
+  "description": "Bachelor Thesis (Media Design), Bauhaus-University Weimar",
+  "version": "0.1.0",
+  "input": {
+    "bibliography": "bibliography.bib",
+    "csl": ".papermill/ieee-with-url.csl",
+    "list": [
+      "Introduction",
+      "Manual",
+      "Source-Title.md",
+      {
+        "path": "CODE/C0DE.md",
+        "output": {
+          "web": false,
+          "listings": true,
+          "smart": false,
+          "template": ".papermill/pandocco.latex"
+        }          
+      },
+      {
+        "path": "index.md",
+        "fontsize": "12pt",
+        "class": "article",
+        "toc": false
+      },
+      {
+        "path": "Affidavid.md",
+        "class": "article",
+        "toc": false
+      }
+    ]
+  },
+  "output": {
+    "web": {
+      "defaultImageExtension": "png",
+      "template": "../bookstrap/bookstrap-template.html",
+      "css": "../bookstrap/assets/bookstrap.css"
+    },
+    "print": {
+      "class": "book",
+      "geometry": "a4paper, centering, bindingoffset=15mm",
+      "defaultImageExtension": "pdf",
+      "mainfont": "Source Sans Pro",
+      "monofont": "Source Code Pro",
+      "fontsize": "11pt"
+    }
+  },
+  "dependencies": {
+    "docco": "https://github.com/papermill/docco/tarball/papermill"
+  },
+  "scripts": { "precompile": "./CODE/build-docs.sh" },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://eins78@github.com/eins78/Bachelor.git"
+  },
+  "bugs": { "url": "https://github.com/eins78/Bachelor/issues" }
+}
+
+> Introduction.md
+
+% Papermill: **Introduction**
+% Max F. Albrecht
+% Bachelor Thesis, \
+  Bauhaus-Universität Weimar, \
+  2013
+
+
+<!-- only for print: -->
+\vfill
+\pagebreak
+
+
+## About this document
+
+This is the theoretical part of my bachelor thesis, 'Papermill'.
+For the sake of usefulness, it doubles as the first version of an
+end user's manual for the practical part of the thesis: a framework for writing and publishing long-form text using open source software, also named `papermill.`
+
+The instructional character has several implications regarding its structure. 
+For one, it is split into two documents.
+
+After enumerating the goals of the project and how they are planned to be achieved, 
+the **Introduction** starts with a [Glossary](#glossary).
+It explains several important technical topics,
+followed by an overview to most important theoretical aspects of my research and practical work. This should serve as a foundation, familiarizing the reader with the general concepts and problems in the scope of this project.
+
+The **Manual** is a step-by-step description of how to use the `papermill` framework to produce a publication. It will evolve alongside the framework.
+
+The thesis is accompanied by following two attachments:
+
+- Papermill: **`C0DE`**: Here, the complete and in large parts annotated source code of the `mill` Command Line Utility can be inspected. 
+
+    It is a homage to both the concept of ['literate programming'](http://www-cs-faculty.stanford.edu/~knuth/lp.html) coined by Donald Knuth as well as the almost forgotten tradition of including documentation with technical products in order to empower the end user through knowledge about the system.
+
+- Papermill: **Source**: Since the entire thesis is also [produced using the framework laid out in it][dogfooding], the final attachment is its own source code.
+
+[dogfooding]: https://en.wikipedia.org/wiki/Eating_your_own_dog_food 
+
+<!-- only for print: -->
+\vfill
+\pagebreak
+
+
+### (Typographic) conventions
+
+`monospaced` \
+acronyms, technical terms, standards, trademarks and names of software. A block of monospaced text denotes a source code listing.
+
+**`bold-monospaced`** \
+[Glossary](#glossary) keywords
+
+*italic* \
+emphasis, reference to chapter title
+
+**bold** \
+strong emphasis
+
+'single quotes' \
+idiomatic terms and expressions
+
+*'single quotes italic'* \
+foreign terms
+
+"double quotes" \
+quotation
+
+Quoted **sources** are referenced numerically and listed in the *[References]* chapter at the end of each document.
+
+External **Links** are used to refer to software or further information, like Wikipedia articles about background topics the reader might want to explore, but are not crucial to the understanding of the text. In the print edition, they are represented by footnotes.
+  
+
+<!-- only for print: -->
+\vfill
+\pagebreak
+
+
+## Goals
+
+
+There are 3 primary goals:
+
+### Publication development
+
+Make the *mode of production* and tools used in (open source) software development 
+more accessible for authors and writers.
+
+- **Version control** 
+- **Automation**, Continuous integration
+- IDEs: Integrated Development Environments
+- Libraries: reusable modules
+
+<!-- 
+Conceptually, there is no difference between a natural written language and a programming language.  
+Both have conventions like syntax and grammar, need to be parsed, compiled, etc.
+-->
+
+### Cross-media publishing
+
+- *Problem*: one input, multiple outputs
+- *Solution*: semantic and structured content
+
+Produce a document source which is as media-agnostic as possible, in the hopes
+that if it works for print and web today, it should be possible to adapt
+to the to-be-invented media of the future.
+
+Requires careful weighing of options and features: The syntax has to be powerful enough to serve power-users, but needs to be friendly enough to not intimidate newcomers.
+
+### Long-term reproducibility
+
+Make sure that once written, the source of a publication can be compiled into the desired output 'forever', 
+or at least as long as computers exist.
+
+---
+
+From these, we can derive our secondary goals:
+
+### Plain text
+
+If a document is to be written in a binary container (like a *Microsoft Word* File), 
+the usefulness of a software-like development process are very limited.
+
+### Online & offline
+
+The framework should be usable on a [*general purpose computer*](https://en.wikipedia.org/wiki/Turing_machine) without requiring an internet connection.
+
+At the same time, it should be possible to use it 
+with just a web browser, because less and less personal computing devices are in fact 'general purpose'.
+
+### Simplicity
+
+A complicated system is harder to use, explain and extend than a simple one.
+
+A long-term goal is to abstract away as much as possible from the user, 
+while at the same time still providing all the necessary information 
+for those who *want* to know what is happening in the background.
+
+Most of the contents of the current **'Manual'** will stay relevant 
+and will simply be updated parallel to the framework. 
+This **'Introduction'** however will hopefully not be required reading in the future.
+
+
+### Free/Libre/Open Source
+
+Using 'open source' software can be a goal in itself. Usually, this is a matter of personal or political opinion. 
+
+However, considering the already listed goals, the problems that arise from them and the existing approaches to solve them, we can safely conclude that there is no alternative to use 'open source' software, at least for the framework itself.[^fn-usersoft]
+
+[^fn-usersoft]: The users operating system, text editor, etc. can of course be proprietary or 'Open Source'.
+
+<!-- It does not make any difference as long as all the needed software can be installed easily – that alone rules out Apple's closed `iOS` system as well as the 'open' Android (for today). -->
+
+<!-- 
+!["Open Source All The Things" *([internet meme][flossmeme])*](../_stash/open-source-all-the-things.jpg)
+
+[flossmeme]: http://thinkahol.wordpress.com/2012/04/05/open-source-all-the-things-free-energy-and-free-information-for-a-free-people/ 
+-->
+
+
+
+## Implementation
+
+
+<!-- 
+    TODO: directly refer to the goals!
+ -->
+
+
+Implementation of the goals happens in the form of real-world prototypes. 
+This means a minimal working solution is developed while actual publication is produced along with it.
+
+
+<!-- ## Prototypes -->
+
+### Version 0: phd.nts.is
+
+The first prototype was written alongside Naomi T. Salmons PhD Dissertation 
+"Als ich Künstler war".
+
+Using the tools that were already available (*Markdown*, `pandoc`, `git`), 
+everything from automation to templates was written *('scripted')* for this specific publication. 
+I also guided the usage of version control for collaborating with (proof-reading) editors. 
+Furthermore, my role as a technical administrator provided valuable insight and inspiration for the next steps of the development process.
+
+The dissertation can be downloaded in web and print format 
+at the [project website](http://phd.nts.is), 
+while the source code (including the aforementioned prototype) 
+is [published on *GitHub*](http://github.com/NTS/PhD).
+
+
+### Version 1: This document
+
+This document, my Bachelor thesis, was written alongside the development of several more prototypes.
+
+The goal was to find generally useful solutions to the technical problems that are common to most publication projects.
+
+- *Project Configuration* specification
+    * define meta-data, Inputs, Outputs
+    
+- *Stationery*: publication templates
+
+- `mill` *Command Line Utility*
+    * compiles `papermill` projects
+    * inside: `node.js` module, usable locally and server-side
+
+- `bookstrap`: template and style for web output to complement the LaTeX templates
+    * optimized for modern web browsers
+    * designed for long-form text: readability, non-distracting, table/sidebar of contents
+    * uses novel grid system based on typographic `em`-units
+    
+- *Bonus:* `Papermill.app`, a graphical 'drag-and-drop' interface to compile `papermill` projects on *Mac OS X*
+
+
+
+# Glossary
+
+## `Unix`, `Linux`, `*nix`
+
+Unix is:
+
+a) an [operating system][os] family with a [history] back to the year 1969 .
+
+    `Linux` is a well-known member of this diverse family, 
+    so `*nix` is sometimes used as a more general term.
+    
+    Most of the internet runs on some kind of `*nix`, 
+    in fact today most computers that don't bear a *Windows* 
+    sticker probably run a variation of it, including *Apple*'s 
+    and *Google*'s computers, smartphones and tablets.
+
+[os]: https://en.wikipedia.org/wiki/Operating_system
+[history]: https://en.wikipedia.org/wiki/Unix
+
+b) a [philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
+
+    - **everything is a *(text)* file!**
+    - Simplicity and modularity
+
+
+## FLOSS
+
+"Free/Libre/Open Source" – the most unambiguous name for the concept of
+non-restrictive licensing.
+
+## `HTML`
+
+The formatting language of the web.
+[Invented by Tim Berners-Lee at the `CERN` in 1989](http://www.w3.org/History/1989/proposal.html), 
+it allows authors to write a plain text and 'mark it up' using [`<tags>`](http://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/Tags.html). 
+By enclosing content to them, distinct *elements* of a document can be created, like headings, paragraphs, images, links, and so on.
+  
+Made specifically to be used with `HTTP` (the **`H`**`yper` **`T`**`ext ` **`T`**`ransfer` **`P`**`rotocoll`), which explains the meaning of the acronym: **`H`**`yper` **`T`**`ext` **`M`**`arkup` **`L`**`anguage`.
+
+Today, these two standards serve as the foundation of the web, along with `CSS` (for styling) and JavaScript (for interactive and programmatic elements).
+
+***Example:** 
+A document with a top-level heading with the text "Hello", followed by a paragraph with the text "World!"*
+
+```
+<html>
+<body>
+  <h1>Hello</h1>
+  <p>World!</p>
+</body>
+</html>
+```
+
+
+## `TeX`, `LaTeX`, `*TeX` {#tex}
+
+> "I can’t go to a restaurant and order food because I keep looking at the fonts on the menu."
+>
+> — Donald Knuth [@knuth:questions, p. 321]
+
+A [typesetting engine](https://en.wikipedia.org/wiki/TeX), 
+with a formatting syntax that doubles as a programming language.
+
+Invented by Donald Knuth, while trying to digitally typeset the second edition 
+of his book "The Art of computer programming" (the hot metal machine used for 
+the first edition was no longer available). Unhappy with the then state of 
+typesetting software, he spend seven years to program the **`TeX`** system from scratch.
+
+Today, there exist several derivatives, **`LaTeX`**, **`XeTeX`** are among the most used.
+
+***Example:** 
+A document with a top-level heading with the text "Hello", followed by a paragraph with the text "World!"*
+
+```
+\documentclass{article}
+\begin{document}
+\section{Hello}
+World!
+\end{document}
+```
+
+
+## `WYSIWYG`
+
+*"What you see is what you get"* — promise made by word processors 
+and other visual layout and design editors.
+
+
+## `git`
+
+`Git` is a distributed version/revision control system dubbed as "the stupid content tracker" [-@link:git:readme, line. 3] and developed by [Linus Thorvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), more commonly known for his inception of this `Linux` kernel.
+Just like Donald Knuth and his **`TeX`** project, Linus became so frustrated with the lack of (by his standards) good software to solve his problem, 
+that he put of work on `Linux` until `git` was usable.
+
+For a step-by-step introduction to Version Control and `git`, see the chapter *[Versioning]*.
+
+
+
+## `diff`, (`patch`) {#diff}
+
+- diff, the *(noun)*
+- diff, to *(verb)*
+
+> "The verb "diff" is computer jargon, but it's the only word with exactly the sense I want. [`…`]"
+> 
+> "**diff:** An unselective and microscopically thorough comparison between two versions of something.
+>  From the *Unix* diff utility, which compares *files*." — [@graham:hackers pp. 224, 244]
+
+A **diff**, in general, is a file which stores the differences between two files in a text format. This format can be read by humans, but more importantly it can be evaluated by a computer. 
+
+If there is an original file **A** and a different version of the same file **B**, a piece of software can produce **B** only by *applying* the **diff** between **A** and **B** to the file **A**.[^fn-diff] 
+This process can also be called *"patching"*, which is why a **diff** is sometimes be referred to as a **patch**. 
+
+As seen in the example, a **"diff"** only compares a file *line by line*.
+
+
+***Example:*** 
+A small text file, another version of it, and the `diff`
+
+1.   **text1.txt**:
+
+        THIS IS A TEXT.  
+        I MADE IT.
+
+2.   **text2.txt**:
+
+        THIS IS A TEXT.  
+        I WROTE IT.
+
+3.   **output** of "`git diff text1.txt text2.txt`":
+
+        --- a/text1.txt
+        +++ b/text2.txt
+        @@ -1,2 +1,2 @@
+         THIS IS A TEXT.  
+        -I MADE IT.
+        +I WROTE IT.
+
+
+[^fn-diff]: On a `*nix` operating system, this program is itself called `diff` (from "difference") and gave name to the concept.
+
+
+## `hash`
+
+A **hash** is a concept from the area of cryptography. 
+
+A simplistic explanation would be to think of it as a 
+'cross sum' of some content, 
+which (mathematically) can only be calculated with access to the exact content (and not by guessing, for example).[^fn-hash] 
+
+A 'hash function' used in `git` (and many other software programs) is called [`SHA1`](https://en.wikipedia.org/wiki/Sha1), which is why git users sometimes call the hash a '`SHA`'. 
+
+A textual representation of a hash looks like this: \ `eb9095849a85a02e29c3fd7b4224dc4bd55c35e0`. 
+This can be automatically abbreviated by `git` to the shortest string that still is unique, in this case it would be: `eb9095849a`.
+
+[^fn-hash]: A hash can thus be used to prove that one was in possession of a specific content (like your document) at a certain point in time, just by publicly releasing the hash (but **not** the document). If the document is published at a later point, anyone can calculate that the previously released 'proof-of-existence hash' was correct.
+
+
+## Hidden file, -folder
+
+Certain files or folders on a computer, 
+for example configuration files belonging to software, 
+can be hidden from the user by the operating system and/or file browser.
+This is usually done to keep the user from inadvertently modifying or deleting them, because 'seeing' and editing them usually requires some kind of setting, command line flag or other kind of 'trick'.
+there is a historically grown convention in operating systems in the `UNIX` family, that files and folder starting with a **`.`** *(dot)* character are hidden.
+
+
+
+
+
+<!-- 
+
+narrative: 
+- we need structured text. 
+- HTML and latex are too hard
+ and media-specific!
+- OK, then markdown
+  - from web
+  - extensions for elements
+- publication structure: papermill config
+
+- semantic vs. style 
+
+-->
+
+
+# Semantic Writing
+
+
+> "EFFECTIVE IMMEDIATELY!! NO MORE TYPEWRITERS [`…`] \
+> If word processing is so neat, then let’s all use it!"
+> 
+> — *Michael Scott, President of Apple Computer, 1980 (internal memo)* [-@scott:typewriters, p. 1]
+
+
+Historically, the semantic structure of any text has always been "embedded" into the final document by the author or writer using visual formatting. 
+Any emphasis, division of the text into chapters, paragraphs and line breaks was (hopefully) copied in conjunction with the text.
+
+With the introduction of the [movable type printing press](https://en.wikipedia.org/wiki/Movable_type), this changed dramatically:
+Any text now had to be split up into its composing letters and spaces and then re-arranged, using only the available (lead) characters.
+
+So, long before the widespread use of computers in the writing process and before the process now widely described as "Digitalization"^[in German: *'Digitalisierung'*] even started,
+the printing press marks the transition from thinking about and working with text as a discrete (countable, 'digital') signal, 
+as opposed to the monolithic, continuous signal it was seen as before.
+
+Not surprisingly, the typical problems that have to be dealt with when converting any signal from continuous to discrete, from analog to digital, can be observed from this period on and are partly still not solved until now.
+
+Suddenly, the letters of the used alphabet were not enough to properly "encode" a text so that it could be reproduced properly while loosing neither *content* nor *intent* of the author. Jan Tschichold, one of the most influential typographers of the 20th century, is still complaining about the ambivalence of paragraph positions in the 1960, when authors already used (also discrete) typewriters to write manuscripts:
+
+> "Thousands of working hours are sacrificed by typographers,
+> getting the right order of letters written without indentation,
+> with countless pencil marks and deep thought.
+> This idling could be avoided if the manuscripts would be
+> handed in formatted as described here." [[@Tschichold:Drucksachen]] *(own translation)*[^fn-tschicholdparagraphs]
+
+[^fn-tschicholdparagraphs]: *Original:* "Tausende von Arbeitsstunden werden von Typographen geopfert, 
+um einzugslos geschriebene Briefe durch unzählbare Bleistiftangaben
+und Nachdenken richtig zu ordnen.
+Dieser Leerlauf ließe sich vermeiden, wenn die Manuskripte gleich
+in der soeben beschriebenen Art abgeliefert würden."
+
+
+Since then, the situation has become equally better and worse: 
+Nowadays, most authors produce their manuscripts digitally, which should leave less room for interpretations and errors.
+Yet, the vast majority of non-technical writers are using a **`WYSIWYG`**-based system such as *Microsoft* `Word` or *Apple* `Pages`, meaning the intent of the author is once again 'entangled' with the visual output (or even more so, as shown in the next section, *[Formatting]*).
+
+Note that there are alternatives in the market, but these are mostly aimed at very complex projects.
+An example would be [Adobe `FrameMaker`](https://en.wikipedia.org/wiki/Adobe_Framemaker), which according to Wikipedia does allow input of "structured text", but is aimed at "industries such as aerospace, where several models of the same complex product exist, or pharmaceuticals". [[@wiki:framemaker]]
+
+
+## Formatting
+
+<!-- narrative:
+- historic connotations - traditional way to stylize intend (partly cause of the confusion)
+- ex: the intent is *emphasize*
+   - the "default" style is an *italic* font variant
+   - historically also underlining has been used
+   - in a web browser, this can be taken quite literally: -->
+
+The relationship between formatting, typography and design 
+is a common source of confusion. 
+On the one hand, it can be summed up quite simply:
+
+* Formatting *conveys intent*, thus is part of the document's *source*
+* Design *translates* this source into an *output*, using typography
+
+On the other hand, there are specific connotations embedded in our visual and cultural knowledge.
+These are shaped by a) how this translation was handled historically; and b) the user interface of word processors since the 1980s.
+
+![Bold/Italic buttons. From left to right: *Microsoft Word 2.0* (1989); *Apple Pages* (2009); *WordPress* (2012); *Apple iOS 6* (2012) ](../_images/bold-italic-buttons.png)
+
+As the examples show, the interface of most word processors visualize 'emphasis' as 'italic' and 'strong emphasis' as 'bold'.
+While this is consistent with how these semantic intentions are usually expressed typographically, 
+it shows the general problem of the **`WYSIWYG`** paradigm: 
+the semantic structure of the document is once again 'embedded', thus uncertain.
+
+
+## Markup and *Markdown*
+
+The alternative approach, sometimes called "What you mean is what you get" in response to **`WYSIWYG`**, 
+is to use a Markup Language, like **`HTML`**.
+   
+Continuing with our example, in `HTML` a phrase is emphasized by enclosing it in a "`<em>`"-Tag.
+
+If there is no associated (`CSS`-) instruction for the browser how to *style* this (semantic) tag, it uses the built-in default, which defines "emphasis" as "italic".
+
+As an example, this is how this definition looks in the source code of the [`Safari` web browser](http://apple.com/safari):
+
+> ```
+> em {
+>   font-style: italic;
+> }
+> ``` 
+> 
+> [Webkit Default CSS, Lines 993-995 *(truncated)*](https://github.com/WebKit/webkit/blob/453a7eab8e40608be3cbcf29c59137606f1bf4d7/Source/WebCore/css/html.css#L993-L995)
+
+
+Another well-known language for writing structured text, at least among scientific and technical authors, is the syntax used in **`TeX`**, `LaTeX` and other `TeX`-like systems. 
+
+However, both **`HTML`** and **`TeX`** share the same problems. They are: 
+
+a) to **complicated** to use for the average user
+a) very **verbose** and require excessive of typing 
+a) **media-specific**, **`HTML`** is for the web and  **`TeX`** for print
+
+A popular approach for the first two problems is called ***Markdown***. 
+
+*Markdown*'s creator, John Gruber, presents it as follows:
+
+> "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. [`…`] 
+> The single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+> 
+> To this end, Markdown’s syntax is comprised entirely of punctuation characters [`…`] carefully chosen so as to look like what they mean. 
+> E.g., asterisks around a word actually look like \*emphasis\*. Markdown lists look like, well, lists. Even blockquotes look like quoted passages of text, assuming you’ve ever used email."
+
+He also clarifies the relation to **`HTML`**:
+
+> "HTML is a publishing format; *Markdown* is a writing format. "
+
+However, this means that *Markdown* also has a media-specific heritage,
+but the basic syntax is focused enough on semantic elements to be
+generally useful. 
+
+There are several extensions to *Markdown* trying to solve this
+and other shortcomings of the basic syntax.
+The most popular include [*MultiMarkdown*](http://fletcherpenney.net/multimarkdown/), [*PHP Markdown Extra*](http://michelf.ca/projects/php-markdown/extra/), 
+and `pandoc`'s *Markdown*, which is the most complete of them.
+
+[`pandoc`](http://johnmacfarlane.net/pandoc/) is 
+a program that converts *Markdown* to HTML, like the 
+original implementation Gruber released together with his specification, 
+but also extends the concept in several important ways.
+It was written by John MacFarlane, himself also a scientist and author, 
+so his program, the supported syntax extensions and novel output options 
+(namely **`TeX`**) are a natural fit for the `papermill` framework and it's most 
+important basis.
+
+
+
+# Versioning
+
+
+In general, *Version Control* is the act of collecting, labeling, ordering and indexing all the different revisions of a document. 
+By extension, this also tracks the *changes* made between those revisions, making it possible to retrace the development of the document and possibly even the thought process of the author.
+
+These drafts and revisions and their comparison have spawned diverse studies of these topics in the literary sciences.
+Yet, there is a danger of loosing this raw material as more and more authors move to produce their textual work using a computer.
+
+This danger was the starting point for this whole project as well, 
+sparked by Cory Doctorow's essay "Extreme Geek" [[-@blog:Cory:Geek]], where he writes about this problem and how he solved it for himself. 
+As Doctorow summarizes in a blog post:
+
+> "I was prompted to do this after discussions with several digital archivists who complained that, prior to the computerized era, writers produced a series [of] complete drafts on the way to publications, complete with erasures, annotations, and so on. These are archival gold, since they illuminate the creative process [`…`]. By contrast, many writers produce only a single (or a few) digital files that are modified right up to publication time, without any real systematic records of the interim states between the first bit of composition and the final draft." [-@blog:Cory:Flashbake]
+
+Being a blogger, a digital activist and an all-round-nerd, he falls into the target group of 'technically involved' authors, so it comes as no surprise that he found a highly technical solution. He commissioned a piece of software ([`flashbake`](https://github.com/commandline/flashbake)), which automatically keeps track of his work in 15-minute-intervals.
+
+Underneath, it uses the **`git`** version control system, which in the last years has slowly become the 
+de-facto standard for Version Control and collaborating in open source software projects. 
+Its usage grew hand in hand with the popularity of [*GitHub*](https://github.com/about), a **`git`** hosting service providing a complete ecosystem, 
+including a web view for all files and content of the repository and project management features like issue tracking. An open source, self-hosted alternative with similar features is called [Gitlab](http://gitlab.org); another service with a different focus but similar hosting options is [bitbucket](https://bitbucket.org).
+
+
+## Git
+
+*Sources for this guide and further reading:*  *"The Git Parable"* [[@blog:tpw:gitparable]] *"Pro Git"* [[@chacon:progit]]
+
+This chapter breaks down what one needs to know about **`git`** to an absolute minimum. For example, it won't explain how to use the **`git`** command line, or any other **`git`** interface.
+
+Some newer graphical interfaces (especially *GitHub*'s GUI apps) make working with **`git`** so easy that the first half of this chapter is condensed to the click of a single button; the second half means 3-4 clicks in their web interface.
+
+*But:* since your document's history should be as important to you as it is to Mr. Doctorow, I really want you to understand the **concepts** and **nomenclature** behind it.
+
+The hope is to give you peace of mind that your work is *saved* and *safe*. 
+Though there is [a video of Linus Torvalds saying exactly that](https://www.youtube.com/watch?v=4XpnKHJAok8&feature=player_detailpage&t=3529)[^fn-git-data-promise], only with some background knowledge you can start to really trust the system.
+Moreover, this same knowledge should enable you to learn how to use any **`git`** interface in a relatively short time.
+
+[^fn-git-data-promise]: Quote: "I guarantee you, if you put your data in git: You can trust, that 5 years later, after it was converted from your hard disk, to DVD, to whatever new technology, and you copied it along, [`…`] you can verify that the data you get out is the exact same data you've put in." \
+ (He goes on to explain that in the past, it was tried to smuggle bad changes into the Linux kernel by physically breaking into a data center, which adds some gravitas to his testimony.)
+
+
+## Repository
+
+The most basic term one needs to know when using **`git`** is a **"repository"**.
+It is a purposefully general term, but it helps to think of it as a 'folder':
+
+<!-- !['Repository' Folder ](../_images/git/icon-folder-repository.png) -->
+
+This is not even wrong: If you directly edit files in a `git` repository on 
+your computer, it will be there just like any other folder 
+(in **`git`** terms, this is your 'working folder').
+In our case, this folder contains all the files related to a publication:
+
+- Most importantly: the text files *('sources')*
+- Any non-text assets that are part of the publication, like images and figures.
+- Any additional files that need to be tracked, or just shared.
+
+So, what makes this folder special? 
+Inside it, there is one more thing: 
+a **`hidden folder`** called `.git`!
+
+<!-- !['.git' Folder](../_images/git/icon-folder-git.png) -->
+
+As a user, you never directly use this folder, but it is good to know where it is and what is its purpose.[^fn-git-folder] 
+It contains a lot of meta-data and also a small database-like storage. 
+The **`git`** software reads and writes to this storage facilitating all the nice things described further in this chapter. 
+It may sound like "magic" at times, so keep in mind: It is just a very simple (but clever) program which reads and writes to this small database inside your repository.
+
+[^fn-git-folder]: Namely, if you move or copy repository-folder from one place to another (disk, computer, `…`).
+If the folder is copied as a whole, the `.git` folder is still inside, meaning the complete versioned history is included, for good or bad.
+If just single files from the folder are copied somewhere else, the `.git` is not copied with them, thus not including the history/database.
+
+## Clone and Fork
+
+If a repository is not started *('initialized')* locally, 
+it first has to be **cloned**.
+
+A **clone** is a copy of a repository. If the clone has changes, it is considered a **fork**.[^fn-fork]
+
+Let's have a look at how changes are made in the first place.
+
+[^fn-fork]: Not the be confused with how 'fork' is used in software development, where a project might split into 2 new ones with different goals, using the old code base as a starting point.
+
+
+
+## Commit
+
+**"committing"** is the activity of saving your changes into the **`git`** database, 
+the result of this is also called a **commit**.
+Every commit contains the state of all the files in your repository at a certain point in time. Since we are talking about "Versioning", it is best to think of every commit as a "version" of your project. 
+You can later use **`git`** to go "back in time", revisiting or even restoring an older version; or to get a list of changes between two specific commits. As we will see later in the chapter, commits can also be sent around – this is how **`git`** is used for collaboration.
+
+Let's take a look at how to do a commit:
+
+First, you should review your changes. 
+If you are happy with them, you need to tell **`git`** which files you want to commit. 
+This is called **staging**. It allows you to make several changes at the same time, 
+but only commit a fraction of them each time. 
+In software development, this is mostly done to break up the changes into smaller pieces, 
+making them easier to review on the receiving side.
+
+After all changes that should be included are staged, you can proceed with the actual commit. 
+It includes:
+
+- Your name and email 
+- A **commit message** (if you supplied one)
+- A **`diff`** of your changes
+- A **`hash`** of all those items
+
+The **commit message** is meant to *explain* the changes you've made. 
+Depending on the context, it might be addressed to yourself, collaborators like editors or co-authors, or anybody looking a repository's history.
+
+In the software world, this message is very important, because the text being worked on
+is *source code*, meant to be interpreted by a computer. Any changes can have side effects 
+which might be non-obvious by just looking at the changes. 
+
+When working with a human-language document source however, most of the time the changes in the text don't need to be explained since the intent is already apparent from the changes. In this case, the message can be omitted or even automatically generated, containing information about the circumstances of the commit (location, name of the computer, etc).
+
+The **`hash`** of each commit is calculated. It can be used as a ***unique* version number** because it refers to a specific commit in a repository.
+
+Furthermore, the **`hash`** of every commit is used by `git` in the background to make sure that your content has not been changed, be it by error, accident or malicious intend: If every commit just stores the differences between the last and the current version, those changes are (cryptographically speaking) secured as much as the content of your online banking website.
+
+
+
+## Branch
+
+We already established that **clones** are copies of a **repository**, and **forks** are **clones** with any changes not found elsewhere.
+
+But git is even more flexible: There is also the possibility of having a complete copy of the repository inside your local copy. These "built-in" copies are called **branches**.
+
+They make it possible to work on an isolated copy of the complete project, for example while working something that is not ready to be included in the 'main' project, but still should be committed in small steps.
+
+There is always at least one branch in every git repository, by default this branch is called *'master'*, which is nothing more than a default name.[^fn-master-branch] 
+
+New **branches** are always based on a **commit** of an existing branch.
+This commit is the starting point of the branch, or *where your changes branch off*, just like in a tree.
+
+<!-- ![Illustration of a branch](../_stash/branches.png) -->
+
+[^fn-master-branch]: "There is nothing special about the name 'master' apart from convention" [@silverman:gitpocket, p. 4]
+
+
+
+## Collaboration
+
+
+If we break the process down into individual steps, it should sound familiar to anyone who has ever collaborated on text documents with others. Even when using paper, they are the same:
+
+- Obtain a copy of the document(s) *(clone)*
+- Make some changes, review and save them *(commit)*
+- Instead of sending the complete changed document back, formulate just the changes[^fn-manual-diff] *(diff)* 
+- Informing the source of the document of your changes, asking it to integrate them
+
+[^fn-manual-diff]: Keep in mind that even if you don't do it yourself, then whomever you sent the document to has to do it.
+
+*Example letter:*
+
+>     Dear Sir/Madam,
+>     
+>     attached you find my changes to your files. 
+>     I kindly ask that you apply them to your source.
+>     
+>     Regards,
+>      Jon Doe
+>     
+>     ---
+>     Changes:
+>     - In the file "doc.md", 3rd line, 1st character, 
+>       I have changed the word "hello" to "world".
+
+But instead of doing all these steps manually, we have already learned that **`git`** takes care of the cloning, branching and committing; and that every commit is nothing more than the difference between the new version and the old version.
+
+**So, how do we send our changes?**
+
+Technically, there are many ways to do this. **`git`** can create an email for you not unlike the example letter, this is how [collaboration on the **`Linux`** kernel](https://lkml.org/lkml/2013/7/30/63) and [many more projects](http://lists.freedesktop.org/archives/systemd-devel/2013-February/009172.html) is mostly dealt with. 
+
+The email model is fitting for a project like **`Linux`**, where the mailing list archives form a public record of which changes where proposed by whom, the discussion around them, and if, when and how they were integrated.
+
+However, there are other built-in ways to share commits which are much simpler to use (and automate).
+
+## Push
+
+Because **`git`** is a distributed version control system, 
+there is no inherit need to have a central server, or any internet connection: 
+everything can be done locally/offline.
+
+Yet, it is possible to use any number of **remotes**, which are again copies of the repository, outside of it. 
+They *can* be an actual server, but it is also possible to use any storage, like an external USB drive.
+Web Interfaces like GitHub and Gitlab are based on the ability to use them as remotes and 
+offer additional features based on the data you send there. 
+
+Once a remote is set up, the commits can be **pushed** there.^[if the repository was cloned, the source is already configured as a remote with the name 'origin']
+This ability can be used for backups and syncing, but most importantly for sharing the code with collaborators.
+
+Remote repository also have branches, and pushing always happens from a local branch (e.g. 'master') to a specific branch in the remote. 
+This remote branch can be the master branch as well (if it is your own project), or be a different ones. 
+Common strategies are to have a branch per collaborator, or one per topic.
+
+Furthermore, **`git`** only allows a linear history in each branch. 
+That means you will only be able to push if your changes based on *all* the changes in the remote branch (or some of them could be lost). To get these changes before we 
+can send our own, we have *pull* first.
+
+
+## Pull & Merge
+
+After new commits are pushed to a remote repository, 
+everyone (with access) can **pull** them into one of their local branches.
+
+The formal way of asking someone to pull your changes is called a "Pull Request", or a"Merge Request" when using Gitlab. 
+
+Both names have some truth to them, because pulling, like pushing happens from branch to branch and only allows linear history.
+
+Because of this, pulling actually happens in two stages: 
+first, the remote changes are **fetched** from the remote, 
+then they are merged into the desired local branch.
+
+If there are any **conflicts**, they have to be solved before the **merge** can be competed (it can also be aborted).
+
+A conflict happens if the same part(s) of a file where changed in both branches.
+
+*Example:*
+
+- Base text file
+ 
+    ```
+    I <3 free software!
+    ```
+
+- Changes made in branch **A**:
+
+    ```
+    I love free software!
+    ```
+
+- Changes made in branch **B**:
+
+    ```
+    I <3 open source!
+    ```
+
+- Trying to merge **B** into **A** yields a warning: "Merge conflict in file.txt Automatic merge failed; fix conflicts and then commit the result."
+
+- The file now looks like this:
+
+    ```
+    <<<<<<< HEAD    
+    I love free software!
+    =======
+    I <3 open source!
+    >>>>>>> B
+    ```
+
+- Manually solving the conflict. The result can then be committed: 
+
+    ```
+    I love open source!
+    ```
+
+The much better solution is obviously trying to not create conflicts at all. This requires a rigorous workflow if more than two people are involved in the project, but can be summed up as:
+
+- Commit early!
+- Push often
+- Pull regularly
+
+
+There are many ways to deal with this in bigger projects; they are outside the scope of this introduction. 
+However, when using a '1-branch-per-collaborator' model this problem is partly remedied. If everyone always only pushes to their own branch, there should not be any surprising changes. 
+Similarly, a '1-branch-per-topic' model ensures that this is not a practical problem by just first pushing to a *new* remote branch (with the name of the topic), and subsequent changes into the same one.
+
+Finally, this example shows one the advantages of web interfaces like GitHub: When a 'Merge Request' is created, it is automatically checked for conflicts. 
+If there are none, the merge can happen directly on the server, so the result can simply be pulled without handling a merge.
+
+
+
+# Appendix
+
+## License
+
+This publication and all related software 
+is 'free and open source', 
+licensed under the *MIT License*: 
+
+> Copyright (c) 2013 Max F. Albrecht
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+
+<!-- print-only -->
+\vfill
+\pagebreak
+
+## Colophon
+
+
+Made with:
+
+- `papermill`
+- [TextMate 2](http://macromates.com)
+- **`git`**
+- [Tower](http://www.git-tower.com)
+- [BibDesk](http://bibdesk.sourceforge.net)
+- [Marked](http://markedapp.com)
+- [netspeak](http://www.netspeak.org)
+- [GNU aspell](http://aspell.net)
+
+Published using fonts from Adobe, released under an open source license: 
+[[-@url:adobeblogsans]]
+
+- Source Sans Pro
+- `Source Code Pro`
+
+<!-- print-only -->
+\vfill
+\pagebreak
+
+
+## Acknowledgments
+
+[NTS](http://nts.is), for having the confidence to write a 193-page dissertation using a very early prototype.
+The [Kunst-Technik-Einheit](http://kte.is) staff. 
+Everybody at [MR](http://maschinenraum.tk), for providing a space where ideas like this can grow; jd, marv, eick et. 
+al. 
+for listening to my ramblings. CC for sponsoring this. 
+[Richard Stallman](http://www.stallman.org), for basing a religion-like ideology on the idea that software should be free (as in freedom, not as in free beer). 
+The [Open Source Initiative (OSI)](https://en.wikipedia.org/wiki/Open_Source_Initiative),  for establishing the more marketable term 'open source' (which can be understood without bringing up beer). [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) for creating **`TeX`** etc.. 
+[Linus Thorvalds](https://plus.google.com/+LinusTorvalds), for creating and maintaining **`Linux`** and **`git`**. 
+Chris Wanstrath, Tom Preston-Werner and PJ Hyett, for [founding GitHub](http://tom.preston-werner.com/2011/03/29/ten-lessons-from-githubs-first-year.html) and exposing the world to **`git`** through a world-class service. 
+[John Gruber](http://daringfireball.net), for the original *Markdown* specification. 
+[John MacFarlane](http://johnmacfarlane.net), for `pandoc`, its *Markdown* extensions and related software. 
+[Brendan Eich](http://brendaneich.com), for creating `JavaScript`. 
+[Ryan Dahl](https://github.com/ry) for creating `node.js` and [Isaac Z. 
+Schlueter](http://izs.me) at Joyent for keeping it running. 
+Lakshan 'laktek' Perera, for his software ["`punch`"](https://github.com/laktek/punch), which convinced me to learn `js` and `node` for this project. 
+[Jeremy Ashkenas](https://twitter.com/jashkenas), for [`underscore`](http://underscorejs.org), [`docco`](http://jashkenas.github.io/docco), etc. 
+Everyone from the `node.js` community, especially [nodejitsu](https://www.nodejitsu.com), for [`flatiron`](http://flatironjs.org) and all the other modules. **`<3`** 
+
+
+
+<!-- print-only -->
+\vfill
+\pagebreak
+
+
+## References
+
+<!-- automatically inserted on output -->
+
+
+> Manual.md
+
+% Papermill: **Manual**
+% Max F. Albrecht
+% Bachelor Thesis, \
+  Bauhaus-Universität Weimar, \
+  2013
+
+
+# The (anti-)framework
+
+![`papermill` 'software stack' in comparison](../_images/papermill-stack-1)
+
+`papermill` aims to be a modular, decoupled framework.
+
+In software, a ['framework'](https://en.wikipedia.org/wiki/Software_framework) is an abstraction which solves a general problem in a reusable way. 
+
+A 'modular' framework consists itself of
+components which are also useful by themselves (and could already be existing), along with additional 'glue' software to better integrate them.
+
+Being 'decoupled' means that the framework should still be useful if
+a user uses only some of its components, and that it should be relatively easy to 
+change them for different ones.
+
+For example, someone already writing in **`TeX`** does not have to use the 
+*Markdown* syntax and still can take advantage of the configuration and automation, 
+although e.g. the web output might not work as expected.
+
+
+## A quick Walkthrough
+
+This *Manual* should explain all the steps necessary to produce 
+a publication with `papermill`.
+
+It covers the following steps:
+
+-  **SETUP**: start your project
+
+    * Manually or from template ("Stationery")
+    * Get to know the project (folder) structure  
+
+-  **INPUT**: write content
+
+    * Text: *Markdown* / `pandoc`
+    * Assets: images, figures, bibliography
+
+-  **OUTPUT**: output your content
+
+    * Web -> `HTML`
+    * Print -> `LaTeX`
+
+
+
+# Setup
+
+
+> "SIE HABEN RECHT - UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"[^fn-schreibzeug]
+>
+> — *Friedrich Nietzsche writing on an early typewriter, 1882* [[-@Nietzsche:schreibzeug]], quoted after [@stingelin:schreibzeug, p. 304]
+
+[^fn-schreibzeug]: *English:* "YOU ARE RIGHT - OUR WRITING TOOLS COLLABORATE ON OUR THOUGHTS"
+
+## Project
+
+`papermill` is, at its core, a formalized project structure and configuration.
+
+<!-- These are the elements you need to know about. It might seem complicated, but most of it is only needed for more complicated projects. -->
+
+You can start your own project from a [**Stationery**](https://github.com/papermill/Stationery) 
+– pre-configured [templates] that include everything mentioned here. There are several types to choose from, like 'Simple' (most basic) and 'Paper' (for scientific work).
+
+[templates]: <https://en.wikipedia.org/wiki/Scaffold_(programming)>
+
+
+
+The basic rules are very simple:
+
+* every **'project'** has its own folder
+* there is one **'configuration'** file
+* there is at least one **'document'**, in the folder and the configuration
+
+```
+    Project/
+    ├── document.md
+    └── papermill.json
+        └─> { "input": "document.md" }
+```
+
+
+## Document
+
+**'Documents'** contain the textual content of your project. \
+They are plain text files, formatted in *Markdown*.^[and encoded in 'UTF-8', also known as 'Unicode'] 
+
+For more flexibility while writing, a document can also be its own **folder**. 
+All *Markdown*-files in it will be combined
+into one single document, in alphabetical order.
+
+Practically, this means that you can just start writing new chapters whenever you want, and take care about their order later on, just by renaming the files. \
+A good idea is to simply use a "`number`-*" prefix.
+
+```
+    Project/
+    ├── Text/
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    └── papermill.json
+        └─> { "input": "Text" }
+```
+
+While writing, any other files or folders in the project directory will not be considered as input.
+
+For example, unfinished chapters could be stored in a `Drafts/` folder.
+
+```
+    Project/
+    ├── Drafts/
+    │   └── an-unfinished-chapter.md
+    ├── Text/
+    │   ├── 1-intro.md
+    │   ├── 2-a-chapter.md
+    │   └── 3-another-chapter.md
+    └── papermill.json
+        └── > { "input": [ "Text" ] }
+```
+
+A project can also have more than one document as input. \
+This can for example be used to produce different parts of a dissertation which should be printed separately.
+
+Their *content should be related*, otherwise they would be two different projects.
+
+The following configuration would also produce a separate output from the `Drafts/` folder in order to preview it: 
+
+```
+    Project/
+    ├── Drafts/
+    ├── Text/
+    └── papermill.json
+        └── > { "input": [ "Text", "Drafts" ] }
+```
+
+**Important:** Any further sub-folders inside an 'input' folder should be avoided. 
+
+Files in them will not be combined, but it is generally  not a good idea to move source files between different 'depths' of folders if there are images in them (see the chapter on *[Assets]*).
+
+In the above example, moving the unfinished chapter to the `Text/` folder would not cause any problems because they both have the same 'depth'.
+
+
+## Configuration
+
+The **configuration** file is the second most important part of any project. \
+It contains all the information *about* the project needed to produce 'output'.
+
+It is also a text file, but encoded in [`JSON`](http://www.JSON.org/), 
+"a lightweight data interchange format. [`…`] It is readable by humans and machines [and] easy to use." [@guide:goodparts, p. 136]
+
+
+In general, the configuration lists the following items:
+
+- **Meta-data** about the publication
+- **Input**: One or more document's sources
+- **Output**: How to output the 'input' for web and print.
+
+A simple example looks like this:
+
+````js
+    {
+      "input": "doc.md",
+      "output": {
+          "web": false,
+          "documentclass": "article"
+      }
+    }
+````
+
+Again, it is recommended that you choose a `papermill` Stationery to start of your project, as it comes with a matching configuration file. 
+
+The detailed description of the configuration file is available in the Chapter *[`mill`]*, Section [`papermill.json`].
+
+
+## Text editor
+
+As we already have established[^fn-semanticwrite], we don't want to use a word processor because we are working with plain text.
+
+[^fn-semanticwrite]: see *Semantic Writing* chapter in the **Introduction**
+
+Generally, we can distinguish between different kinds of text editors: 
+
+a) the very minimalistic editors, with limited functionality, like the ones that ship 
+with an operating system (like *Windows*' `Notepad.exe` or *Apple*'s `TextEdit.app`).
+b) **`IDE`**s, integrated development environments
+
+Of course, there also exists every gradation in between those two. 
+
+Some of these editors already have some support for *Markdown*. They 'understand' the basic syntax of the formatting language, which enables them to offer features 
+known from programming languages:
+
+- *Syntax highlighting:* Making the plain text source more **readable** by using colors, font sizes, etc. to visualize the relation of syntax and text. Also helps to **spot errors** in the syntax more quickly (and, after getting used to it, almost intuitively)
+
+- *Shortcuts:* Offer quicker way to type the syntax. Although with *Markdown* the syntax is as minimal as possible, they still can be of great help. 
+
+Recommendations: 
+
+- [`TextMate`][tm] (Mac, 'open source')
+- [`SublimeText`][st] (Mac, Windows, Linux; not 'open source' but friendly)
+
+[tm]: http://macromates.com
+[st]: http://www.sublimetext.com
+
+These both have the ability to be extended with 'bundles', and already ship with a '*Markdown* bundle' built-in.
+
+(Like other text editors that have support for *Markdown*, they 
+only know about the basic syntax, so some extension to it will not be properly highlighted.)
+
+## `git`
+
+See the *Versioning* chapter in the **Introduction** for 
+an overview of the concepts and terms that you should know 
+when working with git.
+
+It is generally not recommended to track 'generated content' with **`git`**, 
+if that content is generated from sources that are already tracked. 
+Not only does it needlessly increase the size of the repository, 
+it is also a source of confusion since all merge conflicts have to be solved 
+two times, once for the source and again for the result.
+
+**`git`** can **ignore** files that should not be tracked, for this or any other reason. This is configured in a **`hidden file`** named ['.gitignore'](http://git-scm.com/docs/gitignore). 
+Again, when using a `papermill` Stationery, this is already taken care of.
+
+
+### Automatic committing
+
+If you don't want to commit manually, there are two software tools that can
+generate a commit message with as much info as you want and can get out of the computer you are working on.
+
+Both can also be set up to work *in the background*. 
+This is very useful for novel users, since they don't have to interact with the version control system at all. 
+It could also be used by advanced users who want to send a steady 'stream' of their work into their own 'live' branch, integrating a sum of those later on.
+
+*Installation and usage instructions are available at the project's own sites.*
+
+-  [`flashbake`](http://bitbucketlabs.net/flashbake/) – commissioned by Cory Doctorow and written by Thomas Gideon.
+
+    *  User friendly, written in the `python` programming language
+    *  Extendable with (`python`) plugins
+    *  Runs on `Linux` (well) and `Mac OS X` (manual work needed) 
+
+- [`git-o-mat`](https://github.com/papermill/git-o-mat) – inspired by `flashbake`, and yet another `papermill` prototype
+
+    *  Very simple, written as a `shell` script
+    *  Extendable with your own scripts (for message generation)
+    *  Runs well on `Linux` and `Mac OS X`
+
+### Hooks
+
+**`git`** can help with managing some automation 
+by using [**hooks**](http://git-scm.com/book/en/Customizing-Git-Git-Hooks) to run commands when git does certain actions, for example committing.
+
+Hooks are small (executable) scripts that reside inside a git repository, under **`.git/hook/$action`**, 
+where `$action` is a known hook.
+
+In the the context of `papermill`, there are two particularly useful hooks:
+
+post-commit
+:   can be used to run a command after every commit.
+    
+    *Example:* a `.git/hooks/post-commit` compiling the output
+
+    ```
+    #!/bin/sh
+    mill output .
+    ```
+
+pre-commit
+:   as the name implies, this script is run *before* every commit. Furthermore, if it returns an error, committing is **aborted**!
+
+    Using the `post-commit` example as a `pre-commit` 
+    hook would ensure that no data can be committed 
+    that would *not build an output* (but also adds
+    a considerable delay before the commit happens).
+
+
+# Input
+
+
+## Document Structure
+
+A very generic structure. Not all publications use all of the elements.
+
+- Titleblock/-page
+    * Title
+    * Author
+    * Date
+
+- Front Matter
+    * Table of Contents
+    * Imprint
+    * Abstract
+    * etc.
+
+- **Document Content**
+    * Chapters
+        * Sections, Subsections
+            * Text
+
+- Appendix
+    * Bibliography
+    * List of images/figures
+    * Colophon
+    * Acknowledgments
+    * Affidavit
+
+
+The most important of those can already be expressed with syntax, for example the titleblock (for which the supplied meta-data is used). 
+Headings of different levels divide the document into chapters, sections etc; 
+and a 'Table of Contents' is generated automatically from this organization.
+
+Similarly, if citations are marked correctly, a list of references is inserted at the end of the document.
+
+<!-- The rest of the front matter can to date
+
+a) either be created using **`TeX`**
+b) by starting the document with a second-level heading before any top-level heading ('Chapter 0') -->
+
+*Sources and further reading: [@ziemann:formalia, p. 13], [[@wikib:tex:struct]]*
+
+<!-- print-only -->
+\vfill
+\pagebreak
+
+
+##  Markdown
+
+> "The typewriter will alienate the hand of the man of letters from the pen only when the precision of typographic forms has directly entered the conception of his books.  
+> One might suppose that new systems with more variable typefaces would then be needed. 
+> They will replace the pliancy of the hand with the innervation of commanding fingers." 
+> — Walter Benjamin [@benjamin:teaching, Lines 12-13]
+
+The *Markdown* syntax aims to be easy to learn, type and read for humans.
+Most of the text is simply plain text, but any kind of formatting is also entered as text, using various symbols. Many of them should seem familiar from the conventions used in plain text emails.
+
+The following is based on 
+John Gruber's original "*Markdown*: Basics" [[-@url:gruber:mdbasic]] and
+John MacFarlane's "Pandoc User’s Guide" [[-@url:pandoc:guide]].
+
+*Note:* Some things can be written in more than one way in *Markdown*. To be more concise, only a carefully chosen subset of the allowed syntax is described.
+
+
+
+<!-- TODO: definition list, hrules, tables -->
+
+
+### Text Formatting
+
+
+The basic text formatting syntax works with words and phrases.
+
+*Note:* Every description has short example, 
+which is followed by how it would output *in this document* (preceded by an "`=>`").
+
+#### Emphasis
+
+To emphasize a phrase, put **`*`** *(asterisk)* symbols directly around it
+
+`this *word* is important` \
+`=>` this *word* is important
+
+
+#### Strong Emphasis
+
+To strongly emphasize a phrase, put 2 **`*`** *(asterisk)* symbols directly around it
+
+`this **word** is more important` \
+`=>` this **word** is more important
+
+    
+#### Strikeout
+
+To strike a phrase out, put 2 **`~`** *(tilde)* characters before and after it
+
+`this ~~word~~ is striked out` \
+`=>` this ~~word~~ is striked out
+
+#### Subscript, Superscript
+
+- to put a phrase into superscript, put a **`^`** *(caret)* character before and after it
+- for subscript, use the **`~`** *(tilde)* character
+
+`H~2~O is a liquid.  2^10^ is 1024.` \
+`=>` H~2~O is a liquid.  2^10^ is 1024.
+
+
+#### Verbatim
+
+To set a verbatim phrase, for example short example code or names of programs, put a **`` ` ``** *([backtick])* character directly around it (two of them if the enclosed text itself contains a backtick).
+
+```less` is more`` \
+`=>` `less` is more
+
+Inside a verbatim phrase, **no other syntax is interpreted**! \
+This is especially important when something needs to be written 
+that could also be interpreted as *Markdown*, HTML or LaTeX:
+
+**Bad:** 
+
+``In HTML, there is a <blink> tag.`` \
+`=>` In HTML, there is a tag.
+
+**Good:** 
+
+``In `HTML`, there is a `<blink>` tag.`` \
+`=>` In `HTML`, there is a `<blink>` tag.
+
+
+[backtick]: https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming
+
+#### Nesting Text Formatting
+
+Nesting of most test formatting is easily possible, 
+but may show unexpected results in certain cases.
+
+Special care should be given to spaces: there should be **none** between a formatting character and the enclosing text.
+
+Furthermore, since no *Markdown* is interpreted inside a 'verbatim' text, there is no possibility to
+emphasize parts of it. 
+
+A good strategy to deal with both cases is to break down the the phrases into smaller components.
+
+```
+**`H`**`yper` ***`T`****`ext`* **`T`**`ransfer ` **`P`**`rotocoll`
+```
+
+`=>` **`H`**`yper` ***`T`****`ext`* **`T`**`ransfer ` **`P`**`rotocoll`
+
+
+### Document Structure Elements
+
+Also called 'block elements', because they form their own 'block' of content.
+They have to be *preceded and followed by a blank line*, so that they are set apart from the rest of the text. 
+This also increases the clarity of the *source*, especially because block elements can be nested (see *"nesting elements"*).
+
+*Note:* There are examples for every block element. 
+For the most important of them, example output for print (using a default **`LaTeX`** template) and web (using the '`bookstrap`' template). 
+Naturally, there are small differences between the original web output and how it is reproduced in print (background colors, for example).
+
+
+#### Paragraph
+
+A paragraph is any text, **followed by a blank line** (because it is a 'block element'). \
+All line breaks inside a paragraph are **ignored**!
+
+```
+This is a paragraph.
+
+This is the next paragraph.
+```
+
+How *Markdown* handles paragraphs and line breaks might be the most alienating thing 
+about it. It takes some getting used to, but increases flexibility while writing because 
+line breaks can be inserted to break long lines in the source, without effecting the output.
+
+```
+This is all 
+just one 
+paragraph.
+
+This is the next paragraph.
+```
+
+Conversely, this doesn't work for specific kinds of text, where line breaks are important. \
+To **force a line break**, end the line with a **`\`** *(backslash)* character. For example, this [poem]:
+
+```
+Roses are red, \
+Violets are blue, \
+Sugar is sweet, \
+And so are you.
+```
+
+[poem]: https://en.wikipedia.org/wiki/Roses_are_red
+
+
+#### Heading
+
+A heading is created by a line starting with one or more **`#`** *(hash)* characters. The number of hashes denotes the heading's **level**.
+
+
+```
+# Top-Level Heading
+
+Some text.
+
+## Second-Level Heading
+
+More text, where I write about hashtags. For example, 
+#OccupyWallStreet is just text, NOT a heading
+```
+
+![Output of 'heading' example (print, web)](../_images/markdown_examples/figures/heading)
+
+#### Unordered List
+
+Bullet-point lists are one or more lines starting with a **`-`** (minus) character
+
+*Simple:*
+
+```
+    A list:
+
+    - lists
+    - some
+    - things
+```
+
+*With sub-elements (see* ***'nesting elements'****):* 
+
+```
+    A nested list:
+
+    - first item
+    - this item
+        - has subitems
+        - which are intended
+        - with 4 spaces
+    - last item
+```
+
+![Output of second 'list' example (print, web)](../_images/markdown_examples/figures/list-ul)
+
+
+#### Ordered List
+
+When the order of the items in the list matters, they can be numbered.
+
+Ordered lists are one or more lines starting with a `number` and a **`.`** (period) character
+
+```
+    A numbered list:
+    
+    1. lists
+    2. some
+    3. things
+```
+
+![Output of 'ordered list' example (print, web)](../_images/markdown_examples/figures/list-ol)
+
+
+#### Figure
+
+A line of text with only an *'image'* (see above) is interpreted as a 'figure'. 
+This means it will be a separate, centered, document element.
+More importantly, the image description is used as the 'caption'.
+In print, they will also be numbered chronologically throughout the document.
+
+```
+![Figure caption](/path/to/image.jpg)
+```
+
+*Note:* To insert a separate picture, without turning it into a figure, 
+for example when including a logo, insert a 'invisible whitespace' before it, like this (see *'escaping'*):
+
+```
+\ ![This is not a figure](/path/to/image.jpg)
+```
+
+
+#### Blockquote
+
+For larger citations, start each line with a **`>`** *(greater-then)* character, just like in an email:
+
+```
+One of my favorite quotes:
+
+> "Most quotes you find on the internet 
+> are wrongly attributed." 
+> 
+> — *Oscar Wilde*
+```
+
+![Output of 'blockquote' example (print, web)](../_images/markdown_examples/figures/blockquote)
+
+
+#### Code Block
+
+Like the *'verbatim'* text formatting, but in a block. \
+There are two ways to achieve this:
+
+1. Indent every line by 4 spaces: 
+
+```
+        Some `BASIC` code:
+
+            10 PRINT "Hello World"
+            20 GOTO 10
+
+        More text.
+```
+
+2. *Or* put a "fence" of (at least) 3 backticks around it. 
+   With this syntax, a language can optionally be specified (for syntax highlighting), 
+   by writing it after the opening line of backticks: 
+
+``````
+    Some `JavaScript` code:
+
+    ```js
+    var form = function (content) {
+      follow(content);
+    };
+    ```
+
+    More text.
+``````
+
+![Output of 'code fence' example (print, web)](../_images/markdown_examples/figures/code-fence)
+
+
+### Nesting Elements
+
+Block elements can contain other block elements.
+
+Each nested element has to be **indented by 4 more spaces** than the parent block.
+
+```
+A nested list:
+
+- A paragraph in a list.
+
+    Another paragraph belonging to the first item.
+
+- Another paragraph.
+
+    - The second list item
+    - contains itself
+
+        > "A blockquote inside the second list."
+    
+    - another list
+
+- Last paragraph.
+```
+
+![Output of 'nesting elements' example (print, web)](../_images/markdown_examples/figures/nesting)
+
+
+### Special Elements
+
+
+#### Links
+
+A **link** consists of two units: a **target** and an **anchor**. 
+The target is the link's destination and the anchor which is the part of the document that 'links' to the target. 
+
+In a web browser, a user clicks the anchor to navigate to the target.
+
+##### Plain
+
+The most simple link is just the target in **`<>`** *(pointy bracket)* characters. 
+
+```
+A full link to <http://example.com>.
+```
+
+##### Inline
+
+The anchor is put into **`[]`** *(square bracket)* characters, followed directly by the target, enclosed in **`()`** *(parentheses)* characters, like this: `[anchor](target)`
+
+```
+Some text [linking somewhere else](http://example.com).
+```
+
+##### Reference-style
+
+For a more readable source, the *target* can also be put separately. 
+The *anchor* still needs to be put in square brackets and be repeated later, 
+followed by an **`:`** (colon) and the link.
+A different name can be given to an *anchor*
+by writing directly after it, also in square brackets:
+
+```
+A sentence with [lots] of [links] would [become unreadable][ugly] quickly.
+
+[lots]: http://example.com
+[links]: http://example.com/link
+[ugly]: http://example.com/ugly
+```
+
+##### Internal Links
+
+All 'headings' are automatically recognized as targets, 
+so a reference-style link can be constructed without declaring them outside of the heading themselves (if the heading is to long, an ID can also be declared manually, see *'Attributes'*).
+
+```
+## Section on Semantics
+
+Some Text, referring to [the other section][more].
+
+## Another Section {#more}
+
+For more information, see the [Section on Semantics].
+```
+
+
+#### Image
+
+Images can be inserted anywhere in the text. The syntax for images is the same as links, but with a **`!`** *(exclamation mark)* character preceding the anchor. Also see: **figure**.
+
+- Text inside the anchor is used as the image description
+- He target denotes the path to the image
+- Images can have the following formats: 'JPG', 'GIF, 'PNG'
+- The description will only be visible if the image is a *figure*
+
+*Careful:* The image files need to be inside the project folder, see the section on *'[Assets]'* for more information.
+
+```
+Text with image ![Image Description](/path/to/image.jpg) inside.
+```
+
+*or*
+
+```
+Text with image ![Another Image][picture-id] inside.
+
+[picture-id]: /path/to/image.jpg
+```
+
+
+#### Footnote
+
+Footnotes almost look like reference-style 'links', but the anchor has to start with a **`^`** *(caret)* character.
+
+```
+This is some text.[^footnote] And more text.[^another-fn]
+
+[^footnote]: With a footnote.
+[^another-fn]: And another footnote.
+```
+
+![Output of 'footnote' example (print, web)](../_images/markdown_examples/figures/footnote)
+
+
+#### Citation
+
+The syntax for citations is also quite simple: 
+just an identifier for the cited item, 
+preceded by an **`@`** *([at-sign])* character.
+
+A list of references will be automatically inserted at the end of a document, 
+but you have to include a 'heading' yourself, as shown in the example.
+
+However, a 'database' of all your literature is needed to find the item referred to by the identifier. Moreover the desired 'style' for the citations differs
+between publications. 
+For more information, see the the section on *[Assets]*.
+
+
+```
+Some text [see @a:book, p. 1-5; also @b:article, ch. 1].
+
+## References
+```
+
+![Output of 'citation' example (print, web)](../_images/markdown_examples/figures/citation)
+
+
+[at-sign]: https://en.wikipedia.org/wiki/At_sign
+
+
+### Comment
+
+Comments can be written in the **`HTML`** syntax by enclosing text between 
+**`<!--`** and **`-->`**.
+
+They are not visible in any 
+output format and can be used anywhere in the document.
+
+```
+<!-- A comment. It will NEVER be printed. -->
+
+The weather was <!-- not --> good. 
+
+<!--
+this complete
+paragraph is
+ignored!
+-->
+````
+
+### Escaping
+
+Although the punctuation characters used in the *Markdown* syntax are carefully chosen 
+to not have unintended side effects, it still can happen sometimes.
+
+The solution in those cases is to use a technique called 'escaping'. 
+By putting a `\` *(backslash)* in front of any character, 
+it will NOT be interpreted as *Markdown*.
+
+(We have already seen an example of this in the *paragraph* section: 
+Ending a line with a backslash does actually 'escape' the linebreak!)
+
+*Example:* How to write words with \*stars\* but no emphasis?
+
+*Solution:* `How to write words with \*stars\* but no emphasis?`
+
+
+### Attributes
+
+**ADVANCED TOPIC!** \
+*If you don't understand this, don't worry – you'll probably don't need it.*
+
+Attributes (meta-data) can be added to heading and code block elements.
+These are useful when customizing the project, especially when working with the `HTML` output. 
+In the simplest form, they can be used to style these elements visually, 
+but the possibilities are endless.
+
+Attributes are written inside **`{}`** *(curly braces)* at the end of the elements' first line.
+
+**ID**
+:    set the `id` of an element. \
+    Headers always have an `id`, if it is not defined it will be auto-generated.
+
+    ```
+    # Heading {#my-id}
+    ```
+    
+    results in the following `HTML`:
+    
+    ```
+    <h1 id="my-id">Heading</h1>
+    ```
+    
+
+**class**
+:   add a class to an element
+    ```
+    # Heading {.my-class}
+    ```
+    
+    results in the following `HTML`:
+    
+    ```
+    <h1 id="heading" class="my-class">Heading</h1>
+    ```
+    
+
+**general attribute**
+:    with an optional value
+
+    ```
+    # Heading {my-attribute=value}
+    ```
+
+    results in the following `HTML`:
+    
+    ```
+    <h1 id="heading" my-attribute="value">Heading</h1>
+    ```
+
+
+
+
+
+
+## Assets
+
+Assets are all files that are needed to output a publication 
+other than the text source.
+
+In order to keep a project 'portable', all assets need to reside 
+inside the project folder, otherwise it might only be compiled on 
+the computer it was created. For the same reason, 
+**all** assets need to be declared using a **relative path**. 
+(See [Images] for an example).
+
+If version control is used, this also ensures that all assets are 
+tracked and all collaborators have access to them. 
+
+*Note:* Because the assets may also be created using software, 
+they could have a 'source' themselves: 
+An image created in *Photoshop* would have a source '`.psd`' file 
+and a resulting '`.jpg`' image.
+
+As mentioned in the [`git`] section, generated content should not be committed. 
+How this applies to generated assets as well depends on the context 
+of the project. In any case only the sources **or** the results should be tracked.
+
+- If the assets are fairly static, or are the responsibility of either a 
+  single collaborator or someone outside the project, the results can be
+  committed. 
+  
+- If the **production** of the assets should happen **collaboratively**, 
+  their sources should be committed. This requires that all 
+  collaborators have *access to the software* producing the results, 
+  which could be a problem when using commercial software. Also, 
+  a mechanism must be in place so that the assets are *re-generated* 
+  every time the sources change.
+  
+- In more complex cases, a [separate repository](http://git-scm.com/book/en/Git-Tools-Submodules) 
+  for handling the assets could be created and the generated assets published elsewhere.
+
+
+
+### Images
+
+Images need to be linked with a 'path' **relative** to the document!
+
+That means it should not start with a full path, like `C:\`, `/Users/foo/` or `/home/foo/`.
+
+Two dots (**`..`**) in a path mean 'go up one directory'.
+
+*Example:* The relative path from the document to the image is **'`../figures/image.jpg`'**
+
+```
+    Project/
+    ├── figures/
+    │   └── image.jpg
+    ├── Text/
+    │   ├── document.md
+    (...)
+```
+
+Supported Formats:
+
+- `JPG`, `GIF`, `PNG`
+
+There are 2 additional vector formats only supported by either print or web targets: 
+
+- `PDF` can be used in print
+- `SVG` can be used in web
+
+If print and web outputs should be created from the same source, the `.pdf` or `.svg` extension has to be omitted from the 'path', like this: '`../figures/image`' **and** both versions must exist next to each other.
+
+```
+    (...)
+    ├── figures/
+    │   ├── image.pdf
+    │   ├── image.svg
+    (...)
+```
+
+If the creation of `SVG` images is not possible, it is recommended to use (non-vector) `PNG`, 
+together with the following configuration:
+
+```
+"web": {
+  "defaultImageExtension": "png"
+}
+```
+
+
+### Bibliography
+
+[References](https://en.wikipedia.org/wiki/Citation) 
+to external sources, like books and articles are a requirement 
+for many types of publications.
+
+As shown in the *[Markdown]* section, there is an easy syntax to 
+insert a reference anywhere in the text, using only an **identifier** 
+and an optional location, 
+like so: `See [@id, pp. 23-42]`.
+
+However, for this to work a **database**, storing the actual meta-data 
+pertaining to the identifier must exist, and be *configured* (`"bibliography": "foo.bib"`).
+
+The recommended database is [`BibTeX`](https://en.wikipedia.org/wiki/Bibtex) format, also commonly used in **`TeX`**. 
+
+Because it is already widely used, there are diverse (GUI) programs available for all 
+operating systems helping to maintain a `BibTeX` file. 
+
+If you are already using software to manage and organize your resources, support for `BibTeX` might already be built-in (for example [*Mendeley*](https://en.wikipedia.org/wiki/Mendeley)).
+
+
+The format has many idiosyncrasies, most of which are unfortunately shared by the GUIs. 
+They are beyond the scope of this manual, but the example used in 
+it can serve as starting point. It shows how to store the most commonly used types 
+of media, including how cross-reference them (e.g. an article *in* a book). 
+Moreover, since the `BibTeX` format is widely ambiguous, it shows a subset 
+which does *reliably work*.^[E.g. there is the media type 'electronic', 'URL' and 'webpage', which could be used for web sites as sources, but only 'electronic' does work with all flavors of **`TeX`**]
+
+*Example:* A `BibTeX` file with a **book**; an **article** inside that book ('incollection', note the 'Crossref'); an **'electronic'** resource; and a **'misc'** *(miscellaneous)* item to be used for anything else (like unpublished works).
+
+```
+@book{benjamin:street,
+  Author = {Walter Benjamin},
+  Publisher = {Penguin UK},
+  Title = {One-Way Street and Other Writings},
+  Year = {2009}}
+
+@incollection{benjamin:teaching,
+  Crossref = {benjamin:street},
+  Title = {TEACHING AIDS},
+  Year = {1928}}
+
+@electronic{ziemann:formalia,
+  Author = {Andreas Ziemann},
+  Title = {Eine kleine Einf{\"u}hrung in 
+    wissenschaftliches Arbeiten},
+  Url = {http://www.uni-weimar.de/medien/soziologie/
+    lehre/Wissenschaftliches_Arbeiten.pdf},
+  Urldate = {2013-08-07}}
+
+@misc{Nietzsche:schreibzeug,
+  Author = {Friedrich Nietzsche},
+  Howpublished = {KSB 6, Nr. 202},
+  Month = {02},
+  Title = {Letter to Heinrich K{\"o}selitz},
+  Year = {1882}}
+```
+
+#### Citation Style
+
+When a resource is cited with the correct syntax, 
+and the identifier is found in the database, 
+the reference will appear in the output according 
+to the **citation style**.
+
+Generally, citation styles differ between institutions, 
+and there are many variations.
+
+The most common distinctions are listing the references in 
+numerical order, or by author and date ('Harvard' or 'Chicago' style). 
+The latter is the default (when no style is explicitly configured).
+
+Luckily there is yet another established standard: 
+The [*Citation Style Language*](https://en.wikipedia.org/wiki/Citation_Style_Language), 
+defining them in a machine-readable way. 
+There are currently [over 6000 styles](http://zoteromusings.wordpress.com/2013/04/30/why-you-should-be-excited-there-are-6000-csl-styles/) 
+in the official collection, [though less than a thousand of them are unique, or 'independent' styles](http://pinux.info/csls_counter/). 
+The rest of them are almost-empty 'dependent' definitions of specific journals, declaring which of the 'independent' styles they use.
+
+
+- [Search and Download](http://zotero.org/styles) a style which suits your context (or is required by your institution)
+
+- There is also a [style browser and editor by *Mendeley* *(Beta Version)*](http://editor.citationstyles.org/about/)
+
+- The standards:
+      * numeric
+        * [IEEEE](http://zotero.org/styles/ieee-with-url) *(used in this document)*
+        * [DIN 1505-2](http://zotero.org/styles/din-1505-2-numeric)
+      * author/date
+        * [DIN 1505-2](http://zotero.org/styles/din-1505-2)
+        * [Harvard](http://zotero.org/styles/harvard1) ([German](http://zotero.org/styles/harvard7de))
+
+
+
+# Output
+
+
+
+## Print
+
+The 'print' output produces a PDF file suitable for printing, using (`Xe`)**`TeX`**.
+
+
+### Styling
+
+Apart from the class, the following ways to style your print output are supported. 
+These are also the settings used for this publication: 
+
+```
+"print": {
+  "class": "book",
+  "mainfont": "Source Sans Pro",
+  "monofont": "Source Code Pro",
+  "fontsize": "11pt"
+  "geometry": "a4paper, centering, bindingoffset=15mm",
+}
+```
+
+#### Document Classes
+
+These are the 3 most common document classes used in **`(La)TeX`**: 
+
+- Article
+- Report
+- Book
+
+An **article** is the most condensed output template. There is just a title block, followed by the content (including the optional table of contents).
+
+The **report** is the default class in `papermill`. It leaves more whitespace, reserving at least one full page for the title block, the table of contents, and part/chapter blocks each. 
+Output from this class is also suitable for reading on a screen, in case the 'web' version is not an option.
+
+The **book** class is like the report, but optimized for two-folded binding. It also repeats the name of the current chapter on the top of each page to help the reader navigate large documents.
+
+#### Font
+
+Using the **'\*font'** properties, you can select the exact name of any `TTF` or [`OpenType`](https://en.wikipedia.org/wiki/Opentype) font 
+installed on your computer.
+
+- `mainfont`: main body text
+- `monofont`: verbatim formatting, code blocks
+- `mathfont`: Math (formulas, symbols)
+
+The **'fontsize'** can be either 10pt, 11pt or 12pt.
+
+#### Geometry
+
+The available options for the **'geometry'** setting can be found in the corresponding [package documentation](http://www.ctan.org/pkg/geometry). They can be used together if the are separated 
+by a colon and a space, as in the example above. The most useful ones include: 
+
+- Paper sizes: `a4paper` *or* `a5paper` *or* `total={22.6cm, 32cm}`
+- Margins: `centering` *or* `marginratio=1:1` *or* `margin=2cm` or `top=2cm, left=2.5cm, right=3cm`
+- Binding offset: `bindingoffset=15mm`
+
+### Layout Adjustments
+
+The **`TeX`** systems are extremely powerful typesetting engines, 
+but nevertheless limited by the fact that they are software.
+
+While the program is aware of common typographical errors, 
+in absence of a human it has to rely on an internal system 
+based on 'penalty points' for the decision making, thus 
+can not always be *right*.
+
+The position of page breaks and other layout/whitespace problems 
+are among the most common issues. They can be solved quite easily 
+by taking advantage of the fact that plain **`(La)TeX`** commands 
+are allowed in the document source. 
+
+These commands only affect the print output, so while it does make the 
+source less media-agnostic, it does not cause any further problems.
+
+#### Page Break
+
+To force a pagebreak anywhere in the printed document, 
+enter the following two lines:
+
+```
+\vfill
+\pagebreak
+```
+
+The `\pagebreak` command's function seems self-evident, but it does not 
+have the same effect as one would expected from a word processor: 
+A page break *is* inserted, but the content on the page right before it 
+will be 'stretched' across the page via a (sometimes very) increased 
+line-height. 
+
+Conveniently, the `\vfill` command right before it 'fills' the vertical space before 
+the `\pagebreak`, so that the two commands together work as expected.
+
+
+## Extras
+
+### Additional Designs
+
+The **font** used in the default **`TeX`** template is called [Computer Modern](https://en.wikipedia.org/wiki/Computer_Modern), also available in `TTF` format. Useful in cases where additional elements need to be designed and the same font is desired. (Example: Title page for a letter-pressed cover)
+
+
+## Web
+
+Output for the 'web' is produced in **`HTML`** format, 
+styled with the `bookstrap` template.
+
+
+## `bookstrap`
+
+Source code and further information: \ `http://github.com/papermill/bookstrap`
+
+- Based on ['Bootstrap 3'](http://getbootstrap.com)
+- Build modern web browsers
+- Adheres to web standards
+- uses [`less` css](http://lesscss.org)
+    - small components
+    - configurable
+    - extendable
+- Focus on readability
+- Grid based on typographical em-units — adheres to layout and line length regardless of zooming
+
+
+## Styling
+
+Styling the web output is possible by using `CSS`.
+The generated markup has a semantic structure and allows easy styling.
+
+Additional attributes can be also added to elements in order to style them, see '[Attributes]' in the *[Markdown]* section.
+
+Finally, the generated markup can also be customized with [templates](http://github.com/papermill/pandoc-templates).
+
+If `CSS` is new to you, use Mozilla's documentation as a starting point: \
+`https://developer.mozilla.org/CSS`
+
+
+## Publishing
+
+
+The resulting HTML can be uploaded to any web host, 
+but is optimized to be shared via any other digital medium: 
+
+**All 'assets' (images, styles, fonts, etc) will be 'embedded' into the** **`HTML`** **file.**
+
+This means that it can be sent via USB drives, email, uploaded to a blog, content management system or file sharing service without 'breaking' them because of missing assets. 
+Otherwise, some files may not be copied along, or may not available due to the nature of the medium.
+
+
+This can be turned off in the configuration by setting `"selfContained": false` and should be done if publishing to a regular web server is planned, where links to the assets are known to work. Especially if fonts, styles or images are shared between multiple documents published to the same web host, the `selfContained` feature would cause needless re-downloading of files that could otherwise be in the browser's cache.
+
+
+Lastly, publishing a **`PDF`** file to the web is also an option, but it should be noted that the default settings in `papermill` are optimized for print purposes. 
+For example, links are represented as footnotes and there are no colors present other than black (except in images or syntax-highlighted code). 
+This be adjusted in the project configuration if desired.
+
+
+
+
+# `mill`
+
+`mill` is a *Command Line Utility* written in [JavaScript] using [node.js].
+
+It contains a *parser* (a module that can read and understand the configuration) 
+as well as an *compiler* (a module that outputs the document(s) according to their configuration) — 
+of course using `pandoc`.
+
+For installation instructions and more information, 
+see the current version of the [README](http://github.com/papermill/mill).
+
+
+[JavaScript]: https://en.wikipedia.org/wiki/Javascript
+[node.js]: http://nodejs.org
+
+
+## `papermill.json`
+
+### Input
+
+An 'input' is at least a **`path`** to at least one document.
+
+It can be just the **`path`** as a string:
+
+```js
+    "input": "document.md"
+```
+
+It can also be an object with more configuration:
+
+```js
+    "input": {
+      "title": "My Document",
+      "path": "document.md"
+    }
+```
+
+This object may also contain a 'list' of documents, which will be treated as sub-folders of the parent **`path`**:
+
+```js
+    "input": {
+      "path": "Texts",
+      "list": {
+        "First-Text.md", // => 'Texts/First-Text.md'
+        "Other-Text.md"
+      }
+    }
+```
+
+
+### Output
+
+The 'output' defines how the 'input' documents will be converted (*'compiled'*) to a **target** (a format suitable for reading).
+
+Again, a **`path`** needs to be given, but in this case it denotes a folder inside the project were the output files will be placed.
+
+
+```js
+    "output": "_output"
+```
+
+There are two default targets: 'print' and 'web'.
+They come with their own built-in settings, and can also be further configured. 
+For example, the 'print' option is configured to convert any links into footnotes, while they are untouched in the 'web' target.
+
+These are the default values used when nothing is configured:
+
+```js
+    "output": {
+      "path": "_output",
+      "web": true,
+      "print": true
+    }
+```
+
+That means that if one of the default targets is not wanted, it can be turned off by setting it to 'false'. 
+Moreover, any additional settings for one of those targets can be given in an object:
+
+```js
+    "output": {
+      "path": "_output",
+      "web": false,
+      "print": {
+        "mysetting": true
+      }
+    }
+```
+
+Because the document conversion is handled by `pandoc`, all its settings are supported (written a bit different, `--some-setting` becomes `someSetting`). 
+
+These are the most important settings (for a complete list, see [`pandoc`'s User Guide]()): 
+
+#### General Options
+
+`bibliography`
+:   path to bibliography file
+
+`csl`
+:   path to citation style
+
+`selfContained`
+:   include all assets in file *(web only)*
+
+
+#### Visual/Layout Options
+
+`toc`
+:   enable a 'Table of Contents'
+
+`smart`
+:   [smart] typography (`"foo"` => “foo”)
+
+[smart]: http://daringfireball.net/projects/smartypants/
+
+`normalize`
+:   normalize the whitespace
+
+`noHighlight`
+:   disable code syntax highlighting
+
+`highlightStyle`
+:   set syntax highlighting style
+
+`chapters`
+:   make chapters from top-level headings *(print only)*
+
+`numberSections`
+:   "Number section headings" *(print only)*
+
+
+#### Content Options
+
+`strict`
+:   just use the original *Markdown*
+
+`read`
+:   - Choose a *Markdown* flavor
+        * `markdown`: `pandoc`'s *Markdown*
+        * `markdown_strict`: original *Markdown*
+        * `markdown_github`: [GFM (GitHub flavored *Markdown*)][GFM]
+        * `markdown_phpextra`: original *Markdown*
+                                                      \
+    - *Or* build your own flavor: choose one as a base and enable or disable `pandoc` extension by adding them with a `+` or `-` sign
+        * `{markdown_flavor}+{extension}-{extension}`
+        * e.g.: `markdown_github+footnotes` for GFM with footnotes
+                                                      \
+    - *Or* define any other input format supported by `pandoc` (HTML, LaTeX, restructuredText, textile, MediaWiki, `…`)
+
+[GFM]: https://help.github.com/articles/github-flavored-markdown
+
+
+#### Customizing Output
+
+`template`
+:   use a custom **`pandoc`** [template](https://github.com/papermill/pandoc-templates)(!)
+
+`css`
+:   use a custom style sheet *(web only)*
+
+`includeInHeader`, `includeBeforeBody`, `includeAfterBody`
+:   include other files (untouched) before conversion
+
+`write`
+:   any output format supported by **`pandoc`**
+
+`variable`
+:   set template variables
+
+    * `author`
+    * `title`
+    * `date`
+    * `lang`
+    * `class` (=`documentclass`)
+    * `mainfont`, `sansfont`, `monofont`, `mathfont`
+    * `linkcolor`
+    * `urlcolor`
+    * `links-as-notes`
+
+
+### Defaults
+
+For reference, these are the complete **default settings**, general and for both targets: 
+
+```js
+    {
+      "path": "_output",
+      
+      "read": "markdown",
+      "standalone": true,
+      "selfContained": true,
+      "smart": true,
+      "toc": true,
+      "normalize": true,
+      "numberSections": true,
+      
+      "web": {
+        "write": "html5",
+        "sectionDivs": true,
+        "variable": {
+          "webfont": true,
+          "scripts": true
+        }
+      },
+      
+      "print": {
+        "class": "report",
+        "latexEngine": "xelatex",
+        "variable": {
+          "links-as-notes": true,
+          "verbatim-in-note": true
+        }
+      }
+    }
+```
+
+
+# Get involved
+
+As this manual shows, the `papermill` project is merely starting to be a complete solution for 'machine writers'.
+
+<!-- The rest of this chapter is a collection of ideas, which is supposed to show the direction I want to take with this project once it is released and **`open source`**.
+
+But people are much more important than ideas. --> If you like (parts of) this document and want the `papermill` to go on, *you, the reader* have to get involved.
+As with any open source project, there is a wide range of possible involvement, starting from just [simple feedback](mailto:papermill@178.is), to structured feedback in the form of bug reports and feature requests, writing and fixing documentation, design and software. Most of this can even happen from the comfort of your web browser.
+
+## Learning Resources
+
+(listed in ascending order of expected experience)
+
+- "Eloquent JavaScript" by Marijn Haverbeke [[-@guide:eloquentjs]]
+- "JavaScript Pocket Reference" [[-@guide:jspocket]]
+- "The Node Beginner Book" [[@guide:nodebegin]]
+- "The Idiomatic JS Styleguide" [[@url:idiomaticjs]]
+- "JavaScript: The Good Parts" by Douglas Crockford [[-@guide:goodparts]]
+- "Hands-on Node.js" [[@guide:nodehands]]
+- "Node: Up and Running" [[-@guide:noderun]]
+
+<!-- ## Challenges Ahead
+
+### all-in-one web interface
+
+- Combine the main tool chain into a single web app
+- be more opinionated than the framework to lessen complexity
+
+- *Collaboration*: check git for changes from collaborator and give warnings before merge conflicts can 
+
+- *Formatting management*: find/replace for markup of specific words
+    - check for consistency
+    - integrate the style guide into the editor (choose to mark up "strong emphasis" or even *'Fremdwort'*)
+
+
+### Translations
+
+Translating a book is no easy task. Even **`git`** can't really help us here, at least not in a straightforward, standard workflow.
+
+A quick look at the [repository of Scott Chacons book "Pro Git"](https://github.com/progit/progit), which was translated into more than 10 languages, reveals that just adding a new translation itself is easy enough. The ["README" states](https://github.com/progit/progit#translation): 
+
+> "If you wish to translate the book, [`…`] please put your translation into the appropriate subdirectory of this project, using the ISO 639 and send a pull request." [-@url:progitreadme, Lines 42-46]
+
+But the workflow for managing the *status* of these translation seems complicated. Either a lot of scripting or manual work. Let's ask them.
+
+### Editions
+
+[TODO]
+
+- mark parts of the document as
+    - only included in specified editions
+    - be excluded from specified editions
+
+
+### Even More
+
+- continuous integration
+ -->
+
+
+# Appendix
+
+## License
+
+This publication is 'free and open source', 
+licensed under the *MIT license*: 
+
+> Copyright (c) 2013 Max F. Albrecht
+> 
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+> 
+> The above copyright notice and this permission notice shall be included in
+> all copies or substantial portions of the Software.
+
+
+<!-- print-only -->
+\vfill
+\pagebreak
+
+## References
+
+<!-- List of References is inserted automatically
+     at the end of the document.
+-->
+
+
+> bibliography.bib
+
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for WORK at 2013-08-09 02:07:31 +0200 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@proceedings{knuth:questions,
+	Booktitle = {Notices of the AMS},
+	Date-Added = {2013-08-08 23:30:29 +0000},
+	Date-Modified = {2013-08-08 23:36:10 +0000},
+	Number = {3},
+	Title = {Notices of the AMS},
+	Volume = {49}}
+
+@book{guide:nodehands,
+	Author = {Pedro Teixeira},
+	Booktitle = {Hands-on Node.js},
+	Date-Added = {2013-08-08 19:01:12 +0000},
+	Date-Modified = {2013-08-08 19:01:42 +0000},
+	Publisher = {Leanpub.com},
+	Title = {Hands-on Node.js},
+	Year = {2012}}
+
+@book{guide:nodebegin,
+	Author = {Manuel Kiessling},
+	Booktitle = {The Node Beginner Book. A comprehensive Node.js tutorial},
+	Date-Added = {2013-08-08 18:57:18 +0000},
+	Date-Modified = {2013-08-08 18:58:31 +0000},
+	Publisher = {Leanpub.com},
+	Title = {The Node Beginner Book. A comprehensive Node.js tutorial},
+	Year = {2012}}
+
+@electronic{wikib:tex:struct,
+	Author = {Wikibooks},
+	Date-Added = {2013-08-08 09:14:34 +0000},
+	Date-Modified = {2013-08-08 09:17:13 +0000},
+	Keywords = {tex},
+	Title = {LaTeX: Document Structure},
+	Url = {http://en.wikibooks.org/wiki/LaTeX/Document_Structure},
+	Urldate = {2013-08-08},
+	Bdsk-Url-1 = {http://en.wikibooks.org/wiki/LaTeX/Document_Structure}}
+
+@electronic{ziemann:formalia,
+	Author = {Andreas Ziemann},
+	Date-Added = {2013-08-08 09:09:41 +0000},
+	Date-Modified = {2013-08-09 00:07:28 +0000},
+	Title = {Eine kleine Einf{\"u}hrung in wissenschaftliches Arbeiten},
+	Url = {http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf},
+	Urldate = {2013-08-07},
+	Volume = {3},
+	Year = {2009},
+	Bdsk-Url-1 = {http://www.uni-weimar.de/medien/soziologie/lehre/Wissenschaftliches_Arbeiten.pdf}}
+
+@electronic{blog:tpw:gitparable,
+	Author = {Tom Preston-Werner},
+	Date-Added = {2013-08-07 21:13:21 +0000},
+	Date-Modified = {2013-08-07 21:14:31 +0000},
+	Title = {The Git Parable},
+	Url = {http://tom.preston-werner.com/2009/05/19/the-git-parable.html},
+	Urldate = {2013-08-07},
+	Bdsk-Url-1 = {http://tom.preston-werner.com/2009/05/19/the-git-parable.html}}
+
+@misc{Nietzsche:schreibzeug,
+	Author = {Friedrich Nietzsche},
+	Date-Added = {2013-08-06 17:41:43 +0000},
+	Date-Modified = {2013-08-06 17:43:05 +0000},
+	Howpublished = {KSB 6, Nr. 202},
+	Keywords = {tocheck},
+	Month = {02},
+	Title = {Letter to Heinrich K{\"o}selitz},
+	Year = {1882}}
+
+@incollection{stingelin:schreibzeug,
+	Author = {Martin Stingelin},
+	Crossref = {Zanetti:Schreiben},
+	Date-Added = {2013-08-06 13:18:39 +0000},
+	Date-Modified = {2013-08-06 14:32:51 +0000},
+	Title = {"UNSER SCHREIBZEUG ARBEITET MIT AN UNSEREN GEDANKEN"}}
+
+@book{guide:jspocket,
+	Author = {David Flanagan},
+	Booktitle = {JavaScript Pocket Reference},
+	Date-Added = {2013-08-06 10:49:39 +0000},
+	Date-Modified = {2013-08-08 09:39:57 +0000},
+	Edition = {3},
+	Publisher = {O'Reilly Media, Sebastopol (CA)},
+	Title = {JavaScript Pocket Reference},
+	Year = {2012}}
+
+@book{guide:eloquentjs,
+	Author = {Marijn Haverbeke},
+	Booktitle = {Eloquent JavaScript. A Modern Introduction to Programming},
+	Date-Added = {2013-08-06 10:43:16 +0000},
+	Date-Modified = {2013-08-06 10:49:13 +0000},
+	Keywords = {javascript},
+	Publisher = {No Starch Press},
+	Title = {Eloquent JavaScript. A Modern Introduction to Programming},
+	Url = {http://eloquentjavascript.net},
+	Year = {2011},
+	Bdsk-Url-1 = {http://eloquentjavascript.net}}
+
+@book{chacon:progit,
+	Author = {Scott Chacon},
+	Date-Added = {2013-08-06 10:15:08 +0000},
+	Date-Modified = {2013-08-06 10:20:40 +0000},
+	Keywords = {git},
+	Publisher = {Apress},
+	Title = {Pro Git},
+	Url = {http://git-scm.com/book},
+	Year = {2009},
+	Bdsk-Url-1 = {http://git-scm.com/book}}
+
+@article{scott:typewriters,
+	Author = {Steve Ditlea},
+	Date-Added = {2013-08-05 17:24:53 +0000},
+	Date-Modified = {2013-08-05 17:28:00 +0000},
+	Journal = {{Inc.}, New York City},
+	Title = {An Apple On Every Desk},
+	Url = {http://www.inc.com/magazine/19811001/2033.html},
+	Year = {1981},
+	Bdsk-Url-1 = {http://www.inc.com/magazine/19811001/2033.html}}
+
+@electronic{url:pandoc:guide,
+	Author = {John MacFarlane},
+	Date-Added = {2013-08-02 10:37:57 +0000},
+	Date-Modified = {2013-08-03 12:45:02 +0000},
+	Title = {Pandoc User's Guide},
+	Url = {http://johnmacfarlane.net/pandoc/README.html},
+	Urldate = {2007-10-20},
+	Bdsk-Url-1 = {http://johnmacfarlane.net/pandoc/README.html}}
+
+@electronic{url:gruber:mdbasic,
+	Author = {John Gruber},
+	Date-Added = {2013-08-02 10:30:09 +0000},
+	Date-Modified = {2013-08-07 16:14:02 +0000},
+	Title = {Markdown: Basics},
+	Url = {http://daringfireball.net/projects/markdown/basics},
+	Urldate = {2013-08-02},
+	Bdsk-Url-1 = {http://daringfireball.net/projects/markdown/basics}}
+
+@electronic{url:adobeblogsans,
+	Author = {Paul D. Hunt},
+	Booktitle = {Source Sans Pro: Adobe's first open source type family},
+	Date-Added = {2013-08-02 08:30:53 +0000},
+	Date-Modified = {2013-08-02 08:32:22 +0000},
+	Title = {Source Sans Pro: Adobe's first open source type family},
+	Url = {https://blogs.adobe.com/typblography/2012/08/source-sans-pro.html},
+	Urldate = {2012-08-02},
+	Bdsk-Url-1 = {https://blogs.adobe.com/typblography/2012/08/source-sans-pro.html}}
+
+@incollection{giuriato:maschinen,
+	Author = {Davide Giuriato},
+	Crossref = {Zanetti:Schreiben},
+	Date-Added = {2013-08-01 19:44:04 +0000},
+	Date-Modified = {2013-08-01 19:44:38 +0000},
+	Title = {Maschinen-Schreiben}}
+
+@book{benjamin:schriften,
+	Author = {Walter Benjamin},
+	Booktitle = {Gesammelte Schriften},
+	Date-Added = {2013-08-01 19:40:42 +0000},
+	Date-Modified = {2013-08-01 19:43:07 +0000},
+	Editor = {Theodor W. Adorno and Gersholm Scholem and Rolf Tiemann and Hermann Schweppenh{\"a}user},
+	Publisher = {Tillmann Rexroth, Frankfurt am Main},
+	Title = {Gesammelte Schriften},
+	Volume = {IV/1},
+	Year = {1972}}
+
+@incollection{benjamin:teaching,
+	Crossref = {benjamin:street},
+	Date-Added = {2013-08-01 19:35:53 +0000},
+	Date-Modified = {2013-08-01 19:40:22 +0000},
+	Title = {TEACHING AIDS (1928)}}
+
+@book{benjamin:street,
+	Author = {Walter Benjamin},
+	Booktitle = {Walter Benjamin},
+	Date-Added = {2013-08-01 19:31:25 +0000},
+	Date-Modified = {2013-08-01 19:35:47 +0000},
+	Publisher = {Penguin UK},
+	Title = {One-Way Street and Other Writings},
+	Year = {2009}}
+
+@electronic{wiki:framemaker,
+	Date-Added = {2013-08-01 11:40:10 +0000},
+	Date-Modified = {2013-08-07 16:14:24 +0000},
+	Title = {Adobe FrameMaker},
+	Url = {https://en.wikipedia.org/wiki/Adobe_Framemaker},
+	Urldate = {2013-08-01},
+	Bdsk-Url-1 = {https://en.wikipedia.org/wiki/Adobe_Framemaker}}
+
+@book{silverman:gitpocket,
+	Author = {Richard E. Silverman},
+	Booktitle = {Git Pocket Guide},
+	Date-Added = {2013-07-31 11:16:26 +0000},
+	Date-Modified = {2013-07-31 11:18:35 +0000},
+	Publisher = {O'Reilly Media, Sebastopol (CA)},
+	Title = {Git Pocket Guide},
+	Year = {2013}}
+
+@electronic{url:heisewikieditor,
+	Author = {Torsten Kleinz},
+	Date-Added = {2013-07-31 09:36:55 +0000},
+	Date-Modified = {2013-08-07 16:14:12 +0000},
+	Publisher = {{heise online}},
+	Title = {Neuer Wikipedia-Editor f{\"u}r alle},
+	Url = {http://heise.de/-1925045},
+	Urldate = {2013-07-31},
+	Bdsk-Url-1 = {http://heise.de/-1925045}}
+
+@electronic{url:progitreadme,
+	Author = {Scott Chacon and others},
+	Date-Added = {2013-07-30 14:32:05 +0000},
+	Date-Modified = {2013-08-07 16:13:55 +0000},
+	Title = {Pro Git: README.md},
+	Url = {https://github.com/progit/progit#translation},
+	Urldate = {2013-07-31},
+	Bdsk-Url-1 = {https://github.com/progit/progit/blob/ddbcf0ead7cbadcffaca12e1307eeeb8f02e5918/README.md#translation}}
+
+@book{graham:hackers,
+	Author = {Paul Graham},
+	Booktitle = {Hackers & Painters. Big Ideas from the Computer Age},
+	Date-Added = {2013-07-30 13:10:09 +0000},
+	Date-Modified = {2013-07-30 13:14:56 +0000},
+	Publisher = {O'Reilly Media, Sebastopol (CA)},
+	Title = {Hackers & Painters. Big Ideas from the Computer Age},
+	Year = {2010}}
+
+@book{guide:goodparts,
+	Author = {Douglas Crockford},
+	Booktitle = {JavaScript: The Good Parts},
+	Date-Added = {2013-07-22 12:28:57 +0000},
+	Date-Modified = {2013-08-06 10:47:23 +0000},
+	Keywords = {javascript},
+	Publisher = {O'Reilly Media, Sebastopol (CA)},
+	Title = {JavaScript: The Good Parts},
+	Year = {2008}}
+
+@book{guide:noderun,
+	Author = {Tom Hughes-Croucher and Mike Wilson},
+	Booktitle = {Node: Up and Running},
+	Date-Added = {2013-07-22 12:27:04 +0000},
+	Date-Modified = {2013-08-06 10:49:32 +0000},
+	Keywords = {javascript},
+	Publisher = {O'Reilly Media, Sebastopol (CA)},
+	Rating = {5},
+	Read = {1},
+	Title = {Node: Up and Running},
+	Year = {2012},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QTS4uLy4uL1JFQUQvTydSZWlsbHkgTWVkaWEvTm9kZSAtIHVwIGFuZCBydW5uaW5nL29yZWlsbHktbm9kZS11cC1uLXJ1bm5pbmcucGRm0hcLGBlXTlMuZGF0YU8RAiIAAAAAAiIAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMwxLxJIKwAAAQu5ex1vcmVpbGx5LW5vZGUtdXAtbi1ydW5uaW5nLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABC76ozRZlSAAAAAAAAAAAAAIABAAACSAAAAAAAAAAAAAAAAAAAAAVTm9kZSAtIHVwIGFuZCBydW5uaW5nAAAQAAgAAMwxEvIAAAARAAgAAM0WVzgAAAABABgBC7l7AQu5WgELuVUBCsxPAQSv/gACDfkAAgBtTWFjaW50b3NoIEhEOlVzZXJzOgB3b3JrOgBEcm9wYm94OgBSRUFEOgBPJ1JlaWxseSBNZWRpYToATm9kZSAtIHVwIGFuZCBydW5uaW5nOgBvcmVpbGx5LW5vZGUtdXAtbi1ydW5uaW5nLnBkZgAADgA8AB0AbwByAGUAaQBsAGwAeQAtAG4AbwBkAGUALQB1AHAALQBuAC0AcgB1AG4AbgBpAG4AZwAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAWlVzZXJzL3dvcmsvRHJvcGJveC9SRUFEL08nUmVpbGx5IE1lZGlhL05vZGUgLSB1cCBhbmQgcnVubmluZy9vcmVpbGx5LW5vZGUtdXAtbi1ydW5uaW5nLnBkZgATAAEvAAAVAAIAC///AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAN4A4wDrAxEDEwMYAyMDLAM6Az4DRQNOA1MDYANjA3UDeAN9AAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAA38=}}
+
+@electronic{url:idiomaticjs,
+	Author = {Rick Waldron and others},
+	Date-Added = {2013-07-18 15:50:54 +0000},
+	Date-Modified = {2013-08-07 16:13:16 +0000},
+	Keywords = {tech, javascript},
+	Rating = {5},
+	Read = {1},
+	Title = {Idiomatic.js. Principles of Writing Consistent, Idiomatic JavaScript},
+	Url = {https://github.com/rwldrn/idiomatic.js},
+	Urldate = {2013-07-18},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YW8QbQAuAC4ALwAuAC4ALwAuAC4ALwBEAGUAcwBrAHQAbwBwAC8AaQBkAGkAbwBtAGEAdABpAGMALgBqAHMAOgByAGUAYQBkAG0AZQAuAG0AZAAgAGEAdAAgADEAYgBlADQAMgA4AGYANwA4AGYANQAzAGUAZQBmADAAZABiADYAMwBjADUANAAyADkANQBjAGQAZABhADgANQBmADIAYQAzADcAOQA1ADYAIAC3ACAAcgB3AGwAZAByAG4AOgBpAGQAaQBvAG0AYQB0AGkAYwAuAGoAcwAuAHAAZABm0hcLGBlXTlMuZGF0YU8RAnAAAAAAAnAAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAMwxLxJIKwAAAQSwbB9pZGlvbWF0aWMuanMvcmVhZG1lIzEzNDlDOTQucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNJyUzg3ctQAAAAAAAAAAAAMAAgAACSAAAAAAAAAAAAAAAAAAAAAHRGVza3RvcAAAEAAIAADMMRLyAAAAEQAIAADODcCVAAAAAQAMAQSwbAEEr/4AAg35AAIAQk1hY2ludG9zaCBIRDpVc2VyczoAd29yazoARGVza3RvcDoAaWRpb21hdGljLmpzL3JlYWRtZSMxMzQ5Qzk0LnBkZgAOALoAXABpAGQAaQBvAG0AYQB0AGkAYwAuAGoAcwAvAHIAZQBhAGQAbQBlAC4AbQBkACAAYQB0ACAAMQBiAGUANAAyADgAZgA3ADgAZgA1ADMAZQBlAGYAMABkAGIANgAzAGMANQA0ADIAOQA1AGMAZABkAGEAOAA1AGYAMgBhADMANwA5ADUANgAgALcAIAByAHcAbABkAHIAbgAvAGkAZABpAG8AbQBhAHQAaQBjAC4AagBzAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBwVXNlcnMvd29yay9EZXNrdG9wL2lkaW9tYXRpYy5qczpyZWFkbWUubWQgYXQgMWJlNDI4Zjc4ZjUzZWVmMGRiNjNjNTQyOTVjZGRhODVmMmEzNzk1NiDCtyByd2xkcm46aWRpb21hdGljLmpzLnBkZgATAAEvAAAVAAIAC///AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAWsBcAF4A+wD7gPzA/4EBwQVBBkEIAQpBC4EOwQ+BFAEUwRYAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAABFo=},
+	Bdsk-Url-1 = {https://github.com/rwldrn/idiomatic.js/blob/1be428f78f53eef0db63c54295cdda85f2a37956/readme.md}}
+
+@electronic{blog:Cory:Flashbake,
+	Author = {Cory Doctorow},
+	Date-Added = {2013-07-16 14:53:30 +0000},
+	Date-Modified = {2013-07-16 14:58:51 +0000},
+	Keywords = {blogpost},
+	Lastchecked = {2013-07-16},
+	Title = {Flashbake: Free version-control for writers using git},
+	Url = {http://craphound.com/?p=2171},
+	Urldate = {2009-02-13},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YW8QegAuAC4ALwAuAC4ALwAuAC4ALwBEAGUAcwBrAHQAbwBwAC8AQwBvAHIAeQAgAEQAbwBjAHQAbwByAG8AdyAZAHMAIABjAHIAYQBwAGgAbwB1AG4AZAAuAGMAbwBtACAAPgA+ACAAQgBsAG8AZwAgAEEAcgBjAGgAaQB2AGUAIAC7ACAARgBsAGEAcwBoAGIAYQBrAGUAOgAgAEYAcgBlAGUAIAB2AGUAcgBzAGkAbwBuAC0AYwBvAG4AdAByAG8AbAAgAGYAbwByACAAdwByAGkAdABlAHIAcwAgAHUAcwBpAG4AZwAgAGcAaQB0AC4AcABkAGbSFwsYGVdOUy5kYXRhTxECmgAAAAACmgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAzDEvEkgrAAABBLBsH0NvcnkgRG9jdG9yb3fVcyBjcmEjMTMzNjVCNS5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEzZbXOCyxqAAAAAAAAAAAAAwACAAAJIAAAAAAAAAAAAAAAAAAAAAdEZXNrdG9wAAAQAAgAAMwxEvIAAAARAAgAAM4LEEoAAAABAAwBBLBsAQSv/gACDfkAAgBCTWFjaW50b3NoIEhEOlVzZXJzOgB3b3JrOgBEZXNrdG9wOgBDb3J5IERvY3Rvcm931XMgY3JhIzEzMzY1QjUucGRmAA4A1ABpAEMAbwByAHkAIABEAG8AYwB0AG8AcgBvAHcgGQBzACAAYwByAGEAcABoAG8AdQBuAGQALgBjAG8AbQAgAD4APgAgAEIAbABvAGcAIABBAHIAYwBoAGkAdgBlACAAuwAgAEYAbABhAHMAaABiAGEAawBlAC8AIABGAHIAZQBlACAAdgBlAHIAcwBpAG8AbgAtAGMAbwBuAHQAcgBvAGwAIABmAG8AcgAgAHcAcgBpAHQAZQByAHMAIAB1AHMAaQBuAGcAIABnAGkAdAAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAf1VzZXJzL3dvcmsvRGVza3RvcC9Db3J5IERvY3Rvcm934oCZcyBjcmFwaG91bmQuY29tID4+IEJsb2cgQXJjaGl2ZSDCuyBGbGFzaGJha2U6IEZyZWUgdmVyc2lvbi1jb250cm9sIGZvciB3cml0ZXJzIHVzaW5nIGdpdC5wZGYAABMAAS8AABUAAgAL//8AAIAG0hscHR5aJGNsYXNzbmFtZVgkY2xhc3Nlc11OU011dGFibGVEYXRhox0fIFZOU0RhdGFYTlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVkQXJjaGl2ZXLRJidUcm9vdIABAAgAEQAaACMALQAyADcAQABGAE0AVQBgAGcAagBsAG4AcQBzAHUAdwCEAI4BhQGKAZIEMAQyBDcEQgRLBFkEXQRkBG0EcgR/BIIElASXBJwAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAAEng==},
+	Bdsk-Url-1 = {http://craphound.com/?p=2171}}
+
+@electronic{blog:Cory:Geek,
+	Author = {Cory Doctorow},
+	Date-Added = {2013-07-16 14:32:49 +0000},
+	Date-Modified = {2013-07-16 14:58:21 +0000},
+	Keywords = {blogpost},
+	Title = {Extreme Geek},
+	Url = {http://www.locusmag.com/Perspectives/2009/05/cory-doctorow-extreme-geek.html},
+	Urldate = {2012-08-06},
+	Bdsk-File-1 = {YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAFgAdccmVsYXRpdmVQYXRoWWFsaWFzRGF0YV8QPC4uLy4uLy4uL0Rlc2t0b3AvTG9jdXMgT25saW5lIFBlcnNwZWN0aXZlczogRXh0cmVtZSBHZWVrLnBkZtIXCxgZV05TLmRhdGFPEQHcAAAAAAHcAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAADMMS8SSCsAAAEEsGwfTG9jdXMgT25saW5lIFBlcnNwZSMxMzM2NTI4LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATNlKM4LK/EAAAAAAAAAAAADAAIAAAkgAAAAAAAAAAAAAAAAAAAAB0Rlc2t0b3AAABAACAAAzDES8gAAABEACAAAzgsP0QAAAAEADAEEsGwBBK/+AAIN+QACAEJNYWNpbnRvc2ggSEQ6VXNlcnM6AHdvcms6AERlc2t0b3A6AExvY3VzIE9ubGluZSBQZXJzcGUjMTMzNjUyOC5wZGYADgBYACsATABvAGMAdQBzACAATwBuAGwAaQBuAGUAIABQAGUAcgBzAHAAZQBjAHQAaQB2AGUAcwAvACAARQB4AHQAcgBlAG0AZQAgAEcAZQBlAGsALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAD5Vc2Vycy93b3JrL0Rlc2t0b3AvTG9jdXMgT25saW5lIFBlcnNwZWN0aXZlczogRXh0cmVtZSBHZWVrLnBkZgATAAEvAAAVAAIAC///AACABtIbHB0eWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMdHyBWTlNEYXRhWE5TT2JqZWN00hscIiNcTlNEaWN0aW9uYXJ5oiIgXxAPTlNLZXllZEFyY2hpdmVy0SYnVHJvb3SAAQAIABEAGgAjAC0AMgA3AEAARgBNAFUAYABnAGoAbABuAHEAcwB1AHcAhACOAM0A0gDaAroCvALBAswC1QLjAucC7gL3AvwDCQMMAx4DIQMmAAAAAAAAAgEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAyg=},
+	Bdsk-Url-1 = {http://www.locusmag.com/Perspectives/2009/05/cory-doctorow-extreme-geek.html}}
+
+@electronic{link:git:readme,
+	Author = {Linus Thorvalds and others},
+	Date-Added = {2013-07-16 14:07:18 +0000},
+	Date-Modified = {2013-07-18 16:03:27 +0000},
+	Title = {Git Readme},
+	Url = {https://github.com/git/git},
+	Urldate = {2013-05-16},
+	Bdsk-Url-1 = {https://github.com/git/git/blob/master/README#L3},
+	Bdsk-Url-2 = {https://github.com/git/git}}
+
+@article{Nietzsche:Kugel,
+	Author = {Friedrich Nietzsche},
+	Date-Added = {2013-07-16 12:58:34 +0000},
+	Date-Modified = {2013-07-16 13:13:33 +0000},
+	Journal = {Nietzsche-Archiv Weimar, Mp XVIII 3, 19a},
+	Keywords = {tocheck},
+	Title = {SCHREIBKUGEL},
+	Year = {1882}}
+
+@incollection{Stingelin:Kugelausserungen,
+	Author = {Martin Stingelin},
+	Crossref = {Gumbrecht:Materialitaet},
+	Date-Added = {2013-07-16 12:53:10 +0000},
+	Date-Modified = {2013-07-16 13:01:38 +0000},
+	Title = {Kugel{\"a}u{\ss}erungen}}
+
+@book{Gumbrecht:Materialitaet,
+	Booktitle = {Materialit{\"a}t der Kommunikation},
+	Date-Added = {2013-07-16 12:49:52 +0000},
+	Date-Modified = {2013-07-16 12:53:04 +0000},
+	Editor = {Hans Ulrich Gumbrecht, Karl Ludwig Pfeiffer},
+	Publisher = {Suhrkamp},
+	Title = {Materialit{\"a}t der Kommunikation},
+	Year = {1988}}
+
+@incollection{Neumann:Edieren,
+	Author = {Gerhard Neumann},
+	Crossref = {Zanetti:Schreiben},
+	Date-Added = {2013-06-28 15:09:22 +0000},
+	Date-Modified = {2013-06-28 15:09:55 +0000},
+	Title = {{Schreiben und Edieren}}}
+
+@incollection{Flusser:Schreiben,
+	Author = {Vil{\'e}m Flusser},
+	Crossref = {Zanetti:Schreiben},
+	Date-Added = {2013-06-28 12:44:26 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Keywords = {writing},
+	Title = {{Die Geste des Schreibens}}}
+
+@book{Fey:Automaten,
+	Annote = {	
+Standort: 
+Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Lb 6100/22
+Ausleihstatus: 
+Kurzausleihe
+Bitte selbst am Standort: Ebene +2, Limona, Steubenstr. 8 entnehmen.},
+	Author = {Fey, Peter},
+	Booktitle = {Kommunizierende Automaten. Die Dynamisierung der Schrift als medienhistorische Z{\"a}sur},
+	Date-Added = {2013-06-28 11:48:28 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Keywords = {writing},
+	Publisher = {Transcript-Verlag, Bielefeld},
+	Title = {Kommunizierende Automaten. Die Dynamisierung der Schrift als medienhistorische Z{\"a}sur},
+	Year = {2009}}
+
+@book{Tschichold:Drucksachen,
+	Annote = {Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Kf 3072/47
+Kurzausleihe
+Bitte selbst am Standort: Ebene +2, Limona, Steubenstr. 8 entnehmen.
+},
+	Author = {Tschichold, Jan},
+	Booktitle = {Erfreuliche Drucksachen durch gute Typographie. Eine Fibel f{\"u}r jedermann},
+	Date-Added = {2013-06-28 11:45:03 +0000},
+	Date-Modified = {2013-07-16 12:28:34 +0000},
+	Keywords = {typography},
+	Publisher = {Maro Verlag, Augsburg},
+	Title = {Erfreuliche Drucksachen durch gute Typographie. Eine Fibel f{\"u}r jedermann},
+	Year = {1988}}
+
+@book{Zanetti:Schreiben,
+	Annote = {Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Lb 6100/33
+Ausleihstatus: 
+Keine Ausleihe},
+	Booktitle = {Schreiben als Kulturtechnik. Grundlagentexte},
+	Date-Added = {2013-06-28 11:42:30 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Editor = {Zanetti, Sandro},
+	Keywords = {writing},
+	Publisher = {Suhrkamp-Taschenbuch Wissenschaft},
+	Title = {Schreiben als Kulturtechnik. Grundlagentexte},
+	Year = {2012}}
+
+@book{Ernst:Wechselwirkung,
+	Annote = {	
+Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Kf 4072/20
+Ausleihstatus: 
+Kurzausleihe
+Bitte selbst am Standort: Ebene +2, Limona, Steubenstr. 8 entnehmen.},
+	Author = {Albert Ernst},
+	Booktitle = {Wechselwirkung : Textinhalt und typografische Gestaltung / Albert Ernst Verfasser: Ernst, Albert *1958-* Erschienen: W{\"u}rzburg : 2005},
+	Date-Added = {2013-06-28 11:40:17 +0000},
+	Date-Modified = {2013-06-28 15:35:18 +0000},
+	Keywords = {writing},
+	Publisher = {K{\"o}nigshausen & Neumann, W{\"u}rzburg},
+	Title = {Wechselwirkung. Textinhalt und typografische Gestaltung},
+	Year = {2005}}
+
+@incollection{Menke:Gedankenstriche,
+	Author = {Bettina Menke},
+	Booktitle = {Von Lettern und L{\"u}cken},
+	Crossref = {Giertler:Lettern},
+	Date-Added = {2013-06-28 10:07:15 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Keywords = {writing},
+	Pages = {73-96},
+	Title = {{Auslassungszeichen, Operatoren der Spatialisierung -- was `Gedankenstriche' tun}}}
+
+@book{Giertler:Lettern,
+	Annote = {Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Lb 6100/35
+Ausleihstatus: 
+Kurzausleihe
+Bitte selbst am Standort: Ebene +2, Limona, Steubenstr. 8 entnehmen.},
+	Booktitle = {Von Lettern und L{\"u}cken. Zur Ordnung der Schrift im Bleisatz},
+	Date-Added = {2013-06-28 09:53:24 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Editor = {Mareike Giertler and Rea K{\"o}ppel},
+	Keywords = {writing},
+	Publisher = {Wihelm Fink Verlag, M{\"u}nchen},
+	Title = {Von Lettern und L{\"u}cken. Zur Ordnung der Schrift im Bleisatz},
+	Year = {2012}}
+
+@book{Dotzler:Schreiben,
+	Annote = {Ebene +2, Limona, Steubenstra{\ss}e 8
+Signatur: 
+Lb 6100/1
+Ausleihstatus: 
+Kurzausleihe
+Bitte selbst am Standort: Ebene +2, Limona, Steubenstr. 8 entnehmen.},
+	Date-Added = {2013-06-28 09:48:29 +0000},
+	Date-Modified = {2013-06-28 15:35:23 +0000},
+	Editor = {Bernhard J. Dotzler and Ludwig Hitzenberger},
+	Keywords = {writing},
+	Publisher = {Universit{\"a}tsverlag Regensburg},
+	Title = {Schreiben & Rechnen. Eine Technikgeschichte der Informationskultur},
+	Year = {2009}}

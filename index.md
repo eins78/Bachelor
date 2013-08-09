@@ -1,6 +1,5 @@
 % Papermill
-% Max F. Albrecht \
-  `Matrikel 60690` 
+% Max F. Albrecht
 % Bachelor Thesis, \
   Bauhaus-Universität Weimar, \
   2013
