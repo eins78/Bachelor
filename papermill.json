@@ -13,6 +13,7 @@
       "Source-Title.md",
       {
         "path": "BA-Deckblatt.md",
+        "fontsize": "12pt",
         "class": "article",
         "toc": false
       },

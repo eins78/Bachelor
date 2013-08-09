@@ -50,5 +50,3 @@ Erstgutachter: Prof. Dr. Jens Geelhaar \
 Zweitgutachter: Dipl. postgrad. Künstler Michael Markert
 
 Weimar, den 09. August 2013
-
----
