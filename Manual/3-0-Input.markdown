@@ -41,3 +41,7 @@ a) either be created using **`TeX`**
 b) by starting the document with a second-level heading before any top-level heading ('Chapter 0') -->
 
 *Sources and further reading: [@ziemann:formalia, p. 13], [[@wikib:tex:struct]]*
+
+<!-- print-only -->
+\vfill
+\pagebreak

@@ -6,7 +6,7 @@
   "private": true,
   "input": {
     "bibliography": "bibliography.bib",
-    "csl": "/.papermill/ieee-with-url.csl",
+    "csl": ".papermill/ieee-with-url.csl",
     "list": [
       "Introduction",
       "Manual",
@@ -27,7 +27,7 @@
           "web": false,
           "listings": true,
           "smart": false,
-          "template": "CODE/sources/pandocco/pandocco.latex"
+          "template": ".papermill/pandocco.latex"
         }          
       }
     ]
@@ -43,7 +43,8 @@
       "defaultImageExtension": "pdf",
       "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro",
-      "fontsize": "11pt"
+      "fontsize": "11pt",
+      "includeBeforeBody": "version.latex"
     }
   },
   "dependencies": {
