@@ -40,11 +40,11 @@
     },
     "print": {
       "class": "book",
-      "geometry": "a5paper, centering, bindingoffset=3mm",
+      "geometry": "a4paper, centering, bindingoffset=15mm",
       "defaultImageExtension": "pdf",
       "mainfont": "Source Sans Pro",
       "monofont": "Source Code Pro",
-      "fontsize": "10pt"
+      "fontsize": "11pt"
     }
   },
   "dependencies": {
