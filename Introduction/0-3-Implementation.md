@@ -35,9 +35,9 @@ This document, my Bachelor thesis, was written alongside the development of seve
 The goal was to find generally useful solutions to the technical problems that are common to most publication projects.
 
 - *Project Configuration* specification
-    * defines Meta data, Inputs, Outputs
+    * define meta-data, Inputs, Outputs
     
-- *Stationery*: 
+- *Stationery*: publication templates
 
 - `mill` *Command Line Utility*
     * compiles `papermill` projects
