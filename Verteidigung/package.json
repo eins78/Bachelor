@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "bower install",
-    "build": "grunt build"
+    "build": "node_modules/grunt-cli/bin/grunt build"
   },
   "author": "",
   "license": "MIT"
