@@ -13,8 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "bower install",
-    "build": "grunt build",
+    "bower": "bower install",
+    "build": "npm run bower && grunt build",
     "deploy": "npm run build && rsync -a . /var/www/static/papermill-present"
   },
   "author": "",
