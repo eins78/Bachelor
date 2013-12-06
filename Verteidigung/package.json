@@ -16,7 +16,7 @@
   "scripts": {
     "bower": "bower install",
     "build": "npm run bower && grunt build",
-    "deploy": "npm run build && rsync -r --exclude=\"node_modules\" . /var/www/static/papermill-present"
+    "deploy": "DIR=/var/www/static/papermill-present && npm run build && rm -rf $DIR/* && rsync -r --exclude=\"node_modules\" . /var/www/static/papermill-present"
   },
   "author": "",
   "license": "MIT"
