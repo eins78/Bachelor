@@ -1,0 +1,20 @@
+{
+  "name": "Verteidigung",
+  "version": "0.0.0",
+  "homepage": "https://github.com/eins78/Bachelor",
+  "authors": [
+    "Max F. Albrecht <1@178.is>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "2.5.x"
+  }
+}
