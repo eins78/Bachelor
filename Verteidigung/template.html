@@ -4,7 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+		<title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$$if(author)$ - $author$$endif$</title>
     $for(author-meta)$
       <meta name="author" content="$author-meta$">
     $endfor$
