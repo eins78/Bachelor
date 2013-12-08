@@ -2,15 +2,20 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+    "input": "index.md",
+    "output": "index.html",
     
     shell: {
+      options: {
+        stdout: true,
+        failOnError: true
+      },
       build: {
-        command: 'pandoc -i "index.md" -o "index.html" -t html5 --section --template=template.html',
-        options: {
-          stdout: true,
-          failOnError: true
-        }
-      }
+        command: 'pandoc -i <%= input %> -o <%= output %> -t revealjs --smart --section --template=template.html',
+},
+      buildDev: {
+        command: 'pandoc -i <%= input %> -o <%= output %> -t html5 --smart --section --template=template.html',
+},
     },
     
     watch: {
@@ -43,6 +48,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['auto']);
   grunt.registerTask('build', ['shell:build']);
-  grunt.registerTask('auto', ['connect', 'watch']);
+  grunt.registerTask('buildDev', ['shell:buildDev']);
+  grunt.registerTask('auto', ['buildDev', 'connect', 'watch']);
 
 };
