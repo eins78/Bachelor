@@ -114,7 +114,7 @@ Writing is more than typing text. \
 
 - Word processors
 <!-- - `HTML` -->
-- `LaTeX`
+- `(La)TeX`
 
 ## Microsoft **Word** 
 
@@ -205,7 +205,7 @@ It *made* the web.
 -->
 
 
-## **`LaTeX`** 
+## **`(La)TeX`** 
 
 - has a **very high** *learning curve*.
 
@@ -213,7 +213,7 @@ It *made* the web.
 
 ```
 \subsection{
-  \textbf{\texttt{LaTeX}}
+  \textbf{\texttt{(La)TeX}}
 }\label{latex}
 
 has a \textbf{very high} \emph{learning curve}.
@@ -222,7 +222,7 @@ has a \textbf{very high} \emph{learning curve}.
 
 ##
 
-`LaTeX` is a <small>(very good)</small> **typesetting engine**, \
+`(La)TeX` is a <small>(very good)</small> **typesetting engine**, \
 but not a writing environment.
 
 ## 
@@ -324,8 +324,7 @@ Make the \
 used in software development \
 **more usable for authors** and writers.
 
- \
-
+ \ 
 
 - Automation
 - Version Control / Collaboration
@@ -343,6 +342,8 @@ used in software development \
 ***Cross-media*** \
 **publishing**
 
+ \ 
+
 - Media-agnostic source
 - Output to print + web today
 - Can be adapted for new, future media
@@ -354,6 +355,8 @@ used in software development \
 
 ## <i class="fa fa-suitcase"></i> **Long Term** \
 ***Sustainability***
+
+ \ 
 
 - reproducible "forever"
 - at least "as long as computers exist"
@@ -372,6 +375,8 @@ used in software development \
 ## <i class="fa fa-sitemap"></i> **Structured \
 Content**
 
+ \ 
+
 - needed for cross-publishing
 - opportunity for automation
 
@@ -382,9 +387,11 @@ Content**
 
 ## <i class="fa fa-align-left"></i> **Plain text**
 
+ \ 
+
 - most compatible format
 - no "binary container" <small>(like Word, Pages, …)</small>
-- software dev tool work with plain text
+- software dev. tools work best with it
 
 <aside class="notes">
   If a document is to be written in a binary container (like a Microsoft Word File), the usefulness of a software-like development process are very limited.
@@ -394,6 +401,8 @@ Content**
 
 ## <i class="fa fa-cloud-download"></i> \
 Online & offline
+
+ \ 
 
 - Work on **any computer** 
   <small>(i.e. Linux, Mac, Windows).</small>
@@ -406,6 +415,8 @@ Online & offline
 
 ## <i class="fa fa-check-square-o"></i> Simplicity & Documentation
 
+ \ 
+
 - **abstract problems away** from the user as much as possible <small>*(long term)*</small>
 - provide **complete documentation** \
 of the **internals** 
@@ -416,6 +427,8 @@ of the **internals**
 </aside>
 
 ## <i class="fa fa-unlock-alt"></i> Free-Libre-*Open-Source*
+
+ \ 
 
 - anything long term \
 is **impossible** \
@@ -507,11 +520,6 @@ Markup syntax for **humans**,
 - can be **"translated" to `HTML`**
 
 
-## <!-- Stack -->{data-background="images/papermill-stack-1.png"}
-
-<!-- ![](images/papermill-stack-1.png) -->
-
-
 ## <i class="fa fa-copy"></i> **`(La)TeX`**
 
 Typesetting engine
@@ -519,6 +527,22 @@ Typesetting engine
 ## <i class="fa fa-magic"></i> **`pandoc`**
 
 Document Conversion Magic
+
+- reads `Markdown` <small>(and more)</small>
+- outputs to `HTML` and `(La)TeX` <small>(and more)</small>
+- extends `Markdown` <small>(more than just 'web')</small>
+
+<aside class="notes">
+  Examples: MD has headings, list, links. 
+  pandoc has footnotes, tables, etc. 
+  pandoc also handles links as footnotes, etc.
+</aside>
+
+
+## <!-- Stack -->{data-background="images/papermill-stack-1.png"}
+
+<!-- ![](images/papermill-stack-1.png) -->
+
 
 # 
 
@@ -696,21 +720,25 @@ Design and Layout for web output
 
 **Introduction** & **Manual**
 
-##
-
 <aside class="notes">
 </aside>
 
 ## **Introduction**
 
+ \ 
+
+- **Glossary**
+- **Goals**, Philosophy
+- **Versioning** with `git`
+
 
 ## 
 
-![Introduction Web](images/introduction-web.png)
+![](images/introduction-web.png)
 
-## 
+## {data-background="black"}
 
-[Pic Introduction print]
+<!-- [Introduction print] -->
 
 
 ## **Manual**
@@ -718,28 +746,38 @@ Design and Layout for web output
 A step-by-step description of the process \
 of producing and publishing a book.
 
+ \ 
+
+- **Setup**: start from scratch
+- **Input**: how to write content 
+    - complete Markdown reference
+    - handle assets
+- **Output**: for web and print
+    - adjust design/layout
 
 ## 
 
-![Manual Web](images/manual-web.png)
+![](images/manual-web.png)
 
-##
+## {data-background="black"}
 
-[Pic Manual print]
+<!-- [Manual print] -->
 
 #  
 
-## Conclusion
+## **Conclusion**
 
-## reflection
+## <!-- reflection -->
 
-- "Developer Preview"…
-- not usable for end user atm
-- consistent basis for further developement
+***"Developer Preview"…***
+
+- not (yet) usable for end user
+- stable and consistent basic framework \
+  for further developement
 
 # 
 
-## Roadmap
+## **Roadmap**
 
 ## **API** <i class="fa fa-cloud"></i>
 
@@ -761,8 +799,9 @@ Development Environment"**
 
 - write and publish in a web browser
 
+# 
 
-## Call for Contributions
+## **Call for Contributions**
 
  \ 
 
@@ -776,6 +815,10 @@ Development Environment"**
 - `grunt init`
 - `bower` support -->
 
+
+## Bonus: **`C0DE`**
+
+[![](images/code-web.png)](http://ba.178.is/C0DE.html)
 
 <style>
 /* icons from font awesome */
