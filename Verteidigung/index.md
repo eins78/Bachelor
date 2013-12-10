@@ -49,8 +49,8 @@
 *also more easy than ever*.
  
 <aside class="notes">
-  - Software
-  - Online Services (software that runs on a company's server)
+>   - Software
+>   - Online Services (software that runs on a company's server)
 </aside>
 
 
@@ -75,9 +75,9 @@ Writing and publishing \
 is still to hard.
 
 <aside class="notes">
-  - books 
-  - scientific papers
-  - any large body of text, really
+>   - books 
+>   - scientific papers
+>   - any large body of text, really
   
   Especially when compared to other media: \
 Graphic, Audio, Video, …
@@ -100,11 +100,11 @@ Writing is more than typing text. \
 <aside class="notes">
   the same is true for writing.
   
-  - formatting: convey author's intent
-      - it is not just **bold**, but **important**
-  - meta data
-  - desing
-  - output formats: Print, web, epub -> apple, kindle
+>   - formatting: convey author's intent
+>       - it is not just **bold**, but **important**
+>   - meta data
+>   - desing
+>   - output formats: Print, web, epub -> apple, kindle
 </aside>
 
 # 
@@ -659,7 +659,7 @@ Reads project config <small>(`papermill.json`)</small>, \
 
 ## 
 
-![ ](images/mill-output-terminal.png)
+![](images/mill-output-terminal.png)
 
 <!-- ````
 mfa@Quince:~/CODE/Papermill/Bachelor
