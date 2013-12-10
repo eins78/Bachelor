@@ -456,8 +456,9 @@ Document Conversion Magic
 ***configuration***
 
 - **`papermill`**`.json`
-- stores information about the publication
+- information *about* the publication
     - **meta data**: author, title, etc.
+    - **input**: where is the content
     - **build settings**: how to output
 
 
@@ -505,6 +506,11 @@ Document Conversion Magic
 }
 </pre>
 
+<aside class="notes">
+  feature: this lists folders, 
+  all files in it are combined in order
+</aside>
+
 ## 
 
 <pre class="small">
@@ -524,9 +530,12 @@ Document Conversion Magic
 
 ## 
 
-more examples available online
+simple examples/templates \
+are [available online](https://github.com/papermill/stationery) (**"stationery"**)
 
-[pic]
+## 
+
+![<small>"Paper" stationery *(Folder view)*</small>](images/stationery-paper-folder.png)
 
 
 ## <i class="fa fa-terminal"></i> **`mill`** **CLI**
@@ -537,16 +546,18 @@ Reads project config <small>(`papermill.json`)</small>, \
 
 ## 
 
-````
+![ ](images/mill-output-terminal.png)
+
+<!-- ````
 mfa@Quince:~/CODE/Papermill/Bachelor
 $ mill output
 info:    papermill OK
-````
+```` -->
 
 ## 
 
 - written in `node.js` (JavaScript)
-- functionality inside modules
+- functionality inside <small>(small)</small> **modules**
 - can be used in server application
 
 
@@ -646,6 +657,9 @@ Development Environment"**
 <http://alpha.papermill.in>
 
 <https://github.com/papermill>
+
+"Low-hanging fruits":
+- grunt init
 
 # {.dev}
 
