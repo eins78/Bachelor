@@ -9,13 +9,20 @@
 **Books as Software**
 
 <aside class="notes">
- 
+  hello and welcome to the presentation
+  of "papermill", 
+  my bachelor project in media design.
 </aside>
 
 # 
 
 ## **Writing**
 
+<aside class="notes">
+  the main topic i will talk to you about today is
+  "writing",
+  which may sound strange…
+</aside>
 
 ##
 
@@ -26,6 +33,11 @@
 ## 
 
 ![](images/text-editor.png)
+
+<aside class="notes">
+  everybody has a computer, 
+  they all come with a text editor
+</aside>
 
 ## 
 
@@ -49,6 +61,10 @@
 <i class="fa fa-3x fa-tumblr-square"></i>
 <i class="fa fa-3x fa-google-plus-square"></i> 
 
+<aside class="notes">
+  the shorter the text, the more easy it
+  is to publish
+</aside>
 
 #   
 
@@ -58,25 +74,40 @@ Writing and publishing \
 **long-form text** \
 is still to hard.
 
-<small>(Especially when compared to other media: \
-  Graphic, Audio, Video, …)</small>
+<aside class="notes">
+  Especially when compared to other media: \
+Graphic, Audio, Video, …
+If we look at Video: There is software not only for editing,
+but also managing files, etc, and also the **complete process of 
+making a movie**. bc making movies is a process.
+</aside>
 
 ##  
 
-Writing is more than typing text.
+Writing is more than typing text. \
+**It is a process.**
 
 - Formatting and Semantics
 - Footnotes, Citations, Bibliography
 - Editorial Process, Collaboration
 - Layout, Design, 'Prepress'
-- Different ouput formats
+- Different output formats
+
+<aside class="notes">
+  the same is true for writing.
+  - formatting: convey author's intent
+      - it is not just **bold**, but **important**
+  - meta data
+  - desing
+  - output formats: Print, web, epub -> apple, kindle
+</aside>
 
 # 
 
 ## Common \
-**Solutions**
+**"Solutions"**
 
-- Microsoft Word, Apple Pages, …
+- Word processors
 - `HTML`
 - `LaTeX`
 
@@ -119,9 +150,14 @@ has a high *learning curve*.
 
 ## 
 
-It has a very common **runtime** \
-<small>(the browser)</small> \
-but no good **authoring tools for writers**.
+It has a very common **runtime** 
+<small>(the browser)</small>, \
+but no good **authoring tools** for writers.
+
+<aside class="notes">
+  this doesn't mean there aren't any,
+  but they are made for web designers.
+</aside>
 
 <!-- ## 
 
@@ -196,12 +232,12 @@ The most common solution
 
 1. Find a publishing house
 2. Write Book
-3. *There is no step 3* – <small>they take care of it</small>
+3. **There is no step 3** – <small>they take care of it</small>
 
 
 # 
 
-## **Conclusion**
+<!-- ## **Conclusion**
 
 - There are 'good enough' **tools** \
 **for writing**, but not publishing.
@@ -209,50 +245,88 @@ The most common solution
 - There are 'open' **tools and services** \
 **for publishing**, but not writing.
 
-- A new approach to is needed to **combine them**.
+- A new approach to is needed to **combine them**. -->
 
 
 ## The other side
 
-- Programmers already have a myriad of tools available
-- Programmers who are also authors already use these for writing
+- Programmers already have \
+  a myriad of tools available
+- Programmers who are also authors \
+  **already use these for writing**
+- <small> see [Cory Doctorow: “Extreme Geek”](http://www.locusmag.com/Perspectives/2009/05/cory-doctorow-extreme-geek.html)</small>
 
 
-## Inspiration
+<aside class="notes">
+  Cory is using version control to keep track
+  when he wrote what.
+  He commissioned a small piece of software
+  doing this automatically in the background,
+  adding more meta data like location, weather.
+  So he tracks when he wrote what, where, how…
+</aside>
+
+## <!-- Inspiration -->
 
 From a technical standpoint, \
-there is **no difference** between a **natural language** and **a programming language**.
+there is **no difference** \
+between a **natural language** \
+and **a programming language**.
+
+<small>
+  (Both have conventions like grammar and syntax, \
+  need to be parsed, compiled, etc.)
+</small>
+
+##
+
+Important difference: \
+**target audience**.
+
 
 #  
 
 ## Primary Goals
 
-## <i class="fa fa-cogs"></i> \
-**Text** \
+## <i class="fa fa-cogs"></i> **Text** \
 ***development***
 
-Make the **mode of production \
-and tools** used in (open source) *software development* \
-**more accessible for authors and writers**.
+ \
 
-- automation
-- version control / collaboration
+Make the \
+**mode of production** and **tools** \
+used in software development \
+**more usable for authors** and writers.
+
+ \
+
+
+- Automation
+- Version Control / Collaboration
+- **Integration** / Modularity
+
+<aside class="notes">
+>  - automation: with lots of text, there is lot's to do,
+>    we don't want to do everything manually
+>  - version control, which in turn enables collaboration
+>  - in general: we want a modular system, which can be 
+>    integrated with other software
+</aside>
 
 ## <i class="fa fa-random"></i> \
-**Cross-media** \
-***publishing***
+***Cross-media*** \
+**publishing**
 
-- media-agnostic source
-- output to print + web today
-- can be adapted for new, future media
+- Media-agnostic source
+- Output to print + web today
+- Can be adapted for new, future media
 
 <aside class="notes">
   Produce a document source which is as media-agnostic as possible, in the hopes that if it works for print and web today, it should be possible to adapt to the to-be-invented media of the future.
 </aside>
 
 
-## <i class="fa fa-suitcase"></i> \
-**Long Term** \
+## <i class="fa fa-suitcase"></i> **Long Term** \
 ***Sustainability***
 
 - reproducibility
@@ -268,21 +342,9 @@ and tools** used in (open source) *software development* \
 #  
 
 ## Secondary Goals
-  
 
-## <i class="fa fa-align-left"></i> Plain text
-
-- no "binary container" (like Word, Pages, …)
-- most compatible format
-- software dev tool work with plain text
-
-<aside class="notes">
-  If a document is to be written in a binary container (like a Microsoft Word File), the usefulness of a software-like development process are very limited.
-</aside>
-
-## <i class="fa fa-sitemap"></i> \
-Structured \
-Content
+## <i class="fa fa-sitemap"></i> **Structured \
+Content**
 
 - needed for cross-publishing
 - oppertunity for software helpers
@@ -292,20 +354,31 @@ Content
   it can offer better help.
 </aside>
 
+## <i class="fa fa-align-left"></i> **Plain text**
+
+- most compatible format
+- no "binary container" <small>(like Word, Pages, …)</small>
+- software dev tool work with plain text
+
+<aside class="notes">
+  If a document is to be written in a binary container (like a Microsoft Word File), the usefulness of a software-like development process are very limited.
+</aside>
+
+
 
 ## <i class="fa fa-cloud-download"></i> \
 Online & offline
 
-- Work on any computer \
+- Work on **any computer** 
   <small>(i.e. Linux, Mac, Windows).</small>
-
-- **Don't** require an internet connection.
+- Work **without an internet connection**.
 
 
 ## <i class="fa fa-check-square-o"></i> Simplicity & Documentation
 
-- **abstract away** as much as possible **from the user** *(long term)*
-- always provide **complete documentation** of what's happening in the **background** 
+- **abstract problems away** from the user as much as possible *(long term)*
+- provide **complete documentation** \
+of the **internals** 
 
 <aside class="notes">
   A complicated system is harder to use, explain and extend than a simple one.
@@ -328,17 +401,16 @@ Online & offline
 
 ## **Implementation**
 
-## Building Blocks
+## **Building Blocks**
 
 The most important parts \
-are **existing tools** \
-that programmers already use.
+are **existing tools**.
 
 
-## <i class="fa fa-code-fork"></i> **`git`**
+<!-- ## <i class="fa fa-code-fork"></i> **`git`**
 
 - Version control
-- distributed, fast and efficient, <small>free and open source</small>
+- distributed, fast and efficient, <small>free and open source</small> -->
 
 ## <i class="fa fa-code"></i> **`Markdown`**
 
@@ -364,21 +436,27 @@ Document Conversion Magic
 
 # 
 
-## Practical Part
+## **Practical Part**
 
-**"Developer Preview"**
+ \
+ 
+***"Developer Preview"***
 
-- **`papermill.json`**: Project configuration specification
-- **`mill`** CLI: work with project
-- **`bookstrap`** Design and Layout for web output
+ \
 
-## <i class="fa fa-archive"></i> Project \
-**configuration**
 
-- **`papermill`**`.json` \
+- **`papermill.json`**: \
+  Project configuration specification
+- **`mill` CLI**: \
+  output according to configuration
+- **`bookstrap`**: \
+  Design and Layout for web output
 
+## <i class="fa fa-archive"></i> **Project** \
+***configuration***
+
+- **`papermill`**`.json`
 - stores information about the publication
-
     - **meta data**: author, title, etc.
     - **build settings**: how to output
 
@@ -444,6 +522,12 @@ Document Conversion Magic
 }
 </pre>
 
+## 
+
+more examples available online
+
+[pic]
+
 
 ## <i class="fa fa-terminal"></i> **`mill`** **CLI**
 
@@ -489,7 +573,7 @@ Design and Layout for web output
 ## 
 
 - 'grid' based on typographic units
-- basic 'responisve'-ness (TOC)
+- basic 'responsive'-ness (TOC)
 
 <aside class="notes">
   layout adjusts to screen size
@@ -502,6 +586,25 @@ Design and Layout for web output
  \
 
 **Introduction** & **Manual**
+
+##
+
+<aside class="notes">
+</aside>
+
+## **Introduction**
+
+[Pic Introduction web/print]
+
+
+## **Manual**
+
+A step-by-step description of the process \
+of producing and publishing a book.
+
+##
+
+[Pic Manual web/print]
 
 #  
 
@@ -539,6 +642,10 @@ Development Environment"**
 
 
 ## Call for Contributions
+
+<http://alpha.papermill.in>
+
+<https://github.com/papermill>
 
 # {.dev}
 
@@ -586,7 +693,7 @@ b, strong {
 .reveal pre.small {
   font-size: 0.5em;
 }
-.reveal ul {
+.reveal ul, .reveal ul ul {
   list-style-type: none;
   text-align: inherit;
   margin: 0;
@@ -594,14 +701,19 @@ b, strong {
 .reveal ol li {
   list-style-type: none;
   counter-increment: list;
+  margin-left: 1em;
 }
 .reveal ul li::before, ol li::before {
   content: "→ ";
   color: #888;
   font-weight: 700;
+  margin-left: -1em;
 }
 .reveal ol li::before {
   content: counter(list) ". ";
+}
+.reveal ul ul li::before {
+  content: "◉ ";
 }
 .cursive, code.cursive {
   font-family: 'Grand Hotel', cursive;
