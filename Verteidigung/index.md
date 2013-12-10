@@ -401,6 +401,44 @@ of the **internals**
 
 ## **Implementation**
 
+**"What is `papermill`?"**
+
+## 
+
+A **Proposal** \
+on how to structure \
+  digital publication projects.
+
+<aside class="notes">
+  Off course based on the goals I just told you about.
+</aside>
+
+## 
+  
+Several **Prototypes** \
+implementing the proposal. \
+ \ 
+
+<!-- - Configuration
+- Command Line Utility
+- Web output theme
+- Examples/Templates -->
+
+## 
+    
+Two **Publications**, \
+produced according to \
+the proposal, using the prototypes. \
+ \ 
+
+- A general **Introduction**
+- A step-by-step end user **Manual** 
+
+<aside class="notes">
+  … I realize that this is highly circular…
+</aside>
+
+
 ## **Building Blocks**
 
 The most important parts \
@@ -557,7 +595,9 @@ info:    papermill OK
 ## 
 
 - written in `node.js` (JavaScript)
+
 - functionality inside <small>(small)</small> **modules**
+
 - can be used in server application
 
 
