@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['index.md', 'template.html'],
-        tasks: ['build'],
+        tasks: ['buildDev'],
         options: {
           spawn: false,
           livereload: true
