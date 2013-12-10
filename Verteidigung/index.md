@@ -75,6 +75,10 @@ Writing and publishing \
 is still to hard.
 
 <aside class="notes">
+  - books 
+  - scientific papers
+  - any large body of text, really
+  
   Especially when compared to other media: \
 Graphic, Audio, Video, …
 If we look at Video: There is software not only for editing,
@@ -95,6 +99,7 @@ Writing is more than typing text. \
 
 <aside class="notes">
   the same is true for writing.
+  
   - formatting: convey author's intent
       - it is not just **bold**, but **important**
   - meta data
@@ -108,12 +113,12 @@ Writing is more than typing text. \
 **"Solutions"**
 
 - Word processors
-- `HTML`
+<!-- - `HTML` -->
 - `LaTeX`
 
 ## Microsoft **Word** 
 
-has a *usability limit*.
+- has a *usability limit*.
 
 ## 
 
@@ -132,7 +137,8 @@ The **source** format
 <small>(`.docx`)</small> \
 is  **'closed'**, too.
 
-## **`HTML`**
+
+<!-- ## **`HTML`**
 
 has a high *learning curve*.
 
@@ -158,7 +164,7 @@ but no good **authoring tools** for writers.
   this doesn't mean there aren't any,
   but they are made for web designers.
 </aside>
-
+ -->
 <!-- ## 
 
 It lacks important \
@@ -201,7 +207,7 @@ It *made* the web.
 
 ## **`LaTeX`** 
 
-has a very high *learning curve*.
+- has a **very high** *learning curve*.
 
 ##  
 
@@ -210,7 +216,7 @@ has a very high *learning curve*.
   \textbf{\texttt{LaTeX}}
 }\label{latex}
 
-has a very high \emph{learning curve}.
+has a \textbf{very high} \emph{learning curve}.
 
 ```
 
@@ -225,15 +231,27 @@ but not a writing environment.
 **programming language** \
 and **runtime**.</small>
 
+<aside class="notes">
+  In latex the author still needs to be a programmer of some kind.
+  
+  You can use it to write papers, books, but also letters or any kind of 
+  print product if you can program it.
+</aside>
+
+
 
 ## **"Fuck it"**
 
-The most common solution
+*A very common solution*
 
-1. Find a publishing house
-2. Write Book
-3. **There is no step 3** – <small>they take care of it</small>
+1. Find a publisher
+2. Write book
+3. **There is no step 3** – <small>publisher takes care of it</small>
 
+<aside class="notes">
+  For some authors, this works just fine.
+  But I believe it is a good thing to give more power to the author, so he does not depend on it.
+</aside>
 
 # 
 
@@ -250,14 +268,20 @@ The most common solution
 
 ## The other side
 
-- Programmers already have \
-  a myriad of tools available
-- Programmers who are also authors \
-  **already use these for writing**
+ \ 
+
+- **Programmers** already have \
+  established **tools and workflows**
+- Programmers who are also authors 
+<small>(or vice versa)</small>   **already use these for writing**
 - <small> see [Cory Doctorow: “Extreme Geek”](http://www.locusmag.com/Perspectives/2009/05/cory-doctorow-extreme-geek.html)</small>
 
 
 <aside class="notes">
+  Luckily there is another side, the world of software development,
+  where programmers have tools,
+  which is the basis and inspiration for this project
+  
   Cory is using version control to keep track
   when he wrote what.
   He commissioned a small piece of software
@@ -278,10 +302,12 @@ and **a programming language**.
   need to be parsed, compiled, etc.)
 </small>
 
-##
+- Challenge: **target audience**
 
-Important difference: \
-**target audience**.
+<aside class="notes">
+  Tools made by programmers, for programmers, that's what they do best.
+  If we all were programmers, we could just use latex.
+</aside>
 
 
 #  
@@ -329,8 +355,8 @@ used in software development \
 ## <i class="fa fa-suitcase"></i> **Long Term** \
 ***Sustainability***
 
-- reproducibility
-- "as long as computers exist"
+- reproducible "forever"
+- at least "as long as computers exist"
 
 <aside class="notes">
   Make sure that once written, the source of a publication can be compiled into the desired output 'forever', or at least as long as computers exist.
@@ -347,7 +373,7 @@ used in software development \
 Content**
 
 - needed for cross-publishing
-- oppertunity for software helpers
+- opportunity for automation
 
 <aside class="notes">
   If the software understand the structure of the content,
@@ -373,10 +399,14 @@ Online & offline
   <small>(i.e. Linux, Mac, Windows).</small>
 - Work **without an internet connection**.
 
+<aside class="notes">
+  Roadmap: work online-only, because smartphones.
+</aside>
+
 
 ## <i class="fa fa-check-square-o"></i> Simplicity & Documentation
 
-- **abstract problems away** from the user as much as possible *(long term)*
+- **abstract problems away** from the user as much as possible <small>*(long term)*</small>
 - provide **complete documentation** \
 of the **internals** 
 
@@ -387,7 +417,9 @@ of the **internals**
 
 ## <i class="fa fa-unlock-alt"></i> Free-Libre-*Open-Source*
 
-- anything long term is **impossible** without **open source**
+- anything long term \
+is **impossible** \
+without **open source**
 
 <aside class="notes">
   Without open source components \
@@ -411,6 +443,8 @@ on how to structure \
 
 <aside class="notes">
   Off course based on the goals I just told you about.
+
+  structure = files as well as the  workflow
 </aside>
 
 ## 
@@ -439,6 +473,8 @@ the proposal, using the prototypes. \
 </aside>
 
 
+# 
+
 ## **Building Blocks**
 
 The most important parts \
@@ -460,9 +496,21 @@ Markup syntax for **humans**, \
 ```markdown
 ## Markdown
 
-Markup syntax for **humans**, \
+Markup syntax for **humans**,  
 *easy* to type and read.
 ```
+
+## 
+
+- made for **web authors** (bloggers)
+- inspired by **email conventions**
+- can be **"translated" to `HTML`**
+
+
+## <!-- Stack -->{data-background="images/papermill-stack-1.png"}
+
+<!-- ![](images/papermill-stack-1.png) -->
+
 
 ## <i class="fa fa-copy"></i> **`(La)TeX`**
 
@@ -571,10 +619,13 @@ Document Conversion Magic
 simple examples/templates \
 are [available online](https://github.com/papermill/stationery) (**"stationery"**)
 
+## {data-background="images/stationery-simple-editor.png"}
+
+<!-- ![<small>"Simple" stationery *(Markdown content )*</small>](images/stationery-simple-editor.png) -->
+
 ## 
 
 ![<small>"Paper" stationery *(Folder view)*</small>](images/stationery-paper-folder.png)
-
 
 ## <i class="fa fa-terminal"></i> **`mill`** **CLI**
 
@@ -595,9 +646,7 @@ info:    papermill OK
 ## 
 
 - written in `node.js` (JavaScript)
-
 - functionality inside <small>(small)</small> **modules**
-
 - can be used in server application
 
 
@@ -617,14 +666,23 @@ Design and Layout for web output
 </aside>
 
 
+## {data-background="images/manual-web.png"}
+
+<!-- ![Manual Web](images/manual-web.png) -->
+
+
+## {xdata-background="images/manual-iphone.png"}
+
+![](images/manual-iphone.png)
+
+<!-- **Manual**: obligatory iPhone screen shot -->
+
 ## 
 
-[PIC]
-
-## 
-
-- 'grid' based on typographic units
-- basic 'responsive'-ness (TOC)
+- builds on `bootstrap` v3
+- focus on **readability**
+- **'grid'** based on typographic units
+- basic 'responsive' layout <small>(Table of Contents)</small>
 
 <aside class="notes">
   layout adjusts to screen size
@@ -645,7 +703,14 @@ Design and Layout for web output
 
 ## **Introduction**
 
-[Pic Introduction web/print]
+
+## 
+
+![Introduction Web](images/introduction-web.png)
+
+## 
+
+[Pic Introduction print]
 
 
 ## **Manual**
@@ -653,9 +718,14 @@ Design and Layout for web output
 A step-by-step description of the process \
 of producing and publishing a book.
 
+
+## 
+
+![Manual Web](images/manual-web.png)
+
 ##
 
-[Pic Manual web/print]
+[Pic Manual print]
 
 #  
 
@@ -694,14 +764,17 @@ Development Environment"**
 
 ## Call for Contributions
 
-<http://alpha.papermill.in>
+ \ 
 
-<https://github.com/papermill>
+- <http://alpha.papermill.in>
+- <https://github.com/papermill>
+
+ <!-- \ 
 
 "Low-hanging fruits":
-- grunt init
 
-# {.dev}
+- `grunt init`
+- `bower` support -->
 
 
 <style>
@@ -731,6 +804,7 @@ b, strong {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
+  letter-spacing: inherit;
   text-transform: inherit;
   font-family: inherit;
   font-weight: inherit;
