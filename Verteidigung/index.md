@@ -220,6 +220,10 @@ has a \textbf{very high} \emph{learning curve}.
 
 ```
 
+## {data-background="images/latex-getting-started.png"}
+
+<!-- ![](images/latex-getting-started.png) -->
+
 ##
 
 `(La)TeX` is a <small>(very good)</small> **typesetting engine**, \
