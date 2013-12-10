@@ -8,6 +8,9 @@
 
 **Books as Software**
 
+<aside class="notes">
+ 
+</aside>
 
 # 
 
@@ -33,7 +36,11 @@
 **Publishing** digital text is \
 *also more easy than ever*.
  
-<!-- Software: Wordpress.org, etc. -->
+<aside class="notes">
+  - Software
+  - Online Services (software that runs on a company's server)
+</aside>
+
 
 ## 
 
@@ -189,7 +196,7 @@ The most common solution
 
 1. Find a publishing house
 2. Write Book
-3. *There is no step 3* – they take care of it
+3. *There is no step 3* – <small>they take care of it</small>
 
 
 # 
@@ -583,6 +590,18 @@ b, strong {
   list-style-type: none;
   text-align: inherit;
   margin: 0;
+}
+.reveal ol li {
+  list-style-type: none;
+  counter-increment: list;
+}
+.reveal ul li::before, ol li::before {
+  content: "→ ";
+  color: #888;
+  font-weight: 700;
+}
+.reveal ol li::before {
+  content: counter(list) ". ";
 }
 .cursive, code.cursive {
   font-family: 'Grand Hotel', cursive;
