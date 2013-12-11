@@ -120,6 +120,15 @@ Writing is more than typing text. \
 
 - has a *usability limit*.
 
+
+<aside class="notes">
+  It comes in a software suite called "office", which tells us about the intended usage.
+  It is "what u see is what u get" - write a letter on a 'virtual page', and it 
+  looks like it comes out of the printer.
+  
+  limit: maybe, 10, 100, 1000 pages?
+</aside>
+
 ## 
 
 It is a word processor, \
@@ -128,8 +137,8 @@ It is a word processor, \
 ## 
 
 It is **proprietary** software \
-and can't be easily **automated** \
-or integrated.
+and can't be easily \
+**automated** or integrated.
 
 ## 
 
@@ -137,6 +146,10 @@ The **source** format
 <small>(`.docx`)</small> \
 is  **'closed'**, too.
 
+
+<aside class="notes">
+  the actual content. the fruits of the author's labor!
+</aside>
 
 <!-- ## **`HTML`**
 
@@ -257,6 +270,12 @@ and **runtime**.</small>
   But I believe it is a good thing to give more power to the author, so he does not depend on it.
 </aside>
 
+
+## 
+
+[![](images/elsevier-takedown__svpow.com_elsevier-is-taking-down-papers-from-academia-edu.png)](http://svpow.com/2013/12/06/elsevier-is-taking-down-papers-from-academia-edu/)
+
+
 # 
 
 <!-- ## **Conclusion**
@@ -270,14 +289,14 @@ and **runtime**.</small>
 - A new approach to is needed to **combine them**. -->
 
 
-## The other side
+## **The *other* side**
 
  \ 
 
 - **Programmers** already have \
   established **tools and workflows**
-- Programmers who are also authors 
-<small>(or vice versa)</small>   **already use these for writing**
+- Programmers who are also authors <small>(or vice versa)</small> \
+  **already use these for writing**
 - <small> see [Cory Doctorow: “Extreme Geek”](http://www.locusmag.com/Perspectives/2009/05/cory-doctorow-extreme-geek.html)</small>
 
 
@@ -293,6 +312,14 @@ and **runtime**.</small>
   adding more meta data like location, weather.
   So he tracks when he wrote what, where, how…
 </aside>
+
+## 
+
+[![](images/nts-phd-commit-msg.png)](https://github.com/NTS/PhD/commit/a26961fe8b14c0bfb7b2cab479fa5e8ecb8627c4)
+
+## 
+
+[![](images/nts-phd-commit-diff.png)](https://github.com/NTS/PhD/commit/a26961fe8b14c0bfb7b2cab479fa5e8ecb8627c4)
 
 ## <!-- Inspiration -->
 
@@ -403,25 +430,29 @@ Content**
 
 
 
-## <i class="fa fa-cloud-download"></i> \
-Online & offline
+## <i class="fa fa-cloud-download"></i> **Online flexibility**
 
  \ 
 
 - Work on **any computer** 
   <small>(i.e. Linux, Mac, Windows).</small>
-- Work **without an internet connection**.
+- Work **without an internet connection**
+- long term: work web-only
 
 <aside class="notes">
   Roadmap: work online-only, because smartphones.
+  
+  but it is not very smart to "just do it", because
+  when handling user data it needs to be reliable.
 </aside>
 
 
-## <i class="fa fa-check-square-o"></i> Simplicity & Documentation
+## <i class="fa fa-check-square-o"></i> **Simplicity & Documentation**
 
  \ 
 
-- **abstract problems away** from the user as much as possible <small>*(long term)*</small>
+- **abstract problems away** from the user \
+  as much as possible <small>*(long term)*</small>
 - provide **complete documentation** \
 of the **internals** 
 
@@ -430,18 +461,23 @@ of the **internals**
   A long-term goal is to abstract away as much as possible from the user, while at the same time still providing all the necessary information for those who want or have to know what is happening in the background.
 </aside>
 
-## <i class="fa fa-unlock-alt"></i> Free-Libre-*Open-Source*
+## <i class="fa fa-unlock-alt"></i> Free-Libre-\
+***Open-Source***
 
  \ 
 
-- anything long term \
-is **impossible** \
+- anything long term is **impossible** \
 without **open source**
+- ![Open Source All The Things](images/open-source-all-the-things.jpeg)
 
 <aside class="notes">
   Without open source components \
   it is **impossible** to achieve \
   long-term reproducibility.
+  
+  Everything in this project is open source!
+  
+  Does not mean your OS or text editor have to, but everything 'in the background'.
 </aside>
 
 
@@ -449,6 +485,12 @@ without **open source**
 # 
 
 ## **Implementation**
+
+\ 
+
+…
+
+## 
 
 **"What is `papermill`?"**
 
@@ -578,6 +620,35 @@ Document Conversion Magic
 
 ## 
 
+minimal example:
+
+<pre class="xsmall">
+{
+  "name": "my-paper",
+  "author": "John Doe",
+  "input": "MyPaper.md.txt"
+}
+</pre>
+
+## 
+
+minimal example:
+
+<pre class="xsmall">
+{
+  "name": "my-paper",
+  "author": "John Doe",
+  "input": "MyPaper.md.txt",
+  <b><i>"output": { // default settings
+    "web": …
+    "print": …</i></b>
+  }
+}
+</pre>
+
+
+## 
+
 <pre class="small">
 {
   "name": "papermill",
@@ -607,7 +678,7 @@ Document Conversion Magic
 
 ## 
 
-<pre class="small">
+<pre class="xsmall">
 {
   "<b>input</b>": {
     "<b>bibliography</b>": "bibliography.bib",
@@ -627,10 +698,10 @@ Document Conversion Magic
 
 ## 
 
-<pre class="small">
+<pre class="xsmall">
 {
   "<b>output</b>": {
-    <i>"web": true</i>,
+    <i>// "web": true</i>,
     "<b>print</b>": {
       "<b>class</b>": "book",
       "<b>mainfont</b>": "Source Sans Pro",
@@ -671,12 +742,13 @@ $ mill output
 info:    papermill OK
 ```` -->
 
-## 
+## <i class="fa fa-terminal"></i> **`mill`** **CLI**
 
-- written in `node.js` (JavaScript)
+> - written in `node.js` (JavaScript)
+
 - functionality inside <small>(small)</small> **modules**
-- can be used in server application
-
+- modules can be used in **server application**
+- *or:* or just in a future browser? <small>(Firefox OS)</small>
 
 ## <i class="fa fa-file-text"></i> **`bookstrap`**
 
@@ -705,10 +777,11 @@ Design and Layout for web output
 
 <!-- **Manual**: obligatory iPhone screen shot -->
 
-## 
+## <i class="fa fa-file-text"></i> **`bookstrap`**
 
-- builds on `bootstrap` v3
-- focus on **readability**
+> - builds on `bootstrap` v3
+
+- focus on **readability** <small>(like `LaTex`)</small>
 - **'grid'** based on typographic units
 - basic 'responsive' layout <small>(Table of Contents)</small>
 
@@ -819,6 +892,10 @@ Development Environment"**
 - `grunt init`
 - `bower` support -->
 
+## <!-- website -->
+
+[![](images/papermill-website.png)](http://alpha.papermill.in/)
+
 
 ## Bonus: **`C0DE`**
 
@@ -837,7 +914,7 @@ Development Environment"**
 } 
 /* for overriding 'simple' theme */
 .reveal {
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   color: #444;
