@@ -56,8 +56,8 @@
 
 ## 
 
-<i class="fa fa-3x fa-facebook-square"></i> 
 <i class="fa fa-3x fa-twitter-square"></i> 
+<i class="fa fa-3x fa-facebook-square"></i> 
 <i class="fa fa-3x fa-tumblr-square"></i>
 <i class="fa fa-3x fa-google-plus-square"></i> 
 
@@ -430,7 +430,7 @@ Content**
 
 
 
-## <i class="fa fa-cloud-download"></i> **Online flexibility**
+## <i class="fa fa-cloud-download"></i> (Online) **flexibility**
 
  \ 
 
@@ -440,6 +440,9 @@ Content**
 - long term: work web-only
 
 <aside class="notes">
+  
+  **Security!!! Privacy!!!**
+  
   Roadmap: work online-only, because smartphones.
   
   but it is not very smart to "just do it", because
@@ -539,6 +542,11 @@ the proposal, using the prototypes. \
 The most important parts \
 are **existing tools**.
 
+<aside class="notes">
+  modularity! realistic development! don't reinvent wheel!
+  
+  integrates better (ie. markdown preview viewers)
+</aside>
 
 <!-- ## <i class="fa fa-code-fork"></i> **`git`**
 
@@ -553,17 +561,21 @@ Markup syntax for **humans**, \
 ## 
 
 ```markdown
-## Markdown
+## **`Markdown`**
 
 Markup syntax for **humans**,  
 *easy* to type and read.
 ```
 
-## 
+## <i class="fa fa-code"></i> **`Markdown`**
 
 - made for **web authors** (bloggers)
 - inspired by **email conventions**
 - can be **"translated" to `HTML`**
+
+## 
+
+![](images/markdown-editor-and-preview.png)
 
 
 ## <i class="fa fa-copy"></i> **`(La)TeX`**
@@ -579,6 +591,10 @@ Document Conversion Magic
 - extends `Markdown` <small>(more than just 'web')</small>
 
 <aside class="notes">
+  in more: wikitext, textile, …
+  
+  out more: eBooks, .docx file :)
+  
   Examples: MD has headings, list, links. 
   pandoc has footnotes, tables, etc. 
   pandoc also handles links as footnotes, etc.
@@ -775,7 +791,9 @@ Design and Layout for web output
 
 ![](images/manual-iphone.png)
 
-<!-- **Manual**: obligatory iPhone screen shot -->
+<aside class="notes">
+**Manual**: obligatory iPhone screen shot
+</aside>
 
 ## <i class="fa fa-file-text"></i> **`bookstrap`**
 
@@ -784,6 +802,7 @@ Design and Layout for web output
 - focus on **readability** <small>(like `LaTex`)</small>
 - **'grid'** based on typographic units
 - basic 'responsive' layout <small>(Table of Contents)</small>
+- uses "Source Pro" font family <small>open source, by Adobe(!)</small>
 
 <aside class="notes">
   layout adjusts to screen size
